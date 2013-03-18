@@ -14,6 +14,7 @@ $lang = array (
 	'favorite'			=> 'Favorites',//'收藏',
 	'group_admin'			=> 'Manage group',//'管理{$_G[setting][navs][3][navname]}',
 	'group_create'			=> 'Create group',//'创建{$_G[setting][navs][3][navname]}',
+/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
 	'group_discuss_area'		=> 'Group Forum',//'讨论区',
 	'group_has_joined'		=> 'Joined this group, but waiting for approve...',//'加入{$_G[setting][navs][3][navname]}',
 	'group_join_group'		=> 'Join the group',//'加入群组',
@@ -204,5 +205,10 @@ $lang = array (
 	'orderby_default'		=> 'Default order',//'默认排序',
 	'stats_main_threads_count'	=> 'Threads',//'主题数',
 	'threads'			=> 'Threads',//'主题',
+/*!*/	'reply'				=> 'Reply',//'回复',
+/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
+/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
+/*!*/	'group_live_post'		=> 'Publish',//'发表',
+/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
 );
 

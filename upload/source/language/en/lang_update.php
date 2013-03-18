@@ -155,4 +155,5 @@ $lang = array(
 	'medal_completed'	=> 'User Medal data upgrade is completed',//'用户勋章数据升级完毕',
 	'data_update_completed'	=> 'Data update is completed',//'数据升级结束',
 	'group_stat_completed'	=> 'Forum Group statistics upgrade is completed',//'论坛版块统计数据升级完毕',
+
 );
