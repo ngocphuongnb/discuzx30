@@ -1685,6 +1685,8 @@ $lang = array
 /*!*/	'setting_functions_threadexp_hotreplies_comment'	=> 'The system will calculate hot replies and filtered posts, and show this number in the title of the first page. Set to 0 for not display.',//'系统根据回帖评价和水帖情况，在主题第一页推荐回帖，0 为不显示。',
 /*!*/	'setting_functions_threadexp_nofilteredpost'		=> 'Hot replies for non-filtered posts',//'推荐回复时推荐非水帖',
 /*!*/	'setting_functions_threadexp_nofilteredpost_comment'	=> 'If enabled, the number of Hot Replies will be shown on the first page, and the corresponding number of non-filtered posts',//'启用后会在第一页推荐回复处推荐相应一定的非水帖。',
+/*!*/	'setting_functions_threadexp_filter'			=> 'Post Filter',//'水帖字数',
+/*!*/	'setting_functions_threadexp_filter_comment'		=> 'When the system determine filter conditions, the post will be determined as filtered if number of posts is less than this value',//'系统判断水帖的条件，小于此数值的帖子会被判断为水帖，0 为不过滤水帖。',
 
 	'setting_functions_other'				=> 'Other',//'其他',
 	'setting_functions_other_pwdsafety'			=> 'Enable password encryption',//'启用登录密码加密',
