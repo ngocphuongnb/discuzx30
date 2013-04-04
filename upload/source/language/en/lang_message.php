@@ -261,7 +261,7 @@ $lang = array (
 	'attachement_payto_attach'	=> 'You need to buy this attachment, then you can download it.',//'附件需要付费，请您付费后下载。',
 
 	'forum_passwd_incorrect'	=> 'Your password is not correct, you can not access this forum.',//'您输入的密码不正确，不能访问这个版块。',
-	'forum_passwd_correct'		=> 'Verify password successfully, now redirect you to thread list page.',//'密码验证成功，现在将转入主题列表。',
+/*!*/	'forum_passwd_correct'		=> 'Password verified successfully, Please continue to this forum',//'密码验证成功，请继续可以访问此版块',
 /*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
 /*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 

@@ -12,7 +12,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array
-(
+( /*
 	'optimizer_dbbackup_advice' => '三个月没有进行数据备份了,建议立即备份数据',
 	'optimizer_dbbackup_lastback' => '上次数据备份于',
 	'optimizer_dbbackup_clean_safe' => '没有检测到数据库备份文件，无安全问题',
@@ -65,5 +65,5 @@ $lang = array
 	'optimizer_setting_rewriteguest' => 'Rewrite仅针对游客',
 	'optimizer_setting_rewriteguest_desc' => '开启此项，则 Rewrite功能只对游客和搜索引擎有效，可减轻服务器负担',
 	'optimizer_setting_rewriteguest_optimize_desc' => '开启此功能',
+*/
 );
-?>
