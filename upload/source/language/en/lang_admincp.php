@@ -3565,6 +3565,8 @@ $lang = array
 	'members_profile_edit'				=> 'Edit User profile',//'编辑用户栏目',
 	'members_profile_list'				=> 'Field list',//'栏目列表',
 	'members_profile_group'				=> 'Field groups',//'栏目分组',
+/*!*/	'members_profile_numbercard'			=> 'Business Card Attributes',//'属性名片',
+/*!*/	'members_profile_numbercard_tips'		=> '<li>Number of data columns displayed under the user avatar</li>',//'<li>可以设置用户头像下数字栏显示的用户资料项</li>',
 	'members_profile_tips'				=> '<li>Show or hide the user extended information</li><li>As a setting results the existing user information can be expanded.</li>',//'<li>增加或隐藏用户扩展资料</li><li>设置结果可以扩充现有的用户资料</li>',
 	'members_profile_edit_name'			=> 'Category Name',//'栏目名称',
 	'members_profile_edit_field'			=> 'Field name',//'字段名',
@@ -3664,6 +3666,8 @@ $lang = array
 	'admingroup_edit_digest_thread_comment'	=> 'Set allowed digest type',//'设置是否允许精华管理范围内主题的级别',
 	'admingroup_edit_highlight_thread'		=> 'Allow highlight thread',//'允许高亮主题',
 	'admingroup_edit_highlight_thread_comment'	=> 'Whether to allow management of the thread context highlighting',//'设置是否允许高亮管理范围内的主题',
+/*!*/	'admingroup_edit_live_thread'			=> 'Allow live threads',//'允许直播主题',
+/*!*/	'admingroup_edit_live_thread_comment'		=> 'Set whether to allow live management range within threads',//'设置是否允许直播管理范围内的主题',
 	'admingroup_edit_recommend_thread'		=> 'Allow recommend thread',//'允许推荐主题',
 	'admingroup_edit_recommend_thread_comment'	=> 'Whether to allow the thread recommend (if the appropriate Forum thread recommendation setting is enabled)',//'设置是否允许推荐管理范围内的主题 (要在相应版块的扩展设置里开启推荐主题功能)',
 	'admingroup_edit_bump_thread'			=> 'Allow to bump thread',//'允许提升主题',
@@ -3712,6 +3716,8 @@ $lang = array
 	'admingroup_edit_view_ip_comment'	=> 'Whether to allow view user IP',//'设置是否允许查看用户 IP',
 	'admingroup_edit_manage_collection'	=> 'Allow collection management',//'允许管理淘专辑',
 	'admingroup_edit_manage_collection_comment'	=> 'Set whether to allow collection management',//'设置是否允许管理淘专辑',
+/*!*/	'admingroup_edit_allow_make_html'		=> 'Allow to generate HTML files',//'允许生成HTML文件',
+/*!*/	'admingroup_edit_allow_make_html_comment'	=> 'Set whether to allow to generate HTML files',//'设置是否允许生成HTML文件',
 	'admingroup_edit_ban_ip'		=> 'Allow ban IP',//'允许禁止 IP',
 	'admingroup_edit_ban_ip_comment'	=> 'Whether to allow IP ban or modify the IP settings',//'设置是否允许添加或修改禁止 IP 设置',
 	'admingroup_edit_edit_user'		=> 'Allow to edit users',//'允许编辑用户',
@@ -3837,17 +3843,17 @@ $lang = array
 	'founder_patchstatus_error5'	=> 'Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation',//'复制文件出现问题，请确认源代码文件目录及子目录可读可写，或文件可能被锁，请关闭站点后进行操作',
 	'founder_patchstatus_error6'	=> 'Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory',//'修复漏洞出现问题，回退时出现问题，请尽快恢复文件，文件备份可在同级目录找到',
 	'founder_patch_tips'		=> '<li>Bug fix status description：</li>
-				<li>
-					<em class="fixed">&nbsp;2</em> The file is possibe modified, did not find the vulnerability<br />
-					<em class="fixed">&nbsp;1</em> Fixed<br />
-					<em class="unfixed">&nbsp;0</em> Not fixed<br />
-					<em class="unfixed">-1</em> Security patch code is empty, your local patch information and data possible have a problem<br />
-					<em class="unfixed">-2</em> Vulnerability patched file does not exist or can not be modified, check and modify the file permissions to read/write (777)<br />
-					<em class="unfixed">-3</em> Write to the temporary file failed, check the data directory is writable<br />
-					<em class="unfixed">-4</em> FTP mode can not be used, Make sure the FTP account information is correct<br />
-					<em class="unfixed">-5</em> Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation<br />
-					<em class="unfixed">-6</em> Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory
-				</li>',
+					<li>
+						<em class="fixed">&nbsp;2</em> The file is possibe modified, did not find the vulnerability<br />
+						<em class="fixed">&nbsp;1</em> Fixed<br />
+						<em class="unfixed">&nbsp;0</em> Not fixed<br />
+						<em class="unfixed">-1</em> Security patch code is empty, your local patch information and data possible have a problem<br />
+						<em class="unfixed">-2</em> Vulnerability patched file does not exist or can not be modified, check and modify the file permissions to read/write (777)<br />
+						<em class="unfixed">-3</em> Write to the temporary file failed, check the data directory is writable<br />
+						<em class="unfixed">-4</em> FTP mode can not be used, Make sure the FTP account information is correct<br />
+						<em class="unfixed">-5</em> Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation<br />
+						<em class="unfixed">-6</em> Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory
+					</li>',
 
 	'usergroups'			=> 'User Groups',//'用户组',
 	'usergroups_system_0'		=> 'Ordinary user',//'普通用户',
@@ -3888,6 +3894,15 @@ $lang = array
 	'usergroups_copy_target_comment'	=> 'Select to which the target user groups you want to copy the source group. You can hold down the CTRL key for multiple choice',//'选择要将源用户组复制到哪些目标用户组，可以按住 CTRL 多选',
 	'usergroups_copy_options'		=> 'Option selection',//'项目选择',
 	'usergroups_copy_options_comment'	=> 'Select which user group options you want to set from the source group to the target user group. You can hold down the CTRL key for multiple choice',//'选择要将源用户组的哪些设置复制到目标用户组，可以按住 CTRL 多选',
+
+/*!*/	'usergroups_merge'			=> 'Merge User Groups',//'用户组合并',
+/*!*/	'usergroups_merge_link'			=> 'Merge',//'合并',
+/*!*/	'usergroups_merge_comment'		=> 'This function will move the group members to another user group, and then remove the source group.',//'将本用户组的会员移动到其他用户组，并删除本用户组。',
+/*!*/	'usergroups_merge_tips'			=> '<li>All the members of merged source user group will be moved to a selected user group, and you can choose to delete the source group.</li><li>User merge can not be applied to administrative group.</li><li>User merge operation applied immediately after submit, and can not be restored. Please select the target user group and settings carefully!</li>',//'<li>用户组合并可将源用户组的用户合并进入所选的新用户组，并且可以选择删除源用户组。</li><li>用户组合并不可以操作管理组。</li><li>用户组合并一旦提交立即生效，并无法恢复，请仔细选择目标用户组和设置项目。</li>',
+/*!*/	'usergroups_merge_source'		=> 'Source user group',//'源用户组',
+/*!*/	'usergroups_merge_target'		=> 'Target user group',//'目标用户组',
+/*!*/	'usergroups_merge_target_comment'	=> 'Select the resulting user group where to move users fro the source group',//'选择要将源用户组合并到哪个用户组',
+/*!*/	'usergroups_merge_delete_source'	=> 'Remove the source user group after merging',//'同时删除源用户组',
 
 	'usergroups_edit'			=> 'Edit User Group',//'编辑用户组',
 
@@ -3943,6 +3958,8 @@ $lang = array
 	'usergroups_edit_basic_seccode_comment'			=> 'Enabling this anti-spam mechanism can prevent spam-bots activity, but will increase the operation difficulty for normal users. This setting is effective when Change Password too, if the system enable verification code or verification questions and answers.',//'开启防灌水验证机制可以防止灌水机等，但会增加用户操作易用度。修改密码不受此限制，开启防灌水验证码或验证问答后，该设置有效',
 	'usergroups_edit_basic_disable_postctrl'		=> 'Post restriction',//'发表不受限制',
 	'usergroups_edit_basic_disable_postctrl_comment'	=> 'Set the maximum number of post characters for prevent irrigation.',//'设置发表是否不受灌水预防和最大字数等',
+/*!*/	'usergroups_edit_basic_forcesecques'			=> 'Mandatory set the security questions',//'强制设置安全提问',
+/*!*/	'usergroups_edit_basic_forcesecques_comment'		=> 'If selected "Yes", then users of this user group must set the security question before the login to management panel, config for global switch.',//'选择“是”则此用户组的用户在登录后台前必须设置安全提问后才可登陆后台, config中为全局开关',
 	'usergroups_edit_basic_ignore_censor'			=> 'Ignore the censor review',//'忽略需要审核的关键字',
 	'usergroups_edit_basic_ignore_censor_comment'		=> 'If selected &quot;Yes&quot;, then the users in the group will not trigger the need to review their content',//'选择“是”则此用户组的用户在发表时不会触发需要审核的关键字',
 	'usergroups_edit_basic_allow_stat'			=> 'View statistics',//'允许查看趋势统计',
@@ -3955,6 +3972,9 @@ $lang = array
 	'usergroups_edit_basic_allowcreatecollection_comment'	=> 'Set to "0" for disable collection creating',//'“0”表示不允许创建淘专辑',
 	'usergroups_edit_basic_allowfollowcollection'		=> 'Maximum number of followed collections',//'最多允许关注淘专辑的数量',
 	'usergroups_edit_basic_allowfollowcollection_comment'	=> 'Allow users to follow only this limited number of collections',//'允许用户最多关注淘专辑的数量',
+/*!*/	'usergroups_edit_basic_close_ad'			=> 'Disable advertising',//'是否关闭广告展示',
+/*!*/	'usergroups_edit_basic_close_ad_comment'		=> 'If selected "Yes", then this user group members will not see the site ads',//'选择“是”则此用户组的用户在站点中看不到任何广告',
+
 
 	'usergroups_edit_system'			=> 'System user groups',//'用户组体制',
 	'usergroups_edit_system_tips'			=> '<li><b><u>Non-public user groups</u></b><br />When the user group is set to "non-public user group" (main or expanded user group), a user can be joined to the group only by an administrator.</li><li><b><u>Public user groups</u></b><br />When the user group is set to "public", users will be able to join/leave the public user group by themselves. After the joining to a public user group, a user will have relevant group permissions. If a group is an extended group,the user will be able to access the specific user group content.</li><li><b>Charged public user groups</b>:<br />You can choose for some groups to require a user payment for join the group. How many points a user must pay and for how long time is determined the group settings. You can set a user has permissions to the group for one day, and required amount of points for pay. Users can buy access to the group for more than the corresponding period.</li><li><b>Free public user groups</b>:<br />Users simply select the user groups to join, and can have the group permissions without the need to pay.</li>',//'<li><b><u>非公众用户组</u></b><br />当用户组设置为“非公众用户组”时，无论是以主用户组的形式，还是以扩展用户组的形式，均只能由管理员手工将用户加入本组。</li><li><b><u>公众用户组</u></b><br />当本用户组设置为“公众用户组”，且用户当前所在的用户组被允许加入/离开公众用户组时，用户将可以在个人中心将本组设置为其主用户组或扩展用户组。当设为主用户组后，相关权限将遵循本用户组的权限设定；当设为扩展用户组后，将能访问特定的只有本用户组能够访问的论坛版块。</li><li><b>收费公众用户组</b>: <br />您可以选择要求用户支付一定的交易积分才能加入本组，用户支付的交易积分多少，决定了系统允许其拥有本组权限时间的长短。您可以设定用户拥有本组权限一天，所需支付的交易积分的数额。超过用户购买的相应期限后，系统会自动去除该用户相关的用户组属性。</li><li><b>免费公众用户组</b>: <br />用户只需在个人中心选择加入本用户组，即可拥有本用户组的权限和头衔，而不需要付出任何代价。</li>',
@@ -4046,6 +4066,8 @@ $lang = array
 	'usergroups_edit_post_bio_img_code_comment'	=> 'Whether to allow users to use [img] Code in their self introduction',//'设置是否解析用户自我介绍中的 [img] 代码',
 	'usergroups_edit_post_max_bio_size'		=> 'Self introduction maximum length',//'自我介绍文字最大长度',
 	'usergroups_edit_post_max_bio_size_comment'	=> 'Set the maximum number of characters in the user self introduction. Set to 0 for use the system default value of 200 characters.',//'设置用户自我介绍最大字节数，0 为使用系统默认值 200',
+/*!*/	'usergroups_edit_post_begincode'		=> 'Allow to use the [begin] code',//'允许使用 [begin] 代码',
+/*!*/	'usergroups_edit_post_begincode_comment'	=> 'Set whether to allow to use the [begin] tag code in a post for starting animation',//'设置是否允许帖子中使用 [begin] 开头动画标签',
 	'usergroups_edit_post_sig_bbcode'		=> 'Allow BB-Codes in signature',//'允许签名中使用 Discuz! 代码',
 	'usergroups_edit_post_sig_bbcode_comment'	=> 'Whether to allow users to use BB-Codes in their signature',//'设置是否解析用户签名中的 Discuz! 代码',
 	'usergroups_edit_post_sig_img_code'		=> 'Allow [img] BB-Code in signature',//'允许签名中使用 [img] 代码',
@@ -4068,12 +4090,13 @@ $lang = array
 	'usergroups_edit_post_allowcommentitem_comment'	=> 'Whether to allow users to view their comments. Note: the setting take effect only if the global setting is set to enable view post comment after posting.',//'允许用户在点评时发表观点<br />注意：只有在 <a href="?action=setting&operation=functions&anchor=comment">全局 - 站点功能 - 帖子点评</a> 中开启直接点评功能，本设置才会生效',
 	'usergroups_edit_post_allow_down_remote_img'	=> 'Allow to download remote images',//'允许下载远程图片',
 	'usergroups_edit_post_allow_down_remote_img_comment'	=> 'Save remote image as local files',//'远程图片本地化保存',
-	'usergroups_edit_post_allowreplycredit'		=> 'Allow to set award for Replies',//'允许设置回帖奖励',
-	'usergroups_edit_post_allowreplycredit_comment'	=> 'Allow users to publish certain topics as for Replies reward points. Replies reward points can be specified in the <a href="?action=setting&operation=credits">Default global - Points settings</a>',//'允许用户在发布主题时给予回帖者一定的扩展积分奖励。回帖奖励默认积分可在<a href="?action=setting&operation=credits">全局 - 积分设置</a>指定',
+	'usergroups_edit_post_allowreplycredit'			=> 'Allow to set award for Replies',//'允许设置回帖奖励',
+	'usergroups_edit_post_allowreplycredit_comment'		=> 'Allow users to publish certain topics as for Replies reward points. Replies reward points can be specified in the <a href="?action=setting&operation=credits">Default global - Points settings</a>',//'允许用户在发布主题时给予回帖者一定的扩展积分奖励。回帖奖励默认积分可在<a href="?action=setting&operation=credits">全局 - 积分设置</a>指定',
 	'usergroups_edit_post_allowsetpublishdate'		=> 'Allow to set the publish time',//'允许设置预发帖时间',
 	'usergroups_edit_post_allowsetpublishdate_comment'	=> 'Allow users to set the specified post time when publishing of thread. It can be set only in every half hour (such as 13:00 or 13:30) for automatically published.',//'允许用户在发布主题时设置指定的发帖时间。只能设置在每半小时（如 13:00 或 13:30）自动发布。',
 	'usergroups_edit_post_allowcommentcollection'		=> 'Allow collection comments',//'允许评论淘专辑',
 	'usergroups_edit_post_allowcommentcollection_comment'	=> 'Allow users to comment threads in collections.',//'允许用户在主题和淘专辑页面进行评论。',
+/*!*/	'usergroups_edit_post_allowimgcontent'			=> 'Allow thread content generated images',//'允许主题内容生成图片',
 	'usergroups_edit_attach'				=> 'Attachment permissions',//'附件相关',
 	'usergroups_edit_attach_get'				=> 'Allow to download/view attachments',//'允许下载附件',
 	'usergroups_edit_attach_get_comment'			=> 'Whether to allow users to download/view attachments',//'设置是否允许在没有设置特殊权限的论坛中下载附件',
