@@ -2752,6 +2752,12 @@ $lang = array
 	'forums_edit_posts_allowfeed_comment'		=> 'If this is turned ON, users by default allowed to broadcast Feed. After the feed is published the user can remove the posting. <strong>It is recommended to set the Forum Privacy settings.</ strong>.',//'开启后默认允许用户发送广播和动态，广播是否发送用户可以在发帖时去掉，<strong>隐私版块建议设为否</strong>。',
 	'forums_edit_posts_commentitem'			=> 'Preset the General Comment List',//'普通主题点评预置观点',
 	'forums_edit_posts_commentitem_comment'		=> 'Enter one comment per line. If an empty line presents in a list, it will be displayed an empty item in a bottom of the drop-down menu as an alternative point of view. This setting take effect only if comments enabled at all. If empty, the global setting "Common thread preset Comments" will be used.',//'每个观点一行。如存在空行，空行下方的内容将显示在下拉菜单中作为备选观点。只有开启帖子点评功能后本设置才生效，如留空表示使用全局的“普通主题点评预置观点”设置',
+/*!*/	'forums_edit_posts_noantitheft'			=> 'Disable Anti-grab',//'关闭防采集',
+/*!*/	'forums_edit_posts_noantitheft_comment'		=> 'Turning off the anti-grab function can save some amount of server resources. It is recommended to disable the anti-grab function for spam-type forums.',//'关闭防采集功能可节省少量服务器资源，建议灌水类版块关闭防采集功能。',
+/*!*/	'forums_edit_posts_noforumhidewater'		=> 'Disable to hide the meaningless posts',//'关闭隐藏水帖',
+/*!*/	'forums_edit_posts_noforumhidewater_comment'	=> 'The hide of meaningless posts function can be used for any single forum. Suitable for some Spam-type forums.',//'可单独关闭本版的隐藏水帖功能，适用于灌水类版块。',
+/*!*/	'forums_edit_posts_noforumrecommend'		=> 'Disable to Recommend Replies',//'关闭推荐回复',
+/*!*/	'forums_edit_posts_noforumrecommend_comment'	=> 'Turning off the Recommend Replies function can save some amount of server resources. It is recommended to disable the Recommend Replies function for spam-type forums.',//'可单独关闭本版的推荐回复功能，适用于灌水类版块。',
 
 	'forums_edit_attachtype'		=> 'Attach type',//'附件类型',
 	'forums_edit_attachtype_tips'		=> '<li>This feature can limit the maximum size of a particular type of attachments in this forum. When set here value is less than a user group the maximum size allowed, The attachment size limit of the specified type will be set to this limit.</li><li>You can overall disable some type attachments to be uploaded by setting the maximum size of certain types to 0.</li><li>Leave empty for use the global settings for attachment type size.</li>',//'<li>本功能可限定本版块某特定类型附件的最大尺寸，当这里设定的尺寸小于用户组允许的最大尺寸时，指定类型的附件尺寸限制将按本设定为准。</li><li>你可以设置某类附件最大尺寸为 0 以整体禁止这类附件被上传。</li><li>此处设置留空则使用全局的“附件类型尺寸”设置。</li>',
@@ -2812,6 +2818,8 @@ $lang = array
 
 	'forums_edit_perm'			=> 'Permission related',//'权限相关',
 	'forums_edit_perm_forum'		=> 'Forum permissions',//'版块权限',
+/*!*/	'forums_edit_perm_price'		=> 'Paid price',//'付费价格',
+/*!*/	'forums_edit_perm_price_comment'	=> 'When you set a price, Users must use specified credit transaction fee before entering this forum. When the price increased, Users also need to pay an additional credit fee.',//'当你设置了价格后，用户必须使用指定的交易积分付费后才可进入此版块。当价格增长时，用户还需要支付所增加的积分',
 	'forums_edit_perm_passwd'		=> 'Access Password',//'访问密码',
 	'forums_edit_perm_passwd_comment'	=> 'Set a password the users must enter to get access to this Forum',//'当您设置密码后，用户必须输入密码才可以访问到此版块',
 	'forums_edit_perm_formulapermmessage'		=> 'No permission prompt',//'无权限访问时的提示信息',
@@ -3549,6 +3557,9 @@ $lang = array
 	'members_ipban'			=> 'Ban IP',//'禁止 IP',
 	'members_ipban_tips'		=> '<li>IP Ban management needs to enable the relevant permissions.</li><li>If you are the site administrator, you can use "*" as a wildcard for add IP addresses.</li><li>If you are not the site administrator, you can not use the "*", and can add only full items and edit or delete records added by yourself.</li>',//'<li>此操作需要在管理组内开启相关权限。</li><li>如果您是站点管理员，可以使用“*”作为通配符禁止某段地址。</li><li>如果您不是站点管理员，您将无法使用“*”且只能对自己添加的项目进行编辑或删除。</li>',
 	'members_ipban_location'	=> 'IP location',//'地理位置',
+/*!*/	'members_ipban_input'		=> 'Import Banned IP list',//'导入禁止 IP 列表',
+/*!*/	'members_ipban_input_tips'	=> '<li>This operation requires the corresponding management group permission, Only site administrators can use it.</li><li>You can use a previously exported Baned IP list, or write the disbled IP list manually.</li><li>You can <a href="admin.php?action=members&operation=ipban&ipact=output">Export existing Banned IP list</a></li>',//'<li>此操作需要在管理组内开启相关权限，只有站点管理员可以使用。</li><li>可以使用以前导出的禁止IP列表，也可以手动编写以便批量禁止IP。</li><li>你可以 <a href="admin.php?action=members&operation=ipban&ipact=output">导出现有禁止IP库</a></li>',
+/*!*/	'members_ipban_input_comment'	=> 'The format of imported Ban IP List: "IP_address;Number_of_days" or simple "IP_address" (valid for 30 days by default). Enter one IP per line. You can use a previously exported Baned IP list.',//'手动导入禁止 IP 的格式为“IP地址;有效天数”或者“IP地址”（有效期默认30天），每行一条；也可以导入以前导出的禁止IP地址列表。',
 
 	'members_profile'				=> 'User profile',//'用户栏目',
 	'members_profile_edit'				=> 'Edit User profile',//'编辑用户栏目',
