@@ -26,7 +26,7 @@ $lang = array
 	'header_adv'		=> 'Reklamy',//'广告',
 	'header_tools'		=> 'Narzędzia',//'工具',
 	'header_uc'		=> 'UCenter',//
-	'header_welcome'	=> 'Cześć',//'您好',
+	'header_welcome'	=> 'Witaj',//'您好',
 	'header_logout'		=> 'Wyloguj',//'退出',
 	'header_bbs'		=> 'Strona główna forum',//'站点首页',
 	'header_portal'		=> 'Portal',//'门户',
@@ -41,7 +41,7 @@ $lang = array
 	'menu_setting_basic'		=> 'Podstawowe',//'站点信息',
 	'menu_setting_access'		=> 'Rejestracja',//'注册与访问控制',
 	'menu_setting_customnav'	=> 'Nawigacja',//'导航栏',
-	'menu_setting_styles'		=> 'Style',//'界面设置',
+	'menu_setting_styles'		=> 'Ustawienia stylu',//'界面设置',
 	'menu_setting_optimize'		=> 'Optymalizacja',//'优化设置',
 	'menu_setting_seo'		=> 'SEO',//'SEO设置',
 	'menu_setting_functions'	=> 'Moduły',//'站点功能',
@@ -62,13 +62,13 @@ $lang = array
 	'menu_setting_ranklist'		=> 'Ranking',//'排行榜设置',
 	'menu_setting_mobile'		=> 'Dostęp mobile',//'手机访问设置',
 	'menu_setting_tag'		=> 'Tagi',//'标签管理',
-
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 	'menu_forums'			=> 'Fora',//'版块管理',
 	'menu_forums_merge'		=> 'Forums merge',//'版块合并',
 	'menu_forums_threadtypes'	=> 'Thread types',//'主题分类',
 	'menu_forums_infotypes'		=> 'Forum types',//'分类信息',//vot: !!! May be 'Sort IDs',//'Category(ies)',/
 	'menu_forums_infooption'	=> 'Options types',//'分类信息选项',
-
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 	'menu_members_add'		=> 'Dodaj nowego',//'添加用户',
 	'menu_members_edit'		=> 'Edytuj',//'用户管理',
 	'menu_members_newsletter'	=> 'Newsletter',//'发送通知',
@@ -111,6 +111,7 @@ $lang = array
 	'menu_postcomment'		=> 'Post Comment Management',//'帖子点评管理',
 	'menu_maint_doing'		=> 'Doings Management',//'记录管理',
 	'menu_maint_blog'		=> 'Blogs Management',//'日志管理',
+	/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'Feeds Management',//'动态管理',
 	'menu_maint_album'		=> 'Albums Management',//'相册管理',
 	'menu_maint_pic'		=> 'Images Management',//'图片管理',
@@ -129,7 +130,7 @@ $lang = array
 
 	'menu_patch'			=> 'Bezpieczeństwo',//'安全中心',
 	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
-
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 	'menu_addons'			=> 'Application Center',//'应用中心',
 	'menu_plugins'			=> 'Plugins',//'插件',
 	'menu_tasks'			=> 'Zadania',//'站点任务',
@@ -140,7 +141,7 @@ $lang = array
 	'menu_ec'			=> 'E-commerce',//'电子商务',
 	'menu_card'			=> 'Recharge card close',//'充值卡密',
 
-	'menu_styles'			=> 'Skiny',//'风格管理',
+	'menu_styles'			=> 'Style',//'风格管理',
 	'menu_styles_templates'		=> 'Szablony',//'模板管理',
 	'menu_posting_smilies'		=> 'Uśmieszki',//'表情管理',
 	'menu_click'			=> 'Oceny',//'表态动作',
@@ -182,6 +183,7 @@ $lang = array
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> 'Third-party blocks',//'第三方模块',
 	'menu_topic'			=> 'Topic Management',//'专题管理',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'		=> 'Custom Styles Management',//'DIY页面管理',
 
 	'menu_group_setting'		=> 'Group Settings',//'群组设置',
