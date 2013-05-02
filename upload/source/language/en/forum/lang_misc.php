@@ -181,6 +181,8 @@ $lang = array
 	'week_5'	=> 'Fri',//'星期五',
 	'week_6'	=> 'Sat',//'星期六',
 
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
 	'notice_actor'		=> ', and so on. Total: $actorcount people',//'等 $actorcount 人',
 
 	'perms_allowvisit'		=> 'Forum access',//'访问论坛',

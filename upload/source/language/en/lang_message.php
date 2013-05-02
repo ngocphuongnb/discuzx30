@@ -369,8 +369,8 @@ $lang = array (
 	'recommend_self_disallow'	=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />You can not rate your own posts',//'recommend_self_disallow'	=> '评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />您不能评价自己的帖子',
 	'recommend_duplicate'		=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />You have already rated this thread',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />您已评价过本主题',
 	'recommend_outoftimes'		=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />You have reached today rate limit',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />今日评价机会已用完',
-	'recommend_daycount_succed'	=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />You have reached the daily rate limit {daycount}',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />您今天还能评价 {daycount} 次',
-	'recommend_succed'		=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+/*!*/	'recommend_daycount_succeed'	=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />You have reached the daily rate limit {daycount}',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />您今天还能评价 {daycount} 次',
+/*!*/	'recommend_succeed'		=> 'Rating: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
 	'thread_poll_voter_isnull'	=> 'No one have voted this poll, You can not add tags.',//'暂时还没有人参与投票，不能添加标签。',
 	'thread_activityapply_isnull'	=> 'Temporarily no one participated in activity, can not add tags.',//'暂时还没有人参加活动，不能添加标签。',
 	'forum_usertag_set_continue'	=> 'Total {count} users, now set from {limit} to {next} users, please wait ',//'共 {count} 个用户，正在设置 {limit} 至 {next} 个用户，请稍候 ',
@@ -1062,6 +1062,10 @@ $lang = array (
 /*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
 /*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
 /*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'Operation timeout or data source error',//'操作超时或者数据来源错误',

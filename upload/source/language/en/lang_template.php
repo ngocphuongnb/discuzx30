@@ -411,6 +411,16 @@ $lang = array (
 /*!*/	'ipnoice_lasttime'		=> 'Last login time',//'上次登录时间',
 /*!*/	'ipnoice_title'			=> 'Security reminder',//'安全提醒',
 /*!*/	'ipnoice_link'			=> 'Login Place is abnormal, recommended to change your password',//'登录地点异常，建议立即更改密码',
+/*!*/	'recharge_immediately'		=> 'Recharge Now',//'立即充值',
+/*!*/	'manage_grade'			=> 'Manage level',//'管理级别',
+/*!*/	'manager'			=> 'Administrator',//'管理员',
+/*!*/	'super_forummanager'		=> 'Super Moderator',//'超级版主',
+/*!*/	'forummanager'			=> 'Moderator',//'版主',
+/*!*/	'buy_usergroup'			=> 'Purchase a user group',//'购买用户组',
+/*!*/	'fastreply'			=> 'Quick Reply',//'快速回复',
+/*!*/	'return_list'			=> 'Return to the list',//'返回列表',
+/*!*/	'return_forum'			=> 'Return to the forum',//'返回版块',
+/*!*/	'temporarily_to_remind'		=> 'Temporarily to remind',//'暂不提醒',
 
 //---------------------------
 // Added by Valery Votintsev
