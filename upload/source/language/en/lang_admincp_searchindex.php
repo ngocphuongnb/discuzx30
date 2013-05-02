@@ -4176,7 +4176,7 @@ $lang = array (
       25 => 'Default feeds publishing settings',//'默认动态发布设置',
     ),
   ),
-  245 =>
+  244 =>
   array (
     'index' =>
     array (
