@@ -66,6 +66,7 @@ $lang = array (
 	'article_validate_category'	=> 'Please select the blog category',//'请选择系统分类',
 	'article_validate_has_added'	=> 'The article was added',//'该文章已经添加过了',
 	'article_validate_noexist'	=> 'Can not find the specified article',//'没有找到指定的文章',
+/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
 	'article_validate_title'	=> 'The Title length (1 to 80 characters) does not meet the requirements',//'标题长度(1~80字符)不符合要求',
 	'grab'				=> 'Grab',//'获取',
 	'ignore'			=> 'Ignore',//'忽略',
@@ -313,6 +314,7 @@ $lang = array (
 /*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
 /*!*/	'next_article'			=> 'Next:',//'下一篇：',
 /*!*/	'display_order'			=> 'Display order',//'显示位置',
+/*!*/	'filename'			=> 'File name',//'文件名',
 
 // Added by Valery Votintsev
 	'select_all'	=> 'Select All',//'全选',
