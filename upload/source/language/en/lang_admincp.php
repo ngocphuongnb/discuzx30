@@ -1003,9 +1003,9 @@ $lang = array
 	'setting_styles_forumdisplay_fastsmilies'		=> 'Show recommended smiles',//'显示推荐表情',
 	'setting_styles_forumdisplay_fastsmilies_comment'	=> 'Show recommended smiles on the right of the quick post form. Recommended smiles needs to be set in "look management"',//'在快速发帖右侧显示推荐表情。推荐的表情需要到“表情管理”中设置',
 	'setting_styles_forumdisplay_forumpicstyle_thumbwidth'		=> 'Thread Cover width',//'主题封面宽度',
-	'setting_styles_forumdisplay_forumpicstyle_thumbwidth_comment'	=> 'This is effective when the forum list is open in image mode.Set to 0 or blank to use the default value (218). <a href="'.ADMINSCRIPT.'?action=counter" target="_blank">Click here to rebuild</a>',//'当版块开启图片列表模式时有效，0或不填 将使用默认值(214)。变更宽高建议重建主题封面，<a href="'.ADMINSCRIPT.'?action=counter" target="_blank">点此重建</a>',
+/*!*/	'setting_styles_forumdisplay_forumpicstyle_thumbwidth_comment'	=> 'This is effective when the forum list is open in image mode. Set to 0 or blank to use the default value (203). <a href="'.ADMINSCRIPT.'?action=counter" target="_blank">Click here to rebuild</a>',//'当版块开启图片列表模式时有效，0或不填 将使用默认值(203)。变更宽高建议重建主题封面，<a href="'.ADMINSCRIPT.'?action=counter" target="_blank">点此重建</a>',
 	'setting_styles_forumdisplay_forumpicstyle_thumbheight'		=> 'Thread cover height',//'主题封面高度',
-	'setting_styles_forumdisplay_forumpicstyle_thumbheight_comment'	=> 'This is effective when the forum list is open in image mode. Set to 0 or blank to use the default value (160)',//'当版块开启图片列表模式时有效，0或不填 将使用默认值(160)',
+/*!*/	'setting_styles_forumdisplay_forumpicstyle_thumbheight_comment'	=> 'This is effective when the forum list is open in image mode. Set to 0 or blank to use the proportional value based on the original image height. If thumbnails have different heights then the Waterfall flow effect will be used',//'当版块开启图片列表模式时有效，0或不填 将根据原图高度按比例生成，封面高度不同，有瀑布流的效果',
 	'setting_styles_forumdisplay_forumpicstyle_thumbnum'		=> 'Number of thumbnails to show',//'封面图显示数量',
 	'setting_styles_forumdisplay_forumpicstyle_thumbnum_comment'	=> 'How many images per page to show when a Forum is set to image list mode. Set to 0 or do not fill for use the regular list mode',//'当版块开启图片列表模式时有效，0或不填 将和普通列表模式每页显示主题数一致',
 	'setting_styles_forumdisplay_defstyle_comment'			=> 'When select "Yes", the default does not display a list of images, users also can choose their own style',//'选择“是”时，默认不以图片列表形式显示，用户也可以自己选择',
@@ -1812,6 +1812,8 @@ $lang = array
 	'setting_functions_other_closeforumorderby_comment'	=> 'If selected, users will view only default thread sort, Otherwise users can select the ordering method. This feature increase the server loading.',//'选择“是”用户将只能按默认排序查看，否则，用户自选排序将会增加系统压力。',
 /*!*/	'setting_functions_other_darkroom'			=> 'Open dark room',//'开启小黑屋',
 /*!*/	'setting_functions_other_darkroom_comment'		=> 'After select "Yes" a dark room will be open, and user can enter the dark room in the right-lower corner of the navigation, and will view the Read Only and Banned user access.',//'选择“是”将开启小黑屋，用户可以在右下角导航中进入小黑屋，查看被禁言禁止访问用户',
+/*!*/	'setting_functions_other_disableipnotice'		=> 'Disable Login security notice',//'关闭登录安全提醒',
+/*!*/	'setting_functions_other_disableipnotice_comment'	=> 'If selected &quot;Yes&quot;, then the user login regions exception safety notice will be disabled',//'选择“是”将关闭用户登录地区异常安全提醒功能',
 /*!*/	'setting_functions_other_global_sign'			=> 'Global signature',//'全局签名内容',
 /*!*/	'setting_functions_other_global_sign_comment'		=> 'The setting must be turned on after the signature validation. If the user does not set the signature then the global signature will be shown.',//'该设置必须开启签名后有效，如果用户没有设置签名就显示该签名内容',
 /*!*/	'setting_functions_other_shortcut'			=> 'Credit reminder lower limit',//'提醒添加桌面快捷的积分下限',
@@ -3260,6 +3262,7 @@ $lang = array
 
 	'styles_import'			=> 'Import Interface style',//'导入界面方案',
 	'styles_import_ignore_version'	=> 'Enable to import styles of other Discuz! versions (this can produce an error!)',//'允许导入不同版本 Discuz! 的界面(易产生错误!!)',
+/*!*/	'styles_import_version_invalid'	=> 'Version numbers does not match, Current version: {cur_version}, System version: {set_version}',//'版本号不匹配，当前版本：{cur_version}，系统版本：{set_version}',
 
 	'templates_admin'		=> 'Template Management',//'模板管理',
 	'templates_admin_name'		=> 'Template name',//'模板名称',
