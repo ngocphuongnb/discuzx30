@@ -460,6 +460,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> 'Code to display the desired font file is missing, please upload a font file to the {path} directory.',//'验证码缺少显示所需的字库文件，请上传字库文件至 {path} 目录。',
 	'forum_name_duplicate'			=> 'This forum name already exists, re-set please',//'表单名称设置不能重复，请重新设置',
 	'alipay_ratio_invalid'			=> 'Entered cash/points conversion rate is less than 0, please return to modify.',//'您输入的现金/积分兑换比率小于 0，请返回修改。',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
 	'ftp_password_short'			=> 'FTP Password must not be shorten than 3 characters, please return to modify.',//'FTP 密码不得少于 3 位，请返回修改。',
 	'cachethread_dir_noexists'		=> 'Sorry, the directory {cachethreaddir} does not exist or is not writeable! Please go back and try to set their permissions to 777 via FTP or Shell.',//'对不起，您所指定的目录 {cachethreaddir} 不存在或者不可写！请返回并尝试通过 FTP 将其属性改为 777。',
 	'ranklistcache_update'			=> 'Rank list cache was been updated.',//'排行榜缓存文件已更新。',

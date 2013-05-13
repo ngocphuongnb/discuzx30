@@ -155,5 +155,14 @@ $lang = array (
 /*!*/	'replylist'			=> 'Reply list',//'回复列表',
 /*!*/	'last_thread'			=> 'Previous thread',//'上一个主题',
 /*!*/	'next_thread'			=> 'Next trhread',//'下一个主题',
+/*!*/	'warmtip'			=> 'Warm tip',//'温馨提示',
+/*!*/	'zsltmobileclient'		=> 'Mobile forum client',//'掌上论坛手机客户端',
+/*!*/	'visitbbsanytime'		=> 'Visit the forum anytime and anywhere',//'随时随地上论坛',
+/*!*/	'clicktodownload'		=> 'Click to download',//'点击下载',
+/*!*/	'iphoneandriodmobile'		=> 'iPhone, Andriod and other smartphones',//'iPhone,Andriod等智能手机',
+/*!*/	'visitwapmobile'		=> 'Log in directly to the mobile version, Reading experience better',//'直接登录手机版，阅读体验更佳',
+/*!*/	'clicktovisitwapmobile'		=> 'Access the Mobile version',//'访问手机版',
+/*!*/	'downloadnow'			=> 'Download Now',//'立即下载',
+/*!*/	'downloadzslttoshareview'	=> 'Download the new version of Mobile Forum Client, Enjoy the lot of new privileges!',//'下载新版掌上论坛客户端，尊享多项看帖特权!',
 );
 
