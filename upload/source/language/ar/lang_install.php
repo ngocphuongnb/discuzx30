@@ -359,6 +359,8 @@ $lang = array(
 	'welcome'			=> 'أهلا ومرحبا بك في برنامج تثبيت Discuz!',
 	'select_language'		=> '<b>الرجاء إختيار لغة برنامج التثبيت</b>:',
 
+	'php_version_too_low'		=> 'PHP version is too low',
+	'php_version_too_low_comment'	=> 'For normal functioning Discuz! requires for more new version of PHP',
 
 //---------------------------------------------------------------
 
