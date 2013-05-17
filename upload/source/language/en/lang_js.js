@@ -130,6 +130,10 @@ var lng = {
 
 
 //---------------------------
+//upload/static/js/autoloadpage.js
+	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+
+//---------------------------
 //upload/static/js/at.js
 //	'enter_username'	: 'Please enter the user name',//'请输用户名',
 
@@ -451,6 +455,12 @@ var lng = {
 	'image_description'	: 'Image Description',//'图片描述',
 	'uploading_wait'	: 'Uploading, Please wait',//'上传中，请等待',
 	'retry'			: 'Retry',//'重试',
+
+//---------------------------
+//static/js/makehtml.js
+	'generated_ok'	: ' generated successfully',//'生成成功',
+	'generate'	: 'Generate ',//'生成',
+//	''	: '',//'',
 
 //--------------------------------
 //static/js/portal.js
