@@ -1,4 +1,4 @@
-/**---
+/**
 	[Discuz!] (C)2001-2009 Comsenz Inc.
 	This is NOT a freeware, use is subject to license terms
 
@@ -132,6 +132,10 @@ var lng = {
 
 
 //---------------------------
+//upload/static/js/autoloadpage.js
+	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+
+//---------------------------
 //upload/static/js/at.js
 //	'enter_username'	: 'Please enter the user name',//'请输用户名',
 
@@ -214,6 +218,9 @@ var lng = {
 	'error_message'		: 'رسالة خطأ',//'错误信息',
 	'ctrl_d_favorites'	: 'إضغط على زري  Ctrl + D للوضع بالمفضلة',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'إذا كنت لا تستعمل متصفح IE قم بإدارج الصفحة يدوياً كرئيسية ',//'非 IE 浏览器请手动将本站设为首页',
+	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+
 //--------------------------------
 //static/js/common_diy.js
 
@@ -365,8 +372,13 @@ var lng = {
 	'notify_on_reply_cancel'	: 'إلغاء استقبال التنبيه',//'取消回复通知',
 	'share_connection_failed'	: 'فشل الاتصال للمشاركة, حاول مرة أخرى لاحقاً',//'分享服务连接失败，请稍后再试',
 	'qq_bind'		: 'Please bind your QQ account',//'请先绑定QQ账号',// not im (arabic)
-	'quote_by'	: 'اقتُبِس بواسطة  .*? في .*? ',//'本帖最后由 .*? 于 .*? 编辑',
-	'copy_code'	: 'نسخ الكود',//'复制代码',
+	'quote_by'		: 'اقتُبِس بواسطة  .*? في .*? ',//'本帖最后由 .*? 于 .*? 编辑',
+	'copy_code'		: 'نسخ الكود',//'复制代码',
+	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
+	'pocket_forum_android'	: 'If Andriod version, Scan thw QR-code can be downloaded directly to the phone',//'Andriod版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_android_alt'	: 'Suitable for Android-based smartphones like Samsung/HTC/etc',//'适用于装有安卓系统的三星/HTC/小米等手机',
+	'pocket_forum_ios'	: 'If iPhone used, Scan thw QR-code can be downloaded directly to the phone',//'iPhone版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_ios_alt'	: 'Suitable for Apple mobile phone',//'适用于苹果手机',
 
 //--------------------------------
 //static/js/handlers.js
@@ -450,6 +462,12 @@ var lng = {
 	'image_description'	: 'وصف الصورة',//'图片描述',
 	'uploading_wait'	: 'جاري الرفع, الرجاء الإنتظار',//'上传中，请等待',
 	'retry'			: 'إعادة المحاولة',//'重试',
+
+//---------------------------
+//static/js/makehtml.js
+	'generated_ok'	: ' generated successfully',//'生成成功',
+	'generate'	: 'Generate ',//'生成',
+//	''	: '',//'',
 
 //--------------------------------
 //static/js/portal.js
@@ -577,6 +595,7 @@ var lng = {
 	'email_fill'		: 'الرجاء ادخل البريد',//'请输入邮箱地址',
 	'length_min'		: ', الحد الأدنى من الطول',//', 最小长度为 '
 	'chars'			: ' حروف',//' 个字符',
+	'password_strength'	: 'Password strength: ',//'密码强度:',
 	'pw_weak'		: 'ضعيفة',//'弱',
 	'pw_middle'		: 'مستويطة',//'中',
 	'pw_strong'		: 'قوية',//'强',
@@ -586,6 +605,7 @@ var lng = {
 	'capitals'		: 'حروف كبيرة',//'大写字母',
 	'specials'		: 'رموز خاصة',//'特殊符号',
 	'pw_weak_info'		: 'كلمة المرور ضعيفة, يجب أن تحتوي على ',//'密码太弱，密码中必须包含 ',
+	'leave_blank_old_pass'	: 'Leave blank if you do not need to change the password',//'如不需要更改密码，此处请留空',
 
 //--------------------------------
 //static/js/seditor.js

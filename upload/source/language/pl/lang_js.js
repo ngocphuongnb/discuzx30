@@ -130,6 +130,10 @@ var lng = {
 
 
 //---------------------------
+//upload/static/js/autoloadpage.js
+	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+
+//---------------------------
 //upload/static/js/at.js
 //	'enter_username'	: 'Please enter the user name',//'请输用户名',
 
@@ -236,7 +240,7 @@ var lng = {
 	'restore_size_edit'	: 'Przywróć rozmiar edytora',//'恢复编辑器大小',
 	'full_screen_edit'	: 'Pełnoekranowy edytor',//'全屏方式编辑',
 	'current_length'	: 'Wykorzystano',//'当前长度',
-	'bajtów'			: 'bajtów',//'字节',
+	'bytes'			: 'bajtów',//'字节',
 	'system_limit'		: 'Limit systemu',//'系统限制',
 	'up_to'			: '~',//'到',
 	'check_length'		: 'Length Count',//'字数检查',
@@ -368,6 +372,11 @@ var lng = {
 	'qq_bind'		: 'Please bind your QQ account',//'请先绑定QQ账号',
 	'quote_by'		: 'Quote by .*? in .*? code',//'本帖最后由 .*? 于 .*? 编辑',
 	'copy_code'		: 'Copy code',//'复制代码',
+	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
+	'pocket_forum_android'	: 'If Andriod version, Scan thw QR-code can be downloaded directly to the phone',//'Andriod版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_android_alt'	: 'Suitable for Android-based smartphones like Samsung/HTC/etc',//'适用于装有安卓系统的三星/HTC/小米等手机',
+	'pocket_forum_ios'	: 'If iPhone used, Scan thw QR-code can be downloaded directly to the phone',//'iPhone版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_ios_alt'	: 'Suitable for Apple mobile phone',//'适用于苹果手机',
 
 //--------------------------------
 //static/js/handlers.js
@@ -451,6 +460,12 @@ var lng = {
 	'image_description'	: 'Image Description',//'图片描述',
 	'uploading_wait'	: 'Uploading, Please wait',//'上传中，请等待',
 	'retry'			: 'Retry',//'重试',
+
+//---------------------------
+//static/js/makehtml.js
+	'generated_ok'	: ' generated successfully',//'生成成功',
+	'generate'	: 'Generate ',//'生成',
+//	''	: '',//'',
 
 //--------------------------------
 //static/js/portal.js
@@ -588,6 +603,7 @@ var lng = {
 	'capitals'		: 'wielkich liter',//'大写字母',
 	'specials'		: 'znaków specjalnych',//'特殊符号',
 	'pw_weak_info'		: 'Pole hasło musi składać się z ',//'密码太弱，密码中必须包含 ',
+	'leave_blank_old_pass'	: 'Leave blank if you do not need to change the password',//'如不需要更改密码，此处请留空',
 
 //--------------------------------
 //static/js/seditor.js

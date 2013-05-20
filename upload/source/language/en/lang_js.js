@@ -372,6 +372,11 @@ var lng = {
 	'qq_bind'		: 'Please bind your QQ account',//'请先绑定QQ账号',
 	'quote_by'		: 'Quote by .*? in .*? code',//'本帖最后由 .*? 于 .*? 编辑',
 	'copy_code'		: 'Copy code',//'复制代码',
+	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
+	'pocket_forum_android'	: 'If Andriod version, Scan thw QR-code can be downloaded directly to the phone',//'Andriod版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_android_alt'	: 'Suitable for Android-based smartphones like Samsung/HTC/etc',//'适用于装有安卓系统的三星/HTC/小米等手机',
+	'pocket_forum_ios'	: 'If iPhone used, Scan thw QR-code can be downloaded directly to the phone',//'iPhone版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_ios_alt'	: 'Suitable for Apple mobile phone',//'适用于苹果手机',
 
 //--------------------------------
 //static/js/handlers.js
@@ -598,6 +603,7 @@ var lng = {
 	'capitals'		: 'Capital letters',//'大写字母',
 	'specials'		: 'Special symbols',//'特殊符号',
 	'pw_weak_info'		: 'Weak password, the password must contain ',//'密码太弱，密码中必须包含 ',
+	'leave_blank_old_pass'	: 'Leave blank if you do not need to change the password',//'如不需要更改密码，此处请留空',
 
 //--------------------------------
 //static/js/seditor.js

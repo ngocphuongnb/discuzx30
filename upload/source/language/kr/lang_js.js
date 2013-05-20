@@ -139,6 +139,10 @@ var lng = {
 
 
 //---------------------------
+//upload/static/js/autoloadpage.js
+	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+
+//---------------------------
 //upload/static/js/at.js
 //	'enter_username'	: 'Please enter the user name',//'请输用户名',
 
@@ -377,6 +381,11 @@ var lng = {
 	'qq_bind'		: '당신의  QQ 계정과 연결하세요.',//'请先绑定QQ账号',
 	'quote_by'		: '인용 by .*? in .*? code',//'本帖最后由 .*? 于 .*? 编辑',
 	'copy_code'		: '코드 복사',//'复制代码',
+	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
+	'pocket_forum_android'	: 'If Andriod version, Scan thw QR-code can be downloaded directly to the phone',//'Andriod版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_android_alt'	: 'Suitable for Android-based smartphones like Samsung/HTC/etc',//'适用于装有安卓系统的三星/HTC/小米等手机',
+	'pocket_forum_ios'	: 'If iPhone used, Scan thw QR-code can be downloaded directly to the phone',//'iPhone版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_ios_alt'	: 'Suitable for Apple mobile phone',//'适用于苹果手机',
 
 //--------------------------------
 //static/js/handlers.js
@@ -460,6 +469,12 @@ var lng = {
 	'image_description'	: '이미지 설명',//'图片描述',
 	'uploading_wait'	: '업로드중, 잠시 기다리세요',//'上传中，请等待',
 	'retry'			: '재시도',//'重试',
+
+//---------------------------
+//static/js/makehtml.js
+	'generated_ok'	: ' generated successfully',//'生成成功',
+	'generate'	: 'Generate ',//'生成',
+//	''	: '',//'',
 
 //--------------------------------
 //static/js/portal.js
@@ -597,6 +612,7 @@ var lng = {
 	'capitals'		: '대문자',//'大写字母',
 	'specials'		: '특수기호',//'特殊符号',
 	'pw_weak_info'		: '비밀번호가 약합니다, ',//'密码太弱，密码中必须包含 ',
+	'leave_blank_old_pass'	: 'Leave blank if you do not need to change the password',//'如不需要更改密码，此处请留空',
 
 //--------------------------------
 //static/js/seditor.js

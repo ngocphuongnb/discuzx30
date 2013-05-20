@@ -130,6 +130,10 @@ var lng = {
 
 
 //---------------------------
+//upload/static/js/autoloadpage.js
+	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+
+//---------------------------
 //upload/static/js/at.js
 //	'enter_username'	: 'Please enter the user name',//'请输用户名',
 
@@ -212,6 +216,9 @@ var lng = {
 	'error_message'		: 'Fehler Meldung',//'错误信息',
 	'ctrl_d_favorites'	: 'Drücke die Tasten Ctrl + D um zu den Favoriten hinzuzufügen',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'Für Nicht-IE Browser bitte Homepage manuell hinzufügen',//'非 IE 浏览器请手动将本站设为首页',
+	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+
 //--------------------------------
 //static/js/common_diy.js
 
@@ -365,6 +372,11 @@ var lng = {
 	'qq_bind'		: 'Bitte binde deinen QQ Account',//'请先绑定QQ账号',
 	'quote_by'		: 'Zitat von .*? in .*? Code',//'本帖最后由 .*? 于 .*? 编辑',
 	'copy_code'		: 'Code kopieren',//'复制代码',
+	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
+	'pocket_forum_android'	: 'If Andriod version, Scan thw QR-code can be downloaded directly to the phone',//'Andriod版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_android_alt'	: 'Suitable for Android-based smartphones like Samsung/HTC/etc',//'适用于装有安卓系统的三星/HTC/小米等手机',
+	'pocket_forum_ios'	: 'If iPhone used, Scan thw QR-code can be downloaded directly to the phone',//'iPhone版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_ios_alt'	: 'Suitable for Apple mobile phone',//'适用于苹果手机',
 
 //--------------------------------
 //static/js/handlers.js
@@ -448,6 +460,12 @@ var lng = {
 	'image_description'	: 'Bild Beschreibung',//'图片描述',
 	'uploading_wait'	: 'Uploading, Bitte warten',//'上传中，请等待',
 	'retry'			: 'Wiederholen',//'重试',
+
+//---------------------------
+//static/js/makehtml.js
+	'generated_ok'	: ' generated successfully',//'生成成功',
+	'generate'	: 'Generate ',//'生成',
+//	''	: '',//'',
 
 //--------------------------------
 //static/js/portal.js
@@ -575,6 +593,7 @@ var lng = {
 	'email_fill'		: 'Bitte E-Mail Adresse eingeben',//'请输入邮箱地址',
 	'length_min'		: ', Minimum length',//', 最小长度为 '
 	'chars'			: ' characters',//' 个字符',
+	'password_strength'	: 'Password strength: ',//'密码强度:',
 	'pw_weak'		: 'Weak',//'弱',
 	'pw_middle'		: 'So-so',//'中',
 	'pw_strong'		: 'Strong',//'强',
@@ -584,6 +603,7 @@ var lng = {
 	'capitals'		: 'Capital letters',//'大写字母',
 	'specials'		: 'Special symbols',//'特殊符号',
 	'pw_weak_info'		: 'Weak password, the password must contain ',//'密码太弱，密码中必须包含 ',
+	'leave_blank_old_pass'	: 'Leave blank if you do not need to change the password',//'如不需要更改密码，此处请留空',
 
 //--------------------------------
 //static/js/seditor.js
