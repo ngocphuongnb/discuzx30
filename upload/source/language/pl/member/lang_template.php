@@ -50,6 +50,6 @@ $lang = array (
 	'register_repassword_tips'	=> 'Proszę uzupełnić pole potwierdzające hasło',//'请再次输入密码',
 	'register_username_tips'	=> 'Nazwa użytkownika musi zawierać od 3 do 15 znaków',//'用户名由 3 到 15 个字符组成',
 	'register_validate_email_tips'	=> 'Na samym początku rejestracja wymagać będzie potwierdzenia konta Email. Proszę się upewnić, że wprowadzony adres jest poprawny i aktualny, ponieważ to właśnie tam otrzymasz dalsze instrukcje. <br />Wiadomość powinna zostać dostarczona w ciągu najbliższych kilku minut. W przeciwnym razie, proszę sprawdzić również folder SPAM.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
-	'rulemessage'			=> ' (Zasady oraz warunki korzystania z usług)',//'网站服务条款',
+	'rulemessage'			=> ' (zasady i warunki korzystania z usług)',//'网站服务条款',
 );
 

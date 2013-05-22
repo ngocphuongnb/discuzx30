@@ -190,7 +190,7 @@ $lang = array(
 	'block_blog_no_content'			=> 'Brak zawartości.',//'现在还没有日志',
 	'block_blog_no_content_publish'		=> ' <a href ="home.php?mod=spacecp&ac=blog">Pisz na blogu</a>.',//'，<a href ="home.php?mod=spacecp&ac=blog">发布日志</a>',
 	'block_album_no_content'		=> 'Brak albumów.',//'现在还没有相册',
-	'block_album_no_content_publish'	=> ' <a href ="home.php?mod=spacecp&ac=upload">Dodaj nowe zdjęcia</a>',//'，<a href ="home.php?mod=spacecp&ac=upload">上传图片</a>',
+	'block_album_no_content_publish'	=> ' <a href ="home.php?mod=spacecp&ac=upload">Dodaj nowe obrazki</a>',//'，<a href ="home.php?mod=spacecp&ac=upload">上传图片</a>',
 	'block_feed_no_content'			=> 'Brak aktywności',//'现在还没有动态',
 	'block_thread_no_content'		=> 'Brak tematów',//'现在还没有主题',
 	'block_thread_no_content_publish'	=> ', <a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">Wyślij nowy temat</a>',//'，<a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">发布主题</a>',
@@ -225,7 +225,7 @@ $lang = array(
 	'manage_group_prune'	=> 'Zarządzaj postami w grupach',//'群组帖子',
 	'manage_group_threads'	=> 'Zarządzaj tematami w grupach',//'群组主题',
 	'manage_share'		=> 'Zarządzaj udostępnionymi elementami',//'管理分享',
-	'manage_pic'		=> 'Zarządzaj zdjęciami',//'管理图片',
+	'manage_pic'		=> 'Zarządzaj obrazkami',//'管理图片',
 
 	'sb_blog'		=> 'Blog użytkownika {who}',//'{who}的日志',
 	'sb_album'		=> 'Album użytkownika {who}',//'{who}的相册',

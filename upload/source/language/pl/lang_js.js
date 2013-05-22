@@ -123,7 +123,7 @@ var lng = {
 	'push5reached'		: 'Push Post number has reached five, in the right to cancel a number and try again.',//'推送帖子已达到5条，请在右侧取消一些再重试。',
 	'click_left'		: 'Click on the left',//'点击左侧',
 	'push_to_list'		: 'Will push the information to the list',//'将信息推送到列表',
-	'wait_image_upload'	: 'Upload image, please wait...',//'图片上传中，请稍后...',
+	'wait_image_upload'	: 'Wysyłanie obrazka, proszę czekać...',//'图片上传中，请稍后...',
 
 
 
@@ -131,7 +131,7 @@ var lng = {
 
 //---------------------------
 //upload/static/js/autoloadpage.js
-	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+	'loading_content_wait'	: 'Wczytywanie zawartości, proszę czekać...',//'正在加载, 请稍后...',
 
 //---------------------------
 //upload/static/js/at.js
@@ -170,7 +170,7 @@ var lng = {
 	'open_new_win'		: 'Otwórz w nowym oknie',//'在新窗口打开',
 	'actual_size'		: 'Aktualny rozmiar',//'实际大小',
 	'close'			: 'Zamknij',//'关闭',
-	'wheel_zoom'		: 'Użyj kółka myszki by powiększyć/zmniejszyć obrazek',//'鼠标滚轮缩放图片',
+	'wheel_zoom'		: 'Użycie kółka myszki pozwala powiększyć/zmniejszyć rozmiary przeglądanego obrazka',//'鼠标滚轮缩放图片',
 	'reminder'		: 'Powiadomienie',//'提示信息',
 	'submit'		: 'Wyślij',//'确定',
 	'cancel'		: 'Anuluj',//'取消',
@@ -191,7 +191,7 @@ var lng = {
 	'show_all_expr'		: 'Wszystkie',//'显示所有表情',
 	'page_prev'		: 'Następna strona',//'上页',
 	'page_next'		: 'Poprzednia strona',//'下页',
-	'copy2clipboard'	: 'Kliknij tutaj, aby skopiować do schowka',//'点此复制到剪贴板',
+	'copy2clipboard'	: 'Kliknij tutaj, aby skopiować link do schowka',//'点此复制到剪贴板',
 // ATTENTION!
 // The next line must have the same value as in /template.php - 'enter_content' !!!
 	'enter_search_string'	: 'Wprowadź szukane wyrażenia',//'请输入搜索内容',
@@ -223,9 +223,9 @@ var lng = {
 //static/js/common_diy.js
 
 	'edit'			: 'Edytuj',//'编辑',
-	'warn_not_saved'	: 'You have modified the data. If you exit, all the changes will be lost.',//'您的数据已经修改,退出将无法保存您的修改。',
-	'confirm_exit'		: 'All the changes will be lost if you exit. Are you sure you want to exit now?',//'退出将不会保存您刚才的设置。是否确认退出？',
-	'select_image_upload'	: 'Proszę wybrać zdjęcie',//'请选择您要上传的图片',
+	'warn_not_saved'	: 'Informacje uległy zmianie. Jeśli zdecydujesz się wyjść, wszystkie zmiany zostaną utracone.',//'您的数据已经修改,退出将无法保存您的修改。',
+	'confirm_exit'		: 'Jeśli zdecydujesz się wyjść, wszystkie dane zostaną utracone. Czy jesteś pewien?',//'退出将不会保存您刚才的设置。是否确认退出？',
+	'select_image_upload'	: 'Proszę wybrać obrazek',//'请选择您要上传的图片',
 
 //--------------------------------
 //static/js/common_extra.js
@@ -243,7 +243,7 @@ var lng = {
 	'bytes'			: 'bajtów',//'字节',
 	'system_limit'		: 'Limit systemu',//'系统限制',
 	'up_to'			: '~',//'到',
-	'check_length'		: 'Length Count',//'字数检查',
+	'check_length'		: 'Licznik znaków',//'字数检查',
 	'data_restored'		: 'Treść została przywrócona',//'数据已恢复',
 	'data_saved'		: 'Treść została zapisana',//'数据已保存',
 	'clear_all_sure'	: 'Czy na pewno chcesz wyczyścić całą zawartość?',//'您确认要清除所有内容吗？',
@@ -454,25 +454,25 @@ var lng = {
 //--------------------------------
 //static/js/home_uploadpic.js
 
-	'image_type_invalid'	: 'Sorry, image with such extension does not supported',//'对不起，不支持上传此类扩展名的图片',
+	'image_type_invalid'	: 'Przepraszamy, rozszerzenie obrazka podanego obrazka nie jest wspierane.',//'对不起，不支持上传此类扩展名的图片',
 	'insert_to_content'	: 'Click here to insert into the content at current cursor position',//'点击这里插入内容中当前光标的位置',
-	'insert'		: 'Insert',//'插入',
-	'image_description'	: 'Image Description',//'图片描述',
-	'uploading_wait'	: 'Uploading, Please wait',//'上传中，请等待',
-	'retry'			: 'Retry',//'重试',
+	'insert'		: 'Wprowadź',//'插入',
+	'image_description'	: 'Opis obrazka',//'图片描述',
+	'uploading_wait'	: 'Wysyłanie, proszę czekać.',//'上传中，请等待',
+	'retry'			: 'Ponów',//'重试',
 
 //---------------------------
 //static/js/makehtml.js
-	'generated_ok'	: ' generated successfully',//'生成成功',
-	'generate'	: 'Generate ',//'生成',
+	'generated_ok'	: ' wygenerowano prawidłowo',//'生成成功',
+	'generate'	: 'Generuj ',//'生成',
 //	''	: '',//'',
 
 //--------------------------------
 //static/js/portal.js
 
-	'delete_sure'		: 'Are you sure to delete this data?',//'您确定要删除该数据吗？',
-	'ignore_sure'		: 'Are you sure to ignore this data?',//'您确定要屏蔽该数据吗？',
-	'to'			: 'to',//'到',
+	'delete_sure'		: 'Czy na pewno chcesz usunąć następujące dane?',//'您确定要删除该数据吗？',
+	'ignore_sure'		: 'Czy na pewno chcesz zignorować następujące dane?',//'您确定要屏蔽该数据吗？',
+	'to'			: 'do',//'到',
 
 	'choose_block'		: 'Choose block',//'选择模块',
 	'blocks_found1'		: 'Found',//'找到',
