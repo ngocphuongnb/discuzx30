@@ -13,6 +13,7 @@ $lang = array (
 	'no_simplemobiletype'		=> 'Standardowa edycja',//'标准版',
 	'nomobiletype'			=> 'Pełna wersja forum',//'电脑版',
 	'simplemobiletype'		=> 'Wersja mobile',//'精简版',
+	/*!*/	'extremelysimplemobiletype'	=> 'Minimalist version',//'极简版',
 	'favorite'			=> 'Ulubione',//'收藏',
 	'my_posts'			=> 'Moje posty',//'我的帖子',
 	'new_pm'			=> 'Nowa wiadomość',//'新短消息',
@@ -151,5 +152,8 @@ $lang = array (
 /*!*/	'uploadstatusmsg10'		=> 'Illegal operation',//'非法操作',
 /*!*/	'uploadstatusmsg11'		=> 'Today you can not upload so much attachments',//'今日您已无法上传那么大的附件',
 /*!*/	'postreplyneedmod'		=> 'Forum posts need to be verified. Your post will be displayed only after auditing by a moderator.',//'本版回帖需要审核，您的帖子将在通过审核后显示',
+/*!*/	'replylist'			=> 'Reply list',//'回复列表',
+/*!*/	'last_thread'			=> 'Poprzedni temat',//'上一个主题',
+/*!*/	'next_thread'			=> 'Następny temat',//'下一个主题',
 );
 
