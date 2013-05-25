@@ -8,6 +8,10 @@
  *      German Discuz!X Translation (2011-08-12) by Coldcut - http://www.cybertipps.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -59,12 +63,14 @@ $lang = array
 	'menu_setting_ranklist'		=> 'Top-Einstellungen',
 	'menu_setting_mobile'		=> 'Mobile Access',//'手机访问设置',
 	'menu_setting_tag'		=> 'Tags',//'标签管理',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'			=> 'Board Verwaltung',
 	'menu_forums_merge'		=> 'Merge Board',
 	'menu_forums_threadtypes'	=> 'Themen Typen',
 	'menu_forums_infotypes'		=> 'Info Typen',
 	'menu_forums_infooption'	=> 'Info Optionen',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'		=> 'Mitglied hinzuf&uuml;gen',
 	'menu_members_edit'		=> 'Mitglieder verwalten',
@@ -108,6 +114,7 @@ $lang = array
 	'menu_postcomment'		=> 'Post Comment Management',//'帖子点评管理',
 	'menu_maint_doing'		=> 'Shouts',
 	'menu_maint_blog'		=> 'Blogs',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'Feeds',
 	'menu_maint_album'		=> 'Alben',
 	'menu_maint_pic'		=> 'Bilder',
@@ -126,6 +133,7 @@ $lang = array
 
 	'menu_patch'			=> 'Security Center',//'安全中心',
 	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons'			=> 'Addons',//'扩展中心',
 	'menu_plugins'			=> 'Plugins',//'插件',
@@ -179,6 +187,7 @@ $lang = array
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> 'Third-Party Modul',//'第三方模块',
 	'menu_topic'			=> 'Topic-Management',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'		=> 'DIY Page Management',
 
 	'menu_group_setting'		=> 'Gruppen-Einstellungen',

@@ -8,6 +8,10 @@
  *      German Discuz!X Translation (2012-01-23) by Coldcut - http://www.cybertipps.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'hour'			=> 'Stunde',
 	'before'		=> 'Vor',
@@ -129,7 +133,7 @@ $lang = array(
 	'album_li'		=> '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, Updated {date}><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>Bildnummer:({picnum})</span> <span>Aktualisierung {date}</span></li>',//'<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>图片数:({picnum})</span><span>更新 {date}</span></li>',
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} Antwort ({replynum})',//'<li>{message}</li><br />{date} {from} 回复({replynum})',
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonym"></div><p>Anonym</p>',//'<div class="avatar48"><img src="image/magic/hidden.gif" alt="匿名"></div><p>匿名</p>',
-	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+/*!*/	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -175,6 +179,7 @@ $lang = array(
 	'block_profile_wall'		=> 'Nachricht lesen',
 	'block_profile_avatar'		=> 'Avatar bearbeiten',
 	'block_profile_update'		=> 'Profil aktualisieren',
+	'block_profile_follow'		=> 'View Feed',//'查看广播',
 	'block_profile_wall_to_me'	=> 'Pinnwand',
 	'block_profile_friend_add'	=> 'Zu Freunden hinzufügen',
 	'block_profile_friend_ignore'	=> 'Entfernen von Freunden',
@@ -203,11 +208,11 @@ $lang = array(
 	'block_myapp_no_content_publish'	=> ', <a href ="userapp.php?mod=manage&my_suffix=/app/list">App starten</a>',//'，<a href ="userapp.php?mod=manage&my_suffix=/app/list">我要玩应用</a>',
 	'block_view_noperm'			=> 'Keine Berechtigungen zum Anzeigen',
 	'block_view_profileinfo_noperm'		=> 'Keine Daten oder keine Genehmigung Blick',//'暂无资料项或无权查看',
-'click_play'				=> 'Click to play',
-'click_view'				=> 'Click to view',
+	'click_play'				=> 'Click to play',//'点击播放',
+	'click_view'				=> 'Click to view',//'点击查看',
 	'feed_view_only'			=> 'Feeds ansehen',
-	
-	'export_pm'		=> 'Export PM',
+
+	'export_pm'		=> 'Export PM',//'导出短消息',
 	'pm_export_header'	=> 'PM Record (Diese Nachricht wird als Text-Format aufgezeichnet, unterst&uuml;tzt keinen Re-Import)',
 	'pm_export_touser'	=> 'Empfänger: {touser}',
 	'pm_export_subject'	=> 'Gruppen-Chat Thema: {subject}',//'群聊话题: {subject}',
@@ -222,10 +227,10 @@ $lang = array(
 	'manage_group_threads'	=> 'Gruppen Thema',
 	'manage_share'		=> 'Share Management',
 	'manage_pic'		=> 'Verwalten von Bildern',
-	
+
 	'sb_blog'		=> '{who} Blog',
 	'sb_album'		=> '{who} Album',
-	'sb_space'		=> '{who} Space',
+	'sb_space'		=> '{who} Space',//'{who}的空间',
 	'sb_feed'		=> '{who} Feed',
 	'sb_doing'		=> '{who} Shout',
 	'sb_sharing'		=> '{who} Share',
@@ -236,23 +241,53 @@ $lang = array(
 	'doing_you_can'		=> 'Shout! Lass deine Freunde wissen was du tust...',//'你可以更新记录, 让好友们知道你在做什么...',
 	'block_profile_all'	=> '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">Alle personenbezogenen Daten</a></p>',//'<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">查看全部个人资料</a></p>',
 	'block_profile_edit'	=> '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">Profil bearbeiten</a></span>',//'<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">编辑我的资料</a></span>',
+	'sb_follow'		=> '{who} followings',//'{who}的广播',
 
 	'viewthread_userinfo_hour'	=> 'Stunden',
 	'viewthread_userinfo_uid'	=> 'UID',
 	'viewthread_userinfo_posts'	=> 'Beitr&auml;ge',
 	'viewthread_userinfo_threads'	=> 'Themen',
 	'viewthread_userinfo_doings'	=> 'Shouts',
-	'viewthread_userinfo_blogs'	=> 'Blogs',
+	'viewthread_userinfo_blogs'	=> 'Blogs',//'日志',
 	'viewthread_userinfo_albums'	=> 'Alben',
-	'viewthread_userinfo_sharings'	=> 'Shares',
+	'viewthread_userinfo_sharings'	=> 'Shares',//'分享',
 	'viewthread_userinfo_friends'	=> 'Freunde',
-'viewthread_userinfo_digest'	=> 'Digest',
-'viewthread_userinfo_credits'	=> 'Credits',
+	'viewthread_userinfo_digest'	=> 'Digests',//'精华',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
+	'viewthread_userinfo_credits'	=> 'Credits',
 	'viewthread_userinfo_readperm'	=> 'Berechtigungen lesen',
 	'viewthread_userinfo_regtime'	=> 'Reg.Zeit',
 	'viewthread_userinfo_lastdate'	=> 'Zuletzt',
 	'viewthread_userinfo_oltime'	=> 'Online Zeit',
+	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
+	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
+/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
+/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
+	'follow_view_follow'			=> 'I follow',//'我关注的',
+	'follow_view_special'			=> 'Special attention',//'特别关注',
+	'follow_view_other'			=> 'Following Hall',//'广播大厅',
+	'follow_view_feed'			=> '{who}\'s feed',//'{who}的广播',
+	'follow_view_thread'			=> '{who}\s threads',//'{who}的主题',
+	'follow_view_reply'			=> '{who}\s replies',//'{who}的回复',
+	'follow_view_profile'			=> '{who}\s Personal data',//'{who}的个人资料',
+	'follow_view_type_feed'			=> 'Follow',//'广播',
+	'follow_view_type_thread'		=> 'Threads',//'主题',
+	'follow_view_type_reply'		=> 'Reply',//'回帖',
+	'follow_view_type_profile'		=> 'Profile',//'个人资料',
+	'follow_view_type_follower'		=> 'Follower list',//'听众列表',
+	'follow_view_type_following'		=> 'Followings list',//'收听用户',
+	'follow_view_my_follower'		=> 'My followers',//'我的听众',
+	'follow_view_my_following'		=> 'My followings',//'我收听的人',
+	'follow_view_do_follower'		=> 'His followers',//'他的听众',
+	'follow_view_do_following'		=> 'His followings',//'他收听的人',
+	'follow_view_fulltext'			=> '... View full text',//'...查看全文',
+	'follow_retract'			=> 'Collapse',//'收起',
+	'follow_click_play'			=> 'Click to Play',//'点击播放',
+	'follow_cancle_follow'			=> 'Cancel follow',//'取消收听',
+	'follow_follow_ta'			=> 'Follow the author',//'收听TA',
+
 
 );
 
-?>

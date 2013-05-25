@@ -224,7 +224,7 @@ $lang = array (
 
 	'setting_domain_repeat_error'		=> 'There are duplicate domain names in configuration, please return amended.',//'配置中存在重复的域名，请返回修改。',
 	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
-  'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
+	'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Please enter Alipay signed user information.',//'请输入支付宝签约用户信息。',
 	'alipay_succeed'		=> 'Alipay function successfully set.',//'支付宝功能成功设定。',

@@ -8,12 +8,16 @@
  *      German Discuz!X Translation (2011-08-14) by Coldcut - http://www.cybertipps.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
-	'EDT'	=> 'Bearbeiten',
-
-	'DEL'	=> 'L&ouml;schen',
+	'EDT'	=> 'Bearbeiten',//'编辑',
+ 
+	'DEL'	=> 'L&ouml;schen',//'删除',
 	'DLP'	=> 'Beitrag l&ouml;schen',
 	'DCM'	=> 'Kommentar l&ouml;schen',
 	'PRN'	=> 'Pruning',
@@ -73,16 +77,19 @@ $lang = array
 	'SPA'	=> 'Bewerten als',
 	'SPD'	=> 'Bewertung entfernen',
 	
-	'SLA'	=> 'Add icon',
-	'SLD'	=> 'Remove icon',
+	'SLA'	=> 'Add Icon',//'添加图标',
+	'SLD'	=> 'Remove Icon',//'撤销图标',
 	
 	'REG'	=> 'Gruppe empfohlen',
 	
-	'PTA'	=> 'Generation article',
+	'PTA'	=> 'Push to Articles',//'生成文章',
 
 	'MAG'	=> 'Requisiten',
 
-	'REB'	=> 'dr&uuml;cken',//'??',
+	'REB'	=> 'dr&uuml;cken',
+
+/*!*/	'LIV'	=> 'Live',//'直播',
+/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
 
 );
 

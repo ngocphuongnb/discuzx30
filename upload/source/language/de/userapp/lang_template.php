@@ -45,6 +45,8 @@ $lang = array (
 					<li>Wenn Sie Ihren Platz, Blogs, Fotoalben und andere Privatsphare verwalten mochten, gehen Sie bitte zu Ihrem Profil fur Privatsphare-Einstellungen;</li>
 					<li>Wenn die Applikation als Standard eingestellt ist, wird es nur mit der Beseitigung verbunden sind, aber noch immer wird nach der Entfernung auf der rechten Seite des Menus angezeigt werden.</li></ol>',
 	'open'			=> 'Erweitern',
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 
-?>
