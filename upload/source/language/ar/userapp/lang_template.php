@@ -45,5 +45,8 @@ $lang = array (
 					<li>If you want to manage your space, blogs, photo albums and other privacy, please go to your profile for privacy settings;</li>
 					<li>If the application is set as default, it will associated only with the removal, but still will be displayed after removal at the right side of your menu.</li></ol>',
 	'open'			=> 'فتح',//'展开',
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 

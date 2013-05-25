@@ -14,6 +14,7 @@ $lang = array (
 	'favorite'		=> 'المفضلة',//'收藏',
 	'group_admin'		=> 'إدارة مجموعة',//'管理群组',
 	'group_create'		=> 'إنشاء مجموعة',//'创建群组',
+/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
 	'group_discuss_area'	=> 'قسم المجموعة',//'讨论区',
 	'group_has_joined'	=> 'منضم إلى المجموعة , الرجاء انتظار الموافقة...',//'已加入该群组，等待群主审核中...',
 	'group_join_group'	=> 'الإنضمام إلى المجموعة',//'加入群组',
@@ -204,5 +205,13 @@ $lang = array (
 	'orderby_default'		=> 'الترتيب الإفتراضي',//'默认排序',
 	'stats_main_threads_count'	=> 'المواضيع',//'主题数',
 	'threads'			=> 'المواضيع',//'主题',
+/*!*/	'reply'				=> 'Reply',//'回复',
+/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
+/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
+/*!*/	'group_live_post'		=> 'Publish',//'发表',
+/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
+/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
+/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
+/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
 );
 

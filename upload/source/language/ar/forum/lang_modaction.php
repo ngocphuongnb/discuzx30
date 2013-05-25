@@ -88,5 +88,8 @@ $lang = array
 
 	'REB'	=> 'نشر',
 
+/*!*/	'LIV'	=> 'Live',//'直播',
+/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
+
 );
 
