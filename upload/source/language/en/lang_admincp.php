@@ -562,7 +562,7 @@ $lang = array
 	'founder_upgrade_diff'		=> 'Difference',//'差异',
 	'founder_upgrade_normal'	=> 'Normal',//'正常',
 	'founder_upgrade_new'		=> 'New',//'新增',
-	'founder_upgrade_download_file' => '<b>Upgrade files have been downloaded, and stored in the server directory: </b>',//'<b>升级文件已经全部下载完毕，并存储到服务器目录: </b>',
+	'founder_upgrade_download_file'	=> '<b>Upgrade files have been downloaded, and stored in the server directory: </b>',//'<b>升级文件已经全部下载完毕，并存储到服务器目录: </b>',
 	'founder_upgrade_backup_file'	=> '<b>When proceed the upgrade, all the old existing files would be backuped to the directory: </b>',//'<b>继续升级，将会把现有的旧文件备份到目录: </b>',
 	'founder_upgrade_backup_file2'	=> '<b>, and usee new files will be overridden</b>',//'<b>，并用新的文件进行覆盖</b>',
 	'founder_upgrade_force'		=> 'Forced upgrade',//'强制升级',
@@ -7004,7 +7004,7 @@ if(file_exists($adminextendfile = DISCUZ_ROOT.'./data/sysdata/cache_adminextend.
 	@include $adminextendfile;
 	foreach($adminextend as $extend) {
 		$extend_lang = array();
-		@include DISCUZ_ROOT.'./source/language/en/lang_admincp_'.$extend;
+/*vot*/		@include DISCUZ_ROOT.'./source/language/en/lang_admincp_'.$extend;
 		$lang = array_merge($lang, $extend_lang);
 	}
 }

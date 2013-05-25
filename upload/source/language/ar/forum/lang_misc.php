@@ -182,8 +182,10 @@ $lang = array
 	'week_5'		=> 'الجمعة',//'星期五',
 	'week_6'		=> 'السبت',//'星期六',
 
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
 	'notice_actor'		=> ', و لذا في الإجمالي: $actorcount شخص',//'等 $actorcount 人',
-	
+
 	'perms_allowvisit'		=> 'الوصول للأقسام',//'访问论坛',
 	'perms_readaccess'		=> 'صلاحيات القراءة',//'阅读权限',
 	'perms_allowviewpro'		=> 'عرض معلومات الأعضاء',//'查看用户资料',
@@ -324,5 +326,9 @@ $lang = array
 	'plugin_memo'		=> 'أنت تملك <span class="xi1">{number}</span> تطبيق يمكن أن يتم تحديثه',
 	'plugin_link'		=> 'تحديث الآن',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

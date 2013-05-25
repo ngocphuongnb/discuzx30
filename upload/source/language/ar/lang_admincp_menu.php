@@ -63,12 +63,14 @@ $lang = array
 	'menu_setting_ranklist'		=> 'قائمة الترتيب',//'排行榜设置',
 	'menu_setting_mobile'		=> 'الهاتف المحمول',
 	'menu_setting_tag'		=> 'الكلمات الدلالية',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'			=> 'الأقسام',//'版块管理',
 	'menu_forums_merge'		=> 'دمج الأقسام',//'版块合并',
 	'menu_forums_threadtypes'	=> 'أنواع المواضيع',//'主题分类',
 	'menu_forums_infotypes'		=> 'أنواع الأقسام',//'分类信息',//vot: !!! May be 'Sort IDs',/'Category(ies)',/
 	'menu_forums_infooption'	=> 'خيارات الأنواع',//'分类信息选项',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'		=> 'إضافة عضو',//'添加用户',
 	'menu_members_edit'		=> 'تعديل عضو',//'用户管理',
@@ -112,6 +114,7 @@ $lang = array
 	'menu_postcomment'		=> 'نشر التعليقات',
 	'menu_maint_doing'		=> 'إدارة الأفعال',//'记录管理',
 	'menu_maint_blog'		=> 'إدارة المدونات',//'日志管理',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'إدارة الأخبار',//'动态管理',
 	'menu_maint_album'		=> 'إدارة الألبومات',//'相册管理',
 	'menu_maint_pic'		=> 'إدارة الصور',//'图片管理',
@@ -130,6 +133,7 @@ $lang = array
 
 	'menu_patch'			=> 'مركز الحماية',//'安全中心',
 	'menu_upgrade'			=> 'الترقية أونلاين',//'在线升级',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons'			=> 'الاضافات',//'应用中心',
 	'menu_plugins'			=> 'الهاكات',//'插件',
@@ -183,6 +187,7 @@ $lang = array
 	'menu_portalpermission'		=> 'إذونات المجلة',//'权限列表',
 	'menu_blockxml'		=> '3rd-party موديلات ',//'第三方模块',
 	'menu_topic'		=> 'إدارة المواضيع',//'专题管理',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'	=> 'إدارة إستايل مخصص',//'DIY页面管理',
 
 	'menu_group_setting'	=> 'إعدادات المجموعات',//'群组设置',
