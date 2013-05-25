@@ -224,6 +224,7 @@ $lang = array (
 
 	'setting_domain_repeat_error'		=> 'There are duplicate domain names in configuration, please return amended.',//'配置中存在重复的域名，请返回修改。',
 	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
+	'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Bitte gib die AliPay Information der Benutzer ein.',
 	'alipay_succeed'		=> 'Alipay function successfully set.',//'支付宝功能成功设定。',
@@ -266,6 +267,9 @@ $lang = array (
 	'founder_perm_member_duplicate'		=> 'Benutzer {name} existiert bereits, bitte gehe zur&uuml;ck um ihn zu &auml;ndern.',
 	'founder_perm_gperm_update_succeed'	=> 'Management Rechte Informationen wurde erfolgreich aktualisiert.',
 	'founder_perm_notifyusers_succeed'	=> 'Management notification recipients set Successfully',//'管理通知接收者设置成功 ',
+
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
 
 	'group_status_off'			=> 'Please first turn on the group, now go to Group Settings page.',//'请先开启群组功能，现在转到群组设置页。',
 	'group_update_succeed'			=> 'Group Category settings successfully updated.',//'群组分类设置成功更新。',
@@ -396,7 +400,8 @@ $lang = array (
 	'plugins_import_version_invalid'	=> 'Die Version des Plugins ({set_version}) und die Discuz! Version {cur_version} stimmen nicht &uuml;berein.',
 	'plugins_import_succeed'		=> 'Das Plugin wurde erfolgreich aktualisiert. Eventuell musst du noch zus&auml;tzliche Dateien f&uuml;r diesen Plugin hochladen. Lese dir dazu die beiligende Anleitung durch.',
 	'plugins_config_upgrade_confirm'	=> 'Are you shure you want to upgrade the plugin {pluginname} from version {version} to {toversion} ?',//'你确定要把 {pluginname} {version} 插件更新到 {toversion} 吗？',
-	'plugins_config_upgrade_missed'		=> 'This plug-in have no upgrade possibility. Please upload a new version and then perform the operation',//'此插件无需更新，请上传新版本后再执行本操作',
+	'plugins_config_upgrade_missed'		=> 'This plug-in have been updated to the latest version.</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">Click here to go to the application center</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
+	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
 	'plugins_upgrade_var_invalid'		=> 'Plug-in hook name is illegal, can not be upgraded.',//'插件的嵌入点名称不合法，无法更新',
 	'plugins_setting_succeed'		=> 'Die Einstellungen wurden erfolgreich aktualisiert.',
 	'plugins_setting_module_nonexistence'	=> 'Das gew&auml;hlte Modul ({modfile}) existiert nicht bzw. hat einen Fehler in der Syntax.',
@@ -409,13 +414,13 @@ $lang = array (
 	'plugins_edit_modules_duplicated'	=> 'Der angegebene Name f&uuml;r das Modul existiert bereits. Bitte gehe zur&uuml;ck, um deine Eingabe zu korrigieren.',
 	'plugins_edit_var_invalid'		=> 'Der Name angegebene Variable ist leer bzw. existiert bereits. Bitte gehe zur&uuml;ck, um deine Eingabe zu korrigieren.',
 	'plugins_delete_error'			=> 'You can not uninstall the system plug-in.',//'你不能卸载系统插件。',
-	'plugins_delete_confirm'		=> 'Are you sure you want to uninstall the plugin {pluginname} version {toversion} ?',//'你确定要卸载 {pluginname} {toversion} 插件吗？',
+	'plugins_delete_confirm'		=> 'Are you sure you want to uninstall the plugin {pluginname} version {toversion}?<br /><br />Please select the reason you uninstall the application, So that we can later provide you with a better application:<br /><br /><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="1" />Function does not meet the demand</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="2" />Interface unsightly</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="3" />Efficiency problem, slow running</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="4" />Found a better application</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="5" />Pure trial now uninstall</label>',//'您确定要卸载 {pluginname} {toversion} 插件吗？<br /><br />请选择您卸载该应用的原因，以便我们以后为您提供更好的应用：<br /><br /><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="1" />功能不满足需求</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="2" />界面不美观</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="3" />效率问题运行速度慢</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="4" />发现了更好的应用</label><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="5" />纯试用现在卸载</label>',
 	'styles_delete_confirm'			=> 'Are you sure you want to uninstall these styles?<br /><br />Please select the reason you uninstall the application, So that we can later provide you with a better application:<br /><br /><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="1" />Function does not meet the demand</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="2" />Interface unsightly</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="3" />Efficiency problem, slow running</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="4" />Found a better application</label><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="5" />Pure trial now uninstall</label>',//'您确定要卸载这些风格吗？<br /><br />请选择您卸载该应用的原因，以便我们以后为您提供更好的应用：<br /><br /><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="1" />功能不满足需求</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="2" />界面不美观</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="3" />效率问题运行速度慢</label> <label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="4" />发现了更好的应用</label><label><input name="uninstallreason[]" class="checkbox" type="checkbox" value="5" />纯试用现在卸载</label>',
 	'pluginvar_not_found'			=> 'Plug-in variable not found',//'插件变量未找到',
 	'plugins_edit_var_title_invalid'	=> 'Du hast keinen Namen angegeben. Bitte gehe zur&uuml;ck, um deine Eingabe zu korrigieren.',
 	'plugins_edit_vars_succeed'		=> 'Die Variablen wurden erfolgreich aktualisiert.',
 	'plugins_edit_vars_invalid'		=> 'Plug-in configuration variable name is not legitimate, or is already in use',//'插件配置变量名不合法或者已被占用',
-	'plugins_validator_noupdate'		=> 'The new version of the plugin is not detected',//'没有检测到新版本插件',
+	'plugins_validator_noupdate'		=> 'NO new plugin versions detected',//'没有检测到新版本插件',
 
 	'portalcategory_update_succeed'		=> 'Aktualisiert Einstufung Erfolgt',
 	'portal_delete_confirm'			=> 'This action can not be restored. Are you sure you want to delete the category article?',//'本操作不可恢复，你确定要删除该分类下文章吗？',
@@ -431,7 +436,7 @@ $lang = array (
 	'postsplit_do_succeed'			=> 'Congratulations, post split operation was successful, return',//'恭喜你,帖子分表操作成功,请返回',
 	'postsplit_resetpid_succeed'		=> 'Post ID reset completed',//'Post ID重置完成',
 
-	'recyclebin_none_selected'	=> 'Es wurde kein Thema oder Post ausgew&auml;hlt.',
+	'recyclebin_none_selected'		=> 'Es wurde kein Thema oder Post ausgew&auml;hlt.',
 	'recyclebin_clean_next'			=> 'Recycle Bin updated, removed {threadsdel} threads, The program will automatically continue',//'回收站更新, 已经删除 {threadsdel} 个主题，程序将自动继续',
 
 	'report_resolve_succeed'		=> 'Report processed successfully, and now return to the list page.',//'处理成功,现在返回列表页。',
@@ -455,6 +460,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> 'Code to display the desired font file is missing, please upload a font file to the {path} directory.',//'验证码缺少显示所需的字库文件，请上传字库文件至 {path} 目录。',
 	'forum_name_duplicate'			=> 'This forum name already exists, re-set please',//'表单名称设置不能重复，请重新设置',
 	'alipay_ratio_invalid'			=> 'Entered cash/points conversion rate is less than 0, please return to modify.',//'您输入的现金/积分兑换比率小于 0，请返回修改。',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
 	'ftp_password_short'			=> 'Das FTP Passwort muss mehr als 3 Zeichen enthalten. Bitte gehe zur&uuml;ck, um deine Eingabe zu korrigieren.',
 	'cachethread_dir_noexists'		=> 'Das Verzeichnis {cachethreaddir} kann nicht beschrieben werden. Bitte setze die Berechtigungen per FTP auf 777.',
 	'ranklistcache_update'			=> 'Listen Cache wurde erfolgreich aktualisiert.',
@@ -478,13 +484,13 @@ $lang = array (
 	'specialuser_defaultuser_add_succeed'	=> 'Default user added successfully',//'添加推荐好友成功 ',
 	'specialuser_hotuser_add_succeed'	=> 'Hot user added successfully',//'添加会员成功 ',
 
-	'styles_export_invalid'		=> 'Der gew&auml;hlte Stil existiert nicht.',
-	'csscache_update'		=> 'Der CSS Cache wurde erfolgreich aktualisiert.',
-	'styles_delete_invalid'		=> 'Du kannst den Standard-Stil nicht l&ouml;schen. Gehe zur&uuml;ck, um einen anderen Stil als Standard festzulegen.',
+	'styles_export_invalid'			=> 'Der gew&auml;hlte Stil existiert nicht.',
+	'csscache_update'			=> 'Der CSS Cache wurde erfolgreich aktualisiert.',
+	'styles_delete_invalid'			=> 'Du kannst den Standard-Stil nicht l&ouml;schen. Gehe zur&uuml;ck, um einen anderen Stil als Standard festzulegen.',
 	'styles_install_succeed'		=> 'The Style installed successfully!',//'界面方案安装完毕！',
-	'styles_restore_succeed'	=> 'Interface-Programm ist in der Ersteinrichtung restauriert worden!',
-	'styles_import_succeed_renamed'	=> 'Ein existierendes Verzeichnis wurde automatisch umbenannt. Der Stil wurde erfolgreich importiert.',
-	'styles_import_succeed'		=> 'Der Stil wurde erfolgreich importiert.',
+	'styles_restore_succeed'		=> 'Interface-Programm ist in der Ersteinrichtung restauriert worden!',
+	'styles_import_succeed_renamed'		=> 'Ein existierendes Verzeichnis wurde automatisch umbenannt. Der Stil wurde erfolgreich importiert.',
+	'styles_import_succeed'			=> 'Der Stil wurde erfolgreich importiert.',
 	'styles_copy_succeed'			=> 'Program Style copied successfully.',//'界面方案成功复制。',
 	'styles_nonexistence'			=> 'Please choose the Style you want to operate with:',//'请先选择您要进行操作的界面方案：',
 	'style_not_found'			=> 'Style not found',//'风格未找到',
@@ -540,7 +546,7 @@ $lang = array (
 	'threadtype_content_delete_succeed'	=> 'Data deletion completed',//'数据删除完成',
 	'threadtype_export_error'		=> 'Thread type export failed',//'分类选项导出失败',
 
-	'update_cache_succeed'		=> 'Der Cache wurde erfolgreich aktualisiert.',
+	'update_cache_succeed'			=> 'Der Cache wurde erfolgreich aktualisiert.',
 
 	'topic_choose_at_least_one_topic'	=> 'Bitte w&auml;hle mindestens ein Thema',
 	'topic_delete_succeed'			=> 'Projekt erfolgreich entfernt',
@@ -553,8 +559,8 @@ $lang = array (
 	'upgrade_continue'			=> 'The last time you upgraded to {step}, Please continue to complete the upgrade',//'您上次升级到 {step}，请继续完成升级',
 	'upgrade_download_upgradelist_error'	=> 'Get list of files to be updated failed, Whether to re-obtain? {upgradeurl}',//'获取待更新文件列表失败，是否重新获取？ {upgradeurl}',
 	'upgrade_download_complete_to_compare'	=> 'Files to be updated downloaded ok, now going to compare with local files',//'待更新文件下载完成，即将进行本地文件比较',
-	'upgrade_redownload'			=> 'Updated file {file} download problem, Whether to retry?',//'更新文件 {file} 下载出现问题，是否进行重试？',
-	'upgrade_downloading_file'		=> 'Downloading file {file} from official server',//'正在从官方下载更新文件 {file}',
+	'upgrade_redownload'			=> 'Upgrade file {file} download problem. Please check your server network access, as well as the data directory have write permisson. Make sure all this is correct, and then click to {upgradeurl}',//'文件 {file} 下载出现问题，请查看您的服务器网络以及data目录是否有写权限，请确认无误后点击确定 {upgradeurl}',
+	'upgrade_downloading_file'		=> 'Downloading file {file} from official server.<br>Finished: {percent}, {upgradeurl}',//'正在从官方下载更新文件 {file} <br>已完成{percent} {upgradeurl}',
 	'upgrade_cannot_access_file'		=> 'No permissions to modify your directories and files. Please fill out the ftp account, or modify the file permissions to read/write, and then retry',//'发现您的目录及文件无修改权限，请您填写 ftp 账号，或者修改文件权限为可读可写后重试',
 	'upgrade_backuping'			=> 'Backing up the original file...',//'正在备份原始文件...',
 	'upgrade_backup_error'			=> 'Original file backup error',//'备份原始文件出错',
@@ -578,9 +584,10 @@ $lang = array (
 	'trade_fee_error'			=> 'Ung&uuml;ltige Steuer.',
 	'reward_credits_error'			=> 'Reward Punkte Error.',
 	'usergroups_edit_succeed'		=> 'Die Berechtigungen wurden erfolgreich aktualisiert.',
-	'usergroups_copy_target_invalid'	=> 'You did not choose the target user group to copy, please return to modify.',//'你没有选择要复制的目标用户组，请返回修改。',
+/*!*/	'usergroups_copy_target_invalid'	=> 'You did not choose the target user group',//'您没有选择目标用户组',
 	'usergroups_copy_options_invalid'	=> 'You did not choose the item to copy, please return.',//'你没有选择要复制的项目，请返回修改。',
 	'usergroups_copy_succeed'		=> 'User group settings successfully replicated.',//'用户组设置成功复制。',
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 
 	'usertag_delete_succeed'		=> 'Tag removed successfully',//'删除标签成功',
 	'usertag_merge_succeed'			=> 'Tag successfully merged',//'标签合并成功',
@@ -624,5 +631,9 @@ $lang = array (
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
 	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

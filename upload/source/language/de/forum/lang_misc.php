@@ -8,22 +8,26 @@
  *      German Discuz!X Translation (2011-08-14) by Coldcut - http://www.cybertipps.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'discuz_lang'		=> 'misc',
 	'contact'		=> 'Contacts:',//'联系方式:',
-	'anonymous'			=> 'Anonym',
-	'anonymoususer'			=> 'Anonym',
-	'guestuser'			=> 'Gast',
-	'has_expired'			=> 'Information ist abgelaufen',
-	'click_view'			=> 'Klicken f&uuml;r Bild',
-	'never_expired'			=> 'L&auml;uft nie ab',
-	'sort_update'			=> 'Aktualisierung',
-	'sort_upload'			=> 'Laden',
-	'view_noperm'			=> 'Inhalt ausblenden',
-	'post_hidden'			=> '**** Die Nachricht wurde vom Autor versteckt *****',
-	'post_banned'			=> '*** Der Autor wurde gesperrt oder gel&ouml;scht ***',
-	'post_single_banned'		=> '*** Thema gesperrt ***',
+	'anonymous'		=> 'Anonym',
+	'anonymoususer'		=> 'Anonym',
+	'guestuser'		=> 'Gast',
+	'has_expired'		=> 'Information ist abgelaufen',
+	'click_view'		=> 'Klicken f&uuml;r Bild',
+	'never_expired'		=> 'L&auml;uft nie ab',
+	'sort_update'		=> 'Aktualisierung',
+	'sort_upload'		=> 'Laden',
+	'view_noperm'		=> 'Inhalt ausblenden',
+	'post_hidden'		=> '**** Die Nachricht wurde vom Autor versteckt *****',
+	'post_banned'		=> '*** Der Autor wurde gesperrt oder gel&ouml;scht ***',
+	'post_single_banned'	=> '*** Thema gesperrt ***',
 	'message_ishidden_hiddenreplies'	=> 'Dieser Beitrag ist nur f&uuml;r den Autor sichtbar.',
 	'post_reply_quote'		=> 'Original geschrieben von {author} um {time}',
 	'post_edit'			=> "[i=s] Zuletzt bearbeitet von {editor} um {edittime} [/i]\n\n",
@@ -95,24 +99,24 @@ $lang = array
 	'trade_refundsuccess'		=> '<font color="green">Erfolgreich r&uuml;ckerstattet</font>',
 	'trade_refundclosed'		=> '<font color="green">R&uuml;ckerstattung geschlossen</font>',
 
-	'trade_offline_1'	=> 'Effektive Transaktion',
-	'trade_offline_4'	=> 'Ich habe bezahlt und warte auf die Lieferung der Ware.',
-	'trade_offline_5'	=> 'Ich habe die Ware versandt.',
-	'trade_offline_7'	=> 'Ich habe die Ware erhalten, Transaktion erfolgreich.',
-	'trade_offline_8'	=> 'Die Transaktion abbrechen',
-	'trade_offline_10'	=> 'Ich m&ouml;chte die Ware zur&uuml;ckgeben und warte auf die Best&auml;tigung der R&uuml;ckerstattung durch den Verk&auml;ufer.',
-	'trade_offline_11'	=> 'Der Verk&auml;ufer hat die R&uuml;ckerstattung abgelehnt.',
-	'trade_offline_12'	=> 'Der Verk&auml;ufer hat die R&uuml;ckerstattung best&auml;tigt.',
-	'trade_offline_13'	=> 'Ich habe die Ware zur&uuml;ckgegeben und warte auf den Erhalt durch den Verk&auml;ufer.',
-	'trade_offline_17'	=> 'Der Verk&auml;ufer hat die Ware erhalten, erfolgreich r&uuml;ckerstattet.',
+	'trade_offline_1'		=> 'Effektive Transaktion',
+	'trade_offline_4'		=> 'Ich habe bezahlt und warte auf die Lieferung der Ware.',
+	'trade_offline_5'		=> 'Ich habe die Ware versandt.',
+	'trade_offline_7'		=> 'Ich habe die Ware erhalten, Transaktion erfolgreich.',
+	'trade_offline_8'		=> 'Die Transaktion abbrechen',
+	'trade_offline_10'		=> 'Ich m&ouml;chte die Ware zur&uuml;ckgeben und warte auf die Best&auml;tigung der R&uuml;ckerstattung durch den Verk&auml;ufer.',
+	'trade_offline_11'		=> 'Der Verk&auml;ufer hat die R&uuml;ckerstattung abgelehnt.',
+	'trade_offline_12'		=> 'Der Verk&auml;ufer hat die R&uuml;ckerstattung best&auml;tigt.',
+	'trade_offline_13'		=> 'Ich habe die Ware zur&uuml;ckgegeben und warte auf den Erhalt durch den Verk&auml;ufer.',
+	'trade_offline_17'		=> 'Der Verk&auml;ufer hat die Ware erhalten, erfolgreich r&uuml;ckerstattet.',
 
-	'trade_message_4'	=> 'Zahlungs- und Bank-Informationen eingeben',
-	'trade_message_5'	=> 'Versand und sonstige Informationen eingeben',
-	'trade_message_13'	=> 'Versand und sonstige Informationen eingeben',
+	'trade_message_4'		=> 'Zahlungs- und Bank-Informationen eingeben',
+	'trade_message_5'		=> 'Versand und sonstige Informationen eingeben',
+	'trade_message_13'		=> 'Versand und sonstige Informationen eingeben',
 
-	'credit_payment'	=> 'Punkte aufladen',
-	'credit_forum_payment'	=> 'Foren-Punkte aufladen',
-	'credit_forum_royalty'	=> 'Transaktionsgeb&uuml;hr',
+	'credit_payment'		=> 'Punkte aufladen',
+	'credit_forum_payment'		=> 'Foren-Punkte aufladen',
+	'credit_forum_royalty'		=> 'Transaktionsgeb&uuml;hr',
 
 	'credit_total'			=> 'Total Points',//'总积分',
 
@@ -159,16 +163,16 @@ $lang = array
 
 	'modcp_logs_action_login'	=> 'Login',
 
-	'uch_selectalbum'	=> 'Bitte w&auml;hle ein Album',
-	'uch_noalbum'		=> 'Du hast kein Album ',
-	'click_here'		=> 'Klick Hier',
-	'uch_createalbum'	=> ' um dein Album zu erstellen!',
+	'uch_selectalbum'		=> 'Bitte w&auml;hle ein Album',
+	'uch_noalbum'			=> 'Du hast kein Album ',
+	'click_here'			=> 'Klick Hier',
+	'uch_createalbum'		=> ' um dein Album zu erstellen!',
 
-	'pm_from'	=> 'Von',
-	'pm_to'		=> 'An',
-	'pm_date'	=> 'Datum',
+	'pm_from'		=> 'Von',
+	'pm_to'			=> 'An',
+	'pm_date'		=> 'Datum',
 
-	'share_message'	=> 'Hallo! Ich habe den Thread in {$_G[setting][bbname]} gesehen, Ich glaube, er ist wertvoll. \\n\\n$thread[subject]\\nURL [url={$threadurl}]{$threadurl}[/url]\\n\\nHoffentlich magst du ihn.',
+	'share_message'		=> 'Hallo! Ich habe den Thread in {$_G[setting][bbname]} gesehen, Ich glaube, er ist wertvoll. \\n\\n$thread[subject]\\nURL [url={$threadurl}]{$threadurl}[/url]\\n\\nHoffentlich magst du ihn.',
 	
 	'week_0'	=> 'Son',
 	'week_1'	=> 'Mon',
@@ -178,7 +182,9 @@ $lang = array
 	'week_5'	=> 'Fr',
 	'week_6'	=> 'Sa',
 
-	'notice_actor'	=> 'und so weiter. Insgesammt: $actorcount Person(en)',
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
+	'notice_actor'		=> 'und so weiter. Insgesammt: $actorcount Person(en)',
 
 	'perms_allowvisit'		=> 'Besuche Forum',
 	'perms_readaccess'		=> 'Read permissions',//'阅读权限',
@@ -283,8 +289,8 @@ $lang = array
 	'join_debate'		=> 'Join Debate',//'参与辩论',
 	'at_invite'		=> '@name for friends',//'@我的好友',
 
-	'lower'		=> 'Weniger als',
-	'higher'	=> 'Mehr als',
+	'lower'			=> 'Weniger als',
+	'higher'		=> 'Mehr als',
 	'report_msg_your'	=> 'Your ',//'您的 ',
 	'report_noreward'	=> 'no reward',//'不奖惩',
 	'activity_viewimg'	=> 'Click to view',//'点击查看',
@@ -320,5 +326,9 @@ $lang = array
 	'plugin_memo'		=> 'Updates available: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
 	'plugin_link'		=> 'Update Now',//'现在更新',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 
