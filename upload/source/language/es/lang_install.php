@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: install_lang.php by Valery Votintsev at sources.ru
+ *      $Id: lang_install.php by Valery Votintsev, codersclub.org
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
@@ -17,7 +17,6 @@ $lang = array(
 	'TC_UTF8'		=> 'Traditional Chinese UTF8 encoding',//'繁体中文 UTF8 版',
 	'EN_ISO'		=> 'ENGLISH ISO8859',
 	'EN_UTF8'		=> 'ENGLISH UTF-8',
-	'ES_UTF8'		=> 'Español UTF-8',
 
 	'title_install'		=> SOFT_NAME.' asistente de instalación',//SOFT_NAME.' 安装向导',
 	'agreement_yes'		=> 'Estoy de acuerdo',//'我同意',
@@ -89,10 +88,13 @@ $lang = array(
 	'tips_ucenter_comment'	=> 'UCenter es el Comsenz inc. programa básico de servicios. Discuz! Board y otras aplicaciones Comsenz confían en este programa. Si ya ha instalado UCenter, por favor rellene el siguiente formulario. De lo contrario, por favor vaya a <a href="http://www.discuz.com/" target="blank">Comsenz Products</a> to download and install UCenter, and then continue.',//'UCenter 是 Comsenz 公司产品的核心服务程序，Discuz! Board 的安装和运行依赖此程序。如果您已经安装了 UCenter，请填写以下信息。否则，请到 <a href="http://www.discuz.com/" target="blank">Comsenz 产品中心</a> 下载并且安装，然后再继续。',
 
 	'advice_mysql_connect'		=> 'Por favor, revise el módulo de mysql se ha cargado correctamente.',//'请检查 mysql 模块是否正确加载',
-	'advice_fsockopen'		=> 'Esta función requiere la <b>allow_url_fopen</b> opción de ser <b>On</b> en php.ini. Por favor, póngase en contacto con el administrador del servidor para resolver este problema.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
 	'advice_gethostbyname'		=> 'Configuración de PHP no está permitido el <b>gethostbyname</b> función. Por favor, póngase en contacto con el administrador del servidor para resolver este problema.',//'是否php配置中禁止了gethostbyname函数。请联系空间商，确定开启了此项功能',
 	'advice_file_get_contents'	=> 'Esta función requiere la <b>allow_url_fopen</b> opción de <b>On</b> en php.ini. Por favor, póngase en contacto con el administrador del servidor para resolver este problema.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
 	'advice_xml_parser_create'	=> 'Esta función requiere el apoyo para PHP XML. Por favor, póngase en contacto con el administrador del servidor para resolver este problema.',//'该函数需要 PHP 支持 XML。请联系空间商，确定开启了此项功能',
+	'advice_fsockopen'		=> 'Esta función requiere la <b>allow_url_fopen</b> opción de ser <b>On</b> en php.ini. Por favor, póngase en contacto con el administrador del servidor para resolver este problema.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
+	'advice_pfsockopen'		=> 'This function requires to allow_url_fopen in php.ini. Please contact the hosting provider to set this value',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
+	'advice_stream_socket_client'	=> 'Whether enabled the stream_socket_client function in PHP configuration',//'是否 PHP 配置中禁止了 stream_socket_client 函数',
+	'advice_curl_init'		=> 'Whether enabled the curl_init function in PHP configuration',//'是否 PHP 配置中禁止了 curl_init 函数',
 
 	'ucurl'				=> 'UCenter URL',//'UCenter 的 URL',
 	'ucpw'				=> 'UCenter contraseña de administrador',//'UCenter 创始人密码',
@@ -234,7 +236,7 @@ $lang = array(
 	'init_default_template'			=> 'Plantilla por defecto',//'默认模板套系',
 	'init_default_template_copyright'	=> 'Sing Imagination (Beijing) Technology Co., Ltd.',//'康盛创想（北京）科技有限公司',
 
-	'init_dataformat'	=> 'A-m-d',//'Y-n-j',
+	'init_dataformat'	=> 'Y-m-d',//'Y-n-j',
 	'init_modreasons'	=> 'Publicidad/SPAM\r\nMalicioso/Piratería\r\nContenido ilegal\r\nOfftopic\r\nPost repetidos\r\n\r\nEstoy de acuerdo\r\nExcelente artículo\r\nContenido original',//'广告/SPAM\r\n恶意灌水\r\n违规内容\r\n文不对题\r\n重复发帖\r\n\r\n我很赞同\r\n精品文章\r\n原创内容',
 	'init_userreasons'	=> 'Poderoso!\r\nÚtil\r\nMuy bueno\r\nLo mejor!\r\nInteresante',
 	'init_link'		=> 'Discuz! Foro Oficial',//'Discuz! 官方论坛',
@@ -287,9 +289,13 @@ $lang = array(
 
 
 <p>Hong Sing productos de la licencia de usuario final acuerdo de licencia de negocios, y servicios técnicos a los datos facilitados por la Hong Sing exclusivo. Sing la empresa tiene sin previo aviso, modificar el contrato de licencia y la lista de servicios de precio justo para el acuerdo de modificación o lista de precios por el cambio de la fecha del nuevo usuario autorizado a entrar en vigor.</p>
+
 <p>Una vez que comience la instalación Hong Sing productos, Se considerará que entender y aceptar los términos de este Acuerdo, los términos en el goce de los derechos reconocidos en el mismo tiempo, las limitaciones y restricciones pertinentes. Acuerdo de licencia fuera del alcance de los actos sería una violación directa de este contrato de licencia y constituye una infracción, tenemos el derecho de suspender la autorización, se ordenó detener el daño, y retener el poder de investigar las responsabilidades correspondientes.</p>
+
 <p>La interpretación de los términos del contrato de licencia, la validez y la solución de controversias, aplicables a la población del continente\'s República de la ley.</p>
+
 <p>Entre Hong Sing si usted y cualquier disputa o controversia, primero debe ser resuelta a través de consultas amistosas, la consulta falla, usted está de acuerdo en someter la controversia o polémica Sing Popular del distrito de la gente\'s Corte de las competencias. Hong Sing Compañía tiene el derecho de interpretar los términos anteriores y discreción.</p>
+
 </div>',
 
 	'uc_installed'		=> 'Ha instalado el UCenter. Si necesita volver a instalar, eliminar el data/install.lock archivo',//'您已经安装过 UCenter，如果需要重新安装，请删除 data/install.lock 文件',
@@ -337,14 +343,6 @@ $lang = array(
 	'create_table'		=> 'Crear tabla',//'建立数据表',
 	'succeed'		=> 'Éxito',//'成功 ',
 
-	'testdata'			=> 'Agregar regiones de datos',//'附加数据',
-	'testdata_check_label'		=> 'Instalar otros datos regionales (countries/regions/cities)',//'Install demo page templates (4)',
-	'portalstatus'			=> 'Estado del Portal',
-	'portalstatus_check_label'	=> '',
-	'groupstatus'			=> 'Estado de Grupo',
-	'groupstatus_check_label'	=> '',
-	'homestatus'			=> 'Estado de Inicio',
-	'homestatus_check_label'	=> '',
 	'install_data'			=> 'Datos instalados con éxito',//'正在安装数据',
 	'install_test_data'		=> 'Instalación de los datos regionales',//'正在安装附加数据',
 
@@ -352,20 +350,20 @@ $lang = array(
 	'database_nonexistence'		=> 'Objeto de base de datos no existe',//'数据库操作对象不存在',
 	'skip_current'			=> 'Saltar este paso',//'跳过本步',
 	'topic'				=> 'Tema',//'专题',
+
 //---------------------------------------------------------------
-//vot 2 vars for language select:
+// Added by Valery Votintsev
+// 2 vars for language select:
 	'welcome'			=> 'Bienvenido a la Instalación de Discuz! X',
 	'select_language'		=> '<b>Seleccione el idioma de instalación</b>:',
 //vot !!!Translate to Chinese!!!
 //vot	'regiondata'			=> 'Agregar datos de regiones',//'Add location data',
 //vot	'regiondata_check_label'	=> 'Instalar otros datos regionales (countries/regions/cities)',//'Install additional regional data (countries/regions/cities)',
 //vot	'install_region_data'		=> 'Instalación de los datos regionales',//'Install regional data',
-
 	'php_version_too_low'		=> 'PHP version is too low',
 	'php_version_too_low_comment'	=> 'For normal functioning Discuz! requires for more new version of PHP',
+
 //---------------------------------------------------------------
-
-
 
 );
 
@@ -373,4 +371,3 @@ $msglang = array(
 	'config_nonexistence'	=> 'Su config.inc.php archivo no existe. No se puede continuar con la instalación, utilice el FTP para subir el archivo y vuelva a intentarlo.',//'您的 config.inc.php 不存在, 无法继续安装, 请用 FTP 将该文件上传后再试。',
 );
 
-?>

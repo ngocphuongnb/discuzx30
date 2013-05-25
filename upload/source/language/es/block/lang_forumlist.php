@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'forumlist_fids'			=> 'Specified forum',//'指定版块',

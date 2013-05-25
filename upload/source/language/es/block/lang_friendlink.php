@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'friendlink_content'		=> 'Estilo de muestra',//'展示样式',

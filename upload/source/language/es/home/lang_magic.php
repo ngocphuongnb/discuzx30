@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'target_tid'		=> 'Objetivo ID del Tema',//'目标主题tid',

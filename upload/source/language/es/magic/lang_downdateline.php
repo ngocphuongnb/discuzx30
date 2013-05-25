@@ -8,6 +8,10 @@
  *      Translated to Spanish by razor007, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'downdateline_name'	=> 'Maquina del tiempo',//'时光机',

@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'doinglist_uids'		=> 'Usuario ID',//'用户UID',

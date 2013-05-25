@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'editor_switch_media'		=> 'WYSIWYG',//'切换到多媒体',
 	'editor_cut'			=> 'Cortar',//'剪切',

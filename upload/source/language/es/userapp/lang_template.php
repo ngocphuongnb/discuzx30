@@ -45,6 +45,8 @@ $lang = array (
 					<li>Si desea administrar su espacio, blogs, álbumes de fotos y la privacidad, por favor vaya a su perfil para la configuración de privacidad;</li>
 					<li>Si la aplicación está configurada por defecto, se asocian únicamente con la eliminación, pero aún así se mostrará después de la eliminación en la parte derecha de su menú.</li></ol>',
 	'open'			=> 'Abierto',//'展开',
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 
-?>

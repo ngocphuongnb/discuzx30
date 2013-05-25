@@ -8,10 +8,14 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'discuz_lang'		=> 'misc',
-
+	'contact'		=> 'Contacts:',//'联系方式:',
 	'anonymous'		=> 'Anónimo',//'匿名',
 	'anonymoususer'		=> 'Anónimo',
 	'guestuser'		=> 'Invitado',
@@ -52,14 +56,13 @@ $lang = array
 	'post_trade_transport_express'	=> 'Correo expreso',//'快递',
 	'post_trade_transport_virtual'	=> 'Virtual o no entrega',//'虚拟物品或无需邮递',
 	'post_trade_transport_physical'	=> 'CR (Contra Reembolso)',//'买家收到货物后直接支付给物流公司',
-//	'post_trade_locus'		=> 'Ubicación',//'所在地点',
+//vot	'post_trade_locus'		=> 'Ubicación',//'所在地点',
 	'post_trade_description'	=> 'Descripción del producto',//'商品描述',
 	'post_trade_pm_subject'		=> '[Negociar]',//'[议价]',
 	'post_trade_pm_buynum'		=> 'Comprar cantidad',//'购买数量',
 	'post_trade_pm_wishprice'	=> 'Precio estimado',//'我期望的价格是',
 	'post_trade_pm_reason'		=> 'Motivo de la negociación',//'我议价的理由是',
-
-	'postappend_content'		=> 'Añadir post',//'补充内容',
+	'postappend_content'		=> 'Add post',//'补充内容',
 	'payment_unit'			=> 'USD',//'元',
 
 	'attach'			=> 'Adjuntar',//'附件',
@@ -72,7 +75,7 @@ $lang = array
 	'attach_downloads'		=> 'Descargas',//'下载次数',
 
 	'post_trade_transport'		=> 'Transporte tarifa',//'邮费',
-//	'post_trade_transport_mail'	=> 'Correo postal',//'平邮',
+//vot	'post_trade_transport_mail'	=> 'Correo postal',//'平邮',
 	'post_trade_quality'		=> 'Tipo de producto',//'商品成色',
 	'post_trade_quality_new'	=> 'Nuevo',//'全新',
 	'post_trade_quality_secondhand'	=> 'de segunda mano',//'二手',
@@ -114,6 +117,8 @@ $lang = array
 	'credit_payment'		=> 'Puntos de recarga',//'积分充值',
 	'credit_forum_payment'		=> 'Recarga de puntos foro',//'论坛积分充值',
 	'credit_forum_royalty'		=> 'pagar por transacción',//'交易手续费',
+
+	'credit_total'			=> 'Total Points',//'总积分',
 
 	'invite_payment'		=> 'Comprar un código de invitación',
 	'invite_forum_payment'		=> 'Comprar un código de invitación',
@@ -177,6 +182,8 @@ $lang = array
 	'week_5'	=> 'Vie',//'星期五',
 	'week_6'	=> 'Sab',//'星期六',
 
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
 	'notice_actor'		=> ', y así sucesivamente. total: $actorcount personas',//'等 $actorcount 人',
 
 	'perms_allowvisit'		=> 'Acceder al foro',//'访问论坛',
@@ -210,7 +217,7 @@ $lang = array
 	'perms_maxattachsize'		=> 'Max adjuntar tamaño',//'单个最大附件尺寸',
 	'perms_maxsizeperday'		=> 'Max adjuntar tamaño por dayatta',//'每天最大附件总尺寸',
 	'perms_maxattachnum'		=> 'Número máximo de archivos adjuntos por día',//'每天最大附件数量',
-//	'perms_allowbioimgcode'		=> 'Usar [img] etiquetar sobre mi',//'自我介绍中使用 [img] 代码',
+//vot	'perms_allowbioimgcode'		=> 'Usar [img] etiquetar sobre mi',//'自我介绍中使用 [img] 代码',
 	'perms_attachextensions'	=> 'Tipo de adjunto',//'附件类型',
 	'perms_allowstickthread'	=> 'Tema pegado',//'主题置顶',
 	'perms_allowdigestthread'	=> 'Digiere',//'主题精华',
@@ -265,6 +272,11 @@ $lang = array
 	'perms_allowstat'		=> 'Ver estadísticas',//'允许查看趋势统计',
 	'perms_allowpostarticle'	=> 'Publicar artículo',//'发表文章',
 	'perms_raterange'		=> 'Permitir a la tasa',
+	'perms_allowcommentpost'	=> 'Allow to comment',//'允许参与点评',
+	'perms_allowat'			=> 'Allow the number of @name',//'允许 @ 的人数',
+	'perms_allowreplycredit'	=> 'Allow to set replies reward',//'允许设置回帖奖励',
+	'perms_allowposttag'		=> 'Allow to use tags',//'允许使用标签',
+	'perms_allowcreatecollection'	=> 'Allow to create collections',//'允许创建淘专辑的数量',
 	'perms_allowsendpm'		=> 'Permite el envío de PM',
 	'perms_maximagesize'		=> 'Tamaño máximo de una sola imagen',
 	'perms_allowmediacode'		=> 'Permitir el uso de código de multimedia',
@@ -275,10 +287,48 @@ $lang = array
 	'join_reward'		=> 'Ingresar Recompensa',//'参与悬赏',
 	'join_activity'		=> 'Ingresar Eventos',//'参与活动',
 	'join_debate'		=> 'Ingresar Debates',//'参与辩论',
+	'at_invite'		=> '@name for friends',//'@我的好友',
 
 	'lower'			=> 'menos que',//'低于',
 	'higher'		=> 'mayor que',//'高于',
 	'report_msg_your'	=> 'Su ',
 	'report_noreward'	=> 'no castigar a los premios',
+	'activity_viewimg'	=> 'Click to view',//'点击查看',
+
+	'crime_postreason'	=> '{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">Details</a>',//'{reason} &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="xi2">查看详情</a>',
+	'crime_reason'		=> '{reason}',
+
+	'connectguest_message_search'	=> array('Not logged in', 'Logged'),//array('尚未登录', '先登录'),
+	'connectguest_message_replace'	=> array('Not yet <a href="member.php?mod=connect">Improve current account</a> or <a href="member.php?mod=connect&ac=bind">Bind existing account</a>', 'You need to <a href="member.php?mod=connect">Improve account information</a> or <a href="member.php?mod=connect&ac=bind">Bind existing account</a> '),//array('尚未 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> ', '您需要先 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> '),
+	'connectguest_message_mobile_search'	=> array('Not logged in', 'Logged'),//array('尚未登录', '先登录'),
+	'connectguest_message_mobile_replace'	=> 'Provide your account information or Bind existing account, ',//'在电脑版完善资料或绑定已有帐号，',
+
+	'avatar'		=> 'Avatar',//'头像',
+	'signature'		=> 'Signature',//'签名',
+	'custom_title'		=> 'Custom Title',//'自定义头衔',
+
+	'forum_guide'		=> 'Guide',//'导读',
+
+	'patch_site_have'	=> 'Your site have',//'您的网站有',
+	'patch_is_fixed'	=> 'Security vulnerabilities, has been fixed',//'个安全漏洞，已修复',
+	'patch_need_fix'	=> 'Security vulnerabilities',//'个安全漏洞，请尽快修复',
+	'patch_fixed_status'	=> 'Fixed',//'已修复',
+	'patch_unfix_status'	=> 'NOT fixed',//'未修复',
+	'patch_fix_failed_status'	=> 'Repair failed',//'修复失败',
+	'patch_fix_right_now'	=> 'Repair right now',//'立即修复',
+	'patch_view_fix_detail'	=> 'Details',//'查看详情',
+	'patch_name'		=> 'Vulnerability',//'漏洞名称',
+	'patch_dateline'	=> 'Date',//'发布日期',
+	'patch_status'		=> 'Status',//'当前状态',
+	'patch_close'		=> 'Close',//'关闭',
+
+	'plugin_title'		=> 'Application update reminder',//'应用更新提醒',
+	'plugin_memo'		=> 'Updates available: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
+	'plugin_link'		=> 'Update Now',//'现在更新',
+
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

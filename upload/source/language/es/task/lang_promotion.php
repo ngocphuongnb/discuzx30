@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'promotion_name'				=> 'Foro promoción de tareas',//'站点推广任务',
@@ -16,4 +20,3 @@ $lang = array
 	'promotion_complete_var_iplimit_comment'	=> 'Para completar la tarea, a promover al menos este número de IP por día.',//'当日推广 IP 数大于或等于此设置，才能完成任务。',
 );
 
-?>

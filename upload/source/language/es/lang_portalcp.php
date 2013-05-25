@@ -8,6 +8,10 @@
  *      $Id: Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'block_diy_nopreview'		=> '<p>Este bloque contiene js, no se puede obtener una vista previa, por favor salve a la vista.</p>',//'<p>此模块内容包含js代码，不能立即预览，请点击保存后查看</p>',
 	'block_diy_summary_html_tag'	=> 'Errores de contenido personalizado, etiquetas HTML:',//'自定义内容错误，HTML标签：',

@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	0	=> 'Registrarse/Entrar',// '注册/登录',
@@ -21,4 +25,3 @@ $lang = array
 
 );
 
-?>

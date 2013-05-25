@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'cornerbanner_name'		=> 'Derecha de la esquina inferior de la publicidad Global',//'全局 右下角广告',

@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'threadlist_name'		=> 'Publicidad en el Foro/Grupo lista de post',//'论坛/群组 帖子列表帖位广告',

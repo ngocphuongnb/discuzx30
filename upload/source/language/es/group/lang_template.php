@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Valery Votintsev at sources.ru
+ *     $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
  *      Translated to Spanish by razor007, discuzhispano.com
  */
@@ -14,6 +14,7 @@ $lang = array (
 	'favorite'			=> 'Favoritos',//'收藏',
 	'group_admin'			=> 'Administrar Grupo',//'管理群组',
 	'group_create'			=> 'Crear Grupo',//'创建群组',
+/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
 	'group_discuss_area'		=> 'Grupo del foro',//'讨论区',
 	'group_has_joined'		=> 'Se unió a este grupo, pero esta en la espera de aprobación ..',//'已加入该群组，等待群主审核中...',
 	'group_join_group'		=> 'Unirme al grupo',//'加入群组',
@@ -37,11 +38,12 @@ $lang = array (
 	'choose_please'			=> 'Por favor, seleccione',//'请选择',
 	'create'			=> 'Crear',//'创建',
 	'group_category'		=> 'Categoria',//'所属分类',
+	'group_create_mod'		=> 'New pending groups',//'需要审核开通',
 	'group_create_new'		=> 'Crear un nuevo grupo',//'创建新群组',
 	'group_create_selete_categroy'	=> 'Seleccione la categoría del grupo',//'请选择群组分类',
 	'group_description'		=> 'Descripción del Grupo',//'群组简介',
+	'group_description_preview'	=> 'Preview',//'预览',
 	'group_name'			=> 'Título del grupo',//'群组名称',
-	'option_required'		=> 'Requerido',//'必选项',
 	'anonymous'			=> 'Anónimo',//'匿名',
 	'author'			=> 'Autor',//'作者',
 	'click_to_readmore'		=> 'Haga clic para ver más',//'点击查看更多话题',
@@ -98,6 +100,7 @@ $lang = array (
 	'group_icon'			=> 'Icono del grupo',//'群组图标',
 	'group_icon_resize'		=> 'El icono del grupo se cambiará automáticamente a 48 x 48 px',//'自动缩略成 48 X 48 像素大小的图片',
 	'group_image'			=> 'Imagen del grupo',//'群组顶部图片',
+	'group_image_filesize_advise'	=> 'Recommended to use images of size 730&times;150 for best results',//'建议使用尺寸为 730×150 的图片以取得最佳效果',
 	'group_image_filesize_limit'	=> 'Tamaño de archivo no debe ser mayor que $_G[setting][group_imgsizelimit] Kb',//'文件小于 $_G[setting][group_imgsizelimit] kb',
 	'group_input_password'		=> 'Porfavor , ingresar la contraseña',//'请输入登录密码',
 	'group_level_cannot_do'		=> 'A su grupo no se le permite utilizar esta función',//'目前你的群组等级不能使用此功能。',
@@ -144,6 +147,7 @@ $lang = array (
 	'friend_join_group'		=> 'Amigos se unieron a grupos',//'好友加入的群组',
 	'group'				=> 'Grupos',//'群组',
 	'group_thread'			=> 'Temas de grupo',//'群组话题',
+	'group_wait_mod'		=> 'Pending',//'待审核',
 	'hot_group'			=> 'Grupos en Hot',//'热门群组',
 	'last_post'			=> 'Ultimos post',//'最后发表',
 	'last_topic_in_group'		=> 'Nuevos temas (Ultimos 30 dias)',//'新话题(最近30天)',
@@ -201,10 +205,13 @@ $lang = array (
 	'orderby_default'		=> 'Orden predeterminado',//'默认排序',
 	'stats_main_threads_count'	=> 'Temas',//'主题数',
 	'threads'			=> 'Temas',//'主题',
-// Obsolete
-//	'group_image_resize'	=> 'La imagen se cambia de tamaño automáticamente para crear 644 X 150 px',//'自动缩略成 720 X 168 像素大小的图片',
-	'group_create_notice'	=> 'Nota: Puedes modificar los datos de otro grupo después de que el grupo que crea. Sin embargo, el nombre del grupo y la categoría no se pueden modificar más tarde.',//'注：除群组名称和分类暂时不能修改外，其它项目在创建完成后仍可修改。',
-	'replies/views'		=> 'Respuestas/Vistas',//'回复/查看',//vot
+/*!*/	'reply'				=> 'Reply',//'回复',
+/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
+/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
+/*!*/	'group_live_post'		=> 'Publish',//'发表',
+/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
+/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
+/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
+/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
 );
 
-?>

@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'post_name'				=> 'Foro puesto de trabajo',//'论坛帖子类任务',
@@ -34,4 +38,3 @@ $lang = array
 	'task_complete_act_newreply_author'	=> 'Respondió el tema de la "{value}" {num} veces.',//'回复作者“{value}”的主题 {num} 次。',
 );
 
-?>

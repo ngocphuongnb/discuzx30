@@ -8,6 +8,10 @@
  *      Translated to Spanish by razor007, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'namepost_name'			=> 'Publicar post como anonimo',//'帖子显身卡',

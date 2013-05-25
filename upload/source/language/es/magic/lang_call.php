@@ -8,6 +8,10 @@
  *      Translated to Spanish by razor007, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'call_name'	=> 'Carta de llamada',//'点名卡',

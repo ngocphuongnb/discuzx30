@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'subnavbanner_name'		=> 'Global Sub Navegación Anuncio',//'全局 页头二级导航栏广告',

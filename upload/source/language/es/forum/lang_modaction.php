@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -83,6 +87,9 @@ $lang = array
 	'MAG'	=> 'Magic',//'道具',
 
 	'REB'	=> 'Obtener promoción',//'推送',
+
+/*!*/	'LIV'	=> 'Live',//'直播',
+/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
 
 );
 

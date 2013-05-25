@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'piclist_picids'		=> 'Imágenes especificadas',//'指定图片',
@@ -26,7 +30,7 @@ $lang = array
 	'piclist_hours_month'		=> '1 mes',//'1月内',
 	'piclist_hours_year'		=> '1 año',//'1年内',
 	'piclist_titlelength'		=> 'Longitud del título',//'标题长度',
-	'piclist_titlelength_comment'	=> 'Establecer la longitud máxima del título de la imagen específica',//'指定图片标题最大长度',
+/*vot*/	'piclist_titlelength_comment'	=> 'Establecer la longitud máxima del título de la imagen específica',//'指定图片标题最大长度',
 	'piclist_orderby'		=> 'Ordenar por',//'图片排序方式',
 	'piclist_orderby_comment'	=> 'Establezca el resultado de ordenar',//'设置以哪一字段或方式对图片进行排序',
 	'piclist_orderby_dateline'	=> 'Momento posterior',//'按发布时间倒序',

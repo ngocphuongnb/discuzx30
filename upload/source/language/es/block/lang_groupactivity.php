@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'groupactivity_fids'			=> 'Grupo específico ID',//'制定群组',
@@ -99,4 +103,3 @@ $lang = array
 	'groupactivity_highlight'		=> 'Resalta las palabras encontradas',
 );
 
-?>

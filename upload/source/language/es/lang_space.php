@@ -8,6 +8,10 @@
  *      Translated to Spanish by razor007, discuzhispano.com     
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'hour'			=> 'Hora',//'小时',
 	'before'		=> 'hace',//'前',
@@ -98,7 +102,7 @@ $lang = array(
 	'block3'		=> 'Bloque personalizado 1 3',//'自定义模块3',
 	'block4'		=> 'Bloque personalizado 1 4',//'自定义模块4',
 	'block5'		=> 'Bloque personalizado 1 5',//'自定义模块5',
-	'blockdata'		=> array(
+/*vot*/	'blockdata'		=> array(
 		'personalinfo'	=> 'Informacion personal',//'个人资料',
 		'profile'	=> 'Perfil',//'个人资料',
 		'doing'		=> 'Doings',//'记录',
@@ -129,7 +133,7 @@ $lang = array(
 	'album_li'		=> '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, Updated {date}><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>Photos:({picnum})</span> <span>Updated {date}</span></li>',//'<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>图片数:({picnum})</span><span>更新 {date}</span></li>',
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} Respuestas ({replynum})',//'<li>{message}</li><br />{date} {from} 回复({replynum})',
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonymous"></div><p>Anonimo</p>',//'<div class="avatar48"><img src="image/magic/hidden.gif" alt="匿名"></div><p>匿名</p>',
-	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+/*!*/	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',//'<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="删除访问足迹"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -138,7 +142,7 @@ $lang = array(
 					<input type="hidden" name="id" value="{uid}" />
 					<input type="hidden" name="idtype" value="uid" />
 					<input type="hidden" name="commentsubmit" value="true" />' :
-					'<div class="pt hm">Usted tiene que logearse para poder continuar. <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">Login</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">Register</a></div>').'
+					($_G['connectguest'] ? '<div class="pt hm">You have to <a href="member.php?mod=connect" class="xi2">Improve the account information</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> before you can reply</div>' : '<div class="pt hm">You need to log in before you can <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">Login</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">Register</a></div>')).'
 					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>Enviar mensaje</strong></button></p>
 					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
 					<span id="return_commentwall_{uid}"></span>
@@ -175,6 +179,7 @@ $lang = array(
 	'block_profile_wall'		=> 'Mirar muro',//'查看留言',
 	'block_profile_avatar'		=> 'Editar avatar',//'编辑头像',
 	'block_profile_update'		=> 'Actualizar perfil',//'更新资料',
+	'block_profile_follow'		=> 'View Feed',//'查看广播',
 	'block_profile_wall_to_me'	=> 'Escribe en el muro',//'给我留言',
 	'block_profile_friend_add'	=> 'Agregar como amigo',//'加为好友',
 	'block_profile_friend_ignore'	=> 'Remover de amigos',//'解除好友',
@@ -236,6 +241,7 @@ $lang = array(
 	'doing_you_can'		=> 'Puede actualizar su doing , para que tus amigos sepan lo que está haciendo ...',//'你可以更新记录, 让好友们知道你在做什么...',
 	'block_profile_all'	=> '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">Ver todos los datos personales</a></p>',//'<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">查看全部个人资料</a></p>',
 	'block_profile_edit'	=> '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">Editar mi perfil</a></span>',//'<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">编辑我的资料</a></span>',
+	'sb_follow'		=> '{who} followings',//'{who}的广播',
 
 	'viewthread_userinfo_hour'	=> 'Horas',
 	'viewthread_userinfo_uid'	=> 'UID',
@@ -247,12 +253,41 @@ $lang = array(
 	'viewthread_userinfo_sharings'	=> 'Compartidos',
 	'viewthread_userinfo_friends'	=> 'Amigos',
 	'viewthread_userinfo_digest'	=> 'Compendios',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits'	=> 'Créditos',
 	'viewthread_userinfo_readperm'	=> 'Leer permisos',
 	'viewthread_userinfo_regtime'	=> 'Reg. tiempo',
 	'viewthread_userinfo_lastdate'	=> 'Ultima estrada',
 	'viewthread_userinfo_oltime'	=> 'Tiempo en linea',
+	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
+	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
+/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
+/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
+	'follow_view_follow'			=> 'I follow',//'我关注的',
+	'follow_view_special'			=> 'Special attention',//'特别关注',
+	'follow_view_other'			=> 'Following Hall',//'广播大厅',
+	'follow_view_feed'			=> '{who}\'s feed',//'{who}的广播',
+	'follow_view_thread'			=> '{who}\s threads',//'{who}的主题',
+	'follow_view_reply'			=> '{who}\s replies',//'{who}的回复',
+	'follow_view_profile'			=> '{who}\s Personal data',//'{who}的个人资料',
+	'follow_view_type_feed'			=> 'Follow',//'广播',
+	'follow_view_type_thread'		=> 'Threads',//'主题',
+	'follow_view_type_reply'		=> 'Reply',//'回帖',
+	'follow_view_type_profile'		=> 'Profile',//'个人资料',
+	'follow_view_type_follower'		=> 'Follower list',//'听众列表',
+	'follow_view_type_following'		=> 'Followings list',//'收听用户',
+	'follow_view_my_follower'		=> 'My followers',//'我的听众',
+	'follow_view_my_following'		=> 'My followings',//'我收听的人',
+	'follow_view_do_follower'		=> 'His followers',//'他的听众',
+	'follow_view_do_following'		=> 'His followings',//'他收听的人',
+	'follow_view_fulltext'			=> '... View full text',//'...查看全文',
+	'follow_retract'			=> 'Collapse',//'收起',
+	'follow_click_play'			=> 'Click to Play',//'点击播放',
+	'follow_cancle_follow'			=> 'Cancel follow',//'取消收听',
+	'follow_follow_ta'			=> 'Follow the author',//'收听TA',
+
 
 );
 
-?>

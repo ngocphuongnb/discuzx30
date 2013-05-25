@@ -8,6 +8,10 @@
  *	Translated to Spanish by razor007, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -100,10 +104,12 @@ $lang = array
 
 	'reason_quickclear'	=> 'Your {cleartype} was removed by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的{cleartype} 被 {actor} 清除 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
+/*!*/	'reason_live_update'	=> '{actor} added a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
+/*!*/	'reason_live_cancle'	=> '{actor} removed a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
+
 	'modthreads_delete'	=> 'Tu tema {threadsubject} no fue aprobada, y fue borrado! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_delete_reason' => 'Published by you thread {threadsubject} was not approved, and now has been deleted! <div class="quote"><blockquote>{reason}</blockquote></div>',//'您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
-
 	'modthreads_validate'	=> 'Tu tema <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> fue aprobado! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Haga clic aquí para verlo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> 已经审核通过！ &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modreplies_delete'	=> 'Su respuesta no fue aprobada, asi que ha sido borrada! <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表回复没有通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
@@ -116,10 +122,10 @@ $lang = array
 //	'addfunds' => '您提交的积分充值请求已完成，相应数额的积分已存入您的积分账户 &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看 &rsaquo;</a>
 //<p class="summary">订单号：<span>{orderid}</span></p><p class="summary">支出：<span>人民币 {price} 元</span></p><p class="summary">收入：<span>{value}</span></p>',
 	'addfunds'		=> 'Su solicitud para recargar puntos se finalizó con éxito, Correspondiente de la cantidad de puntos se han acreditado a su cuenta
-                		&nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Haga clic aquí para verlo &rsaquo;</a>.
+				&nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Haga clic aquí para verlo &rsaquo;</a>.
 				<p class="summary">Ordenar por numero: <span>{orderid}</span></p>
-                		<p class="summary">Pago: <span>{price} USD</span></p>
-                		<p class="summary">Puntos a solicitar: <span>{value}</span></p>',
+				<p class="summary">Pago: <span>{price} USD</span></p>
+				<p class="summary">Puntos a solicitar: <span>{value}</span></p>',
 
 	'rate_reason'		=> 'Su mensaje en el post <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> fue valorado {ratescore} por {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',//'你在主题 <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> 的帖子被 {actor} 评分 {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 

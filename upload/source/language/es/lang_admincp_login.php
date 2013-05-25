@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'login_title'		=> 'Entrar al Centro de Administración',//'登录管理中心',
@@ -38,4 +42,3 @@ $lang = array
 
 );
 
-?>

@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'article_name'			=> 'Anuncios portal del artículo',// '门户 文章广告',
@@ -21,4 +25,3 @@ $lang = array
 	'article_category_comment'	=> 'Establecer la categoría para mostrar anuncios',// '设置广告投放的频道分类',
 );
 
-?>
