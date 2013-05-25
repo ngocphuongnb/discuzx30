@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'avatar_name'	=> 'Avatar tarea',//'头像类任务',
@@ -19,4 +23,3 @@ $lang = array
 		</ul>',
 );
 
-?>

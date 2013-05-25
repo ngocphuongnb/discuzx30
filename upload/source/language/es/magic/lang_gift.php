@@ -8,6 +8,10 @@
  *      Translated to Spanish by razor007, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'gift_name'		=> 'Tarjeta de Red Envelope',//'红包卡',

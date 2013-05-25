@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'blog_name'	=> 'Nota de tareas de blog',//'发表日志任务',
@@ -19,4 +23,3 @@ $lang = array
 		</ul>',
 );
 
-?>

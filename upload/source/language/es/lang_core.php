@@ -8,10 +8,18 @@
  *	Translated to Spanish by razor007, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'nextpage'		=> 'Siguente',//'下一页',
 	'prevpage'		=> 'Atras',//'上一页',
+	'pageunit'		=> 'Pages',//'页',
+	'total'			=> 'Total',//'共',
+	'10k'			=> '10K',//'万',
+	'pagejumptip'		=> 'Enter the page number and press Enter for quick jump',//'输入页码，按回车快速跳转',
 	'date'	=> array(
 		'before'	=> 'hace',//'前',
 		'day'		=> 'Día',//'天',
@@ -34,10 +42,10 @@ $lang = array
 		6 => 'Sábado',//'周六',
 		7 => 'Domingo',//'周日',
 	),
-	'dot'	 	=> '. ',//'、',//!!!!!!!!!! Hay que añadir los espacios ?????????
+	'dot'		=> '. ',//'、',//!!!!!!!!!! Hay que añadir los espacios ?????????
 	'archive'	=> 'Archivo',//'存档',
-	'portal' 	=> 'Portal',//'文章',
-	'end'	 	=> 'Final',//'末尾',
+	'portal'	=> 'Portal',//'文章',
+	'end'		=> 'Final',//'末尾',
 
 	'seccode_image_tips'		=> 'Introduzca los caracteres de la imagen de abajo <br/>',//'输入下图中的字符<br />',
 	'seccode_image_ani_tips'	=> 'Introduzca los caracteres de la imagen animada en la más grande <br/>',//'输入下面动画图片中最大的字符<br />',
@@ -152,7 +160,7 @@ $lang = array
 	'title_memcp_privacy'		=> 'Privacidad',//'隐私筛选',
 	'title_memcp_avatar'		=> 'Modificar avatar',//'修改头像',
 	'title_memcp_profile'		=> 'Informacion personal',//'个人资料',
-//	'title_memcp_sendmail'		=> 'Alerta por emai',//'邮件提醒',
+//vot	'title_memcp_sendmail'		=> 'Alerta por emai',//'邮件提醒',
 	'title_memcp_credit'		=> 'Puntos',//'积分',
 	'title_memcp_friend'		=> 'Amigos',//'好友',
 	'title_memcp_usergroup'		=> 'Grupos del usuario',//'用户组',
@@ -174,7 +182,7 @@ $lang = array
 	'title_ranklist_group'		=> 'Rangos de grupo',//'群组排行',
 	'title_ranklist_app'		=> 'Ranking de aplicación',//'应用排行',
 	'title_ranklist_index'		=> 'Todos los Ranking',//'全部排行',
-//	'title_ranklist_index'		=> 'Rango',//'排行榜',
+	'title_ranklist_rankname'	=> 'Rango',//'排行榜',
 	'title_search'			=> 'Buscar',//'搜索',
 	'title_topic_management'	=> 'Gestionar tema',//'创建专题',
 	'title_portal_management'	=> 'Gestionar portal',//'门户管理',
@@ -200,11 +208,23 @@ $lang = array
 	'title_userapp_index_we'	=> 'Aplicaciones de amigos',//'好友在玩什么',
 	'title_userapp_index_me'	=> 'Mis aplicaciones',//'我在玩的',
 	'title_userapp_manage'		=> 'Gestionar aplicacion &quot;{userapp}&quot;',//'{userapp}管理',
+
+	'title_collection'		=> 'Collection',//'淘帖',
+	'title_collection_create'	=> 'Create collection',//'创建淘专辑',
+	'title_collection_edit'		=> 'Edit collection',//'编辑淘专辑',
+	'title_collection_comment_list'	=> 'Comment list',//'评论列表',
+	'title_collection_followers_list'	=> 'Followers',//'订阅用户列表',
+
 	'faq'				=> 'FAQ',//'帮助',
 	'search'			=> 'Buscar',//'搜索',
 	'page'				=> 'página {page}',
 
-//vot source/include/misc/misc_security.php
+	'close'				=> 'Close',//'关闭',
+
+//--------------------------------------------------------------------------
+// Added by Valery Votintsev
+
+//source/include/misc/misc_security.php
 	'attackevasive_1_subject'	=> 'Actualizar límite de frecuencia',
 	'attackevasive_1_message'	=> 'Usted visita el sitio demasiado rápido, menos de dos segundos! Por favor, espere un poco ...',
 	'attackevasive_2_subject'	=> 'Acceso a través de servidores proxy está restringido',
@@ -212,9 +232,8 @@ $lang = array
 	'attackevasive_4_subject'	=> 'Abra la recarga de la página',
 	'attackevasive_4_message'	=> 'Bienvenido a la página, la página se recarga, por favor espere ...',
 
-//vot Months Names
+// Months Names
 	'month_name'	=> array('Mes','Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'),
 
 );
 
-?>

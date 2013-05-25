@@ -8,6 +8,10 @@
  *      $Id: lang_activitylist.php Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'activitylist_fids'			=> 'Foros',//'所在版块',
@@ -96,4 +100,3 @@ $lang = array
 	'activitylist_highlight'		=> 'Resalta las palabras encontradas',
 );
 
-?>

@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'email_name'	=> 'Activar tarea de correo electrónico',//'验证邮箱任务',
@@ -20,4 +24,3 @@ $lang = array
 		</ul>',
 );
 
-?>

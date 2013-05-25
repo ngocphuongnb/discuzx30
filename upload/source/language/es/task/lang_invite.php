@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'invite_message'	=> '<p style="color:red;">Wow, Ya has invitado {count} amigos!</p><br>',//'<p style="color:red;">哇，厉害，您现在已经邀请了 {count} 个好友了。继续努力！</p><br>',
@@ -20,4 +24,3 @@ $lang = array
 
 );
 
-?>

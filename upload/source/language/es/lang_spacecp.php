@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 
 	'by'			=> 'Aceptado por',//'通过',
@@ -41,6 +45,7 @@ $lang = array(
 	'message_can_not_send_13'	=> 'Esto no es un mensaje de chat de grupo',//'这不是群聊消息',
 	'message_can_not_send_14'	=> 'Esto no es mensaje privado',//'这不是私人消息',
 	'message_can_not_send_15'	=> 'Datos erróneos',//'数据有误',
+	'message_can_not_send_16'	=> 'You have exceeded the maximum number of PM within 24 hours',//'您超出了24小时内发短消息数量的上限',
 	'message_can_not_send_onlyfriend'	=> 'El usuario puede recibir mensajes cortos sólo de amigos',//'该用户只接收好友发送的短消息',
 
 
@@ -205,7 +210,7 @@ $lang = array(
 	'do_stat_eventcomment'	=> 'Comentarios de eventos',//'活动评论',
 	'do_stat_eventjoin'	=> 'Evento se une a',//'参加活动',
 	'do_stat_sharecomment'	=> 'Comentarios compartidos',//'分享评论',
-//	'do_stat_post'		=> 'Respuestas',//'主题回帖',
+//vot	'do_stat_post'		=> 'Respuestas',//'主题回帖',
 	'do_stat_click'		=> 'Pegar',//'表态',
 	'do_stat_wall'		=> 'Muro',//'留言',
 	'do_stat_poke'		=> 'Saludos',//'打招呼',
@@ -214,6 +219,7 @@ $lang = array(
 	'do_stat_friend'	=> 'Hazte amigos',//'成为好友',
 	'do_stat_post_number'	=> 'Número de mensajes',//'发帖量',
 	'do_stat_statistic'	=> 'Estadísticas combinadas',//'合并统计',
+/*!*/	'logs_credit_update_INDEX'	=> array('TRC','RTC','RAC','MRC','BMC','TFR','RCV','CEC','ECU','SAC','BAC','PRC','RSC','STC','BTC','AFD','UGP','RPC','ACC','RCT','RCA','RCB','CDC','RGC','BGC','AGC','RKC','BME','RPR','RPZ','FCP','BGC'),
 	'logs_credit_update_TRC'	=> 'Tarea recompensa',//'任务奖励',
 	'logs_credit_update_RTC'	=> 'Recompensa de tema',//'悬赏主题',
 	'logs_credit_update_RAC'	=> 'Premio a la mejor respuesta',//'最佳答案',
@@ -237,11 +243,17 @@ $lang = array(
 	'logs_credit_update_RCA'	=> 'Respuestas ganadoras',//'回帖中奖',
 	'logs_credit_update_RCB'	=> 'Volver premio de respuestas',//'返还回帖奖励积分',
 	'logs_credit_update_CDC'	=> 'Recarga de tarjeta secreta',//'卡密充值',
-
 	'logs_credit_update_RGC'	=> 'Retire Regalo',//'回收红包',
 	'logs_credit_update_BGC'	=> 'Volver Regalo',//'埋下红包',
 	'logs_credit_update_AGC'	=> 'Recibe regalos',//'获得红包',
 	'logs_credit_update_RKC'	=> 'Oferta rango',//'竞价排名',
+	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
+	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
+	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
+/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
+/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
+	'logs_credit_update_reward_clean'	=> 'Clean',//'清零',
 	'logs_select_operation'		=> 'Por favor, seleccione el tipo de operación',//'请选择操作类型',
 	'task_credit'			=> 'Puntos de recompensa de tareas',//'任务奖励积分',
 	'special_3_credit'		=> 'Tema puntos de recompensa deducción',//'悬赏主题扣除积分',
@@ -265,6 +277,8 @@ $lang = array(
 	'thread_credit2'		=> 'Puntos usados ​​para el acceso al tema',//'主题支出积分',
 	'buy_credit'			=> 'Recarga puntos',//'对积分充值',
 	'buy_usergroup'			=> 'Gastar puntos para comprar el acceso al grupo',//'购买扩展用户组支出积分',
+	'buy_medal'			=> 'Buy Medal',//'购买勋章',
+/*!*/	'buy_forum'			=> 'Buy a paid forum access permissions',//'购买付费版块的访问权限',
 	'report_credit'			=> 'Informe de la función de premios y castigos',//'举报功能中的奖惩',
 	'join'				=> 'Unirse',//'参与',
 	'activity_credit'		=> 'Actividad puntos deducidos',//'活动扣除积分',
@@ -276,6 +290,8 @@ $lang = array(
 	'replycredit_thread'		=> 'Crear puntos de tema',//'散发的帖子',
 	'card_credit'			=> 'Puntos obtenidos con tarjeta de recarga',//'卡密充值获得的积分',
 	'ranklist_top'			=> 'Gastar puntos para participar en el ranking de la oferta',//'参加竞价排名消费积分',
+	'admincp_op_credit'		=> 'Credit rewards and punishments operations',//'后台积分奖惩操作',
+	'credit_update_reward_clean'	=> 'Clean',//'清零',
 
 	'profile_unchangeable'		=> 'Esta información no pudo ser editado después de presentar',//'此项资料提交后不可修改',
 	'profile_is_verifying'		=> 'Esta información está verificando',//'此项资料正在审核中',
@@ -286,12 +302,32 @@ $lang = array(
 	'profile_verify_modify_error'	=> 'La {verify} fue certificado. Modificación está desactivado.',//'{verify}已经认证通过不允许修改',
 	'profile_verify_verifying'	=> 'Su {verify} información se ha enviado, por favor espere para la verificación.',//'您的{verify}信息已提交，请耐心等待核查。',
 
-//'district_level_0'		=> '- País -',//'-国家-',
 	'district_level_1'		=> '- País -',//'-国家-',
 	'district_level_2'		=> '- Región -',//'-省份-',
 	'district_level_3'		=> '- Ciudad -',//'-城市-',
 	'district_level_4'		=> '- Condado/Pueblo -',//'-州县/乡镇-',
 	'invite_you_to_visit'		=> '{user} Los invitamos a {bbname}',//'{user}邀请您访问{bbname}',
+//vot	'district_level_0'		=> '- País -',//'-国家-',
+	'portal'		=> 'Portal',//'门户',
+	'group'			=> 'Groups',//'群组',
+	'follow'		=> 'Follow',//'广播',
+	'collection'		=> 'Collection',//'淘帖',
+	'guide'			=> 'Guide',//'导读',
+	'feed'			=> 'Feeds',//'动态',
+	'blog'			=> 'Blogs',//'日志',
+	'doing'			=> 'Doings',//'记录',
+	'wall'			=> 'Wall',//'留言板',
+	'homepage'		=> 'Personal Space',//'个人主页',
+	'ranklist'		=> 'RankList',//'排行榜',
+	'select_the_navigation_position'	=> 'Select {type} navigation position',//'选择{type}导航位置',
+	'close_module'		=> 'Close the {type} module',//'关闭{type}功能',
+
+	'follow_add_remark'		=> 'Add remark',//'添加备注',
+	'follow_modify_remark'		=> 'Edit remark',//'修改备注',
+	'follow_specified_group'	=> 'Follow specified group',//'广播专区',
+	'follow_specified_forum'	=> 'Follow specified forum',//'广播专版',
+
+	'filesize_lessthan'		=> 'File size should be less than ',//'文件大小应该小于',
 
 	'spacecp_message_prompt'	=> '(el apoyo {msg} código, con un máximo de 1000 caracteres)',//'(支持 {msg} 代码,最大 1000 字)',
 	'card_update_doing'		=> ' <a class="xi2" href="###">[actualizar acciones]</a>',//' <a class="xi2" href="###">[更新记录]</a>',
@@ -299,7 +335,8 @@ $lang = array(
 						<span class="xi1">Nuevo correo electrónico ({newemail}) esperar para la validación ...</span><br />
 						El sistema ha enviado un mensaje de verificación a usted, por favor revise su buzón de correo para activar este e-maill.<br>
 						Si usted no recibió el mensaje de verificación, puede sustituir a un buzón de correo, o <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Vuelva a enviar el mensaje de verificación</a>',
+	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
-?>

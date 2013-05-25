@@ -6,6 +6,10 @@
  *      $Id: lang_flicker.php by Valery Votintsev at sources.ru
  *      Translated to Spanish by razor007, discuzhispano.com
  */
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
 $lang = array
 (
 	'flicker_name'		=> 'Flicker',//'彩虹炫',

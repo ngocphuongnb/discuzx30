@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'friend_name'	=> 'Añadir 5 amigos',//'添加好友任务',
@@ -20,4 +24,3 @@ $lang = array
 		</ul>',
 );
 
-?>

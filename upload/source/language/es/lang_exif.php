@@ -8,6 +8,10 @@
  *	Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 
 	'unknown'		=> 'Desconocido',//'未知',
@@ -95,4 +99,3 @@ $lang = array(
 	'ThumbMimeType'		=> 'Tipo de miniatura Mime',//'缩略图Mime格式'
 );
 
-?>

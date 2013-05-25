@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'System Message'		=> 'Configuración la base del sitio',//'站点信息',
@@ -37,6 +41,4 @@ $lang = array
 	'file_upload_error_-103'	=> 'Subida falló! No se puede escribir en el archivo o escribir falla, vuelva.',//'上传失败！无法写入文件或写入失败，请返回。',
 	'file_upload_error_-104'	=> 'Subida falló! Formato de archivo de imagen no reconocido, por favor regrese.',//'上传失败！无法识别的图像文件格式，请返回。',
 );
-//	'db_error'			=> '<b>$message</b>$errorno<br />$info $sql<br /><a href="$helplink" target="_blank">Haga clic aquí para obtener ayuda</a><br /><br />',//'<b>$message</b>$errorno<br />$info$sql<br /><a href="$helplink" target="_blank">点击这里寻求帮助</a><br /><br />',
 
-?>

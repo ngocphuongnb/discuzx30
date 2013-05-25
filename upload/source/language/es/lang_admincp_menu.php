@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -29,7 +33,7 @@ $lang = array
 	'header_portal'		=> 'Portal',//'门户',
 	'header_group'		=> 'Grupos',//'群组',
 	'header_founder'	=> 'Administradores',//'站长',
-	'header_addons'		=> 'Addons',//'扩展中心',
+	'header_cloudaddons'	=> 'Addons',//'扩展中心',
 
 
 	'menu_home'			=> 'Centro de Admin',//'管理中心首页',
@@ -52,22 +56,27 @@ $lang = array
 	'menu_setting_imgwater'		=> 'Watermark',//'水印设置',
 	'menu_setting_uc'		=> 'Configuración UCenter',//'UCenter 设置',
 	'menu_setting_uchome'		=> 'Configuración UCHome',//'UCHome 设置',
+	'menu_setting_follow'		=> 'Follows',//'广播设置',
 	'menu_setting_home'		=> 'Configuración del espacio',//'空间设置',
 	'menu_setting_search'		=> 'Configuración de búsqueda',//'搜索设置',
 	'menu_setting_district'		=> 'Regiones',//'地区设置',
 	'menu_setting_ranklist'		=> 'Lista de Rangos',//'排行榜设置',
 	'menu_setting_mobile'		=> 'Acceso Móvil',//'手机访问设置',
 	'menu_setting_tag'		=> 'Etiquetas',//'标签管理',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'			=> 'Foros',//'版块管理',
 	'menu_forums_merge'		=> 'Foros fusión',//'版块合并',
 	'menu_forums_threadtypes'	=> 'Tipos de temas',//'主题分类',
 	'menu_forums_infotypes'		=> 'Tipos de Foros',//'分类信息',//vot: !!! May be 'Sort IDs',/'Category(ies)',/
 	'menu_forums_infooption'	=> 'Tipos de opciones',//'分类信息选项',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'		=> 'Agregar usuario',//'添加用户',
 	'menu_members_edit'		=> 'Editar usuario',//'用户管理',
 	'menu_members_newsletter'	=> 'Boletines',//'发送通知',
+	'menu_members_mobile'		=> 'Send phone notification',//'发送手机通知',
+	'menu_usertag'			=> 'User Tags',//'用户标签',
 	'menu_members_edit_ban_user'	=> 'Ban Usuario',//'禁止用户',
 	'menu_members_ipban'		=> 'Ban IP',//'禁止 IP',
 	'menu_members_credits'		=> 'Puntos de premio',//'积分奖惩',
@@ -79,7 +88,7 @@ $lang = array
 	'menu_profilefields'		=> 'Campos de perfil',//'用户栏目定制',
 	'menu_admingroups'		=> 'Grupos de administración',//'管理组',
 	'menu_usergroups'		=> 'Grupos de usuarios',//'用户组',
-	'menu_hotuser'			=> 'Miembros Hot',//'明星会员',
+	'menu_follow'			=> 'Follows',//'推荐关注',
 	'menu_defaultuser'		=> 'Usuarios por defecto',//'推荐好友',
 
 	'menu_moderate_posts'		=> 'Mensajes moderación',//'审核帖子',
@@ -96,6 +105,7 @@ $lang = array
 	'menu_maint_threads_group'	=> 'Moderar Temas de grupos',//'群组主题管理',
 	'menu_maint_prune_group'	=> 'Grupo lotes de mensajes Eliminar',//'群组批量删帖',
 	'menu_maint_attaches_group'	=> 'Moderar Adjuntos del grupo',//'群组附件管理',
+	'menu_setting_collection'	=> 'Collections',//'淘帖管理',
 	'menu_posting_tags'		=> 'Administrar Etiquetas',//'标签管理',
 	'menu_posting_censors'		=> 'Filtro de mala palabra',//'词语过滤',
 	'menu_maint_report'		=> 'Informes de usuarios',//'用户举报',
@@ -104,6 +114,7 @@ $lang = array
 	'menu_postcomment'		=> 'Administrar envío de comentarios',//'帖子点评管理',
 	'menu_maint_doing'		=> 'Administrar Obras',//'记录管理',
 	'menu_maint_blog'		=> 'Administrar Blogs',//'日志管理',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'Administrar Fuentes',//'动态管理',
 	'menu_maint_album'		=> 'Administrar Álbumes',//'相册管理',
 	'menu_maint_pic'		=> 'Administrar Imágenes',//'图片管理',
@@ -119,6 +130,10 @@ $lang = array
 	'menu_founder_groupperm'	=> 'Editar permisos de grupo - {group}',//'编辑团队职务权限 - {group}',
 	'menu_founder_permgrouplist'	=> 'Editar permisos - {perm}',//'编辑权限 - {perm}',
 	'menu_founder_memberperm'	=> 'Editar permisos de los miembros - {username}',//'编辑团队成员 - {username}',
+
+	'menu_patch'			=> 'Security Center',//'安全中心',
+	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons'			=> 'Addons',//'扩展中心',
 	'menu_plugins'			=> 'Plugins',//'插件',
@@ -152,11 +167,13 @@ $lang = array
 	'menu_tools_relatedtag'		=> ' Etiquetas relacionadas',//' 标签聚合',
 	'menu_tools_creditwizard'	=> 'Puntos del asistente',//'积分策略向导',
 	'menu_tools_fileperms'		=> 'Permisos de archivos',//'文件权限检查',
+	'menu_tools_hookcheck'		=> 'Check Hooks',//'嵌入点校验',
 	'menu_tools_filecheck'		=> 'Comprobación de archivos',//'文件校验',
 	'menu_forum_scheme'		=> 'Sitio Programa de esquema',//'站点方案管理',
 	'menu_db'			=> 'Base de datos',//'数据库',
 	'menu_postsplit'		=> 'Mensajes Divididas',//'帖子分表',
 	'menu_threadsplit'		=> 'Tablas de Tema',//'主题分表',
+	'menu_membersplit'		=> 'User tables',//'用户表优化',
 	'menu_logs'			=> 'Anotar archivos',//'运行记录',
 	'menu_custommenu_manage'	=> 'Menú personalizado',//'常用操作管理',
 	'menu_misc_cron'		=> 'Programador cron',//'计划任务',
@@ -167,8 +184,10 @@ $lang = array
 	'menu_albumcategory'		=> 'Categorías del Album',//'相册分类',
 	'menu_block'			=> 'Administrar bloques',//'模块管理',
 	'menu_blockstyle'		=> 'Estilos de bloques',//'模块样式',
+	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> 'Terceros bloques',//'第三方模块',
 	'menu_topic'			=> 'Administrar temas',//'专题管理',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'		=> 'Estilos de administración personalizada',//'DIY页面管理',
 
 	'menu_group_setting'		=> 'Configuración del grupo',//'群组设置',
@@ -176,12 +195,14 @@ $lang = array
 	'menu_group_manage'		=> 'Administrar grupo',//'群组管理',
 	'menu_group_userperm'		=> 'Permisos de usuarios del grupo',//'群主权限',
 	'menu_group_level'		=> 'Nivel del grupo',//'群组等级',
+	'menu_group_mod'		=> 'Group moderation',//'审核群组',
 
 	'menu_setting_manyou'		=> 'Manyou ajustes',//'Manyou 设置',
 	'menu_setting_qqconnect'	=> 'QQ configuración de enlace',//'QQ 绑定设置',
 
-	'admincp_title'			=> $_G['setting']['bbname'].' Centro de Admin',//$_G['setting']['bbname'].' 管理中心',
+	'admincp_title'			=> $_G['setting']['bbname'].' Admin Center',//$_G['setting']['bbname'].' 管理中心',
 
+// Added by Valery Votintsev
+	'menu_setting_language'		=> 'Languages',
 );
 
-?>

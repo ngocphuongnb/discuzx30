@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'connect_bind_name'	=> 'Enlazar QQ cuenta',//'QQ 帐号绑定任务',
@@ -26,4 +30,3 @@ $lang = array
 		</ul>',
 */
 
-?>

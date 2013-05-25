@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'friend_group_default'	=> 'Otros',//'其他',
 	'friend_group_1'	=> 'Desde el sitio',//'通过本站认识',
@@ -22,4 +26,3 @@ $lang = array(
 //	'friend_group_0'	=> 'Otros',//'其他',
 );
 
-?>

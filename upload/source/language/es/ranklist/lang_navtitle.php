@@ -9,6 +9,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'ranklist_title_member_credit'	=> 'Top puntos',//'用户积分排行',
 	'ranklist_title_member_bid'	=> 'Top ofertas',//'用户竞价排行',
@@ -69,4 +73,3 @@ $lang = array(
 	'ranklist_title_app_all'	=> 'Las aplicaciones más populares',//'最流行应用',
 );
 
-?>

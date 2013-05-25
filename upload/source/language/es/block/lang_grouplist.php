@@ -8,6 +8,10 @@
  *      Translated to Spanish by jhoxi, discuzhispano.com
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'grouplist_gtids'			=> 'Categorías de grupo',//'群组类别',
@@ -17,7 +21,7 @@ $lang = array
 	'grouplist_startrow'			=> 'Primera fila',//'起始数据行数',
 	'grouplist_startrow_comment'		=> 'Si usted necesita para establecer la fila de inicio, por favor, introduzca un número, 0 es la primera fila',//'如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
 	'grouplist_titlelength'			=> 'Longitud del título',//'名称长度',
-	'grouplist_titlelength_comment'		=> 'Establecer la longitud máxima del nombre del grupo',//'设置群组名称最大长度',
+/*vot*/	'grouplist_titlelength_comment'		=> 'Establecer la longitud máxima del nombre del grupo',//'设置群组名称最大长度',
 	'grouplist_summarylength'		=> 'Resumen de la longitud',//'介绍长度',
 	'grouplist_summarylength_comment'	=> 'Establecer la longitud máxima de resumen del grupo',//'设置群组介绍最大长度',
 	'grouplist_orderby'			=> 'Ordenar por',//'群组排序方式',
