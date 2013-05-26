@@ -66,6 +66,7 @@ $lang = array (
 	'article_validate_category'	=> 'Выберите категорию',
 	'article_validate_has_added'	=> 'Статья была добавлена',
 	'article_validate_noexist'	=> 'Указанная статья не найдена',
+/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
 	'article_validate_title'	=> 'Неверная длина заголовка (должна быть в пределах 1 ~ 80 символов)',
 	'grab'				=> 'Сграбить',
 	'ignore'			=> 'Игнорировать',
@@ -310,6 +311,10 @@ $lang = array (
 	'view_publisher'		=> 'Разместил',
 	'view_related'			=> 'Похожие статьи',
 	'view_views'			=> 'Просмотров',
+/*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
+/*!*/	'next_article'			=> 'Next:',//'下一篇：',
+/*!*/	'display_order'			=> 'Display order',//'显示位置',
+/*!*/	'filename'			=> 'File name',//'文件名',
 
 // Added by Valery Votintsev
 	'select_all'	=> 'Выбрать все',//'全选',

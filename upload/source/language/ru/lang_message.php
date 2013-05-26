@@ -1,6 +1,6 @@
 <?php
 
-/**---
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -219,6 +219,7 @@ $lang = array (
 	'login_succeed'			=> 'Здравствуйте, {usergroup} {username}',
 	'login_strike'			=> 'Много попыток подбора пароля! Пожалуйста, войдите снова через 15 минут',
 	'logout_succeed'		=> 'Выход успешно завершен. ВОзвращаемся на предыдущую страницу в роли госты.<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Очистить Cookies ]</a> {ucsynlogout} ',
+/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
 	'register_activation_invalid'	=> 'Ошибка активации, попробуйте перелогиниться и повторить активацию',
 	'profile_username_tooshort'	=> 'Имя пользователя не должно быть короче трех символов.',
 	'profile_username_toolong'	=> 'Имя пользователя не должно быть длиннее 15 символов.',
@@ -261,6 +262,8 @@ $lang = array (
 
 	'forum_passwd_incorrect'	=> 'Введён неверный пароль, доступ к данному форуму запрещён.',
 	'forum_passwd_correct'		=> 'Пароль верный. Преходим к списку тем...',
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
 	'group_rediret_now'		=> 'Переходим на страницу сообщества',
 	'group_verify'			=> '{_G/setting/navs/3/navname} is under verifying',//'{_G/setting/navs/3/navname}正在审核中',
@@ -271,6 +274,7 @@ $lang = array (
 	'group_exit_founder'		=> 'Основатель сообщества не может выйти из сообщества!',
 	'group_exit_succeed'		=> 'Вы успешно вышли из сообщества!',
 	'group_create_usergroup_failed'	=> 'Вашей группе не разрешено создавать сообщества',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
 	'group_create_max_failed'	=> 'Превышен лимит на количество создаваемых сообществ.',
 	'group_category_error'		=> 'Неверно выбрана категория',
 	'group_create_mod_succeed'	=> 'Create {_G/setting/navs/3/navname} application is submitted, We will try to verify it as soon as possible',//'创建{_G/setting/navs/3/navname}的申请已经提交，我们会尽快进行审核',
@@ -365,8 +369,8 @@ $lang = array (
 	'recommend_self_disallow'	=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Вы не можете рейтинговать свои сообщения',
 	'recommend_duplicate'		=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Вы уже оценивали данную тему!',
 	'recommend_outoftimes'		=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Исчерпан лимит рейтинга на сегодня',
-	'recommend_daycount_succed'	=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />Исчерпан суточный лимит на рейтинг: {daycount} раз',
-	'recommend_succed'		=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+	'recommend_daycount_succeed'	=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />Исчерпан суточный лимит на рейтинг: {daycount} раз',
+	'recommend_succeed'		=> 'Рейтинг: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
 	'thread_poll_voter_isnull'	=> 'No one have voted this poll, You can not add tags.',//'暂时还没有人参与投票，不能添加标签。',
 	'thread_activityapply_isnull'	=> 'Temporarily no one participated in activity, can not add tags.',//'暂时还没有人参加活动，不能添加标签。',
 	'forum_usertag_set_continue'	=> 'Total {count} users, now set from {limit} to {next} users, please wait ',//'共 {count} 个用户，正在设置 {limit} 至 {next} 个用户，请稍候 ',
@@ -464,6 +468,9 @@ $lang = array (
 
 	'faq_content_empty'		=> 'Указанной страницы справки не существует',
 	'faq_keywords_empty'		=> 'Вы не указали ключевое слово для поиска',
+
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
 
 	'imagepreview_errorcode_0'	=> 'The image does not meet the processing conditions, can not be processed',//'图片不符合处理条件，无法处理',
 	'imagepreview_errorcode_-1'	=> 'Invalid image, can not handle',//'无效的图片，无法处理',
@@ -572,6 +579,7 @@ $lang = array (
 	'recommend_expiration_invalid'	=> 'Неверный формат даты! Правильный формат: “yyyy-mm-dd hh:mm”',
 
 	'members_edit_succeed'		=> 'Информация о пользователе успешно обновлена.',
+/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
 	'modcp_member_ban_succeed'	=> 'Пользователь успешно забанен.',
 
 	'modcp_noaction'		=> 'Вы должны указать действие',
@@ -650,7 +658,7 @@ $lang = array (
 	'post_reply_succeed'			=> 'Ваш ответ добавлен. Переходим на страницу темы...<br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ Перейти к списку тем ]</a>',
 	'trade_add_succeed'			=> 'Товар успешно добавлен. Переходим к странице товара...<br /><a href="forum.php?mod=post&action=reply&fid={fid}&tid={tid}&addtrade=yes">[ Нажмите здесь, чтобы добавить товар ]</a><br /><a href="forum.php?mod=forumdisplay&fid={fid}">[ Перейти к списку тем ]</a>',
 
-/*!!!*/	'postperm_login_nopermission_mobile'	=> 'У вас нет прав для размещения сообщений на форуме <a href="member.php?mod=logging&action=login&referer={referer}&mobile=yes">Войти</a>',
+/*!*/	'postperm_login_nopermission_mobile'	=> 'У вас нет прав для размещения сообщений на форуме <a href="member.php?mod=logging&action=login&referer={referer}&mobile=yes">Войти</a>',
 	'post_sort_isnull'			=> 'Вы не выбрали тему категории',
 	'post_poll_inputmore'			=> 'Вы должны заполнить, по крайней мере, два варианта голосования',
 	'poll_maxchoices_expiration_invalid'	=> 'К сожалению голосование ограничено',
@@ -704,6 +712,7 @@ $lang = array (
 	'memcp_credits_card_msg_cleardateline_early'	=> 'К сожалению, срок действия купона истек!',
 	'memcp_credits_card_msg_succeed'	=> 'Купон успешно использован! Ваш счет пополнен на: <span class="xi1">{extcreditsval}{extcreditstitle}</span>.',
 	'memcp_credits_addfunds_msg_incorrect'	=> 'Вы не ввели суммы',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
 	'credits_addfunds_amount_invalid'	=> 'Вы покупаете количество баллов, которое попадает под минимальное или максимальное значение: {ec_maxcredits} / {ec_mincredits}',
 	'memcp_credits_transfer_msg_self_incorrect'	=> 'Вы не можете передавать сам себе',
 	'credits_transfer_balance_insufficient'	=> '{title} не были отправлены. Ваш баланс меньше {minbalance}',
@@ -1049,6 +1058,14 @@ $lang = array (
 	'magics_credit_message'		=> 'Поздравлем вас с получением баллов: {credit}',
 
 	'magics_thunder_message'	=> '{magicname} успешно размещен!',
+
+/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
+/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
+/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'Operation timeout or data source error',//'操作超时或者数据来源错误',

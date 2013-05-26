@@ -62,12 +62,14 @@ $lang = array
 	'menu_setting_ranklist'		=> 'Топ-Лист',
 	'menu_setting_mobile'		=> 'Мобильный доступ',
 	'menu_setting_tag'		=> 'Теги',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'			=> 'Управление разделами форума',
 	'menu_forums_merge'		=> 'Слияние разделов',
 	'menu_forums_threadtypes'	=> 'Категории тем',
 	'menu_forums_infotypes'		=> 'Типы разделов',
 	'menu_forums_infooption'	=> 'Типы опций',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'		=> 'Добавить',
 	'menu_members_edit'		=> 'Редактировать',
@@ -111,6 +113,7 @@ $lang = array
 	'menu_postcomment'		=> 'Комментарии к сообщениям',
 	'menu_maint_doing'		=> 'Настроения',
 	'menu_maint_blog'		=> 'Блоги',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'Лента активности',
 	'menu_maint_album'		=> 'Альбомы',
 	'menu_maint_pic'		=> 'Изображения',
@@ -129,6 +132,7 @@ $lang = array
 
 	'menu_patch'			=> 'Security Center',//'安全中心',
 	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons'			=> 'Дополнения',
 	'menu_plugins'			=> 'Плагины',
@@ -182,6 +186,7 @@ $lang = array
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> 'Сторонние блоки',
 	'menu_topic'			=> 'Темы',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'		=> 'DIY шаблоны',//'DIY页面管理',
 
 	'menu_group_setting'		=> 'Настройки',
