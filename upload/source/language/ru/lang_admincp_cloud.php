@@ -305,6 +305,8 @@ $extend_lang = array
 	'qqgroup_setting_tips'			=> '<li>If the function "Push to QQ group" is enabled at the Topic View page, You can post immediately pushed to the QQ group chat box.</li><li><img src="static/image/admincp/cloud/feed.png" align="left"></li>',//'<li>主题查看页的“推送到QQ群”功能，可将帖子即时推送到QQ群聊天框。</li><li><img src="static/image/admincp/cloud/feed.png" align="left"></li>',
 
 	'security_member_list'		=> 'Violation users',//'违规用户',
+/*!*/	'security_member_tips'		=> '<li>The offending user from waterproof wall posting users identified as spam, does not contain a whitelist users.</li><li>"Ignore this" Operation from the violation omitted from the list specified user, If the user again violation will still be added to the list of illegal users.</li>',//'<li>违规用户来自于防水墙识别为垃圾帖的发帖用户，不包含白名单用户。</li><li>“忽略本次”操作将从违规列表中忽略指定用户，如果用户再次违规仍将会被加入违规用户列表。</li>',
+/*!*/	'security_member_ignore_this'	=> 'Ignore this',//'忽略本次',
 	'security_thread_list'		=> 'Violations threads',//'违规主题',
 	'security_post_list'		=> 'Violation Replies',//'违规回帖',
 	'security_members_name'		=> 'User name',//'用户名',
@@ -359,7 +361,11 @@ $extend_lang = array
 	'security_thread_status'		=> 'Thread status',//'主题状态',
 	'security_post_status'			=> 'Replies status',//'回帖状态',
 	'security_thread_member'		=> 'User status',//'用户状态',
+/*!*/	'security_thread_member_group'		=> 'User group',//'用户组',
+/*!*/	'security_cron_lastpost'		=> 'Update Forums Last Post (Waterproof wall related)',//'更新版块最后发表(防水墙相关)',
+/*!*/	'security_cron_daily'			=> 'Waterproof wall daily optimization',//'防水墙每日优化',
 	'setting_update_succeed'		=> 'Current settings updated successfully',//'当前设置更新成功',
+/*!*/	'security_createtime'			=> 'Create time',//'违规日期',
 
 	'search_menu_setting'			=> 'Settings',//'设置',
 	'search_menu_service'			=> 'Functional configuration',//'功能配置',

@@ -268,6 +268,9 @@ $lang = array (
 	'founder_perm_gperm_update_succeed'	=> 'Права команды успешно обновлены',
 	'founder_perm_notifyusers_succeed'	=> 'Управление уведомлением для получателя успешно установлено ',
 
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
+
 	'group_status_off'		=> 'Включите функцию группы, и теперь перейти на страницу настройки группы',
 	'group_update_succeed'		=> 'Настройки категорий групп успешно обновлены',
 	'grouptype_delete_succeed'	=> 'Категория успешно удалена',
@@ -457,6 +460,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> 'Отсутствуют файлы шрифтов (ttf) для проверочного кода (капчи). Пожалуйста, загрузите файлы шрифтов в каталог {path}',
 	'forum_name_duplicate'			=> 'Измените название, измените!',
 	'alipay_ratio_invalid'			=> 'Введенный коэффициент наличных менее 0 баллов',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
 	'ftp_password_short'			=> 'Слишком короткий пароль (мее 3 символов)',
 	'cachethread_dir_noexists'		=> 'Указанный каталог {cachethreaddir} не существует или отсутствуют права на запись (надо: 777)!',
 	'ranklistcache_update'			=> 'Кэш списка файлов был обновлен',
@@ -555,8 +559,8 @@ $lang = array (
 	'upgrade_continue'			=> 'The last time you upgraded to {step}, Please continue to complete the upgrade',//'您上次升级到 {step}，请继续完成升级',
 	'upgrade_download_upgradelist_error'	=> 'Get list of files to be updated failed, Whether to re-obtain? {upgradeurl}',//'获取待更新文件列表失败，是否重新获取？ {upgradeurl}',
 	'upgrade_download_complete_to_compare'	=> 'Files to be updated downloaded ok, now going to compare with local files',//'待更新文件下载完成，即将进行本地文件比较',
-/*!*/	'upgrade_redownload'			=> 'Upgrade file {file} download problem. Please check your server network access, as well as the data directory have write permisson. Make sure all this is correct, and then click to {upgradeurl}',//'文件 {file} 下载出现问题，请查看您的服务器网络以及data目录是否有写权限，请确认无误后点击确定 {upgradeurl}',
-/*!*/	'upgrade_downloading_file'		=> 'Downloading file {file} from official server.<br>Finished: {percent}, {upgradeurl}',//'正在从官方下载更新文件 {file} <br>已完成{percent} {upgradeurl}',
+	'upgrade_redownload'			=> 'Upgrade file {file} download problem. Please check your server network access, as well as the data directory have write permisson. Make sure all this is correct, and then click to {upgradeurl}',//'文件 {file} 下载出现问题，请查看您的服务器网络以及data目录是否有写权限，请确认无误后点击确定 {upgradeurl}',
+	'upgrade_downloading_file'		=> 'Downloading file {file} from official server.<br>Finished: {percent}, {upgradeurl}',//'正在从官方下载更新文件 {file} <br>已完成{percent} {upgradeurl}',
 	'upgrade_cannot_access_file'		=> 'No permissions to modify your directories and files. Please fill out the ftp account, or modify the file permissions to read/write, and then retry',//'发现您的目录及文件无修改权限，请您填写 ftp 账号，或者修改文件权限为可读可写后重试',
 	'upgrade_backuping'			=> 'Backing up the original file...',//'正在备份原始文件...',
 	'upgrade_backup_error'			=> 'Original file backup error',//'备份原始文件出错',
@@ -580,9 +584,10 @@ $lang = array (
 	'trade_fee_error'			=> 'Ошибка в транзакциях',
 	'reward_credits_error'			=> 'Ошибка наград',
 	'usergroups_edit_succeed'		=> 'Настройки разрешений группы успешно обновлены!',
-	'usergroups_copy_target_invalid'	=> 'Вы не выбрали, для копирования целевую группу пользователей',
+/*!*/	'usergroups_copy_target_invalid'	=> 'Вы не выбрали целевую группу пользователей для копирования',
 	'usergroups_copy_options_invalid'	=> 'Вы не выбрали элемент для копирования',
 	'usergroups_copy_succeed'		=> 'Успешное копирование настроек групп пользователей!',
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 
 	'usertag_delete_succeed'		=> 'Tag removed successfully',//'删除标签成功',
 	'usertag_merge_succeed'			=> 'Tag successfully merged',//'标签合并成功',
@@ -624,7 +629,11 @@ $lang = array (
 	'cloudaddons_ftp_path_error'		=> 'Site FTP path is wrong, Please try again.',//'站点 FTP 路径错误，请重新填写',
 
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
-/*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
+	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

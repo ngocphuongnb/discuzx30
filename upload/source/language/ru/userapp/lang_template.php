@@ -45,5 +45,8 @@ $lang = array (
 					<li>Установленное "по умолчанию" приложение даже после удаления будет отображаться в правой колонке персональной страницы.</li></ol>',
 
 	'open'			=> 'Открыть',
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 

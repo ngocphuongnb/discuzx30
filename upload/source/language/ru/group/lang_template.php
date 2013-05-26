@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Valery Votintsev at sources.ru
+ *     $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
  *      This file is automatically generate
  */
@@ -14,6 +14,7 @@ $lang = array (
 	'favorite'			=> 'Избранное',
 	'group_admin'			=> 'Управление сообществом',
 	'group_create'			=> 'Создать сообщество',
+/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
 	'group_discuss_area'		=> 'Форум сообщества',
 	'group_has_joined'		=> 'Заявка на вступление в сообщество отправлена. Дождитесь подтверждения...',
 	'group_join_group'		=> 'Присоединиться',
@@ -204,5 +205,13 @@ $lang = array (
 	'orderby_default'		=> 'по умолчанию',
 	'stats_main_threads_count'	=> 'Тем',
 	'threads'			=> 'Темы',
+/*!*/	'reply'				=> 'Reply',//'回复',
+/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
+/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
+/*!*/	'group_live_post'		=> 'Publish',//'发表',
+/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
+/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
+/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
+/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
 );
 

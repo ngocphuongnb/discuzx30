@@ -7,10 +7,14 @@
  *      $Id: lang_modaction.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
-	'EDT'	=> 'Edit',
+	'EDT'	=> 'Редакт.',
 
 	'DEL'	=> 'Удаление',
 	'DLP'	=> 'Удаление ответа',
@@ -82,6 +86,9 @@ $lang = array
 	'MAG'	=> 'Магия',
 
 	'REB'	=> 'Партнёрская ссылка (???)',
+
+/*!*/	'LIV'	=> 'Live',//'直播',
+/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
 
 );
 

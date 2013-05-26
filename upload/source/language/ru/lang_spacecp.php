@@ -218,6 +218,7 @@ $lang = array(
 	'do_stat_friend'	=> 'Стали друзьями',
 	'do_stat_post_number'	=> 'Количество сообщений',
 	'do_stat_statistic'	=> 'Общая статистика',
+/*!*/	'logs_credit_update_INDEX'	=> array('TRC','RTC','RAC','MRC','BMC','TFR','RCV','CEC','ECU','SAC','BAC','PRC','RSC','STC','BTC','AFD','UGP','RPC','ACC','RCT','RCA','RCB','CDC','RGC','BGC','AGC','RKC','BME','RPR','RPZ','FCP','BGC'),
 	'logs_credit_update_TRC'	=> 'Бонусы за задачи',
 	'logs_credit_update_RTC'	=> 'Бонусы за темы',
 	'logs_credit_update_RAC'	=> 'Бонусы за лучший ответ',
@@ -248,6 +249,9 @@ $lang = array(
 	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
 	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
 	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
+/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
+/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
 	'logs_credit_update_reward_clean'	=> 'Clean',//'清零',
 	'logs_select_operation'		=> 'Выберите тип операции',
 	'task_credit'			=> 'Баллы за задачу',
@@ -273,6 +277,7 @@ $lang = array(
 	'buy_credit'			=> 'Пополнение баллов',
 	'buy_usergroup'			=> 'Расход доступ к сообществам',
 	'buy_medal'			=> 'Buy Medal',//'购买勋章',
+/*!*/	'buy_forum'			=> 'Buy a paid forum access permissions',//'购买付费版块的访问权限',
 	'report_credit'			=> 'Расход/Приход за жалобы',
 	'join'				=> 'Участие',
 	'activity_credit'		=> 'Расходы на мероприятия',
@@ -329,6 +334,8 @@ $lang = array(
 					   <span class="xi1">Email ({newemail}) ожидает активации...</span><br />
 						Вам было отправлено сообщение с кодом активации. <br />Проверьте свою электронную почту и потвердите активацию данного Email.<br>
 						Если Вы не получили письмо с подтверждением, <br />Вы можете изменить Ваш Email и повторно <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Отправить запрос на активацию</a>',
+	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
