@@ -45,5 +45,8 @@ $lang = array (
 					<li>개인 공간,포스트,앨범을 관리하시려면 개인공간의 개인정보를 설정하세요</li>
 					<li>기본 어플은 관련설정 및 제거 관리만 할수 있습니다.제거후 여전히 오른쪽 메뉴에서 표시 됩니다.</li></ol>',
 	'open'			=> '펴기',//'展开',
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 

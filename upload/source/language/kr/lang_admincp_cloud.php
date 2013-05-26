@@ -8,6 +8,9 @@
  *	Translated to Korean by ionobgy
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
 $extend_lang = array
 (
 	'header_cloud'		=> '클라우드',
@@ -303,6 +306,8 @@ $extend_lang = array
 	'qqgroup_setting_tips'			=> '<li>덧글보기 페이이지의 "QQ그룹 푸시"기능은 게시글을 QQ그룹 채팅 박스로 실시간 푸시 가능.</li><li><img src="static/image/admincp/cloud/feed.png" align="left"></li>',//'<li>主题查看页的“推送到QQ群”功能，可将帖子即时推送到QQ群聊天框。</li><li><img src="static/image/admincp/cloud/feed.png" align="left"></li>',
 
 	'security_member_list'		=> '반칙 사용자',//'违规用户',
+/*!*/	'security_member_tips'		=> '<li>The offending user from waterproof wall posting users identified as spam, does not contain a whitelist users.</li><li>"Ignore this" Operation from the violation omitted from the list specified user, If the user again violation will still be added to the list of illegal users.</li>',//'<li>违规用户来自于防水墙识别为垃圾帖的发帖用户，不包含白名单用户。</li><li>“忽略本次”操作将从违规列表中忽略指定用户，如果用户再次违规仍将会被加入违规用户列表。</li>',
+/*!*/	'security_member_ignore_this'	=> 'Ignore this',//'忽略本次',
 	'security_thread_list'		=> '반칙 덧글',//'违规主题',
 	'security_post_list'		=> '반칙 리필',//'违规回帖',
 	'security_members_name'		=> '사용자 명',//'用户名',
@@ -357,7 +362,11 @@ $extend_lang = array
 	'security_thread_status'		=> '테마상태',//'主题状态',
 	'security_post_status'			=> '리필 상태',//'回帖状态',
 	'security_thread_member'		=> '사용자 상태',//'用户状态',
+/*!*/	'security_thread_member_group'		=> 'User group',//'用户组',
+/*!*/	'security_cron_lastpost'		=> 'Update Forums Last Post (Waterproof wall related)',//'更新版块最后发表(防水墙相关)',
+/*!*/	'security_cron_daily'			=> 'Waterproof wall daily optimization',//'防水墙每日优化',
 	'setting_update_succeed'		=> '현재 설정이 성공적으로 업데이트되었습니다',//'当前设置更新成功',
+/*!*/	'security_createtime'			=> 'Create time',//'违规日期',
 
 	'search_menu_setting'			=> '설정',//'设置',
 	'search_menu_service'			=> '기능설정',//'功能配置',

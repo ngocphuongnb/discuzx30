@@ -8,6 +8,10 @@
  *	Translated to Korean by ionobgy
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'discuz_lang'		=> '기타',
@@ -178,6 +182,8 @@ $lang = array
 	'week_5'	=> '금요일',
 	'week_6'	=> '토요일',
 
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
 	'notice_actor'		=> '등 $actorcount 분',
 
 	'perms_allowvisit'		=> '포럼 방문',
@@ -211,7 +217,7 @@ $lang = array
 	'perms_maxattachsize'		=> '파일 최대 사이즈',
 	'perms_maxsizeperday'		=> '하루 첨부가능 총 크기',
 	'perms_maxattachnum'		=> '하루 첨부가능 최대 건수',
-//	'perms_allowbioimgcode'		=> '자아소개중 [img] 코드 사용',
+//vot	'perms_allowbioimgcode'		=> '자아소개중 [img] 코드 사용',
 	'perms_attachextensions'	=> '첨부파일 유형',
 	'perms_allowstickthread'	=> '덧글 고정',
 	'perms_allowdigestthread'	=> '덧글 강추',
@@ -320,5 +326,9 @@ $lang = array
 	'plugin_memo'		=> '<span class="xi1">{number}</span>개 프로그램 업데이트가 있습니다',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
 	'plugin_link'		=> '지금 업데이트',//'现在更新',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

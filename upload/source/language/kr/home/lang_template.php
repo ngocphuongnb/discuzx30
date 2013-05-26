@@ -1537,6 +1537,8 @@ $lang = array (
 	'video_certification_audit'		=> '동영상 인증 심사',//'视频认证审核',
 	'connect_fill_profile_to_view'		=> '<a href="member.php?mod=connect" target="_blank">계정정보를 보충완성</a> <a href="member.php?mod=connect&ac=bind" target="_blank">기존계정을 바인딩</a>',//'<a href="member.php?mod=connect" target="_blank">完善帐号信息</a> <a href="member.php?mod=connect&ac=bind" target="_blank">绑定已有帐号</a>',
 	'connect_fill_profile_to_comment'	=> ' <a href="member.php?mod=connect" class="xi2">계정정보를 보충완성</a> 혹은 <a href="member.php?mod=connect&ac=bind" class="xi2">기존계정을 바인딩</a> 하신후 메모남기기가 가능합니다.',//'您需要<a href="member.php?mod=connect" class="xi2">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2">绑定已有帐号</a> 后才可以留言',
+/*!*/	'save_to_album'				=> 'Save to album',//'保存到相册',
+/*!*/	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
 
 //---------------------------------------------------------------
 // Added by Valery Votintsev
