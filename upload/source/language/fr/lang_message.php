@@ -219,6 +219,7 @@ $lang = array (
 	'login_succeed'			=> 'Bon retour {username},d&#233;sormais rediriger Vous &#224; la page pr&#233;c&#233;dente.',
 	'login_strike'			=> 'Vous avez essay&#233; trop de fois, Svp. connexion apr&#232;s 15 minutes',
 	'logout_succeed'		=> 'D&#233;connexion avec Succ&#232;s, maintenant Vous allez &#234;tre rediriger vers la page pr&#233;c&#233;dente en tant qu\'invit&#233;. <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Nettoyer Cookies ]</a> {ucsynlogout} ',
+/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
 	'register_activation_invalid'	=> 'Impossible de l\'activit&#233; active Svp. essayer de vous connecter &#224; nouveau.',
 	'profile_username_tooshort'	=> 'D&#233;sol&#233;, votre pseudo ou identifiant est de moins de 3 caract&#232;res, Svp. merci de revenir.',
 	'profile_username_toolong'	=> 'D&#233;sol&#233;, votre identifiant est plus long que 15 caract&#232;res, Svp. merci de revenir.',
@@ -261,6 +262,8 @@ $lang = array (
 
 	'forum_passwd_incorrect'	=> 'Votre mot de passe n\'est pas correct, vous ne pouvez plus acc&#233;der &#224; ce forum.',
 	'forum_passwd_correct'		=> 'V&#233;rification du mot de passe avec Succ&#232;s, maintenant vous allez &#234;tre rediriger au sujet de la page de la liste.',
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
 	'group_rediret_now'		=> 'Maintenant, vous rediriger vers la page d\'index du Groupe',
 	'group_verify'			=> '{_G/setting/navs/3/navname} is under verifying',//'{_G/setting/navs/3/navname}正在审核中',
@@ -271,6 +274,7 @@ $lang = array (
 	'group_exit_founder'		=> 'Le Fondateur du Groupe ne peuvent pas quitter le Groupe, Svp. merci de revenir.',
 	'group_exit_succeed'		=> 'Quittez le Groupe avec Succ&#232;s',
 	'group_create_usergroup_failed'	=> 'Votre Groupe Utilisateurs n\'est pas autoris&#233; &#224; cr&#233;er le Groupe',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
 	'group_create_max_failed'	=> 'Cr&#233;er un Groupe pour votre webmaster pour d&#233;finir le nombre a atteint la limite, ne peut pas cr&#233;er un nouveau Groupe',
 	'group_category_error'		=> 'Choisissez la cat&#233;gorie d\'erreur du Groupe.',
 	'group_create_mod_succeed'	=> 'Create {_G/setting/navs/3/navname} application is submitted, We will try to verify it as soon as possible',//'创建{_G/setting/navs/3/navname}的申请已经提交，我们会尽快进行审核',
@@ -365,8 +369,8 @@ $lang = array (
 	'recommend_self_disallow'	=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Vous ne pouvez pas recommander vos sujets',
 	'recommend_duplicate'		=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Vous Avez Recommand&#233; ce Sujet',
 	'recommend_outoftimes'		=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Vous ne pouvez pas recommander davantage aujourd\'hui',
-	'recommend_daycount_succed'	=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />Vous pouvez toujours recommander {daycount} fois aujourdhui',
-	'recommend_succed'		=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+	'recommend_daycount_succeed'	=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />Vous pouvez toujours recommander {daycount} fois aujourdhui',
+	'recommend_succeed'		=> 'Recommandons Niveau <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
 	'thread_poll_voter_isnull'	=> 'No one have voted this poll, You can not add tags.',//'暂时还没有人参与投票，不能添加标签。',
 	'thread_activityapply_isnull'	=> 'Temporarily no one participated in activity, can not add tags.',//'暂时还没有人参加活动，不能添加标签。',
 	'forum_usertag_set_continue'	=> 'Total {count} users, now set from {limit} to {next} users, please wait ',//'共 {count} 个用户，正在设置 {limit} 至 {next} 个用户，请稍候 ',
@@ -465,6 +469,9 @@ $lang = array (
 	'faq_content_empty'		=> 'Sp&#233;cifiques &#233;l&#233;ment de FAQ Inexistant, Svp. merci de revenir.',
 	'faq_keywords_empty'		=> 'Vous ne sp&#233;cifiez pas les mots-cl&#233;s pour rechercher, Svp. merci de revenir.',
 
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
+
 	'imagepreview_errorcode_0'	=> 'The image does not meet the processing conditions, can not be processed',//'图片不符合处理条件，无法处理',
 	'imagepreview_errorcode_-1'	=> 'Invalid image, can not handle',//'无效的图片，无法处理',
 	'imagepreview_errorcode_-2'	=> 'No permissions to read and write file, can not handle the image',//'文件读写权限不足，无法处理图片',
@@ -554,7 +561,7 @@ $lang = array (
 	'no_privilege_deluserapp'	=> 'D&#233;sol&#233;, vous n\'avez pas la permission d\'exploiter cette application',//'抱歉，您没有权限操作此应用', // 'Sorry, you do not have permission to operate this application'
 
 	'email_check_sucess'	=> 'V&#233;rifiez votre e-mail({email}) avec Succ&#232;s, Svp. revenir',
-/*!*/	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
+	'email_check_account_invalid'		=> 'Sorry, the Founder or protected user can not use the mailbox verification. Modify the user information directly.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
 	'email_check_error'	=> 'Lien de v&#233;rification e-mail que vous avez entr&#233; est incorrect. Vous pouvez page de profil, la re-v&#233;rification lien pour recevoir de nouveaux messages.',
 
 	'news_does_not_exist'		=> 'Des informations sp&#233;cifiques Inexistantes',
@@ -572,6 +579,7 @@ $lang = array (
 	'recommend_expiration_invalid'	=> 'Format de l\'heure est invalide, le format correct est  "yyyy-mm-dd hh:mm", Svp. merci de revenir.',
 
 	'members_edit_succeed'		=> 'M-&#224;-j. Informations Utilisateur avec Succ&#232;s, Svp. continuer',
+/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
 	'modcp_member_ban_succeed'	=> 'M-&#224;-j. Profil de l\'Utilisateur avec Succ&#232;s',
 
 	'modcp_noaction'	=> 'Vous n\'avez pas choisi une action',
@@ -704,6 +712,7 @@ $lang = array (
 	'memcp_credits_card_msg_cleardateline_early'	=> 'D&#233;sol&#233;, cette carte secr&#232;te est expir&#233;e',//'抱歉，此卡密已过期', // 'Sorry, this card secret is expired'
 	'memcp_credits_card_msg_succeed'		=> '<span class="xi1">{extcreditsval} {extcreditstitle}</span>, Recharg&#233; avec Succ&#232;s ',//'<span class="xi1">{extcreditsval}{extcreditstitle}</span>，充值成功 ', // '<span class="xi1">{extcreditsval} {extcreditstitle}</span>, Recharged successfully '
 	'memcp_credits_addfunds_msg_incorrect'		=> 'Vous n\'avez pas besoin de recharger le nombre d\'entr&#233;es',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
 	'credits_addfunds_amount_invalid'		=> 'Votre seul achat d&#233;passe le montant maximum de points {ec_maxcredits} ou minimum {ec_mincredits} restrictions.',
 	'memcp_credits_transfer_msg_self_incorrect'	=> 'Vous n\'avez pas besoin de poss&#233;der le transfert',
 	'credits_transfer_balance_insufficient'		=> 'D&#233;sol&#233;, apr&#232;s le transfert votre {title} est inf&#233;rieure &#224; {minbalance}, Svp. merci de revenir.',
@@ -997,6 +1006,7 @@ $lang = array (
 	'location_login'		=> '',
 	'location_login_succeed_mobile'	=> 'Bienvenue &#224; nouveau, {username}. Cliquez ici pour aller &#224; page de connexion avant',
 	'location_login_succeed'	=> 'Bienvenue, {username}! Attendre pour rediriger vers la page avant de vous connecter',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……', // 'Welcome, {username}! Wait for redirecting to the page before login'
+	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
 	'login_succeed_inactive_member'	=> 'Bon retour {username}. Votre compte doit &#234;tre activ&#233;, maintenant Vous allez &#234;tre rediriger au panneau de contr&#244;le. {ucsynlogin} ',
 	'login_question_empty'		=> 'Svp. veuillez entr&#233;e le code de S&#233;curit&#233; Q&R',
 	'login_question_invalid'	=> 'Question de s&#233;curit&#233; erreur, Svp. revenir',
@@ -1048,6 +1058,14 @@ $lang = array (
 	'magics_credit_message'		=> 'F&#233;licitations, vous obtenez {credit}',
 
 	'magics_thunder_message'	=> '{magicname} a &#233;t&#233; publi&#233; avec Succ&#232;s',
+
+/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
+/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
+/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'Operation timeout or data source error',//'操作超时或者数据来源错误',

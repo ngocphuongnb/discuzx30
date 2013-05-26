@@ -55,7 +55,7 @@ $lang = array
 	'post_trade_transport_express'	=> 'Express',  //  'Express'
 	'post_trade_transport_virtual'	=> 'Virtuel',  // 'Virtual' 
 	'post_trade_transport_physical'	=> 'comptant sur la livraison',  // 'C.O.D.' //cash on delivery
-//	'post_trade_locus'		=> 'Emplacement Article',  //  'Item location'
+//vot	'post_trade_locus'		=> 'Emplacement Article',  //  'Item location'
 	'post_trade_description'	=> 'Description',  //  'Description'
 	'post_trade_pm_subject'		=> '[N&#233;gociation]',  //  '[Bargain]'
 	'post_trade_pm_buynum'		=> 'Quantit&#233;',  //  'Quantity'
@@ -181,7 +181,9 @@ $lang = array
 	'week_5'	=> 'Ven',  //  'Fri'
 	'week_6'	=> 'Sam',  //  'Sat'
 
-	'notice_actor'	=> ' and so on. Total $actorcount personne(s)',  //  'and so on. Total $actorcount person(s)'
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
+	'notice_actor'		=> ', and so on. Total $actorcount personne(s)',  //  'and so on. Total $actorcount person(s)'
 
 	'perms_allowvisit'	=> 'Acc&#232;s Forum',  //  'Access forum'
 	'perms_readaccess'	=> 'R.P.',  //  'R.P.'
@@ -214,7 +216,7 @@ $lang = array
 	'perms_maxattachsize'		=> 'Taille max. de chacun',  //  'Max size each one'
 	'perms_maxsizeperday'		=> 'Taille totale par jour',  //  'Total size per day'
 	'perms_maxattachnum'		=> 'Montant total par jour',  //  'Total amount per day'
-//	'perms_allowbioimgcode'		=> 'Utiliser [img] dans l\'auto-pr&#233;sentation',  //  'Use [img] in self-introduction'
+//vot	'perms_allowbioimgcode'		=> 'Utiliser [img] dans l\'auto-pr&#233;sentation',  //  'Use [img] in self-introduction'
 	'perms_attachextensions'	=> 'Types de pi&#232;ces jointes',  //  'Attachment types'
 	'perms_allowstickthread'	=> 'Scotch&#233;',  //  'Stick'
 	'perms_allowdigestthread'	=> 'R&#233;sum&#233;',  //  'Digest'
@@ -323,5 +325,9 @@ $lang = array
 	'plugin_memo'		=> 'Updates available: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
 	'plugin_link'		=> 'Update Now',//'现在更新',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

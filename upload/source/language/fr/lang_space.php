@@ -132,10 +132,10 @@ $lang = array(
 	'album_li'		=> '<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}">{albumname}</a></p><span>Images:({picnum})</span><span>Mise &#224; jour {date}</span></li>', // 
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} R&#233;ponse({replynum})', // 
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonyme"></div><p>Anonyme</p>', // 
-	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>', // 
+	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
-					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" style="cursor: pointer;"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
+					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
 					<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
 					<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
 					<input type="hidden" name="id" value="{uid}" />
@@ -252,6 +252,7 @@ $lang = array(
 	'viewthread_userinfo_sharings'	=> 'Partages', // Shares
 	'viewthread_userinfo_friends'	=> 'Amis', // Friends
 	'viewthread_userinfo_digest'	=> 'R&#233;sum&#233;s', // Digests
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits'	=> 'Int&#233;grale', // Integral
 	'viewthread_userinfo_readperm'	=> 'Lire les Autorisations', // Read Permissions
 	'viewthread_userinfo_regtime'	=> 'Inscrits', // Registered
@@ -259,8 +260,10 @@ $lang = array(
 	'viewthread_userinfo_oltime'	=> 'Temps En-Ligne', // Online Time
 	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
 	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
-	'viewthread_userinfo_follower'		=> 'Number of followers',//'听众数',
-	'viewthread_userinfo_following'		=> 'Number of listenings',//'收听数',
+/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
+/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
 	'follow_view_follow'			=> 'I follow',//'我关注的',
 	'follow_view_special'			=> 'Special attention',//'特别关注',
 	'follow_view_other'			=> 'Following Hall',//'广播大厅',

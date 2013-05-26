@@ -5,8 +5,8 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
+ *
  *      Traduit par Andre13 and Bertrand: discuz-fr.fr 27-déc.2011-
- *      This file is automatically generate
  */
 
 $lang = array (
@@ -51,6 +51,9 @@ $lang = array (
   'close'			=> 'Fermer',  // Close 
   'focus_hottopics'		=> 'Site recommand&#233;',  //  Site Recommended
   'focus_show'			=> 'Voir',  // View 
+/*!*/	'newpm_subject'			=> 'New PM',//'新的短消息',
+/*!*/	'newpm_notice_info'		=> 'You have a new short message, go to see it',//'有新的短消息，快去看看吧',
+/*!*/	'newnotice_notice_info'		=> 'You have a new notice, go to see it',//'有新的提醒，快去看看吧',
 	'footer_next'			=> 'Next post',//'下一条',
 	'footer_previous'		=> 'Previous post',//'上一条',
   'login_invisible_mode'	=> 'Invisible',  //  Invisible
@@ -60,10 +63,12 @@ $lang = array (
   'time_now'			=> 'GMT{$_G[timenow][offset]}, {$_G[timenow][time]}',  //  'GMT{$_G[timenow][offset]}, {$_G[timenow][time]}'
   'activation'			=> 'Activer',  // Activate 
   'admincp'			=> 'Admin CP',  //  Admin CP
-  'changestyle'			=> 'Changer',  //  Change
+/*vot*/	'changestyle'			=> '',//'Change Style:',//'切换风格',
 	'cloudcp'			=> 'CloudCP',//'云平台',
   'default'			=> 'Par d&#233;faut',  //  Default
   'forum_manager'		=> 'G&#233;rer {$_G[setting][navs][2][navname]}',  //  'Manage {$_G[setting][navs][2][navname]}'
+/*!*/	'shortcut_notice'		=> 'If you visit {$_G[setting][bbname]} frequently, Try to access to the desktop version for more convenience!',//'您经常访问 {$_G[setting][bbname]}，试试添加到桌面，访问更方便！',
+/*!*/	'shortcut_add'			=> 'To {$_G[setting][bbname]} desktop version',//'添加 {$_G[setting][bbname]} 到桌面',
   'go_to_mobile'		=> 'Mobile',  //  Mobile
 	'header_diy_mode_adv'		=> 'Advanced Mode',//'高级模式',
 	'header_diy_mode_simple'	=> 'Simple mode',//'简洁模式',
@@ -281,6 +286,27 @@ $lang = array (
   'medals'		=> 'M&#233;daille',  //  Mdeal
   'task'		=> 'T&#226;che',  //  Task
   'notice'		=> 'Avis',  //  Notices
+/*!*/	'notice_pm'			=> 'My PM',//'我的私信',
+/*!*/	'notice_mypost'			=> 'My Posts',//'我的帖子',
+/*!*/	'notice_mypost_at'		=> 'Mention to me',//'提到我的',
+/*!*/	'notice_mypost_post'		=> 'Posts',//'帖子',
+/*!*/	'notice_mypost_pcomment'	=> 'Comments',//'点评',
+/*!*/	'notice_mypost_activity'	=> 'Activity',//'活动',
+/*!*/	'notice_mypost_reward'		=> 'Rewards',//'悬赏',
+/*!*/	'notice_mypost_goods'		=> 'Products',//'商品',
+/*!*/	'notice_interactive'		=> 'Friends interaction',//'坛友互动',
+/*!*/	'notice_interactive_follow'	=> 'I follow',//'我关注的',
+/*!*/	'notice_interactive_follower'	=> 'My followers',//'新听众',
+/*!*/	'notice_interactive_poke'	=> 'Greetings',//'打招呼',
+/*!*/	'notice_interactive_friend'	=> 'Friends',//'好友',
+/*!*/	'notice_interactive_comment'	=> 'Comments',//'评论',
+/*!*/	'notice_interactive_wall'	=> 'Wall',//'留言',
+/*!*/	'notice_interactive_click'	=> 'Rates',//'挺你',
+/*!*/	'notice_interactive_sharenotice'	=> 'Shares',//'分享',
+/*!*/	'notice_system'			=> 'System messages',//'系统提醒',
+/*!*/	'notice_manage'			=> 'Manage work',//'管理工作',
+/*!*/	'notice_app'			=> 'Application messages',//'应用提醒',
+/*!*/	'notice_userapp'		=> 'Application invites',//'应用邀请',
   'you'			=> 'Vous',  // You 
   'group_expiry_type_ext'	=> 'Elargir Mod&#233;rateur de Groupe',  // Extended usergroup 
   'task_done'		=> 'Faire',  //  Done
@@ -315,6 +341,9 @@ $lang = array (
   'password_security'	=> 'Mot de passe s&#233;curit&#233;',  // Password Security 
   'increase'		=> 'Augmenter',  // Increase 
   'friend_top'		=> 'Top',  //  Top
+/*!*/	'connect_register_profile'	=> 'Create new account',//'创建新帐号',
+/*!*/	'connect_register_bind'		=> 'Allready have account',//'已有本站帐号',
+/*!*/	'connect_member_login_tip'	=> 'Welcome to {$_G[setting][bbname]} logged with QQ account',//'欢迎使用QQ帐号登录  {$_G[setting][bbname]}',
   'connect_config_newpassword_comment'	=> 'Vous utilisez actuellement le compte QQ, le mot de passe est seulement mis en place par un emplacement ind&#233;pendant veuillez remplir le mot de passe et utiliser la fonction correspondante',  // You are currently using QQ account,the password is only set up an independent site to fill in the password can use the corresponding function 
   'email'		=> 'E-mail',  // Email 
   'security_question'	=> 'Ignorer ceci',  //  Ignore if not
@@ -377,6 +406,21 @@ $lang = array (
 	'file_size'			=> 'File Size',//'文件大小',
 	'click_filename_to_article'	=> 'Click the file name for add attachment into the article',//'点击文件名将附件添加到文章中',
 	'connect_fill_profile_to_visit'	=> 'Please<br /><a class="xi2" href="member.php?mod=connect"><strong>Provide the account information</strong></a> or <a href="member.php?mod=connect&ac=bind" class="xi2 xw1"><strong>Bind existing account</strong></a><br />for use the Quick Navigation',//'请先<br /><a class="xi2" href="member.php?mod=connect"><strong>完善帐号信息</strong></a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2 xw1"><strong>绑定已有帐号</strong></a><br />后使用快捷导航',
+/*!*/	'ipnoice_current'		=> 'This login location',//'本次登录位置',
+/*!*/	'ipnoice_last'			=> 'Last login location',//'上次登录位置',
+/*!*/	'ipnoice_lasttime'		=> 'Last login time',//'上次登录时间',
+/*!*/	'ipnoice_title'			=> 'Security reminder',//'安全提醒',
+/*!*/	'ipnoice_link'			=> 'Login Place is abnormal, recommended to change your password',//'登录地点异常，建议立即更改密码',
+/*!*/	'recharge_immediately'		=> 'Recharge Now',//'立即充值',
+/*!*/	'manage_grade'			=> 'Manage level',//'管理级别',
+/*!*/	'manager'			=> 'Administrator',//'管理员',
+/*!*/	'super_forummanager'		=> 'Super Moderator',//'超级版主',
+/*!*/	'forummanager'			=> 'Moderator',//'版主',
+/*!*/	'buy_usergroup'			=> 'Purchase a user group',//'购买用户组',
+/*!*/	'fastreply'			=> 'Quick Reply',//'快速回复',
+/*!*/	'return_list'			=> 'Return to the list',//'返回列表',
+/*!*/	'return_forum'			=> 'Return to the forum',//'返回版块',
+/*!*/	'temporarily_to_remind'		=> 'Temporarily to remind',//'暂不提醒',
 
 //---------------------------
 // Added by Valery Votintsev
@@ -385,10 +429,10 @@ $lang = array (
 	'follow_stop'		=> 'Stop follow',//'不收听',
 	'follow_start'		=> 'Follow',//'收听TA',
 
-	'e_full_screen'			=> 'Full Screen',//'全屏',
-	'e_restore_size'		=> 'Restore size',//'恢复',
-	'e_simple'			=> 'General Mode',//'常用',
-	'e_advanced'			=> 'Advanced Mode',//'高级',
+	'e_full_screen'		=> 'Full Screen',//'全屏',
+	'e_restore_size'	=> 'Restore size',//'恢复',
+	'e_simple'		=> 'General Mode',//'常用',
+	'e_advanced'		=> 'Advanced Mode',//'高级',
 
 //static/space/t1/style.css
 	'default_style'	=> 'Style par D&#233;faut',//'[name]默认风格[/name]', // 'Default style'

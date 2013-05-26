@@ -66,6 +66,7 @@ $lang = array (
   'article_validate_category'	=> 'Svp. choisir la cat&#233;gorie syst&#232;me',   //  Please select system category
   'article_validate_has_added'	=> 'Cet article a &#233;t&#233; ajout&#233;',   //  This article has been added
   'article_validate_noexist'	=> 'Article particulier ne se trouve pas',   //  Specific article does not find
+/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
   'article_validate_title'	=> 'Titre doit entre 1 et 80 caract&#232;res',   //  Title must between 1 to 80 characters
   'grab'			=> 'Saisir',   //  Grab
   'ignore'			=> 'Ignorer',   //  Ignore
@@ -310,6 +311,10 @@ $lang = array (
   'view_publisher'		=> 'Editeur',   //  Publisher
   'view_related'		=> 'Connexes',   //  Related
   'view_views'			=> 'Vues',   //  Views
+/*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
+/*!*/	'next_article'			=> 'Next:',//'下一篇：',
+/*!*/	'display_order'			=> 'Display order',//'显示位置',
+/*!*/	'filename'			=> 'File name',//'文件名',
 
 // Added by Valery Votintsev
 	'select_all'	=> 'Select All',//'全选',

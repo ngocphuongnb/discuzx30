@@ -463,8 +463,35 @@ var lng = {
 
 //---------------------------
 //static/js/makehtml.js
-	'generated_ok'	: ' generated successfully',//'生成成功',
-	'generate'	: 'Generate ',//'生成',
+	'generate'		: 'Generate ',//'生成',
+	'generate_ok'		: ' generated successfully',//'生成成功',
+	'generate_error'	: ' generation failed',//'生成失败',
+	'generate_start'	: 'Start generating of ',//'开始生成 ',
+	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
+	'generate_completed'	: ' generation is completed',//' 生成完成',
+	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_first'	: 'generated first ',//'正在生成第 ',
+	'generate_percent'	: 'has been completed ',//'已经完成 ',
+
+//---------------------------
+//static/js/mobile/common.js
+//	'first'	: 'First ',//'第 ',
+//	'page'	: ' Page',//' 页',
+//	'prev_page'	: 'Prev',//'上一页',
+//	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+//	'submit'		: 'Submit',//'确定',
+//	'cancel'		: 'Cancel',//'取消',
+//	'loading'	: 'Loading...',//'正在加载...',
+//	'loading'		: 'Loading...',//'加载中...',
+
+//	''	: 'Get location timeout, please try again',//'获取位置超时，请重试',
+//	''	: 'Unable to detect your current location',//'无法检测到您的当前位置',
+//	''	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+//	''	: 'Unknown error occurred',//'发生未知错误',
+//	''	: 'Dropdown can refresh',//'下拉可以刷新',
+//	''	: 'Dropdown can refresh',//'下拉可以刷新',
+//	''	: 'Release can refresh',//'松开可以刷新',
 //	''	: '',//'',
 
 //--------------------------------
@@ -579,6 +606,22 @@ var lng = {
 //static/js/qshare.js
 	'from_tencent'		: 'Je viens de microblogging Tencent une plateforme ouverte',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0", // 'I come from Tencent microblogging an open platform'
 
+//---------------------------
+//static/js/redef.js
+//[2]:  参数
+//[3]:  parent			放置瀑布流元素的容器，默认为 $("waterfall")
+//[4]:  container		放置瀑布流的父容器，默认为 $("threadlist")
+//[5]:  maxcolumn		最多多少列，默认为 0 不限制
+//[6]:  space			图片间距，默认为 10
+//[7]:  index			从第几张开始排列，默认为 0
+//[8]:  tag			瀑布流元素的 tagName，默认为 li
+//[9]:  columnsheight	存放列高度的数组
+//[11]:  返回值
+//[12]:  index			当前瀑布流已经排列了多少个图片
+//[13]:  totalwidth		当前瀑布流的总宽度
+//[14]:  totalheight	当前瀑布流的总高度
+//[15]:  columnsheight	存放瀑布流列高的数组
+
 //--------------------------------
 //static/js/register.js
 
@@ -641,6 +684,19 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Désolé, ce type de fichier n\'est pas supporté',//'对不起，不支持上传此类文件', // 'Sorry, this file type is unsupported'
+//[1099]: 			progress.setStatus("等待上传...");
+//[1117]: 			showDialog("您选择的文件个数超过限制。\n"+(message === 0 ? "您已达到上传文件的上限了。" : "您还可以选择 " + message + " 个文件"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1127]: 				progress.setStatus("文件太大.");
+//[1131]: 				progress.setStatus("不能上传零字节文件.");
+//[1135]: 				progress.setStatus("禁止上传该类型的文件.");
+//[1200]: 		progress.setStatus("上传中...");
+//[1219]: 		progress.setStatus("正在上传("+percent+"%)...");
+//[1276]: 						progress.setStatus("取消上传");
+//[1303]: 				newTd.innerHTML = '图片描述<br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
+//[1307]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1327]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1344]: 				showDialog('上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+//[1352]: 			progress.setStatus("上传完成.");
 
 //-------------------------------------
 //source/function/function_admincp.php
