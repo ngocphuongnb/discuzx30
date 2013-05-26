@@ -8,6 +8,10 @@
  *	Translated to Korean by ionobgy
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -83,6 +87,9 @@ $lang = array
 	'MAG'	=> '아이템',
 
 	'REB'	=> '자랑',
+
+/*!*/	'LIV'	=> 'Live',//'直播',
+/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
 
 );
 

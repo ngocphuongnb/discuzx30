@@ -268,6 +268,9 @@ $lang = array (
 	'founder_perm_gperm_update_succeed'	=> 'Administrative group permissions successfully updated.',//'管理团队权限资料已成功更新。',
 	'founder_perm_notifyusers_succeed'	=> 'Management notification recipients set Successfully',//'管理通知接收者设置成功 ',
 
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
+
 	'group_status_off'			=> 'Please first turn on the group, now go to Group Settings page.',//'请先开启群组功能，现在转到群组设置页。',
 	'group_update_succeed'			=> 'Group Category settings successfully updated.',//'群组分类设置成功更新。',
 	'grouptype_delete_succeed'		=> 'Group Category deleted successfully.',//'群组分类删除成功。',
@@ -457,6 +460,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> '인증넘버에 필요한 글꼴파일이 부족합니다. {path}디렉토리에 글꼴파일을 업로드 하여 주세요.',//'验证码缺少显示所需的字库文件，请上传字库文件至 {path} 目录。',
 	'forum_name_duplicate'			=> 'forum명칭이 중복되였으니 다시 설정하여 주세요',//'表单名称设置不能重复，请重新设置',
 	'alipay_ratio_invalid'			=> '입력하신 현금/포인트 환전비율이 0 보자 작으니 수정하여 주세요.',//'您输入的现金/积分兑换比率小于 0，请返回修改。',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
 	'ftp_password_short'			=> 'FTP비밀번호는 3자 이상으로 설정하여 주세요.',//'FTP 密码不得少于 3 位，请返回修改。',
 	'cachethread_dir_noexists'		=> '죄송합니다,지정하신 {cachethreaddir}디렉토리가 존재하지 않거나 쓸수 없습니다. 되돌아 가셔서 FTP로 속성을 777로 수정아혀 주세요.',//'对不起，您所指定的目录 {cachethreaddir} 不存在或者不可写！请返回并尝试通过 FTP 将其属性改为 777。',
 	'ranklistcache_update'			=> '랭킹 캐시파일 업데이트 완료.',//'排行榜缓存文件已更新。',
@@ -583,6 +587,7 @@ $lang = array (
 	'usergroups_copy_target_invalid'	=> '복사할 목표 사용자 그룹을 선택하지 않았습니다.',//'你没有选择要复制的目标用户组，请返回修改。',
 	'usergroups_copy_options_invalid'	=> '복사할 항목을 선택하지 않았습니다.',//'你没有选择要复制的项目，请返回修改。',
 	'usergroups_copy_succeed'		=> '사용자 그룹 설정 복사 성공.',//'用户组设置成功复制。',
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 
 	'usertag_delete_succeed'		=> '태그 삭제 완료.',//'删除标签成功',
 	'usertag_merge_succeed'			=> '태그 합병 완료.',//'标签合并成功',
@@ -626,5 +631,9 @@ $lang = array (
 	'cloudaddons_check_url_fopen_error'	=> '서버가 어플센터 방문이 안되여 어플설치가 불가능합니다. 서비스 제공업체나 엔지니어를 연락하셔서 addon.discuz.com 혹은 addon1.discuz.com 정상 방문 되도록 조치 하세요.',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
 	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> '죄송합니다.정품 어플이 아닙니다.진행 불가합니다.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">정품 어플 받기</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

@@ -66,6 +66,7 @@ $lang = array (
 	'article_validate_category'	=> '시스템 카테고리 선택하십시오.',//'请选择系统分类',
 	'article_validate_has_added'	=> '이 문서가 추가되었습니다.',//'该文章已经添加过了',
 	'article_validate_noexist'	=> '특정 문서는 찾지 못했습니다.',//'没有找到指定的文章',
+/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
 	'article_validate_title'	=> '제목은 1~80개의 문자로 작성되야 합니다.',//'标题长度(1~80字符)不符合要求',
 	'grab'				=> '얻기',//'获取',
 	'ignore'			=> '무시',//'忽略',
@@ -310,6 +311,10 @@ $lang = array (
 	'view_publisher'	=> '발행인',
 	'view_related'		=> '관련글',
 	'view_views'		=> '조회',
+/*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
+/*!*/	'next_article'			=> 'Next:',//'下一篇：',
+/*!*/	'display_order'			=> 'Display order',//'显示位置',
+/*!*/	'filename'			=> 'File name',//'文件名',
 
 // Added by Valery Votintsev
 	'select_all'	=> '모두선택',//'全选',

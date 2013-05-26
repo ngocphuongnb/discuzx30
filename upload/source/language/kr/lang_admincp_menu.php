@@ -8,6 +8,10 @@
  *	Translated to Korean by ionobgy
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -59,12 +63,14 @@ $lang = array
 	'menu_setting_ranklist'	=> '순위 목록',
 	'menu_setting_mobile'	=> '모바일 설정',
 	'menu_setting_tag'	=> '태그 관리',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'		=> '게시판 관리',
 	'menu_forums_merge'	=> '게시판 통합',
 	'menu_forums_threadtypes'	=> '제목 형식',
 	'menu_forums_infotypes'		=> '게시판 분류',
 	'menu_forums_infooption'	=> '분류 옵션',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'	=> '회원 추가 설정',
 	'menu_members_edit'	=> '회원 관리 설정',
@@ -108,6 +114,7 @@ $lang = array
 	'menu_postcomment'	=> '댓글 관리',
 	'menu_maint_doing'	=> '트윅 관리',
 	'menu_maint_blog'	=> '블로그 관리',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'	=> '피드 관리',
 	'menu_maint_album'	=> '앨범 관리',
 	'menu_maint_pic'	=> '이미지 관리',
@@ -126,6 +133,7 @@ $lang = array
 
 	'menu_patch'			=> '보안센터',
 	'menu_upgrade'			=> '온라인 업데이트',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons'		=> '디스커즈 확장',
 	'menu_plugins'		=> '플러그인',
@@ -179,6 +187,7 @@ $lang = array
 	'menu_portalpermission'	=> '권한목록',
 	'menu_blockxml'		=> '외부 모듈 관리',
 	'menu_topic'		=> '덧글 관리',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'	=> 'DIY 스타일',
 
 	'menu_group_setting'	=> '그룹 설정',

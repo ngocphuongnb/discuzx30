@@ -219,6 +219,7 @@ $lang = array (
 	'login_succeed'			=> '돌아오신걸 환영합니다. {usergroup}님. {username}!<br />등록전 페이지로 이동됩니다..',//'欢迎您回来，{username}。现在将转入登录前页面。 {ucsynlogin} ',
 	'login_strike'			=> '여러번의 비밀번호 입력 오류로 15분후 재 시도 하여 주세요.',//'密码错误次数过多，请 15 分钟后重新登录',
 	'logout_succeed'		=> '로그아웃 하셨습니다. 손님의 신분으로 로그아웃 전 페이지로 이동됩니다.<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 쿠키삭제 ]</a> {ucsynlogout} ',//'您已退出站点，现在将以游客身份转入退出前页面。 <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a> {ucsynlogout} ',
+/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
 	'register_activation_invalid'	=> '활성화 실패. 재등 로그인 하셔서 활성화할 사용자를 인증진행 하셔 주세요.',//'激活失败，请重新登录验证需要激活的用户。',
 	'profile_username_tooshort'	=> '죄송합니다. 아이디는  3자 이상으로 입력하여 주세요.',//'对不起，您输入的用户名小于 3 个字符, 请返回输入一个较长的用户名。',
 	'profile_username_toolong'	=> '죄송합니다. 아이디는 15자내로 입력하여 주세요.',//'对不起，您的用户名超过 15 个字符，请返回输入一个较短的用户名。',
@@ -260,7 +261,9 @@ $lang = array (
 	'attachement_payto_attach'	=> '유료 첨부파일 입니다. 지불후 다운받아 주세요.',//'附件需要付费，请您付费后下载。',
 
 	'forum_passwd_incorrect'	=> '비밀번호가 틀리오니 토론장 방문 불가합니다.',//'您输入的密码不正确，不能访问这个版块。',
-	'forum_passwd_correct'		=> '비밀번호 인증 성공.덧글로 이동됩니다...',//'密码验证成功，现在将转入主题列表。',
+/*!*/	'forum_passwd_correct'		=> '비밀번호 인증 성공.덧글로 이동됩니다...',//'密码验证成功，请继续可以访问此版块',
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
 	'group_rediret_now'		=> '그룹 홈페이지로 이동됩니다.',//'现在转入群组首页',
 	'group_verify'			=> '{_G/setting/navs/3/navname} 심사 중입니다.',//'{_G/setting/navs/3/navname}正在审核中',
@@ -271,6 +274,7 @@ $lang = array (
 	'group_exit_founder'		=> '그룹 창립자는 탈퇴 못합니다.',//'群组创始人不能退出群组，请返回。',
 	'group_exit_succeed'		=> '이미 퇴출 하셨습니다.',//'已经成功退出群组',
 	'group_create_usergroup_failed'	=> '소재하신 사용자 그룹은 그룹 창립 안됩니다.',//'您所在的用户组不能建立群组',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
 	'group_create_max_failed'	=> '창립하신 그룹 수가 설정상한에 도달해 더이상 창립이 안됩니다.',//'你的建立群组数量已经到达站长设置上限，不能建立新的群组',
 	'group_category_error'		=> '그룹 카테고리 잘못 선택 되였습니다.',//'选择群组分类错误。',
 	'group_create_mod_succeed'	=> ' {_G/setting/navs/3/navname} 창립 신청 제출 되였습니다.빠른시일내에 심사 완료 하겠습니다.',//'创建{_G/setting/navs/3/navname}的申请已经提交，我们会尽快进行审核',
@@ -365,8 +369,8 @@ $lang = array (
 	'recommend_self_disallow'	=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />본인의 등록글에 평가할수 없습니다.',//'recommend_self_disallow'	=> '评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />您不能评价自己的帖子',
 	'recommend_duplicate'		=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />이미 평가하셨습니다.',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />您已评价过本主题',
 	'recommend_outoftimes'		=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />금일 평가 기회 사용 완료.',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />今日评价机会已用完',
-	'recommend_daycount_succed'	=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />금일 아직{daycount}번 평가 하실수 있습니다',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />您今天还能评价 {daycount} 次',
-	'recommend_succed'		=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+	'recommend_daycount_succeed'	=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />금일 아직{daycount}번 평가 하실수 있습니다',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />您今天还能评价 {daycount} 次',
+	'recommend_succeed'		=> '평가지수: <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',//'评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
 	'thread_poll_voter_isnull'	=> '아직 투표하신 분 없으셔서 태그추가 하실수 없습니다.',//'暂时还没有人参与投票，不能添加标签。',
 	'thread_activityapply_isnull'	=> '아직 이벤트 참여 인원이 없음으로 태그추가 하실수 없습니다.',//'暂时还没有人参加活动，不能添加标签。',
 	'forum_usertag_set_continue'	=> '총 {count}명의 사용자, 지금 {limit} ~ {next}명 사용자 설정중, 잠시만 기다려 주세요. ',//'共 {count} 个用户，正在设置 {limit} 至 {next} 个用户，请稍候 ',
@@ -465,6 +469,9 @@ $lang = array (
 	'faq_content_empty'		=> '지정한 도움말이 존재하지 않습니다.',//'指定的帮助项目不存在，请返回。',
 	'faq_keywords_empty'		=> '검색할 키워드를 지정하지 않으셨습니다.',//'您没有指定要搜索的关键字，请返回重新填写。',
 
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
+
 	'imagepreview_errorcode_0'	=> '이미지가 처리 조건에 부합되지 않아 처리 불가 합니다.',//'图片不符合处理条件，无法处理',
 	'imagepreview_errorcode_-1'	=> '무효 이미지로 처리 불가 합니다.',//'无效的图片，无法处理',
 	'imagepreview_errorcode_-2'	=> '파일 읽고쓰기 권한이 부족하여 이미지 처리 불가 합니다.',//'文件读写权限不足，无法处理图片',
@@ -554,7 +561,7 @@ $lang = array (
 	'no_privilege_deluserapp'		=> '죄송합니다. 해당 응용프로그램 사용 권한이 없습니다.',//'抱歉，您没有权限操作此应用',
 
 	'email_check_sucess'			=> '귀하의  메일({email}) 인증활성화 완료되였습니다.',//'您的邮箱（{email}）验证激活完成了, 请返回',
-/*!*/	'email_check_account_invalid'		=> '죄송합니다. 보호받은 사용자나 창시자는 메일인증 사용불가 합니다, 직접 사용자정보을 수정하여 주세요.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
+	'email_check_account_invalid'		=> '죄송합니다. 보호받은 사용자나 창시자는 메일인증 사용불가 합니다, 직접 사용자정보을 수정하여 주세요.',//'抱歉，受保护用户或创始人不能使用邮箱验证，直接修改用户信息。',
 	'email_check_error'			=> '입력하신 메일인증 링크가 정확하지 않습니다. 개인정보페이지에서 새로운 메일인증링크를 받으실수 있습니다.',//'您输入的邮箱验证链接不正确。您可以在个人资料页面，重新接收新的邮箱验证链接。',
 
 	'news_does_not_exist'			=> '해당 정보가 존재하지 않습니다.',//'指定的信息不存在',
@@ -572,6 +579,7 @@ $lang = array (
 	'recommend_expiration_invalid'		=> '시간기한격식이 무효입니다. 정확한 격식은  "yyyy-mm-dd hh:mm"',//'时间期限格式无效，正确格式为“yyyy-mm-dd hh:mm”，请返回。',
 
 	'members_edit_succeed'			=> '사용자정보 업데이트 완료. 계속 진행하여 주세요.',//'用户信息成功更新，请继续操作',
+/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
 	'modcp_member_ban_succeed'		=> '사용자정보 업데이트 성공.',//'用户资料成功更新',
 
 	'modcp_noaction'			=> '진행할 작업을 서택하지 않았습니다.',//'您没有选择执行任何操作',
@@ -704,6 +712,7 @@ $lang = array (
 	'memcp_credits_card_msg_cleardateline_early'	=> '죄송합니다. 이미 만료된 카드비밀번호 입니다.',//'抱歉，此卡密已过期',
 	'memcp_credits_card_msg_succeed'	=> '<span class="xi1">{extcreditsval} {extcreditstitle}</span>, 충전 성공. ',//'<span class="xi1">{extcreditsval}{extcreditstitle}</span>，充值成功 ',
 	'memcp_credits_addfunds_msg_incorrect'	=> '충전할 수량을 입력하지 않으셨습니다.',//'您没有输入需要充值的数量',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
 	'credits_addfunds_amount_invalid'	=> '일회 구매한 포인트가 최대치 {ec_maxcredits} 보다 많거나 최소치 {ec_mincredits}보다 적습니다.',//'您单次购买的积分数量超出最大值 {ec_maxcredits} 或最小值 {ec_mincredits} 的限制。',
 	'memcp_credits_transfer_msg_self_incorrect'	=> '자신에게 이체할수 없습니다.',//'您无需给自己转账',
 	'credits_transfer_balance_insufficient'	=> '죄송합니다. 이체후 {title} {minbalance} 보다 적습니다.',//'对不起，转账后{title}不足 {minbalance}，请返回。',//'对不起，转账后{title}不足 {minbalance}，请返回。',//'对不起，转账后{title}不足 {minbalance}，请返回。',
@@ -997,7 +1006,7 @@ $lang = array (
 	'location_login'		=> '',
 	'location_login_succeed_mobile'	=> '{username}님 환영합니다! 클릭하시면 로그인 전 페이지로 이동됩니다.',//'欢迎您回来，{username}。点击进入登录前页面',
 	'location_login_succeed'	=> ' {username}님 환영합니다! 로그인 전 페이지로 이동되오니 잠시만 기다려주세요...',//'欢迎您回来，{username}。现在将转入登录前页面，请稍候……',
-/*!*/	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
+	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
 	'login_succeed_inactive_member'	=> '{username}의 돌아오심을 환영합니다. 계정이 비활성화 상태입니다. 제어판페이지로 이동됩니다. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
 	'login_question_empty'		=> '보안문제 및 정확한 답을 입력하여 주세요.',//'请填写安全提问以及正确的答案',
 	'login_question_invalid'	=> '보안문제 선택오류. 다이 입력하여 주세요.',//'安全提问选择错误，请重新填写',
@@ -1049,6 +1058,14 @@ $lang = array (
 	'magics_credit_message'		=> '{credit}획득을 축하합니다.',//'恭喜你获得 {credit}',
 
 	'magics_thunder_message'	=> '{magicname} 발포 성공.',//'已成功发布 {magicname}',
+
+/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
+/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
+/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> '조작시간초과 혹은 데이터 소스 오류.',//'操作超时或者数据来源错误',

@@ -8,6 +8,10 @@
  *	Translated to Korean by ionobgy
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'hour'			=> '시간',
 	'before'		=> '이전',
@@ -129,7 +133,7 @@ $lang = array(
 	'album_li'		=> '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, 업데이트 {date}"><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, 업데이트 {date}">{albumname}</a></p><span>이미지: {picnum} 개</span></li>',
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} 댓글({replynum})',
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="익명"></div><p>익명</p>',
-	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+/*!*/	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -249,6 +253,7 @@ $lang = array(
 	'viewthread_userinfo_sharings'	=> '공유',
 	'viewthread_userinfo_friends'	=> '친구',
 	'viewthread_userinfo_digest'	=> '강추',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits'	=> '포인트',
 	'viewthread_userinfo_readperm'	=> '읽기 권한',
 	'viewthread_userinfo_regtime'	=> '접속 시간',
@@ -258,6 +263,8 @@ $lang = array(
 	'viewthread_userinfo_buyercredit'	=> '구매자신용',//'买家信用',
 	'viewthread_userinfo_follower'		=> '팔로어',//'听众数',
 	'viewthread_userinfo_following'		=> '팔로어',//'收听数',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
 	'follow_view_follow'			=> '나의 관심',//'我关注的',
 	'follow_view_special'			=> '특별관심',//'特别关注',
 	'follow_view_other'			=> '팔로우홀',//'广播大厅',

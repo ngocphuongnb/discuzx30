@@ -14,6 +14,7 @@ $lang = array (
 	'favorite'		=> '즐겨찾기',
 	'group_admin'		=> '{$_G[setting][navs][3][navname]} 관리',
 	'group_create'		=> '{$_G[setting][navs][3][navname]} 생성',
+/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
 	'group_discuss_area'	=> '게시판',
 	'group_has_joined'	=> '{$_G[setting][navs][3][navname]} 가입을 기다리는중,,,,',
 	'group_join_group'	=> '{$_G[setting][navs][3][navname]} 회원 가입',
@@ -204,5 +205,13 @@ $lang = array (
 	'orderby_default'	=> '기본배열',
 	'stats_main_threads_count'	=> '덧글별',
 	'threads'		=> '덧글',
+/*!*/	'reply'				=> 'Reply',//'回复',
+/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
+/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
+/*!*/	'group_live_post'		=> 'Publish',//'发表',
+/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
+/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
+/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
+/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
 );
 
