@@ -45,5 +45,8 @@ $lang = array (
 					<li>Si vous souhaitez g&#233;rer votre espace, agendas, albums photo et la vie priv&#233;e des autres, Svp. aller aux param&#232;tres de s&#233;curit&#233; de votre espace</li>
 					<li>Ne peut d&#233;finir l\'application par d&#233;faut associ&#233;e &#224; l\'&#233;limination, mais restent visibles apr&#232;s le retrait du droit de votre menu.</li></ol>',
   'open'	=> 'D&#233;velopper',// Open
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 

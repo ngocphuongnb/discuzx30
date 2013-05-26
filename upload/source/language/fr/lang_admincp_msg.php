@@ -224,6 +224,7 @@ $lang = array (
 
   'setting_domain_repeat_error'	=> 'Dupliquer la configuration du nom de domaine',
 	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
+	'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
   'alipay_not_contract'		=> 'Svp. entrer dans le Alipay informations relatives aux abonn&#233;s',
   'alipay_succeed'		=> 'Fonction Alipay mis avec Succ&#232;s ',
@@ -266,6 +267,9 @@ $lang = array (
   'founder_perm_member_duplicate'	=> 'Utilisateur {name} Il existe d&#233;j&#224; &#224; modifier',
   'founder_perm_gperm_update_succeed'	=> 'avec Succ&#232;s l\'autorisation de mettre &#224; jour l\'&#233;quipe de Gestion ',
   'founder_perm_notifyusers_succeed'	=> 'Gestion d\'informer le destinataire correctement configur&#233; ',
+
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
 
   'group_status_off'		=> 'Svp. ouvrir le groupe de fonctions, Maintenant, allez &#224; la page Param&#232;tres du Groupe',
   'group_update_succeed'	=> 'Param&#232;tres de classification Groupe mis &#224; jour avec Succ&#232;s ',
@@ -397,6 +401,7 @@ $lang = array (
   'plugins_import_succeed'		=> 'Plug-in d\'importer des Donn&#233;es a &#233;t&#233; un Succ&#232;s!<br />Pour utiliser correctement ce plug-in, Vous pouvez aussi avoir besoin de t&#233;l&#233;charger ou de modifier le fichier appropri&#233; ou un mod&#232;le, Svp. v&#233;rifiez les instructions d\'installation du plug-in',
   'plugins_config_upgrade_confirm'	=> 'Etes-vous s&#251;r que vous voulez {pluginname} {version} Plug-in mise &#224; niveau vers {toversion} d\'elle?',
   'plugins_config_upgrade_missed'	=> 'Ce plug-in n\'a pas besoin d\'&#234;tre &#224; mise &#224; niveau Svp. t&#233;l&#233;charger une nouvelle version et ensuite effectuer l\'op&#233;ration',
+	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
   'plugins_upgrade_var_invalid'		=> 'Plug-in de le nom n\'est pas l&#233;gale, ne peut pas &#234;tre mis &#224; jour',
   'plugins_setting_succeed'		=> 'Plug-in param&#232;tres mis &#224; jour avec Succ&#232;s ',
   'plugins_setting_module_nonexistence'	=> 'Module de gestion de fichiers sp&#233;cifi&#233;s plug-in({modfile})inexistant ou Il existe un erreur de syntaxe, V&#233;rifiez que le plug-in soit compl&#232;tement t&#233;l&#233;charger',
@@ -455,6 +460,7 @@ $lang = array (
   'setting_seccode_ttf_lost'		=> 'L\'absence de code de validation pour afficher les fichiers police souhait&#233;e, les fichiers de polices &#224; t&#233;l&#233;charger {path} du r&#233;pertoire',
   'forum_name_duplicate'		=> 'D&#233;finissez le nom de la forme ne peut &#234;tre r&#233;p&#233;t&#233;, re-param&#233;trez',
   'alipay_ratio_invalid'		=> 'Que vous entrez le taux en esp&#232;ces/&#233;change de moins de 0 points',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
   'ftp_password_short'			=> 'Mot de passe FTP pas moins de trois',
   'cachethread_dir_noexists'		=> 'D&#233;sol&#233;, R&#233;pertoire que vous indiquez {cachethreaddir} inexistant ou ne peut pas &#233;crire, essayez de le FTP &#224; 777 des propri&#233;t&#233;s',
   'ranklistcache_update'		=> 'Liste fichier de cache est mis &#224; jour',
@@ -581,6 +587,7 @@ $lang = array (
   'usergroups_copy_target_invalid'	=> 'Vous avez pas Choisi de Copier le Groupe Utilisateurs Cibles',
   'usergroups_copy_options_invalid'	=> 'Vous avez pas Choisir les &#201;l&#233;ments Que Vous Souhaitez Copier',
   'usergroups_copy_succeed'		=> 'Exemplaire avec Succ&#232;s des Param&#232;tres de Groupe Utilisateur ',
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 
 	'usertag_delete_succeed'		=> 'Tag removed successfully',//'删除标签成功',
 	'usertag_merge_succeed'			=> 'Tag successfully merged',//'标签合并成功',
@@ -624,5 +631,9 @@ $lang = array (
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
 /*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

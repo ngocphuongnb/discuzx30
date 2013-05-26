@@ -3,8 +3,9 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *      Traduit par Andre13 27-d�c-2011 - http://discuz-fr.fr support French
+ *
  *      $Id: lang_admincp_menu.php by Valery Votintsev at sources.ru
+ *      Traduit par Andre13 27-dec-2011 - http://discuz-fr.fr support French
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -62,12 +63,14 @@ $lang = array
 	'menu_setting_ranklist'		=> 'Rangs',
 	'menu_setting_mobile'		=> 'Mobile',
 	'menu_setting_tag'		=> 'Balises',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'			=> 'Forum',
 	'menu_forums_merge'		=> 'Fusionner',
 	'menu_forums_threadtypes'	=> 'Classification',
 	'menu_forums_infotypes'		=> 'Annonces Class&#233;es',
 	'menu_forums_infooption'	=> 'Options Annonces Class&#233;es',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'		=> 'Ajout. Utilis.',
 	'menu_members_edit'		=> 'Utilis. Modif.',
@@ -111,6 +114,7 @@ $lang = array
 	'menu_postcomment'		=> 'Post Commentaires',
 	'menu_maint_doing'		=> 'Enreg. Agiss.',
 	'menu_maint_blog'		=> 'Blogs',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed'		=> 'Flux Rss',
 	'menu_maint_album'		=> 'Albums',
 	'menu_maint_pic'		=> 'Images',
@@ -129,6 +133,7 @@ $lang = array
 
 	'menu_patch'			=> 'Security Center',//'安全中心',
 	'menu_upgrade'			=> 'Online Upgrade',//'在线升级',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons'		=> 'Extensions',
 	'menu_plugins'		=> 'Plugins',
@@ -182,6 +187,7 @@ $lang = array
 	'menu_portalpermission'		=> 'Portal permissions',//'权限列表',
 	'menu_blockxml'			=> '3e part.Modules',
 	'menu_topic'			=> 'Topics',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate'		=> 'Diy Brico Pages',
 
 	'menu_group_setting'		=> 'Groupes',

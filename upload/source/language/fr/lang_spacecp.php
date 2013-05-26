@@ -218,6 +218,7 @@ $lang = array(
 	'do_stat_friend'	=> 'Devenir Amis',  //  'Become friends'
 	'do_stat_post_number'	=> 'Posts',  //  'Posts'
 	'do_stat_statistic'	=> 'Combinez statistiques',  // 'Combine statistic' 
+/*!*/	'logs_credit_update_INDEX'	=> array('TRC','RTC','RAC','MRC','BMC','TFR','RCV','CEC','ECU','SAC','BAC','PRC','RSC','STC','BTC','AFD','UGP','RPC','ACC','RCT','RCA','RCB','CDC','RGC','BGC','AGC','RKC','BME','RPR','RPZ','FCP','BGC'),
 	'logs_credit_update_TRC'	=> 'Qu&#234;te',  //  Quest
 	'logs_credit_update_RTC'	=> 'R&#233;comp.',  //  Reward
 	'logs_credit_update_RAC'	=> 'Meilleure r&#233;ponse',  //  'Best answer'
@@ -248,6 +249,9 @@ $lang = array(
 	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
 	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
 	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
+/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
+/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
 	'logs_credit_update_reward_clean'	=> 'Clean',//'清零',
 	'logs_select_operation'		=> 'Svp. choisissez une op&#233;ration',  // 'Please choose an operation' 
 	'task_credit'			=> 'Des points de r&#233;compense des t&#226;ches',  //  'Task reward points'
@@ -273,6 +277,7 @@ $lang = array(
 	'buy_credit'			=> 'Rechargez l\'int&#233;grale',  //  'Recharge the integral'
 	'buy_usergroup'			=> 'D&#233;penses points pour acheter des du Groupe Utilisateurs &#233;tendu',  //  'Spending points to buy extended user group'
 	'buy_medal'			=> 'Buy Medal',//'购买勋章',
+/*!*/	'buy_forum'			=> 'Buy a paid forum access permissions',//'购买付费版块的访问权限',
 	'report_credit'			=> 'Fonction de la prime pour le signalement',  //  'Function of the incentive to report'
 	'join'				=> 'Participation',  //  'Participation'
 	'activity_credit'		=> 'Activit&#233;s, d&#233;duction faite de points',  //  'Activities, net of points'
@@ -329,8 +334,8 @@ $lang = array(
 						<span class="xi1">Nouveau email ({newemail}) Attendre pour la Validation ...</span><br />
 						Le syst&#232;me a envoy&#233; un courriel de v&#233;rification pour l\'activation, Svp. consulter votre courrier &#233;lectronique.<br>
 						Si vous ne recevez pas de courriel de v&#233;rification, changer votre email, ou <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2"> appliquer &#224; nouveau</a>',  
-/*!*/	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
-/*!*/	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
+	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
