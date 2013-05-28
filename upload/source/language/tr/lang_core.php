@@ -4,13 +4,21 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_core.php 17316 2010-10-08 04:01:44Z monkey $
+ *      $Id: lang_core.php by Valery Votintsev at sources.ru
  */
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
 
 $lang = array
 (
 	'nextpage'	=> 'Sonraki',
 	'prevpage'	=> 'Önceki',
+	'pageunit'		=> 'Pages',//'页',
+	'total'			=> 'Total',//'共',
+	'10k'			=> '10K',//'万',
+	'pagejumptip'		=> 'Enter the page number and press Enter for quick jump',//'输入页码，按回车快速跳转',
 	'date' => array(
 		'before'	=> ' önce',
 		'day'	=> 'gün',
@@ -39,7 +47,7 @@ $lang = array
 	'end'		=> 'Son',
 
 	'seccode_image_tips'		=> 'Lütfen kodu giriniz<br />',
-	'seccode_image_ani_tips'	=> 'Enter the following characters from the animated picture in the largest<br />',//'输入下面动画图片中最大的字符<br />',
+	'seccode_image_ani_tips'	=> 'Enter the following characters from the animated picture in the largest<br />',//'请输入下面动画图片中的字符<br />',
 	'seccode_sound_tips'		=> 'Enter the characters that you hear<br />',//'输入你听到的字符<br />',
 	'secqaa_tips'			=> 'Lütfen soruyu cevaplayınız<br />',
 
@@ -85,7 +93,7 @@ $lang = array
 	'title_article_favorite'	=> 'Favori Makaleler',
 	'title_all_favorite'	=> 'Hepsi',
 	'title_friend_list'	=> 'Arkadaş Listesi',
-//	'title_of'	=> 'of',
+//vot	'title_of'	=> 'of',
 	'title_all_poll'	=> 'Anketler',
 	'title_we_poll'		=> 'Arkadaşların',
 	'title_me_poll'		=> 'Anketlerim',
@@ -98,7 +106,7 @@ $lang = array
 	'title_dateline_reward'	=> 'Yeni Ödülller',
 	'title_share_all'	=> 'Hepsi',
 	'title_share_link'	=> 'Url',
-	'title_share_video'	=> 'Video',
+	'title_share_video'		=> 'Video',//'视频',
 	'title_share_music'	=> 'Müzik',
 	'title_share_flash'	=> 'Flash',
 	'title_share_poll'	=> 'Anket',
@@ -151,7 +159,7 @@ $lang = array
 	'title_memcp_privacy'	=> 'Gizlilik',
 	'title_memcp_avatar'	=> 'Avatar',
 	'title_memcp_profile'	=> 'Profil',
-//	'title_memcp_sendmail'	=> 'E-mail',
+//vot	'title_memcp_sendmail'	=> 'E-mail',
 	'title_memcp_credit'	=> 'Krediler',
 	'title_memcp_friend'	=> 'Arkadaşlar',
 	'title_memcp_usergroup'	=> 'Üyegrup',
@@ -162,7 +170,7 @@ $lang = array
 	'title_memcp_eccredit'		=> 'Points Transactions',//'信用评价',
 	'title_memcp_promotion'		=> 'Access Promotion',//'访问推广',
 	'title_task'			=> 'Görev',
-	'title_login'			=> 'Login',
+	'title_login'			=> 'Login',//'登录',
 	'title_ranklist_picture'	=> 'Top Resimler',
 	'title_ranklist_member'		=> 'Top Üyeler',
 	'title_ranklist_thread'		=> 'Top Konular',
@@ -173,47 +181,58 @@ $lang = array
 	'title_ranklist_group'		=> 'Top Gruplar',
 	'title_ranklist_app'		=> 'Application Ranking',//'应用排行',
 	'title_ranklist_index'		=> 'Tüm Klasman',
-//	'title_ranklist_index'		=> 'Top',
+	'title_ranklist_rankname'	=> 'Rank',//'排行榜',
 	'title_search'			=> 'Arama',
 	'title_topic_management'	=> 'Konu Oluştur',
-	'title_portal_management'	=> 'Portal Management',
-	'title_portalblock_management'	=> 'Module Management',
-	'title_block_management'	=> 'Block Management',
-	'title_blockdata_management'	=> 'Push Audit',
+	'title_portal_management'	=> 'Portal Management',//'门户管理',
+	'title_portalblock_management'	=> 'Portal Block Management',//'模块管理',
+	'title_block_management'	=> 'Block Management',//'模块管理',
+	'title_blockdata_management'	=> 'Block Data Management',//'推送审核',
 	'title_index_management'	=> 'Kanallar',
 	'title_article_management'	=> 'Makale ekle',
 	'title_category_management'	=> 'Makale düzenle',
 
-	'title_stats'			=> 'Site Statistics',
-	'title_stats_basic'		=> 'Basic Overview',
-	'title_stats_forumstat'		=> 'Forum Statistics',
-	'title_stats_team'		=> 'Management Team',
-	'title_stats_modworks'		=> 'Management Statistics',
-	'title_stats_memberlist'	=> 'Member List',
-	'title_stats_trend'		=> 'Trends and Statistics',
+	'title_stats'			=> 'Site Statistics',//'站点统计',
+	'title_stats_basic'		=> 'Basic Statistics',//'基本概况',
+	'title_stats_forumstat'		=> 'Forum Statistics',//'版块统计',
+	'title_stats_team'		=> 'Team Statistics',//'管理团队',
+	'title_stats_modworks'		=> 'Moderator Statistics',//'管理统计',
+	'title_stats_memberlist'	=> 'Member List',//'会员列表',
+	'title_stats_trend'		=> 'Statistics Trends',//'趋势统计',
 
 	'title_memcp_pm'		=> 'Ö.M',
-	'title_memcp_domain'		=> 'My Domain',
-	'title_userapp'			=> 'Apps',
-	'title_userapp_index_all'	=> 'All Apps',
-	'title_userapp_index_we'	=> 'Friends Apps',
-	'title_userapp_index_me'	=> 'My Apps',
-	'title_userapp_manage'		=> '{userapp}apps',
+	'title_memcp_domain'		=> 'My space domain',//'我的空间域名',
+	'title_userapp'			=> 'Application',//'应用',
+	'title_userapp_index_all'	=> 'All Applications',//'大家在玩什么',
+	'title_userapp_index_we'	=> 'Friend Applications',//'好友在玩什么',
+	'title_userapp_index_me'	=> 'My Applications',//'我在玩的',
+	'title_userapp_manage'		=> 'Manage Application &quot;{userapp}&quot;',//'{userapp}管理',
+
+	'title_collection'		=> 'Collection',//'淘帖',
+	'title_collection_create'	=> 'Create collection',//'创建淘专辑',
+	'title_collection_edit'		=> 'Edit collection',//'编辑淘专辑',
+	'title_collection_comment_list'	=> 'Comment list',//'评论列表',
+	'title_collection_followers_list'	=> 'Followers',//'订阅用户列表',
+
 	'faq'				=> 'SSS',
 	'search'			=> 'Arama ',
-	'page'				=> 'page {page}',
+	'page'				=> 'page {page}',//'第{page}页',
 
-//vot source/include/misc/misc_security.php
-	'attackevasive_1_subject'	=> 'Refresh frequency limit',
-	'attackevasive_1_message'	=> 'You visit the site too fast, less than two seconds! Please wait a little...',
-	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',
-	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',
-	'attackevasive_4_subject'	=> 'Open the page reload',
-	'attackevasive_4_message'	=> 'Welcome to the site, the page is re-loading, please wait ...',
+	'close'				=> 'Close',//'关闭',
 
-//vot Months Names
-	'month_name'	=> array('Month','January','February','March','April','May','June','July','August','September','October','November','December'),
+//--------------------------------------------------------------------------
+// Added by Valery Votintsev
+
+//source/include/misc/misc_security.php
+	'attackevasive_1_subject'	=> 'Refresh frequency limit',//'刷新频率限制',
+	'attackevasive_1_message'	=> 'You visit the site too fast, less than two seconds! Please wait a little...',//'您访问网站的速度太快，不到两秒钟！请等一下...',
+	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',//'通过代理服务器的访问是受到限制',
+	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',//'通过代理服务器访问网站限制亩。请删除您的代理设置配置，并直接访问该网站。',
+	'attackevasive_4_subject'	=> 'Open the page reload',//'打开页面重载',
+	'attackevasive_4_message'	=> 'Welcome to the site!<br/>Re-loading the page, please wait...',//'欢迎的网站，页面重新载入，请稍候...',
+
+// Months Names
+	'month_name'	=> array('Month','January','February','March','April','May','June','July','August','September','October','November','December'),//array('月','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'),
 
 );
 
-?>

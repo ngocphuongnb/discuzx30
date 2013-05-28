@@ -9,8 +9,8 @@
  *      This file is automatically generate
  */
 
-$lang = array
-(
+$lang = array (
+
 	'undefined_action'		=> 'Geçersiz işlem, lütfen geri dönün.',
 	'to_login'			=> 'Önce giriş yapmalısınız',
 	'profile_passwd_notmatch'	=> 'Şifreler eşleşmiyor, lütfen geri dönün.',

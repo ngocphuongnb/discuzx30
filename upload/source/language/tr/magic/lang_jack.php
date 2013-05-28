@@ -7,6 +7,10 @@
  *      $Id: lang_jack.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'jack_name'		=> 'Jack',//'千斤顶',
@@ -23,5 +27,3 @@ $lang = array
 
 	'jack_notification'	=> '{actor} used the &quot;{magicname}&quot; for the thread &quot;{subject}&quot;, <a href="forum.php?mod=viewthread&tid={tid}">Go to see it!</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
 );
-
-?>
