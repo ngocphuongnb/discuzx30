@@ -7,6 +7,10 @@
  *      $Id: lang_bump.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 	'bump_name'			=> 'Bump Card',//'提升卡',

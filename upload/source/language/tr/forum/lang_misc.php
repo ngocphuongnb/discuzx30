@@ -181,6 +181,8 @@ $lang = array
 	'week_5'	=> 'Cum',
 	'week_6'	=> 'Cmt',
 
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
 	'notice_actor'		=> ', and so on. Toplam: $actorcount person(s)',
 
 	'perms_allowvisit'		=> 'Forum Erişim',
@@ -323,5 +325,9 @@ $lang = array
 	'plugin_memo'		=> 'Do you have <span class="xi1">{number}</span>  lines of application of available updates',
 	'plugin_link'		=> 'Şimdi güncelleştir',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

@@ -7,6 +7,10 @@
  *      $Id: lang_feed.php 14490 2010-08-12 04:32:34Z zhengqingpeng $
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array
 (
 
@@ -38,7 +42,7 @@ $lang = array
 
 	'feed_click_blog'	=> '{actor} {touser}\'n {subject} bloguna bir "{click}" gönderdi.',
 	'feed_click_thread'	=> '{actor} {touser}\'n {subject} konusuna bir "{click}" gönderdi.',
-	'feed_click_pic'	=> '{actor}  {touser}\'n resmine bir "{click}" gönderdi.',
+	'feed_click_pic'	=> '{actor} {touser}\'n resmine bir "{click}" gönderdi.',
 	'feed_click_article'	=> '{actor} {touser}\'n {subject} haberine bir "{click}" gönderdi.',
 
 
@@ -103,4 +107,3 @@ $lang = array
 
 );
 
-?>

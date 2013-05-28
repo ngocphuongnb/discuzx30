@@ -7,6 +7,10 @@
  *      $Id: lang_space.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'hour'			=> ' saat',
 	'before'		=> ' önce',
@@ -92,12 +96,12 @@ $lang = array(
 	'sharings'	=> 'Paylaşımlar',
 	'space_views'	=> 'Toplam <strong class="xi1">{views}</strong> ziyaret',
 	'views'		=> 'İzleme',
-	'block1'	=> 'Custom Module 1',
-	'block2'	=> 'Custom Module 2',
-	'block3'	=> 'Custom Module 3',
-	'block4'	=> 'Custom Module 4',
-	'block5'	=> 'Custom Module 5',
-	'blockdata'	=> array(
+	'block1'		=> 'Custom block 1',//'自定义模块1',
+	'block2'		=> 'Custom block 2',//'自定义模块2',
+	'block3'		=> 'Custom block 3',//'自定义模块3',
+	'block4'		=> 'Custom block 4',//'自定义模块4',
+	'block5'		=> 'Custom block 5',//'自定义模块5',
+/*vot*/	'blockdata'		=> array(
 		'personalinfo'	=> 'Personal Info',//'个人资料',
 		'profile'	=> 'Profil',
 		'doing'		=> 'Durumlar',
@@ -114,18 +118,18 @@ $lang = array(
 		'music'		=> 'Müzikler',
 		'statistic'	=> 'Istatistikler',
 		'myapp'		=> 'Applications',//'应用',
-		'block1'	=> 'Custom Module 1',
-		'block2'	=> 'Custom Module 2',
-		'block3'	=> 'Custom Module 3',
-		'block4'	=> 'Custom Module 4',
-		'block5'	=> 'Custom Module 5'
+		'block1'	=> 'Free block 1',//'自由模块1',
+		'block2'	=> 'Free block 2',//'自由模块2',
+		'block3'	=> 'Free block 3',//'自由模块3',
+		'block4'	=> 'Free block 4',//'自由模块4',
+		'block5'	=> 'Free block 5',//'自由模块5'
 	),
 
 	'block_title'		=> '<div class="blocktitle title"><span>{bname}</span>{more}</div>',
 	'blog_li'		=> '<dl class="bbda cl"><dt><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a><span class="xg2 xw0"> {date}</span></dt>',
 	'blog_li_img'		=> '<dd class="atc"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank"><img src="{src}" class="summaryimg" /></a></dd>',
 	'blog_li_ext'		=> '<dd class="xg1"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">({viewnum})izleme</a><span class="pipe">|</span><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}#comment" target="_blank">({replynum}) yorum</a></dd>',
-	'album_li'		=> '<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>Resim:({picnum})</span><span>Güncelleme {date}</span></li>',
+	'album_li'		=> '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>Resim:({picnum})</span><span>Güncelleme {date}</span></li>',
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} Cevaplama({replynum})',
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonim"></div><p>Anonim</p>',
 	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
@@ -137,7 +141,7 @@ $lang = array(
 					<input type="hidden" name="id" value="{uid}" />
 					<input type="hidden" name="idtype" value="uid" />
 					<input type="hidden" name="commentsubmit" value="true" />' :
-					'<div class="pt hm">Önce giriş yapmanız gerekli! <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">Giriş</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" onclick="showWindow(\'register\', this.href)" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>').'
+					($_G['connectguest'] ? '<div class="pt hm">You have to <a href="member.php?mod=connect" class="xi2">Improve the account information</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> before you can reply</div>' : '<div class="pt hm">Önce giriş yapmanız gerekli! <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">Giriş</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
 					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>Mesaj</strong></button></p>
 					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
 					<span id="return_commentwall_{uid}"></span>
@@ -174,6 +178,7 @@ $lang = array(
 	'block_profile_wall'		=> 'Mesaj',
 	'block_profile_avatar'		=> 'Avatar',
 	'block_profile_update'		=> 'Profil',
+	'block_profile_follow'		=> 'View Feed',//'查看广播',
 	'block_profile_wall_to_me'	=> 'Mesaj',
 	'block_profile_friend_add'	=> 'Arkadaş ekle',
 	'block_profile_friend_ignore'	=> 'Arkadaş sil',
@@ -235,6 +240,7 @@ $lang = array(
 	'doing_you_can'		=> 'Durumunuzu yazarak,arkadaşlarınızı haberdar edebilirsiniz..',
 	'block_profile_all'	=> '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">Kişisel veriler</a></p>',
 	'block_profile_edit'	=> '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">Profil</a></span>',
+	'sb_follow'		=> '{who} followings',//'{who}的广播',
 
 	'viewthread_userinfo_hour'	=> 'saat',
 	'viewthread_userinfo_uid'	=> 'UID',
@@ -246,24 +252,41 @@ $lang = array(
 	'viewthread_userinfo_sharings'	=> 'Paylaşım:',
 	'viewthread_userinfo_friends'	=> 'Arkadaş:',
 	'viewthread_userinfo_digest'	=> 'Derleme:',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits'	=> 'Kredi:',
 	'viewthread_userinfo_readperm'	=> 'Okuma:',
 	'viewthread_userinfo_regtime'	=> 'Kayıt:',
 	'viewthread_userinfo_lastdate'	=> 'Son giriş:',
 	'viewthread_userinfo_oltime'	=> 'Online süre:',
-/* Obsolete
-	'block_friend_no_content'	=> 'Arkadaş yok!',
-	'block_friend_no_content_publish'	=> '，<a href ="home.php?mod=spacecp&ac=search">Arkadaş ara</a> veya <a href ="home.php?mod=spacecp&ac=invite">davet et</a>',
-	'block_visitor_no_content'	=> 'Ziyaretçiniz yok!',
-	'block_visitor_no_content_publish'	=> ',<a href ="home.php?mod=space&do=friend&view=online&type=member"> kimler online!</a>',
-	'block_share_no_content'	=> 'Paylaşımınız yok!',
-	'block_wall_no_content'	=> 'Mesajınız bulunmuyor!',
-	'block_group_no_content'	=> 'grubunuz yok!',
-	'block_group_no_content_publish'	=> '，<a href ="forum.php?mod=group&action=create">Kendi grubunu oluştur</a> veya <a href ="group.php?mod=index">Gruba katıl!</a>',
-	'block_myapp_no_content'	=> 'Henüz uygulama kullanmıyorsunuz!',
-	'block_myapp_no_content_publish'	=> '，<a href ="userapp.php?mod=manage&my_suffix=/app/list">Uygulamalar</a>',
-*/	
+	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
+	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
+/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
+/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
+	'follow_view_follow'			=> 'I follow',//'我关注的',
+	'follow_view_special'			=> 'Special attention',//'特别关注',
+	'follow_view_other'			=> 'Following Hall',//'广播大厅',
+	'follow_view_feed'			=> '{who}\'s feed',//'{who}的广播',
+	'follow_view_thread'			=> '{who}\s threads',//'{who}的主题',
+	'follow_view_reply'			=> '{who}\s replies',//'{who}的回复',
+	'follow_view_profile'			=> '{who}\s Personal data',//'{who}的个人资料',
+	'follow_view_type_feed'			=> 'Follow',//'广播',
+	'follow_view_type_thread'		=> 'Threads',//'主题',
+	'follow_view_type_reply'		=> 'Reply',//'回帖',
+	'follow_view_type_profile'		=> 'Profile',//'个人资料',
+	'follow_view_type_follower'		=> 'Follower list',//'听众列表',
+	'follow_view_type_following'		=> 'Followings list',//'收听用户',
+	'follow_view_my_follower'		=> 'My followers',//'我的听众',
+	'follow_view_my_following'		=> 'My followings',//'我收听的人',
+	'follow_view_do_follower'		=> 'His followers',//'他的听众',
+	'follow_view_do_following'		=> 'His followings',//'他收听的人',
+	'follow_view_fulltext'			=> '... View full text',//'...查看全文',
+	'follow_retract'			=> 'Collapse',//'收起',
+	'follow_click_play'			=> 'Click to Play',//'点击播放',
+	'follow_cancle_follow'			=> 'Cancel follow',//'取消收听',
+	'follow_follow_ta'			=> 'Follow the author',//'收听TA',
+
 
 );
 
-?>

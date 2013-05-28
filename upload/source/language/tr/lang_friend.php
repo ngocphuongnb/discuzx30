@@ -7,6 +7,10 @@
  *      $Id: lang_friend.php 6757 2010-03-25 09:01:29Z cnteacher $
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'friend_group_default'	=> 'Diğer',
 	'friend_group_1'	=> 'Site',
@@ -17,6 +21,7 @@ $lang = array(
 	'friend_group_6'	=> 'Memleket',
 	'friend_group_7'	=> 'Tatil',
 	'friend_group_more'	=> 'Özel{num}'
+//vot: !!!!!!!!!!!!!!!!! Add other categories from UCHome lang_source.php !!!!!
+//	'friend_group_0'	=> 'Others',//'其他',
 );
 
-?>

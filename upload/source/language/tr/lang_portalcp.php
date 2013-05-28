@@ -7,6 +7,10 @@
  *      $Id: lang_portalcp.php by Valery Votintsev at sources.ru
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array(
 	'block_diy_nopreview'		=> '<p>This block contain js, you cannot preview it, please save to view.</p>',//'<p>此模块内容包含js代码，不能立即预览，请点击保存后查看</p>',
 	'block_diy_summary_html_tag'	=> 'Custom content errors, HTML tags:',//'自定义内容错误，HTML标签：',
@@ -18,6 +22,7 @@ $lang = array(
 	'block_all_type'	=> 'Tüm Kategoriler',
 	'file_size_limit'	=> 'Doya max {size} kb olmalı,geri dönün．',
 	'set_to_conver'		=> 'Kapak',
+	'small_image'			=> 'Small image',//'小图',
 	'insert_small_image'	=> 'Küçük Ekle',
 	'insert_large_image'	=> 'Büyük Ekle',
 	'insert_file'		=> 'Dosya Ekle',
@@ -27,6 +32,8 @@ $lang = array(
 	'article_noexist'	=> 'Haber bulunamadı',
 	'article_noallowed'	=> 'Haber yayınlama izniniz bulunmuyor',
 	'article_publish_noallowed'	=> 'Haber yayınlama izniniz bulunmuyor',
+	'article_category_empty'	=> 'Sorry, the category can not be empty',//'抱歉，栏目不能为空',
+	'article_edit_nopermission'	=> 'Sorry, you do not have permission to edit current article',//'抱歉，您没有权限进行当前文章操作',
 	'article_publish'	=> 'Yayınla',
 	'article_manage'	=> 'Düzenle',
 	'article_tag'		=> 'Etiketler',
@@ -36,6 +43,8 @@ $lang = array(
 	'article_pushplus_info'		=> '<p><center><i><a href="{url}" class="xg1 xs1">This article provided by the {author}</a></i><center></p>',
 
 	'diytemplate_name_null'	=> '[Not filled]',
+	'portal_view_name'		=> ' Article view page',//' 文章查看页',
+	'forum_viewthread_name'		=> ' Posts View Page',//' 帖子查看页',
 	'portal/index'		=> 'Site',
 	'portal/list'		=> 'Haber Listesi',
 	'portal/view'		=> 'Haber Gösterme',
@@ -43,7 +52,7 @@ $lang = array(
 	'forum/discuz'		=> 'Forum',
 	'forum/viewthread'	=> 'Posts View',
 	'forum/forumdisplay'	=> 'Forum Liste',
-	'group/index'			=> 'Group Home',//'群组首页',
+	'group/index'			=> 'Group Home',//$_G['setting']['navs'][3]['navname'].'首页',
 	'group/group_my'	=> 'Gruplariım',
 	'group/group'		=> 'Groups Içerik',
 	'home/space_home'	=> 'Ortam',
@@ -85,5 +94,10 @@ $lang = array(
 	'portal_topic_green'	=> 'Yeşil Tema',
 	'portal_topic_grey'	=> 'Gri Tema',
 	'portal_topic_red'	=> 'Kırmızı Tema',
+
+	'itemtypename0'			=> 'Auto',//'自动',
+	'itemtypename1'			=> '<span style="color: #FF0000">Fixed</span>',//'<span style="color: #FF0000">固定</span>',
+	'itemtypename2'			=> '<span style="color: #00BFFF">Edit</span>',//'<span style="color: #00BFFF">编辑</span>',
+	'itemtypename3'			=> '<span style="color: #0000FF">Push</span>',//'<span style="color: #0000FF">推送</span>',
 
 );

@@ -106,7 +106,7 @@ $lang = array (
 	'block_start_time'		=> 'Start time',//'开始时间',
 	'block_start_time_comment'	=> 'Leave blank to show immediately',//'留空表示立即开始',
 	'block_stop'			=> 'Hide',//'屏蔽',
-	'block_template'		=> 'Block Styles',//'模块模板',
+	'block_template'		=> 'Block template',//'模块模板',
 	'block_type'			=> 'Block Type',//'模块分类',
 	'block_type_convert_tips'	=> 'This block supports converting block type, but <font color=\'red\'>some of special fields may be lost, and the block will change the display style of a custom template</font >, according to your need.<br/><font color=\'red\'>Note:</ font>Select the block type classification from the drop-down list, immediately after the block changed.',//'此模块分类支持转换模块的类型，但<font color=\'red\'>可能会存在部分特殊字段的丢失且模块的显示样式将会变为自定义模板</font>，请根据需要使用。<br/><font color=\'red\'>注意：</font>选择下拉列表中的模块类型以后模块分类立即发生改变。',
 	'block_view_banned_data'	=> 'View masked data',//'查看屏蔽数据',

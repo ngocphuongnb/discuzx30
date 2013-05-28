@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Valery Votintsev at sources.ru
+ *     $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
  *      Translated to Turkish by www.discuz.eu
  */
@@ -14,6 +14,7 @@ $lang = array (
 	'favorite'		=> 'Favorile',
 	'group_admin'		=> 'Ayarlar',
 	'group_create'		=> 'Grup yarat',
+/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
 	'group_discuss_area'	=> 'Tartışma',
 	'group_has_joined'	=> ' grup\'a istek\'de bulundu, onay bekliyor..',
 	'group_join_group'	=> 'Katıl',
@@ -37,11 +38,12 @@ $lang = array (
 	'choose_please'		=> 'Seçiniz ',
 	'create'		=> 'Yarat',
 	'group_category'	=> 'Kategori',
+	'group_create_mod'		=> 'New pending groups',//'需要审核开通',
 	'group_create_new'	=> 'Yeni grup yarat',
 	'group_create_selete_categroy'	=> 'Select the group category',//'请选择群组分类',
 	'group_description'	=> 'Açıklama',
+	'group_description_preview'	=> 'Preview',//'预览',
 	'group_name'		=> 'Grup adı',
-	'option_required'	=> 'Gerekli',
 	'anonymous'		=> 'Anonim',
 	'author'		=> 'Yazan',
 	'click_to_readmore'	=> 'Konular',
@@ -98,6 +100,7 @@ $lang = array (
 	'group_icon'			=> 'Grup icon',
 	'group_icon_resize'		=> 'Oto ayarlama 48 X 48 px',
 	'group_image'			=> 'Grup ana resim',
+	'group_image_filesize_advise'	=> 'Recommended to use images of size 730&times;150 for best results',//'建议使用尺寸为 730×150 的图片以取得最佳效果',
 	'group_image_filesize_limit'	=> 'File is smaller than $_G[setting][group_imgsizelimit] kb',
 	'group_input_password'		=> 'Please enter password',
 	'group_level_cannot_do'		=> 'You can not us this function, because of your group level.',
@@ -144,6 +147,7 @@ $lang = array (
 	'friend_join_group'		=> 'Arkadaş Katılımları',
 	'group'				=> 'Gruplar',
 	'group_thread'			=> 'Grup Konular',
+	'group_wait_mod'		=> 'Pending',//'待审核',
 	'hot_group'			=> 'Hot Gruplar',
 	'last_post'			=> 'Son Mesajlar',
 	'last_topic_in_group'		=> 'Son Konular (son 30 gün)',
@@ -201,10 +205,13 @@ $lang = array (
 	'orderby_default'		=> 'Varsayılan',
 	'stats_main_threads_count'	=> 'Konular',
 	'threads'			=> 'Konu',
-// Obsolete
-//	'group_image_resize'	=> 'Oto ayarlama 720 X 168 px',
-	'group_create_notice'	=> 'Attention: You can edit other items except group name and category.',
-	'group_attachment' 	=> 'Dosyalar',
+/*!*/	'reply'				=> 'Reply',//'回复',
+/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
+/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
+/*!*/	'group_live_post'		=> 'Publish',//'发表',
+/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
+/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
+/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
+/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
 );
 
-?>

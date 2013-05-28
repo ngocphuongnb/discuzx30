@@ -64,10 +64,14 @@ $lang = array (
 	'search_group_result_keyword'	=> 'Sonuçlar: <em>Toplam {$_G[setting][navs][3][navname]} $groupnum, &nbsp;&nbsp;related thread $index[num]</em>',
 	'search_group_viewgroup'	=> ' Bulunan gruplar',
 	'threads'		=> 'Konu',
+	'subscribe'		=> 'Subscribe',//'订阅',
+	'comment'		=> 'Comment',//'评论',
+	'lastupdate'		=> 'Last Update',//'最后更新',
 	'return_homepage'	=> 'Geri',
 	'visit_my_space'	=> 'Sayfam',
 	'album'			=> 'Albüm',
 	'blog'			=> 'Blog',
+	'collection'		=> 'Collection',//'淘帖',
 	'portal'		=> 'Makale',
 	'quick'			=> 'Hızlı',
 	'search_adv'		=> 'Gelişmiş',
@@ -87,13 +91,4 @@ $lang = array (
 	'goto_memcp'		=> 'Ayarlar',
 	'thread_list_message1'	=> 'Gizli içeriği görmek için tıklayınız',
 );
-//	'search_return_normal'	=> 'Geri',
-//	'threadtype_option'	=> 'Konu tipi',
-//	'search_info'		=> 'Konu Kategori',
-//	'subject'		=> 'Başlık',
-//	'contactus'		=> 'İletişim',
-//	'none'			=> 'None',
-//	'search_option'		=> 'Arama Seçenekleri',
-//	'search_quick'		=> 'Hızlı Arama',
 
-?>

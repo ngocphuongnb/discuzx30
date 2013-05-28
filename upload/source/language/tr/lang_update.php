@@ -1,6 +1,6 @@
 <?php
 
-/**+++
+/**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
@@ -46,7 +46,7 @@ $lang = array(
 					    1 => 'Original',//'原创',
 					    2 => 'Hot',//'热点',
 					    3 => 'Photos',//'组图',
-					    4 => 'Broken News',//'爆料',
+					    4 => 'Breaking News',//'爆料',
 					    5 => 'Headline',//'头条',
 					    6 => 'Slideshow',//'幻灯',
 					    7 => 'Scroll',//'滚动',
@@ -92,7 +92,7 @@ $lang = array(
 	'new_pm_completed'		=> 'New short message status reset completed',//'新短消息状态重置完毕',
 	'view_img_completed'		=> 'View image rights upgrade completed',//'查看图片权限升级完毕',
 	'realname_verify'		=> 'Real name verification',//'实名认证升级中',
-	'video_verify'			=>'Video verification',//'视频认证',
+	'video_verify'			=> 'Video verification',//'视频认证',
 	'real_name_verification'	=> 'Real name verification',//'实名认证升级中',
 	'real_name_verification_completed'	=> 'Real name verification data upgrade is completed',//'认证数据升级完毕',
 	'attachment_upgrade'		=> 'Forum attachment table upgrading ... ',//'论坛附件表升级中 ... ',
@@ -134,4 +134,42 @@ $lang = array(
 	'reports_completed'		=> 'Reports upgrade is completed',//'举报升级完成',
 	'magics_updated'		=> 'Magics upgrade is completed',//'道具升级完成',
 	'birthday'			=> 'Birthday',//'出生日期',
+//-----------------------------------------------------------------------------
+// Added in X2.5:
+	'table_optimize'	=> 'Optimize table',//'优化数据表',
+	'close_wait'		=> 'Your site is not closed, is being closed, please wait...',//'您的站点未关闭，正在关闭，请稍后...',
+	'length'		=> '[Length]',//'[时长]',
+	'status'		=> '[Status]',//'[状态]',
+	'info'			=> '[Info]',//'[信息]',
+	'next_step_wait'	=> 'Ready to enter the next step, please wait...',//'准备进入下一步操作，请稍后...',
+	'upgrade_wait'		=> 'Is being upgraded, please wait...',//'正在升级数据，请稍后...',
+//	'ready_to_db_upgrade'	=> 'Ready to enter the next step: upgrade the database structure',//'准备完毕，进入下一步数据库结构升级',
+	'patches_dayly'		=> 'Security patches daily access',//'每日获取安全补丁',
+	'regular_publish'	=> 'Regular published topics',//'定时发布主题',
+	'archive_weekly'	=> 'Weekly broadcast archive',//'每周广播归档',
+	'updates_daily'		=> 'Number of daily update checks',//'更新每日查看数',
+	'users_daily'		=> 'Daily user table optimization',//'每日用户表优化',
+	'collection_follow'	=> 'Collection followed rule (Taobao album subscription)',//'淘专辑被订阅',
+	'new_post'		=> 'New posts',//'新人帖',
+	'moderated_completed'	=> 'Moderated data conversion is completed',//'审核数据转换完毕',
+	'medal_completed'	=> 'User Medal data upgrade is completed',//'用户勋章数据升级完毕',
+	'data_update_completed'	=> 'Data update is completed',//'数据升级结束',
+	'group_stat_completed'	=> 'Forum Group statistics upgrade is completed',//'论坛版块统计数据升级完毕',
+//-----------------------------------------------------------------------------
+// Added in X3.0:
+/*!*/	'cron_todayheats_daily'	=> 'Count today hot posts daily',//'统计今日热帖',
+/*!*/	'hot_posts_completed'	=> 'Hot posts updated',//'热帖处理完毕',
+/*!*/	'reminder_update_completed'	=> 'Remind data upgrade finished',//'提醒数据升级完毕',
+/*!*/	'layout_update_completed'	=> 'Layout settings upgrade finished',//'布局方案设置升级完毕',
+/*!*/	'processed_from'	=> 'Being processed from ',//'正在处理从 ',
+/*!*/	'starting_from'		=> ' starting from ',//' 开始 ',
+/*!*/	'popular_posts'		=> 'popular posts',//'的热帖',
+//To lang_template:
+/*!*/	'default_layout'	=> 'Default layout',//'默认方案',
+/*!*/	'qq_bbcode_description'	=> 'QQ online status, points icon and his/her chat',//'显示 QQ 在线状态，点这个图标可以和他（她）聊天',
+/*!*/	'qq_enter'		=> 'Please enter the QQ number',//'请输入 QQ 号码',
+/*!*/	'qq_onlne_status'	=> 'Set QQ online status',//'设置QQ在线状态',
+/*!*/	'open_soso'		=> '<br><br>Tips:<br>In order to reduce the forum loading, this upgrade will help you to use our website Geo-location search service.<br>You can go to',//'<br><br>友情提示：<br>为更好的降低论坛搜索时的数据压力，本次升级已经帮本站开通纵横搜索服务。<br>你可以在',
+/*!*/	'open_soso_link'	=> 'AdminCP -&gt; Cloud platform -&gt; Geo-location search Management',//'站点后台-&gt;云平台-&gt;纵横搜索 进行管理',
+
 );
