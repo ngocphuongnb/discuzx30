@@ -1537,6 +1537,8 @@ $lang = array (
   'video_certification_audit' => 'รับรองการตรวจสอบวีดีโอ',
   'connect_fill_profile_to_view' => '<a href="member.php?mod=connect" target="_blank">การเชื่อมต่อบัญชีผู้ใช้</a> <a href="member.php?mod=connect&ac=bind" target="_blank">ผูกบัญชีผู้ใช้งาน</a>',
   'connect_fill_profile_to_comment' => 'คุณจำเป็นต้อง <a href="member.php?mod=connect" class="xi2">เชื่อมต่อบัญชีผู้ใช้</a> หรือ <a href="member.php?mod=connect&ac=bind" class="xi2">ผูกบัญชีผู้ใช้งาน</a> ก่อนที่จะดำเนินการใดๆ',
+/*!*/	'save_to_album'				=> 'Save to album',//'保存到相册',
+/*!*/	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
 
 //---------------------------------------------------------------
 // Added by Valery Votintsev

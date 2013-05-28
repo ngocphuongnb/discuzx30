@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_misc.php 29624 2012-04-23 06:56:28Z monkey $
+ *      $Id: lang_misc.php by Valery Votintsev, codersclub.org
  *	Translated to Thai by jaideejung007
  */
 
@@ -56,7 +56,7 @@ $lang = array
 	'post_trade_transport_express' => 'ด่วน',
 	'post_trade_transport_virtual' => 'สินค้าเสมือนจริงหรือไม่จำเป็นต้องจัดส่งทางอีเมล',
 	'post_trade_transport_physical' => 'ชำระเงินหลังจากผู้ซื้อได้รับสินค้า',
-//	'post_trade_locus'	=> 'สถานที่',
+//vot	'post_trade_locus'	=> 'สถานที่',
 	'post_trade_description' => 'รายละเอียด',
 	'post_trade_pm_subject' => '[ต่อรอง]',
 	'post_trade_pm_buynum' => 'จำนวน',
@@ -75,7 +75,7 @@ $lang = array
 	'attach_downloads' => 'ดาวน์โหลดจำนวน',
 
 	'post_trade_transport' => 'ค่าธรรมเนียมจัดส่ง',
-//	'post_trade_transport_mail' => 'อีเมล',
+//vot	'post_trade_transport_mail' => 'อีเมล',
 	'post_trade_quality' => 'คุณลักษณะ',
 	'post_trade_quality_new' => 'ใหม่',
 	'post_trade_quality_secondhand' => 'เก่า',
@@ -182,6 +182,8 @@ $lang = array
 	'week_5' => 'ศุกร์',
 	'week_6' => 'เสาร์',
 
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+
 	'notice_actor' => 'ฯลฯ $actorcount คน',
 
 	'perms_allowvisit' => 'เข้าใช้งาน',
@@ -215,7 +217,7 @@ $lang = array
 	'perms_maxattachsize' => 'ขนาดไฟล์แนบสูงสุด',
 	'perms_maxsizeperday' => 'ขนาดไฟล์แนบสูงสุดต่อวัน',
 	'perms_maxattachnum' => 'จำนวนไฟล์แนบสูงสุดต่อวัน',
-//	'perms_allowbioimgcode' => 'ใช้โค้ด [img] ในการแนะนำตัว',
+//vot	'perms_allowbioimgcode' => 'ใช้โค้ด [img] ในการแนะนำตัว',
 	'perms_attachextensions' => 'รูปแบบไฟล์แนบ',
 	'perms_allowstickthread' => 'ปักหมุดกระทู้',
 	'perms_allowdigestthread' => 'เพิ่มเข้ากระทู้สำคัญ',
@@ -324,5 +326,9 @@ $lang = array
 	'plugin_memo' => 'พร้อมปรับปรุง: <span class="xi1">{number}</span>',
 	'plugin_link' => 'ปรับปรุงทันที',
 
+// Added by Valery Votintsev, codersclub.org
+	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
 );
 

@@ -66,6 +66,7 @@ $lang = array (
   'article_validate_category' => 'กรุณาเลือกหมวดหมู่',
   'article_validate_has_added' => 'บทความนี้ได้ถูกเพิ่มเรียบร้อย',
   'article_validate_noexist' => 'ไม่พบบทความที่ระบุ',
+/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
   'article_validate_title' => 'ความยาวชื่อไม่ตรงกับความต้องการ(1~80 ตัวอักษร)',
   'grab' => 'นำเข้า',
   'ignore' => 'ไม่สนใจ',
@@ -310,11 +311,14 @@ $lang = array (
   'view_publisher' => 'ผู้เผยแพร่',
   'view_related' => 'การเข้าชม/อ่านที่เกี่ยวข้อง',
   'view_views' => 'เข้าชม',
+/*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
+/*!*/	'next_article'			=> 'Next:',//'下一篇：',
+/*!*/	'display_order'			=> 'Display order',//'显示位置',
+/*!*/	'filename'			=> 'File name',//'文件名',
 
-//Added by Valery Votintsev
+// Added by Valery Votintsev
 	'select_all'	=> 'เลือกทั้งหมด',//'全选',
 	'select_mod'	=> 'เลือกโมดูล',//'选择模块',
 	'select_page'	=> 'เลือกหน้า',//'选择页面',
-
 );
 
