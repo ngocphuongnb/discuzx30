@@ -101,7 +101,7 @@ $lang = array(
 	'block3' => 'กำหนดโมดูล 3',
 	'block4' => 'กำหนดโมดูล 4',
 	'block5' => 'กำหนดโมดูล 5',
-	'blockdata' => array(
+/*vot*/	'blockdata' => array(
 		'personalinfo' => 'ข้อมูลส่วนตัว',
 		'profile' => 'รูปประจำตัว',
 		'doing' => 'ทักทาย',
@@ -132,7 +132,7 @@ $lang = array(
 	'album_li' => '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, ปรับปรุง {date}"><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, ปรับปรุง {date}">{albumname}</a></p><span>จำนวนรูปภาพ: {picnum}</span></li>',
 	'doing_li' => '<li>{message}</li><br />{date} {from} ตอบกลับ ({replynum})',
 	'visitor_anonymity' => '<div class="avatar48"><img src="image/magic/hidden.gif" alt="ไม่ระบุชื่อ"></div><p>ไม่ระบุชื่อ</p>',
-	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+/*!*/	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form' => '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -252,6 +252,7 @@ $lang = array(
 	'viewthread_userinfo_sharings' => 'แบ่งปัน',
 	'viewthread_userinfo_friends' => 'เพื่อน',
 	'viewthread_userinfo_digest' => 'สำคัญ',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits' => 'เครดิต',
 	'viewthread_userinfo_readperm' => 'สิทธิ์อ่าน',
 	'viewthread_userinfo_regtime' => 'ลงทะเบียน',
@@ -261,6 +262,8 @@ $lang = array(
 	'viewthread_userinfo_buyercredit' => 'ผู้ซื้อเครดิต',
 	'viewthread_userinfo_follower' => 'จำนวนผู้ติดตาม',
 	'viewthread_userinfo_following' => 'จำนวนผู้กำลังติดตาม',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
 	'follow_view_follow' => 'การติดตามขณะนี้',
 	'follow_view_special' => 'การติดตามพิเศษ',
 	'follow_view_other' => 'การติดตามอื่นๆ',
@@ -287,4 +290,3 @@ $lang = array(
 
 );
 
-?>

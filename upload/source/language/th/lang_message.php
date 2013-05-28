@@ -219,6 +219,7 @@ $lang = array (
   'login_succeed' => 'ขอบคุณ {username} ระดับ {usergroup} สำหรับการลงชื่อเข้าใช้ ระบบจะพาคุณไปยังก่อนหน้านี้',
   'login_strike' => 'ระบบตรวจจับได้ว่า คุณลงชื่อเข้าใช้ผิดพลาดเกินกำหนดไว้ กรุณารอหลังจาก 15 นาที แล้วลองใหม่อีกครั้ง',
   'logout_succeed' => 'คุณลงชื่อออกจากเว็บไซตแล้ว ระบบกำลังพาคุณไปยังก่อนหน้านี้…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ เคลียร์คุกกี้ในเบราว์เซอร์ของคุณออก ]</a> {ucsynlogout} ',
+/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
   'register_activation_invalid' => 'ขออภัย! การเปิดใช้งานล้มเหลว กรุณาลงชื่อเข้าใช้เพื่อเปิดใช้งานอีกครั้ง',
   'profile_username_tooshort' => 'ขออภัย! ชื่อสมาชิกของคุณสั้นเกินไป อย่างน้อย 3 ตัวอักษร กรุณากลับไปแก้ไข',
   'profile_username_toolong' => 'ขออภัย! ชื่อสมาชิกของคุณยาวเกินไป กรุณากลับไปแก้ไข',
@@ -261,6 +262,8 @@ $lang = array (
 
   'forum_passwd_incorrect' => 'ขออภัย! คุณป้อนรหัสผ่านไม่ถูกต้อง ไม่สามารถเข้าใช้งานบอร์ดนี้ได้',
   'forum_passwd_correct' => 'รหัสผ่านถูกต้อง กำลังเข้าสู่หน้ารายการกระทู้ในบอร์ดนี้ ',
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
   'group_rediret_now' => 'ไปที่หน้าแรกของ{_G/setting/navs/3/navname}เดี๋ยวนี้',
   'group_verify' => '{_G/setting/navs/3/navname} ตรวจสอบกลุ่ม',
@@ -271,6 +274,7 @@ $lang = array (
   'group_exit_founder' => 'ขออภัย! ผู้ก่อตั้ง{_G/setting/navs/3/navname}ไม่สามารถออกจาก{_G/setting/navs/3/navname}นี้ได้',
   'group_exit_succeed' => 'ออกจาก{_G/setting/navs/3/navname}เรียบร้อยแล้ว',
   'group_create_usergroup_failed' => 'ขออภัย! กลุ่มสมาชิกของคุณไม่สามารถสร้าง{_G/setting/navs/3/navname}ได้',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
   'group_create_max_failed' => 'ขออภัย! จำนวน{_G/setting/navs/3/navname}ที่คุณสร้าง ถึงจำนวนที่ระบบกำหนดไว้แล้ว ไม่สามารถสร้าง{_G/setting/navs/3/navname}ใหม่ได้',
   'group_category_error' => 'ขออภัย! การเลือกหมวดหมู่{_G/setting/navs/3/navname}มีข้อผิดพลาด',
   'group_create_mod_succeed' => 'สร้าง{_G/setting/navs/3/navname}เรียบร้อยแล้วและกำลังดำเนินการตรวจสอบ',
@@ -365,8 +369,8 @@ $lang = array (
   'recommend_self_disallow' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />คุณไม่สามารถประเมินกระทู้ของตัวเองได้',
   'recommend_duplicate' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />คุณเคยแนะนำกระทู้นี้แล้ว',
   'recommend_outoftimes' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />โอกาสการประเมินผลของคุณในวันนี้หมดแล้ว',
-  'recommend_daycount_succed' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />วันนี้คุณสามารถประเมินกระทู้ได้อีก {daycount} ครั้ง',
-  'recommend_succed' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+  'recommend_daycount_succeed' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />วันนี้คุณสามารถประเมินกระทู้ได้อีก {daycount} ครั้ง',
+  'recommend_succeed' => 'จำนวนการประเมิน <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
   'thread_poll_voter_isnull' => 'คุณยังไม่ได้ทำการโหวต ไม่สามารถเพิ่มแท็กได้',
   'thread_activityapply_isnull' => 'ยังไม่มีใครเข้าร่วมกิจกรรมนี้ ไม่สามารถเพิ่มเแท็กได้',
   'forum_usertag_set_continue' => 'มีผู้ใช้งาน {count} คน ตั้งค่าไว้ที่ {limit} ไปยัง {next} โปรดรอสักครู่ ',
@@ -464,6 +468,9 @@ $lang = array (
 
   'faq_content_empty' => 'ขออภัย! การใช้งานที่ระบุไม่มีอยู่',
   'faq_keywords_empty' => 'ขออภัย! คุณไม่ได้ระบุคีย์เวิร์ดที่จะค้นหา กรุณากลับไปและใส่คีย์เวิร์ดใหม่อีกครั้ง',
+
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
 
   'imagepreview_errorcode_0' => 'รูปภาพไม่ตรงตามเงื่อนไขที่ระบุ ไม่สามารถดำเนินการต่อได้',
   'imagepreview_errorcode_-1' => 'รูปภาพไม่ถูกต้อง ไม่สามารถดำเนินการต่อได้',
@@ -572,6 +579,7 @@ $lang = array (
   'recommend_expiration_invalid' => 'รูปแบบเวลาไม่ถูกต้อง รูปแบบที่ถูกต้องคือ [yyyy-mm-dd hh:mm]',
 
   'members_edit_succeed' => 'ปรับปรุงข้อมูลสมาชิกสมบูรณ์',
+/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
   'modcp_member_ban_succeed' => 'ข้อมูลของสมาชิกได้ปรับปรุงเรียบร้อยแล้ว',
 
   'modcp_noaction' => 'คุณไม่ได้เลือกที่จะดำเนินการใดๆ',
@@ -704,6 +712,7 @@ $lang = array (
   'memcp_credits_card_msg_cleardateline_early' => 'ขออภัย! รหัสบัตรเงินสดนี้หมดอายุแล้ว',
   'memcp_credits_card_msg_succeed' => '<span class="xi1">{extcreditsval}{extcreditstitle}</span> เติมเงินสำเร็จ ',
   'memcp_credits_addfunds_msg_incorrect' => 'ขออภัย! คุณไม่ได้ใส่จำนวนที่ต้องการรับ',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
   'credits_addfunds_amount_invalid' => 'จำนวนได ๆ ไม่ควร ต่ำกว่ากำหนด {ec_maxcredits} หรือสูงกว่า {ec_mincredits}',
   'memcp_credits_transfer_msg_self_incorrect' => 'คุณไม่สามารถโอนให้ตัวเองได้',
   'credits_transfer_balance_insufficient' => 'ขออภัย! หลังจากการโอน{title}จะน้อยกว่า {minbalance}',
@@ -1049,6 +1058,14 @@ $lang = array (
   'magics_credit_message' => 'ขอแสดงความยินดี คุณได้รับ {credit}',
 
   'magics_thunder_message' => 'ใช้ไอเท็ม {magicname} เสร็จเรียบร้อยแล้ว',
+
+/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
+/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
+/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'หมดเวลาในการดำเนินงานหรือแหล่งที่มาข้อมูลไม่ถูกต้อง',//'操作超时或者数据来源错误',
