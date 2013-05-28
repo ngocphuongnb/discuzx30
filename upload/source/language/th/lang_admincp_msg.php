@@ -224,6 +224,7 @@ $lang = array (
 
   'setting_domain_repeat_error' => 'การกำหนดค่าชื่อโดเมนที่ซ้ำกัน',
   'setting_domain_need_default_error' => 'Please set the default domain',
+	'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Please enter Alipay signed user information.',//'请输入支付宝签约用户信息。',
 	'alipay_succeed'		=> 'Alipay function successfully set.',//'支付宝功能成功设定。',
@@ -266,6 +267,9 @@ $lang = array (
   'founder_perm_member_duplicate' => 'สมาชิก {name} ถูกเปลี่ยนไปอยู่แล้ว',
   'founder_perm_gperm_update_succeed' => 'ปรับปรุงสิทธิ์ทีมงานสำเร็จ ',
   'founder_perm_notifyusers_succeed' => 'แจ้งเตือนสมาชิกสำเร็จ ',
+
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
 
   'group_status_off' => 'เปิดใช้งานฟังก์ชั่นกลุ่ม, ตอนนี้กำลังไปยังหน้าการตั้งค่ากลุ่ม',
   'group_update_succeed' => 'ปรับปรุงการตั้งค่าหมวดหมู่กลุ่มสำเร็จ ',
@@ -397,6 +401,7 @@ $lang = array (
   'plugins_import_succeed' => 'นำเข้าข้อมูลปลั๊กอินสำเร็จ!<br />ในการใช้ปลั๊กอินนี้, คุณอาจต้องทำการอัพโหลดเทมเพลทหรือไฟล์อื่นเพิ่มเติม, ดูเพิ่มเติมจากวิธีการติดตั้งของปลั๊กอิน',
   'plugins_config_upgrade_confirm' => 'คุณแน่ใจว่าต้องการให้ {pluginname} {version} ถูกอัพเกรดไปยังรุ่น {toversion} ?',
   'plugins_config_upgrade_missed' => 'ปลั๊กอินได้รับการปรับปรุงเป็นรุ่นล่าสุดแล้ว</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">คลิกที่นี่ เพื่อกลับไปยังศูนย์ปลั๊กอิน</a><br /><br /><h4>',
+	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
   'plugins_upgrade_var_invalid' => 'ชื่อ Hook ของปลั๊กอินไม่ถูกต้อง, ไม่สามารถนำเข้าได้',
   'plugins_setting_succeed' => 'ตั้งค่าพารามิเตอร์ปลั๊กอินสำเร็จ ',
   'plugins_setting_module_nonexistence' => 'ไฟล์โมดูลปลั๊กอินที่ระบุ({modfile})ไม่มีอยู่จริงหรือการลำดับโค้ดผิดรูปแบบ, โปรดแน่ใจว่าการอัพโหลดปลั๊กอินสมบูรณ์จริง',
@@ -455,6 +460,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> 'Code to display the desired font file is missing, please upload a font file to the {path} directory.',//'验证码缺少显示所需的字库文件，请上传字库文件至 {path} 目录。',
 	'forum_name_duplicate'			=> 'This forum name already exists, re-set please',//'表单名称设置不能重复，请重新设置',
 	'alipay_ratio_invalid'			=> 'Entered cash/points conversion rate is less than 0, please return to modify.',//'您输入的现金/积分兑换比率小于 0，请返回修改。',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
 	'ftp_password_short'			=> 'FTP Password must not be shorten than 3 characters, please return to modify.',//'FTP 密码不得少于 3 位，请返回修改。',
 	'cachethread_dir_noexists'		=> 'Sorry, the directory {cachethreaddir} does not exist or is not writeable! Please go back and try to set their permissions to 777 via FTP or Shell.',//'对不起，您所指定的目录 {cachethreaddir} 不存在或者不可写！请返回并尝试通过 FTP 将其属性改为 777。',
 	'ranklistcache_update'			=> 'Rank list cache was been updated.',//'排行榜缓存文件已更新。',
@@ -578,9 +584,10 @@ $lang = array (
 	'trade_fee_error'			=> 'Transaction setttings are incorrect, please return to modify.',//'交易设置有误，请返回修改。',
 	'reward_credits_error'			=> 'Reward trade points set in error, please return to modify.',//'悬赏交易积分设置有误，请返回修改。',
 	'usergroups_edit_succeed'		=> 'User group permission settings updated successfully ',//'用户组权限设置更新成功 ',
-	'usergroups_copy_target_invalid'	=> 'You did not choose the target user group to copy, please return to modify.',//'你没有选择要复制的目标用户组，请返回修改。',
+/*!*/	'usergroups_copy_target_invalid'	=> 'You did not choose the target user group',//'您没有选择目标用户组',
 	'usergroups_copy_options_invalid'	=> 'You did not choose the item to copy, please return.',//'你没有选择要复制的项目，请返回修改。',
   'usergroups_copy_succeed'	=> 'คัดลอกการตั้งค่ากลุ่มสมาชิกสำเร็จ ',
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 
   'usertag_delete_succeed' => 'Remove tags success',
   'usertag_merge_succeed' => 'Tags successful merger',
@@ -624,5 +631,9 @@ $lang = array (
   'cloudaddons_check_url_fopen_error' => 'เซิร์ฟเวอร์ของคุณไม่สามารถเข้าถึงคลังแอพลิเคชันได้ แอพฯ ดังกล่าวจะไม่สามารถทำการติดตั้งได้ กรุณาติดต่อผู้ให้บริการโฮสต์ของคุณหรือทีมงานฝ่ายเทคนิค เพื่อให้สามารถเข้าถึงไปยัง addon.discuz.com หรือ addon1.discuz.com ได้',
   'cloudaddons_check_gzuncompress_error' => 'ฟังก์ชันการทำงานของ Zlib ไม่ได้ถูกติดตั้งลงในโฮสต์ที่คุณใช้อยู่ในขณะนี้ กรุณาติดต่อผู้ให้บริการหรือทีมงานฝ่ายเทคนิคในเว็บไซต์ของคุณ',
   'cloudaddons_genuine_message' => 'ขออภัย แอพลิเคชันที่คุณกำลังติดตั้งนี้ ไม่ผ่านการตรวจสอบของแท้ ไม่สามารถดำเนินการติดตั้งต่อไปได้<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">คลิกที่นี่ เพื่อติดตั้งแอพลิเคชันที่เป็นของแท้</a>',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

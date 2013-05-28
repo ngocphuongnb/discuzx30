@@ -62,12 +62,14 @@ $lang = array
 	'menu_setting_ranklist' => 'ตั้งค่ารายการอันดับ',
 	'menu_setting_mobile' => 'การใช้งานบนมือถือ',
 	'menu_setting_tag' => 'จัดการแท็ก',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums' => 'จัดการบอร์ด',
 	'menu_forums_merge' => 'จัดการรวมบอร์ด',
 	'menu_forums_threadtypes' => 'หมวดหมู่กระทู้',
 	'menu_forums_infotypes' => 'จัดการหมวดหมู่กระทู้',
 	'menu_forums_infooption' => 'ตัวเลือกหมวดหมู่ข้อมูล',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add' => 'เพิ่มสมาชิกใหม่',
 	'menu_members_edit' => 'จัดการสมาชิก',
@@ -111,6 +113,7 @@ $lang = array
 	'menu_postcomment' => 'จัดการความเห็นโพสต์',
 	'menu_maint_doing' => 'จัดการทักทาย',
 	'menu_maint_blog' => 'จัดการบล็อก',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed' => 'จัดการรายการปรับปรุง',
 	'menu_maint_album' => 'จัดการอัลบั้ม',
 	'menu_maint_pic' => 'จัดการรูปภาพ',
@@ -129,6 +132,7 @@ $lang = array
 
 	'menu_patch' => 'แพทช์ความปลอดภัย',
 	'menu_upgrade' => 'จัดการอัพเกรด',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons' => 'ติดตั้งส่วนเสริม',
 	'menu_plugins' => 'ติดตั้งปลั๊กอิน',
@@ -182,6 +186,7 @@ $lang = array
 	'menu_portalpermission' => 'จัดการสิทธิ์พอร์ทัล',
 	'menu_blockxml' => 'โมดูลเพิ่มเติม',
 	'menu_topic' => 'จัดการหัวข้อ',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate' => 'จัดการหน้า DIY',
 
 	'menu_group_setting' => 'ตั้งค่าคลับ',
