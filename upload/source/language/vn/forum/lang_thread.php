@@ -14,7 +14,12 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array (
 	  'forum_archive' => 'Lưu trữ',
+/*!*/	  'source' => 'Source',//'来源',
 
+/*!*/	  't_question' => '?',
+/*!*/	  't_comma' => ',',
+/*!*/	  't_exclamatory' => '!',
+/*!*/	  't_period' => '.',
+/*!*/	  't_suspension' => '...',
 
 );
-?>

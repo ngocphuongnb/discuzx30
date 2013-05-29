@@ -4,9 +4,9 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_message.php 28860 2012-03-15 07:17:21Z monkey $
+ *      $Id: lang_message.php by Valery Votintsev at sources.ru
  *
- *		Translate by DCV team - http://www.discuz.vn
+ *	Translate by DCV team - http://www.discuz.vn
  */
 
 $lang = array (
@@ -219,6 +219,7 @@ $lang = array (
   'login_succeed' => 'Chào mừng {usergroup} {username} quay trở lại....',
   'login_strike' => 'Sai mật khẩu quá nhiều lần, vui lòng đợi 15p rồi thử lại',
   'logout_succeed' => 'Bạn đã đăng xuất thành công!<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[Xóa Cookies]</a> {ucsynlogout} ',
+/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
   'register_activation_invalid' => 'Có lỗi, Kích hoạt không thành công, cài đặt lại để kích hoạt ',
   'profile_username_tooshort' => 'Có lỗi, Tên người dùng ít hơn 3 ký tự,vui lòng nhập thên ký tự',
   'profile_username_toolong' => 'Có lỗi, Tên người dùng hơn 15 ký tự, vui lòng nhập thêm ký tự',
@@ -261,6 +262,8 @@ $lang = array (
 
   'forum_passwd_incorrect' => 'Có lỗi, mật khẩu của bạn không đúng nên là bạn không truy cập được.',
   'forum_passwd_correct' => 'Mật khẩu xác nhận đúng ',
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
   'group_rediret_now' => 'Trả biến{_G/setting/navs/3/navname}Trang chủ',
   'group_verify' => '{_G/setting/navs/3/navname} được xem xét',
@@ -271,6 +274,7 @@ $lang = array (
   'group_exit_founder' => 'Có lỗi, {_G/setting/navs/3/navname}Người sáng lập không thể thu hồi{_G/setting/navs/3/navname}',
   'group_exit_succeed' => 'Đã bỏ thuốc lá thành công{_G/setting/navs/3/navname}',
   'group_create_usergroup_failed' => 'Có lỗi! nhóm của bạn không thể thiết lập {_G/setting/navs/3/navname}',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
   'group_create_max_failed' => 'Có lỗi, Thiết lập của bạn{_G/setting/navs/3/navname}Đã đạt giới hạn số lượng , không thể tạo thêm{_G/setting/navs/3/navname}',
   'group_category_error' => 'Có lỗi, Chọn{_G/setting/navs/3/navname}Phân loại sai',
   'group_create_mod_succeed' => 'Yêu cầu {_G/setting/navs/3/navname} đã được gửi, chúng tôi sẽ xem xét sớm',
@@ -365,8 +369,8 @@ $lang = array (
   'recommend_self_disallow' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Bạn không được tự đánh giá',
   'recommend_duplicate' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Chủ đề  đã được đánh giá',
   'recommend_outoftimes' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Số lượt đánh giá trong ngày đã hết',
-  'recommend_daycount_succed' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />Bạn có thể đánh giá {daycount} lần',
-  'recommend_succed' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+  'recommend_daycount_succeed' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />Bạn có thể đánh giá {daycount} lần',
+  'recommend_succeed' => 'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
   'thread_poll_voter_isnull' => 'Chưa ai bỏ phiếu, có thể thêm thẻ.',
   'thread_activityapply_isnull' => 'Chưa ai tham gia vào hoạt động, có thể thêm thẻ.',
   'forum_usertag_set_continue' => 'Tổng cộng {count} người, thiết lập từ {limit} đến {next} người, vui lòng đợi',
@@ -464,6 +468,9 @@ $lang = array (
 
   'faq_content_empty' => 'Có lỗi, Trợ giúp dự án không tồn tại',
   'faq_keywords_empty' => 'Có lỗi, Bạn chưa nhập các từ khóa để tìm kiếm',
+
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
 
   'imagepreview_errorcode_0' => 'Hình ảnh không đáp ứng các điều kiện chế biến không thể được xử lý',
   'imagepreview_errorcode_-1' => 'Hình ảnh không hợp lệ có thể không được xử lý',
@@ -572,6 +579,7 @@ $lang = array (
   'recommend_expiration_invalid' => 'định dạng thời gian không hợp lệ, định dạng đúng "yyyy-mm-dd hh:mm"',
 
   'members_edit_succeed' => 'cập nhật thông tin người dùng thành công, hãy tiếp tục',
+/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
   'modcp_member_ban_succeed' => 'Cập nhật hồ sơ thành công',
 
   'modcp_noaction' => 'Bạn đã không chọn thao tác',
@@ -704,6 +712,7 @@ $lang = array (
   'memcp_credits_card_msg_cleardateline_early' => 'Có lỗi, thẻ này đã hết hạn',
   'memcp_credits_card_msg_succeed' => '<span class="xi1">{extcreditsval}{extcreditstitle}</span>,Nạp tiền thành công ',
   'memcp_credits_addfunds_msg_incorrect' => 'Có lỗi, Bạn cần phải nhập số tiền vào',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
   'credits_addfunds_amount_invalid' => 'vượt quá số điểm tối đa {ec_maxcredits} hoặc tối thiểu {ec_mincredits} bị hạn chế',
   'memcp_credits_transfer_msg_self_incorrect' => 'Bạn không thể tự chuyển cho mình',
   'credits_transfer_balance_insufficient' => 'Có lỗi, Sau khi chuyển giao {title} Ít hơn {minbalance}',
@@ -997,6 +1006,7 @@ $lang = array (
   'location_login' => '',
   'location_login_succeed_mobile' => 'Chào mừng {username} trở lại',
   'location_login_succeed' => '',
+	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
   'login_succeed_inactive_member' => 'Welcome back, {usergroup} {username}.<br/>Tài khoản của bạn chưa kích hoạt, bạn sẽ được chuyển vào mục Cá nhân. {ucsynlogin}',
   'login_question_empty' => 'Hãy chọn câu hỏi bí mật và điền đáp án đúng',
   'login_question_invalid' => 'Có lỗi, Chọn câu hỏi sai',
@@ -1048,6 +1058,14 @@ $lang = array (
   'magics_credit_message' => 'Xin chúc mừng bạn nhận được {credit}',
 
   'magics_thunder_message' => '{magicname} đã dùng thành công',
+
+/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
+/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
+/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'Operation timeout or data source error',//'操作超时或者数据来源错误',

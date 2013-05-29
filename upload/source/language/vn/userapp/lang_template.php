@@ -40,11 +40,13 @@ $lang = array (
   'save_settings' => 'Lưu Cài đặt',
   'use_assistant' => 'Sử dụng các trợ lý',
   'user_assistant_message' => '<ol><li>Bạn được tự do để kéo và thả <img src="{IMGDIR}/drag.gif" /> áp dụng các liên kết chuỗi</li>
-								<li>Càng nhiều ứng dụng thì hiển thị phía trước nhiều hơn</li>
-								<li>Bạn có thể quản lý các ứng dụng của bạn đã được thêm vào, bạn có thể thêm hoặc xóa các ứng dụng</li>
-								<li>Nếu bạn muốn quản lý không gian của bạn, nhật ký, album ảnh và sự riêng tư khác, hãy truy cập vào cài đặt bảo mật không gian của bạn</li>
-								<li>Chỉ có thể thiết lập các ứng dụng mặc định liên quan đến loại bỏ, nhưng vẫn được hiển thị sau khi loại bỏ các bên phải của trình đơn của bạn trong.</li></ol>',
+					<li>Càng nhiều ứng dụng thì hiển thị phía trước nhiều hơn</li>
+					<li>Bạn có thể quản lý các ứng dụng của bạn đã được thêm vào, bạn có thể thêm hoặc xóa các ứng dụng</li>
+					<li>Nếu bạn muốn quản lý không gian của bạn, nhật ký, album ảnh và sự riêng tư khác, hãy truy cập vào cài đặt bảo mật không gian của bạn</li>
+					<li>Chỉ có thể thiết lập các ứng dụng mặc định liên quan đến loại bỏ, nhưng vẫn được hiển thị sau khi loại bỏ các bên phải của trình đơn của bạn trong.</li></ol>',
   'open' => 'Mở rộng',
+/*!*/	'recommend_unit'	=> 'Recommendations',//'荐',
+/*!*/	'myapp'			=> 'My applications',//'我的应用',
+/*!*/	'appcenter'		=> 'Application Center',//'应用中心',
 );
 
-?>
