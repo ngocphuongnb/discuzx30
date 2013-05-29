@@ -132,26 +132,26 @@ $lang = array(
 	'album_li' => '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, cập nhật {date}"><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, cập nhập {date}">{albumname}</a></p><span>Số ảnh: {picnum}</span></li>',
 	'doing_li' => '<li>{message}</li><br />{date} {from} trả lời ({replynum})',
 	'visitor_anonymity' => '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Ẩn danh"></div><p>Ẩn danh</p>',
-	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+/*!*/	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form' => '<div class="space_wall_post">
-						<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
-							'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
-							<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
-							<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
-							<input type="hidden" name="id" value="{uid}" />
-							<input type="hidden" name="idtype" value="uid" />
-							<input type="hidden" name="commentsubmit" value="true" />' :
-							($_G['connectguest'] ? '<div class="pt hm">Bạn cần phải <a href="member.php?mod=connect" class="xi2">cập nhật thông tin</a> trước khi trả lời</div>' : '<div class="pt hm">Bạn cần phải đăng nhập trước, <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">đăng nhập</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
-							<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>Tin nhắn</strong></button></p>
-							<input type="hidden" name="handlekey" value="commentwall_{uid}" />
-							<span id="return_commentwall_{uid}"></span>
-							<input type="hidden" name="formhash" value="{FORMHASH}" />
-						</form>'.
-						($_G['uid'] ? '<script type="text/javascript">
-							function succeedhandle_commentwall_{uid}(url, msg, values) {
-								wall_add(values[\'cid\']);
-							}
-						</script>' : '').'
+					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
+					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
+					<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
+					<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
+					<input type="hidden" name="id" value="{uid}" />
+					<input type="hidden" name="idtype" value="uid" />
+					<input type="hidden" name="commentsubmit" value="true" />' :
+					($_G['connectguest'] ? '<div class="pt hm">Bạn cần phải <a href="member.php?mod=connect" class="xi2">cập nhật thông tin</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> trước khi trả lời</div>' : '<div class="pt hm">Bạn cần phải đăng nhập trước, <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">đăng nhập</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
+					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>Tin nhắn</strong></button></p>
+					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
+					<span id="return_commentwall_{uid}"></span>
+					<input type="hidden" name="formhash" value="{FORMHASH}" />
+					</form>'.
+					($_G['uid'] ? '<script type="text/javascript">
+						function succeedhandle_commentwall_{uid}(url, msg, values) {
+							wall_add(values[\'cid\']);
+						}
+					</script>' : '').'
 					</div>',
 	'wall_li' => '<dl class="bbda cl" id="comment_{cid}_li">
 				<dd class="m avt">
@@ -252,6 +252,7 @@ $lang = array(
 	'viewthread_userinfo_sharings' => 'Chia sẻ',
 	'viewthread_userinfo_friends' => 'Bạn',
 	'viewthread_userinfo_digest' => 'Bài hay',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
 	'viewthread_userinfo_credits' => 'Điểm',
 	'viewthread_userinfo_readperm' => 'Quyền đọc',
 	'viewthread_userinfo_regtime' => 'Đăng ký',
@@ -261,6 +262,8 @@ $lang = array(
 	'viewthread_userinfo_buyercredit' => 'Người mua tín dụng',
 	'viewthread_userinfo_follower' => 'Số người theo dõi',
 	'viewthread_userinfo_following' => 'Đang theo dõi',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
 	'follow_view_follow' => 'Tôi theo dõi',
 	'follow_view_special' => 'Chú ý đến',
 	'follow_view_other' => 'Loại khác',
@@ -287,4 +290,3 @@ $lang = array(
 
 );
 
-?>

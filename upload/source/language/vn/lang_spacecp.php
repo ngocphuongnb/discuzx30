@@ -3,8 +3,9 @@
 /**
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
- *		Translate by DCV team - http://www.discuz.vn
- *      $Id: lang_spacecp.php 28195 2012-02-24 02:59:57Z svn_project_zhangjie $
+ *
+ *      $Id: lang_spacecp.php by Valery Votintsev at sources.ru
+ *	Translate by DCV team - http://www.discuz.vn
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -218,6 +219,7 @@ $lang = array(
 	'do_stat_friend' => 'Bạn bè',
 	'do_stat_post_number' => 'Số bài',
 	'do_stat_statistic' => 'Thống kê',
+/*!*/	'logs_credit_update_INDEX'	=> array('TRC','RTC','RAC','MRC','BMC','TFR','RCV','CEC','ECU','SAC','BAC','PRC','RSC','STC','BTC','AFD','UGP','RPC','ACC','RCT','RCA','RCB','CDC','RGC','BGC','AGC','RKC','BME','RPR','RPZ','FCP','BGC'),
 	'logs_credit_update_TRC' => 'Yêu cầu',
 	'logs_credit_update_RTC' => 'Thưởng',
 	'logs_credit_update_RAC' => 'Trả lời hay nhất',
@@ -248,6 +250,9 @@ $lang = array(
 	'logs_credit_update_BME' => 'Mua huy chương',
 	'logs_credit_update_RPR' => 'Điểm thưởng và trừng phạt',
 	'logs_credit_update_RPZ' => 'Thiếu khuyến khích xóa',
+/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
+/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
 	'logs_credit_update_reward_clean' => 'Xóa',
 	'logs_select_operation' => 'Chọn loại hoạt động',
 	'task_credit' => 'Thưởng hoàn thành nhiệm vụ',
@@ -273,6 +278,7 @@ $lang = array(
 	'buy_credit' => 'Điểm mua',
 	'buy_usergroup' => 'Điểm mua nhóm',
 	'buy_medal' => 'Mua huy chương',
+/*!*/	'buy_forum'			=> 'Buy a paid forum access permissions',//'购买付费版块的访问权限',
 	'report_credit' => 'Điểm từ báo cáo',
 	'join' => 'Tham gia',
 	'activity_credit' => 'Điểm hoạt động',
@@ -296,13 +302,12 @@ $lang = array(
 	'profile_verify_modify_error' => '{verify} đã được xác minh, không được phép sửa đổi',
 	'profile_verify_verifying' => '{verify} của bạn đã được gửi đi. Vui lòng chờ xác minh!',
 
-//'district_level_0'		=> '- Country -',//'-国家-',
 	'district_level_1' => '-Tỉnh-',
 	'district_level_2' => '-Thành phố-',
 	'district_level_3' => '-Quận/Huyện-',
 	'district_level_4' => '-Xã/Phường-',
 	'invite_you_to_visit' => '{user} mời bạn ghé thăm {bbname}',
-
+//vot	'district_level_0'		=> '- Country -',//'-国家-',
 	'portal' => 'Portal',
 	'group' => 'Nhóm',
 	'follow' => 'Theo dõi',
@@ -326,10 +331,12 @@ $lang = array(
 
 	'spacecp_message_prompt' => '({msg} hỗ trợ, tối đa 1000 kí tự)',
 	'card_update_doing' => ' <a class="xi2" href="###">[Cập nhật Profile]</a>',
-	'email_acitve_message' => '<img src="{imgdir}/mail_inactive.png" alt="Chưa xác minh" class="vm" /> <span class="xi1">Thư mới ({newemail}) chờ xác minh...</span><br />
-								Hệ thống đã gửi email xác minh, vui lòng kiểm tra email của bạn để kích hoạt.<br>
-								Nếu bạn không nhận được email, hãy thử thay email khác hoặc <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">gửi lại email xác minh.</a>',
+	'email_acitve_message' => '<img src="{imgdir}/mail_inactive.png" alt="Chưa xác minh" class="vm" />
+						<span class="xi1">Thư mới ({newemail}) chờ xác minh...</span><br />
+						Hệ thống đã gửi email xác minh, vui lòng kiểm tra email của bạn để kích hoạt.<br>
+						Nếu bạn không nhận được email, hãy thử thay email khác hoặc <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">gửi lại email xác minh.</a>',
+	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
+	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 
 );
 
-?>

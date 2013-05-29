@@ -87,6 +87,8 @@ $lang = array
 
 	'REB' => 'Đẩy lên',
 
+/*!*/	'LIV'	=> 'Live',//'直播',
+/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
+
 );
 
-?>

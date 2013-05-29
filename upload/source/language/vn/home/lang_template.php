@@ -1537,6 +1537,8 @@ $lang = array (
 	'video_certification_audit' => 'Đánh giá chứng nhận Video',
 	'connect_fill_profile_to_view' => 'Cập nhật <a href="member.php?mod=connect" target="_blank"> thông tin tài khoản </a>',
 	'connect_fill_profile_to_comment' => 'Bạn cần <a href="member.php?mod=connect" class="xi2">cập nhật thông tin tài khoản</a> trước',
+/*!*/	'save_to_album'				=> 'Save to album',//'保存到相册',
+/*!*/	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
 
 //---------------------------------------------------------------
 // Added by Valery Votintsev
