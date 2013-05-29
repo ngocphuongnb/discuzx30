@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *      Translate by Kyehani - discuz.vn
- *      $Id: lang_admincp_menu.php 29171 2012-03-28 02:59:31Z monkey $
+ *      $Id: lang_admincp_menu.php by Valery Votintsev at sources.ru
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -15,9 +15,9 @@ $lang = array
 (
 
 
-	'header_index' => 'Home',
+	'header_index'		=> 'Home',//'首页',
 	'header_global' => 'Tổng thể',
-	'header_forum' => 'Forum',
+	'header_forum'		=> 'Forum',//'论坛',
 	'header_user' => 'Thành viên',
 	'header_topic' => 'Nội dung',
 	'header_extended' => 'Mở rộng',
@@ -25,11 +25,11 @@ $lang = array
 	'header_style' => 'Giao diện',
 	'header_adv' => 'Quảng cáo',
 	'header_tools' => 'Công cụ',
-	'header_uc' => 'UCenter',
+	'header_uc'		=> 'UCenter',
 	'header_welcome' => 'Chào',
 	'header_logout' => 'Thoát',
 	'header_bbs' => 'Forum',
-	'header_portal' => 'Portal',
+	'header_portal'		=> 'Portal',//'门户',
 	'header_group' => 'Group',
 	'header_founder' => 'Sáng lập',
 	'header_cloudaddons' => 'Trung tâm ứng dụng',
@@ -43,7 +43,7 @@ $lang = array
 	'menu_setting_customnav' => 'Menu chính',
 	'menu_setting_styles' => 'Giao diện',
 	'menu_setting_optimize' => 'Tối ưu Cache',
-	'menu_setting_seo' => 'SEO',
+	'menu_setting_seo'		=> 'SEO',//'SEO设置',
 	'menu_setting_functions' => 'Tính năng',
 	'menu_setting_domain' => 'Tên miền',
 	'menu_setting_user' => 'Thành viên',
@@ -62,12 +62,14 @@ $lang = array
 	'menu_setting_ranklist' => 'TOP rank',
 	'menu_setting_mobile' => 'Phiên bản Mobile',
 	'menu_setting_tag' => 'Quản lý tags',
+/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums' => 'Diễn đàn',
 	'menu_forums_merge' => 'Nhập',
 	'menu_forums_threadtypes' => 'Chủ đề',
 	'menu_forums_infotypes' => 'Phân loại',
 	'menu_forums_infooption' => 'Lựa chọn',
+/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add' => 'Thêm thành viên',
 	'menu_members_edit' => 'Sửa thành viên',
@@ -111,6 +113,7 @@ $lang = array
 	'menu_postcomment' => 'Quản lý comment',
 	'menu_maint_doing' => 'Quản lý Status',
 	'menu_maint_blog' => 'Quản lý Blog',
+/*!*/	'menu_maint_blog_recycle_bin'	=> 'Blog Recycle Bin',//'日志回收站',
 	'menu_maint_feed' => 'Quản lý Feed',
 	'menu_maint_album' => 'Quản lý album',
 	'menu_maint_pic' => 'Quản lý hình ảnh',
@@ -129,20 +132,21 @@ $lang = array
 
 	'menu_patch' => 'Trung tâm an ninh',
 	'menu_upgrade' => 'Nâng cấp trực tuyến',
+/*!*/	'menu_optimizer'		=> 'Optimizer wizard',//'优化大师',
 
 	'menu_addons' => 'Addons',
-	'menu_plugins' => 'Plugins',
+	'menu_plugins'			=> 'Plugins',//'插件',
 	'menu_tasks' => 'Nhiệm vụ',
 	'menu_magics' => 'Đạo cụ',
 	'menu_medals' => 'Huân chương',
 	'menu_misc_help' => 'Trợ giúp',
-	'menu_google' => 'Google Search',
+	'menu_google'			=> 'Google Search',//'Google 搜索',
 	'menu_ec' => 'Thương mại',
 	'menu_card' => 'Thẻ nạp tiền bí mật',
 
 	'menu_styles' => 'Cài đặt giao diện',
-	'menu_styles_templates' => 'Templaltes',
-	'menu_posting_smilies' => 'Smiles',
+	'menu_styles_templates'		=> 'Templates',//'模板管理',
+	'menu_posting_smilies'		=> 'Smiles',//'表情管理',
 	'menu_click' => 'Đánh giá',
 	'menu_thread_icon' => 'Biểu tượng',
 	'menu_thread_stamp' => 'Dán Tem',
@@ -182,6 +186,7 @@ $lang = array
 	'menu_portalpermission' => 'Danh sách quyền hạn',
 	'menu_blockxml' => 'Module bên thứ 3',
 	'menu_topic' => 'Dự án',
+/*!*/	'menu_html'			=> 'HTML management',//'HTML管理',
 	'menu_diytemplate' => 'Mẫu DIY',
 
 	'menu_group_setting' => 'Cài đặt Nhóm',

@@ -4,9 +4,9 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_admincp_msg.php 29262 2012-03-31 05:19:44Z svn_project_zhangjie $
- *		Translate by DCV team - http://www.discuz.vn
- *      This file is automatically generate
+ *      $Id: lang_admincp_msg.php by Valery Votintsev, codersclub.org
+ *
+ *	Translate by DCV team - http://www.discuz.vn
  */
 
 $lang = array (
@@ -67,7 +67,7 @@ $lang = array (
   'crons_succeed' => 'Cập nhật thành công ',
   'nav_add_succeed' => 'Cập nhật thành công thanh điều hướng ',
   'nav_not_found' => 'Không tìm thấy hoặc không phù hợp với loại chuyển hướng',
-  'patch_successful' => 'Operation was successful',
+	'patch_successful'			=> 'Operation completed successfully',//'操作成功',
   'plugin_not_found' => 'Không tìm thấy plugin',
   'plugins_install_succeed' => 'Cài đặt plugin thành công！<br /> Bạn có thể kích hoạt, cấu hình và sử dụng',
   'plugin_file_error' => 'Các tập tin Plug-in bị thiếu',
@@ -107,16 +107,16 @@ $lang = array (
   'threadtype_infotypes_optionvariable_invalid' => 'lặp lại tùy chọn tên biến phân loại',
   'threadtype_infotypes_succeed' => 'cập nhật thành công phân loại các lựa chọn  ',
   'forums_threadtypes_duplicate' => 'loại chủ đề mới với lặp lại hiện tại',
-'threadtype_import_succeed' => 'Thread types imported successfully',
+  'threadtype_import_succeed' => 'Thread types imported successfully',
   'usergroups_nonexistence' => 'Xác định nhóm người dùng không tồn tại',
   'usergroups_copy_source_invalid' => 'Bạn đã không chọn để sao chép các nhóm người sử dụng nguồn',
   'members_verify_succeed' => 'Kiểm toán dữ liệu thành công ',
   'members_verify_update_succeed' => 'Thiết lập thẩm định cập nhật thành công ',
   'action_noaccess' => 'Có lỗi, bạn không có quyền sử dụng tính năng này',
   'members_delete_confirm' => 'Hành động này không thể được phục hồi, bạn chắc chắn muốn xóa {membernum} Người dùng？',
-  'cloudaddons_check_write_error' => 'The "data / download /" or "data/addonmd5 /" directory unable to create or write, which will cause the application can not be installed, check the server environment',
-  'cloudaddons_file_read_error' => 'File read error, please try again',
-  'cloudaddons_file_write_error' => 'File write error, please try again',
+	'cloudaddons_check_write_error'		=> 'Unable to create or write directory "data/download/" or "data/addonmd5/", This will cause the application can not be installed. Please check the server environment',//'"data/download/" 或 "data/addonmd5/" 目录无法创建或写入，这将会导致应用无法安装，请检查服务器环境',
+	'cloudaddons_file_read_error'		=> 'File read error, please try again',//'文件读取错误，请重试',
+	'cloudaddons_file_write_error'		=> 'File write error, please try again',//'文件写入错误，请重试',
 
   'admingroups_edit_nonexistence' => 'Vui lòng chọn một nhóm quản lý hoạt động：',
 
@@ -171,7 +171,7 @@ $lang = array (
   'card_make_rate_succeed' => 'Card thế hệ đã sẵn sàng! Click vào đây để tạo ra số thẻ ngẫu nhiên lặp lại các quy tắc quá nhiều! trở thành cộng sinh{succeed_num}Zhang, thất bại{fail_num}Zhang',
   'card_make_succeed' => 'Card thế hệ đã sẵn sàng! Cộng sinh đã trở thành{succeed_num}Zhang, thất bại{fail_num}Zhang',
 
-  'hookcheck_nodelhook' => 'hookcheck_nodelhook',
+	'hookcheck_nodelhook'		=> 'There is NO lost Hook files',//'没有丢失嵌入点的文件',
   'imagepreview_errorcode_0' => 'Hình ảnh không đáp ứng các điều kiện chế biến, không thể xử lý',
   'imagepreview_errorcode_-1' => 'Hình ảnh không hợp lệ, không thể xử lý',
   'imagepreview_errorcode_-2' => 'File cho phép đọc và viết, không thể xử lý hình ảnh',
@@ -180,12 +180,12 @@ $lang = array (
   'watermarkpreview_error' => 'Watermark tính năng không được kích hoạt, bạn không thể xem trước',
   'robots_output' => 'tải tập tin này và tải lên thư mục gốc của trang web của bạn <a href="{siteurl}robots.txt" target="_blank">{siteurl}robots.txt</a>',
 
-  'cloudaddons_validator_error' => 'Check fails, you can not download this application',
-  'cloudaddons_download_write_error' => 'The file can not be downloaded, make sure that the data / download / "directory is writable',
-  'cloudaddons_install_error' => 'You can not install this application({ErrorCode})',
-  'cloudaddons_installing' => 'Application {addonid} installation, please wait......',
-  'cloudaddons_install_files_changed' => 'The following file is missing or has been modified, whether or not to continue coverage?',
-  'cloudaddons_pack_installed' => 'Extensions installed',
+	'cloudaddons_validator_error'		=> 'Validation failed, You can not download this application',//'校验失败，您无法下载此应用',
+	'cloudaddons_download_write_error'	=> 'File can not be downloaded, make sure the "data/download/" directory is writable',//'文件无法下载，请确认 "data/download/" 目录是否可写',
+	'cloudaddons_install_error'		=> 'You can not install this application: ({ErrorCode})',//'您不能安装此应用({ErrorCode})',
+	'cloudaddons_installing'		=> 'Installing the application {addonid}, please wait...',//'应用 {addonid} 安装中，请稍候......',
+	'cloudaddons_install_files_changed'	=> 'The following files are missing or modified, Whether to continue the covering?<br /><br />{files}',//'以下文件丢失或者被修改过，是否继续覆盖？<br /><br />{files}',
+	'cloudaddons_pack_installed'		=> 'Addon installation is completed',//'扩展安装完毕',
 
   'counter_forum_succeed' => 'Bài viết Diễn đàn xây dựng lại',
   'counter_digest_succeed' => 'Chủ đề tốt xây dựng lại',
@@ -223,7 +223,8 @@ $lang = array (
   'setting_district_edit_success' => 'sửa đổi dữ liệu thành công của khu vực ',
 
   'setting_domain_repeat_error' => 'Duplicate cấu hình tên miền',
-  'setting_domain_need_default_error' => 'Please set the default domain name',
+	'setting_domain_need_default_error'	=> 'Please set the default domain name',//'请设置默认域名',
+	'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
   'alipay_not_contract' => 'Xin vui lòng nhập thông tin thuê bao Alipay',
   'alipay_succeed' => 'hức năng thiết lập Alipay thành công ',
@@ -267,11 +268,14 @@ $lang = array (
   'founder_perm_gperm_update_succeed' => 'cập nhật thành công đội ngũ quản lý cơ quan ',
   'founder_perm_notifyusers_succeed' => 'quản lý để thông báo cho người nhận thiết lập thành công ',
 
+/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
+
   'group_status_off' => 'Bật chức năng nhóm, bây giờ đi đến trang thiết lập nhóm',
   'group_update_succeed' => 'Thiết lập nhóm thành công ',
   'grouptype_delete_succeed' => 'Nhóm phân loại đã xóa thành công ',
   'grouptype_delete_confirm' => 'Hành động này không thể được phục hồi, bạn chắc chắn muốn xóa các thể loại, trong đó loại bỏ các bài viết và file đính kèm? <br /> Lưu ý: Việc xóa một nhóm không cập nhật các bài viết của người dùng và hội nhập ',
-  'grouptype_delete_alarm' => 'This action can not be restored, is to delete the group data ...',
+	'grouptype_delete_alarm'		=> 'After this action you can not recover the data in deleted groups ...',//'本操作不可恢复，正在删除群组数据... ...',
   'group_name_exist' => 'tên nhóm đã tồn tại',
   'group_edit_succeed' => 'Group chỉnh sửa thành công ',
   'group_thread_removing' => 'bài viết trong nhóm bị xóa, không đóng trình duyệt của bạn!',
@@ -324,7 +328,7 @@ $lang = array (
   'members_edit_credits_succeed' => 'người sử dụng để chỉnh sửa hội nhập thành công',
   'members_edit_medals_succeed' => 'chỉnh sửa người dùng huy chương thành công',
   'members_edit_illegal' => 'Bạn không thể cấm Nhóm Quản trị, Bạn cần <a href="{ADMINsCRIPt}?action=members&operation=search&uid={uid}&submit=yes&frames=yes" target="_blank">Chỉnh sửa</a> thành viên này ra khỏi nhóm “{grouptitle}” để tiếp tục',
-  'members_edit_illegal_portal' => 'You can not directly prohibit the user from, please <a href="{ADMINSCRIPT}?action=portalpermission&uid={uid}" target="_blank">Check its related portal permissions</a>and clear',
+	'members_edit_illegal_portal'		=> 'You can not directly prevent the user, please <a href="{ADMINSCRIPT}?action=portalpermission&uid={uid}" target="_blank">Check its related portal permissions</a> and clear',//'您不能直接禁止该用户，请<a href="{ADMINSCRIPT}?action=portalpermission&uid={uid}" target="_blank">查询其门户相关权限</a>并清除',
   'members_edit_reason_invalid' => 'Bạn đã không nhập những lý do cho sự thay đổi này',
   'members_access_succeed' => 'chỉ định các cho phép người dùng để cập nhật thành công của trang web',
   'members_ipban_nopermission' => 'Chỉ có các quản trị viên có thể sử dụng' * 'ký tự đại diện',
@@ -345,13 +349,13 @@ $lang = array (
   'members_confermedal_notify_succeed' => 'huy chương thành công, và đã thông báo cho người sử dụng có liên quan',
   'members_confermagic_notify_succeed' => 'đạo cụ món quà thành công, và đã thông báo cho người sử dụng có liên quan',
 
-  'membersplit_split_in_backstage' => 'Ongoing users to optimize, please try again later ...',
-  'membersplit_split_check_table' => 'Data table consistency check is in progress ...',
-  'membersplit_split_succeed' => 'Optimization is completed, no user can optimize',
-  'membersplit_split_doing' => 'Ongoing user optimization, has been optimized user {num} ...',
-  'membersplit_split_check_table_done' => 'The data table structure consistency check is completed, ongoing user data optimization',
-  'membersplit_split_checking_table' => 'Ongoing data table consistency check {step} step',
-  'membersplit_split_check_table_fail' => 'The data structure of the data sheet finishing fails, the manual processing of the data structure of the main table ({tablename,}) and optimization table ({tablename} _archive) adjust adjusted in order.',
+	'membersplit_split_in_backstage'	=> 'Optimization in progress, Please try again later ...',//'正在进行用户优化，请稍后重试...',
+	'membersplit_split_check_table'		=> 'Data table consistency check in progress ...',//'正在进行数据表一致性检查...',
+	'membersplit_split_succeed'		=> 'Optimization is completed, no more user sto optimize',//'优化完毕，已经没有可以优化的用户 ',
+	'membersplit_split_doing'		=> 'User optimization in progress. Optimized users: {num}',//'正在进行用户优化，已经优化{num}个用户... ',
+	'membersplit_split_check_table_done'	=> 'Data table consistency check is completed, user data optimization in progress',//'数据表结构一致性检查完毕，正在进行用户数据优化',
+	'membersplit_split_checking_table'	=> 'Data table consistency check in progress, step: {step}',//'正在进行数据表一致性检查，第{step}步',
+	'membersplit_split_check_table_fail'	=> 'Table data structure refresh failed, process the main table manualy ({tablename}) and optimize the table ({tablename}_archive) structure in order to adjust the consistency.',//'数据表数据结构整理失败，请手工处理将主表({tablename})和优化表({tablename}_archive)的数据结构调整按顺序调整一致。',
 
   'onlinelist_succeed' => 'Danh sách các dự án trực tuyến cập nhật thành công',
   'forumlinks_succeed' => 'Liên kết được cập nhật thành công',
@@ -380,12 +384,12 @@ $lang = array (
   'focus_conf_succeed' => 'Quản trị trang web được đề nghị thiết lập thành công',
   'custommenu_add_succeed' => 'Menu {title} đã được thêm vào thành công các hoạt động thông thường và sẽ trở lại trang trước đó, bạn có thể chỉnh sửa<a href="{ADMINsCRIPt}?action=misc&operation=custommenu">hoạt động phổ biến ở đây</a>',
 
-  'patch_no_privilege_autoupdate' => 'Do not have permission to modify files, can not be turned on Automatic Updates',
-  'patch_updatesetting_successful' => 'Set the update was successful',
-  'patch_please_select_patch' => 'Please select the security patches need to be repaired',
-  'patch_cannot_access_file' => 'Found that your directories and files to modify the permissions, please fill out the ftp account or modify file permissions for reading and writing retry',
-  'patch_updatesetting_failed' => 'The following security patch update failed:<br>{list}',
-  'patch_cheking' => 'Is to detect security patches',
+	'patch_no_privilege_autoupdate'		=> 'Do not have permission to modify files, Automatic Update can not be performed',//'没有权限修改文件，无法开启自动更新',
+	'patch_updatesetting_successful'	=> 'Settings updated successfully',//'设置更新成功',
+	'patch_please_select_patch'		=> 'Please select a security patch for apply',//'请选择需要修复的安全补丁',
+	'patch_cannot_access_file'		=> 'Modify the permissions of your directories and files, Please fill out the ftp account, Or modify the file permissions for read/writable, and then retry',//'发现您的目录及文件无修改权限，请您填写ftp账号，或者修改文件权限为可读可写后重试',
+	'patch_updatesetting_failed'		=> 'The following security patch update failed: <br>{list}',//'以下安全补丁更新失败: <br>{list}',
+	'patch_cheking'				=> 'Inspecting for security patch',//'正在检测安全补丁',
 
   'plugins_enable_succeed' => 'Plugin đã được cho phép hoạt động',
   'plugins_conflict' => 'Kích hoạt Plugin</h4><br />Lời khuyên: Có sự xung đột với plugin khác đang dùng. Bạn có thể liên hệ tác giả để được giúp đỡ<a href="javascript:;" onclick="display(\'conflict\')">[Click để xem]</a><br /><div id="conflict" style="display:none"><br />{plugins}<br /></div><br />',
@@ -397,6 +401,7 @@ $lang = array (
   'plugins_import_succeed' => 'Nhập dữ liệu Plug-in thành công！<br />Đê sử dụng bình thường plugin này, bạn cũng có thể cần phải tải lên hoặc sửa đổi các tập tin thích hợp hoặc mẫu, hãy xem hướng dẫn cài đặt plug-in',
   'plugins_config_upgrade_confirm' => 'Bạn có chắc muốn nâng cấp plugin {pluginname} {version} lên phiên bản {toversion}？',
   'plugins_config_upgrade_missed' => 'Plug-in này mà không cần phải nâng cấp, xin vui lòng tải lên một phiên bản mới và sau đó thực hiện các hoạt động',
+	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
   'plugins_upgrade_var_invalid' => 'Plug-in chứa yếu tố không hợp pháp, không thể nâng cấp',
   'plugins_setting_succeed' => 'Cấu hình Plugin thành công',
   'plugins_setting_module_nonexistence' => 'Các tập tin module plug-in ({modfile}) không tồn tại hoặc có một lỗi cú pháp, kiểm tra các plug-in đã tải lên',
@@ -455,6 +460,7 @@ $lang = array (
   'setting_seccode_ttf_lost' => 'Thiếu xác minh các tập tin mã font hiển thị cần thiết, tập tin phông chữ để tải lên {path} thư mục',
   'forum_name_duplicate' => 'Đặt tên hình thức không thể nhân bản, tái thiết lập',
   'alipay_ratio_invalid' => 'Bạn nhập vào tỷ lệ tiền mặt / điểm chuyển đổi ít hơn 0',
+/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
   'ftp_password_short' => 'Mật khẩu FTP không ít hơn 3 ký tự',
   'cachethread_dir_noexists' => 'Có lỗi, bạn chỉ định thư mục {cachethreaddir} không tồn tại hoặc không thể viết, hãy thử dùng FTP cấp quyền lại là 777',
   'ranklistcache_update' => 'Danh sách các tập tin bộ nhớ cache đã được cập nhật',
@@ -467,14 +473,14 @@ $lang = array (
   'smilies_import_succeed' => 'Nhập thành công biểu tượng ',
 
   'specialuser_hotuser_noreason_invalid' => 'Xin vui lòng nhập một lý do',
-  'specialuser_follow_del_succeed' => 'To delete Recommended concerned about the success',
+	'specialuser_follow_del_succeed'	=> 'Special user follows deleted successfully ',//'删除推荐关注成功 ',
   'specialuser_defaultuser_del_succeed' => 'Xóa Giới thiệu với bạn bè thành công',
   'specialuser_hotuser_del_succeed' => 'xóa các thành viên ngôi sao của thành công',
   'specialuser_hotuser_edit_succeed' => 'chỉnh sửa thành công',
   'specialuser_hotuser_add_invaild' => 'cần nhập tên người dùng và lý do đề nghị',
   'specialuser_hotuser_added_invalid' => 'thành viên này đề nghị một "',
   'specialuser_hotuser_nouser_invalid' => 'Người dùng không tồn tại',
-  'specialuser_follow_add_succeed' => 'Add the recommended concerned about the success',
+	'specialuser_follow_add_succeed'	=> 'Special user follows added successfully ',//'添加推荐关注成功 ',
   'specialuser_defaultuser_add_succeed' => 'thêm người bạn giới thiệu thành công',
   'specialuser_hotuser_add_succeed' => 'thêm thành viên thành công',
 
@@ -490,7 +496,7 @@ $lang = array (
   'style_not_found' => 'không tìm thấy phong cách',
   'styles_edit_variable_duplicate' => 'mới thay thế tên biến đã tồn tại',
   'styles_edit_variable_illegal' => 'mới thay thế tên biến là không hợp pháp',
-  'styles_validator_noupdate' => 'Does not detect the new version of the style',
+	'styles_validator_noupdate'		=> 'No new style version detected',//'没有检测到新版本风格',
 
   'tag_admin_updated' => 'Nhãn cập nhật thành công',
 
@@ -548,24 +554,24 @@ $lang = array (
   'topic_open_succeed' => 'thành công trên đặc biệt',
   'topic_choose_at_least_one_optype' => 'Hãy chọn một mục hành động',
 
-  'upgrade_close_site' => 'Before upgrading, turn off the site, and documents and data backup',
-  'upgrade_none' => 'Without the upgrade information {upgradeurl}',
-  'upgrade_continue' => 'The last time you upgrade to {step}, please continue to complete the upgrade',
-  'upgrade_download_upgradelist_error' => 'Get list of files to be updated to fail, whether to re-obtain? {upgradeurl}',
-  'upgrade_download_complete_to_compare' => 'To be updated the file download is complete, the upcoming local file {upgradeurl}',
-  'upgrade_redownload' => '{file} to download the update file problems, whether to retry? {upgradeurl}',
-  'upgrade_downloading_file' => 'Are downloaded from the official update file {file} {upgradeurl}',
-  'upgrade_cannot_access_file' => 'Found that your directories and files to modify the permissions, please fill out the ftp account or modify file permissions for reading and writing retry',
-  'upgrade_backuping' => 'Are backing up the original file ... {upgradeurl}',
-  'upgrade_backup_error' => 'Backup the original file error {upgradeurl}',
-  'upgrade_backup_complete' => 'The backup is complete, is being upgraded ... {upgradeurl}',
-  'upgrade_ftp_upload_error' => 'Ftp upload file {file} error, modify the file permissions re-upload or re-set the ftp account {upgradeurl}',
-  'upgrade_copy_error' => 'Copy the original file to {file} error, please check whether there is re-copy or copy files by ftp upload {upgradeurl}',
-  'upgrade_file_successful' => 'File update was successful, and about to enter to update the database {upgradeurl}',
-'upgrade_successful' => 'Congratulations on your upgrade success!<br />Your current version is:[Discuz! X{version} Release[{release}] <br /><br />为安全起见，升级文件已保存至{save_update_dir}目录，<br />备份文件已保存至{save_back_dir}目录 {upgradeurl}',
-  'upgrade_checking' => 'Is testing a new upgraded version of',
-  'upgrade_latest_version' => 'You are currently using the latest version, do not need to upgrade',
-  'upgrade_param_error' => 'Request parameter is incorrect',
+	'upgrade_close_site'			=> 'Before upgrading, please turn OFF the site, and backup all files and database',//'升级前，请先关闭站点，并对文件及数据备份',
+	'upgrade_none'				=> 'No upgrade information',//'没有该升级信息',
+	'upgrade_continue'			=> 'The last time you upgraded to {step}, Please continue to complete the upgrade',//'您上次升级到 {step}，请继续完成升级',
+	'upgrade_download_upgradelist_error'	=> 'Get list of files to be updated failed, Whether to re-obtain? {upgradeurl}',//'获取待更新文件列表失败，是否重新获取？ {upgradeurl}',
+	'upgrade_download_complete_to_compare'	=> 'Files to be updated downloaded ok, now going to compare with local files',//'待更新文件下载完成，即将进行本地文件比较',
+	'upgrade_redownload'			=> 'Upgrade file {file} download problem. Please check your server network access, as well as the data directory have write permisson. Make sure all this is correct, and then click to {upgradeurl}',//'文件 {file} 下载出现问题，请查看您的服务器网络以及data目录是否有写权限，请确认无误后点击确定 {upgradeurl}',
+	'upgrade_downloading_file'		=> 'Downloading file {file} from official server.<br>Finished: {percent}, {upgradeurl}',//'正在从官方下载更新文件 {file} <br>已完成{percent} {upgradeurl}',
+	'upgrade_cannot_access_file'		=> 'No permissions to modify your directories and files. Please fill out the ftp account, or modify the file permissions to read/write, and then retry',//'发现您的目录及文件无修改权限，请您填写 ftp 账号，或者修改文件权限为可读可写后重试',
+	'upgrade_backuping'			=> 'Backing up the original file...',//'正在备份原始文件...',
+	'upgrade_backup_error'			=> 'Original file backup error',//'备份原始文件出错',
+	'upgrade_backup_complete'		=> 'The backup is completed, starting to upgrade...',//'备份完成，正在进行升级...',
+	'upgrade_ftp_upload_error'		=> 'FTP upload error, whether to retry the upload?',//'ftp 上传文件出错，是否重新上传？',
+	'upgrade_copy_error'			=> 'File copy error, whether to retry copy?',//'复制文件出错，是否重新复制？',
+	'upgrade_file_successful'		=> 'File update was successful, now starting to update the database',//'文件升级成功，即将进入更新数据库',
+	'upgrade_successful'			=> 'Congratulations, upgrade is successfully finished!<br />Your current version is: Discuz! X{version} Release {release}',//'恭喜您，升级成功! <br />您当前的版本为：[Discuz! X{version} Release[{release}]',
+	'upgrade_checking'			=> 'Checking for new upgraded version',//'正在检测新的升级版本',
+	'upgrade_latest_version'		=> 'You are currently using the latest version, do not need to upgrade',//'您目前使用的已经是最新版本，不需要升级',
+	'upgrade_param_error'			=> 'Request parameter is incorrect',//'请求的参数不正确',
 
   'usergroups_type_nonexistence' => 'nhóm người sử dụng loại lỗi',
   'usergroups_update_creditshigher_invalid' => 'Bạn đã không điền vào thấp hơn giới hạn tách rời',
@@ -576,17 +582,18 @@ $lang = array (
   'usergroups_edit_creditstrans_disabled' => 'Bạn cần phải kích hoạt kinh doanh trong các thiết lập toàn cầu để thiết lập những chi phí không thể thiếu của người sử dụng chức năng liên quan đến nhóm công chúng',
   'usergroups_edit_rate_invalid' => 'nhóm người sử dụng số điểm thấp hơn mức tối đa hay số 24-giờ được thiết lập không chính xác',
   'trade_fee_error' => 'giao dịch đặt không chính xác',
-  'reward_credits_error' => 'Reward trading points set wrong.',
+	'reward_credits_error'			=> 'Reward trade points set in error, please return to modify.',//'悬赏交易积分设置有误，请返回修改。',
   'usergroups_edit_succeed' => 'Thiết lập nhóm thành viên thành công',
   'usergroups_copy_target_invalid' => 'Bạn đã không chọn để sao chép các nhóm người dùng mục tiêu',
   'usergroups_copy_options_invalid' => 'Bạn đã không chọn để sao chép các dự án',
   'usergroups_copy_succeed' => 'User Group để thiết lập thành công nhân bản',
+/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
 
-  'usertag_delete_succeed' => 'Remove the label success',
-  'usertag_merge_succeed' => 'Label successful merger',
-  'usertag_add_succeed' => 'Success for the user to add tags',
-  'usertag_add_tag_succeed' => 'Successfully add tags',
-  'usertag_add_error' => 'Failed to add users or label error, please re-fill',
+	'usertag_delete_succeed'		=> 'Tag removed successfully',//'删除标签成功',
+	'usertag_merge_succeed'			=> 'Tag successfully merged',//'标签合并成功',
+	'usertag_add_succeed'			=> 'User tag added successfully',//'成功为用户添加标签',
+	'usertag_add_tag_succeed'		=> 'Tag added successfully',//'成功添加标签',
+	'usertag_add_error'			=> 'Add failed. User or tag error, Please try again.',//'添加失败，用户或标签错误，请重新填写',
 
   'members_verify_add_user_succeed' => 'Thêm chứng thực người dùng hoàn thành',
   'members_verify_update_title_error' => 'Chứng thực khi xác thực được kích hoạt để thay đổi tên không thể để trống',
@@ -615,14 +622,18 @@ $lang = array (
 
   'moderate_replies_succeed' => 'Kiểm tra hoạt động thành công, tổng cộng {validates} hồi âm,{ignores} hồi âm bị khóa,{deletes} hồi âm được xóa',
 
-  'moderate_shares_succeed' => 'Audit operation is successful, of {validates} share was through sharing {ignores} is ignored, {deletes} share is deleted',
+	'moderate_shares_succeed'		=> 'Review operation is successful, a total of {validates} shares passed, {ignores} shares ignored, {deletes} shares removed.',//'审核操作成功，共 {validates} 个分享被通过，{ignores} 个分享被忽略，{deletes} 个分享被删除。',
 
-  'moderate_threads_succeed' => 'Audit operation is successful, validates} theme of {by {ignores} theme was ignored, {recycles} theme is the Recycle Bin, {deletes} theme',
+	'moderate_threads_succeed'		=> 'Verification is completed successfully. Total {validates} threads approved, {ignores} threads rejected, {recycles} threads moved to Recycle Bin, {deletes} threads removed.',//'审核操作成功，共 {validates} 个主题被通过，{ignores} 个主题被忽略，{recycles} 个主题被放入回收站，{deletes} 个主题被删除。',
 
-  'cloudaddons_ftp_path_error' => 'Site FTP path errors, please fill out the re-',
+	'cloudaddons_ftp_path_error'		=> 'Site FTP path is wrong, Please try again.',//'站点 FTP 路径错误，请重新填写',
 
-  'cloudaddons_check_url_fopen_error' => 'Your server can not access the Application Center, which will cause the application can not be installed. Please contact your service provider or Web site technical staff to ensure that your server to function properly access addon.discuz.com',
-/*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
-  'cloudaddons_genuine_message' => 'I\'m sorry, you installed is not genuine application, the installer can not continue<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',
+	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.discuz.com or addon1.discuz.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.discuz.com 或 addon1.discuz.com',
+	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
+	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
+
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 
