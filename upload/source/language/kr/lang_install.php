@@ -169,7 +169,7 @@ $lang = array(
 	'config_unwriteable'		=> '설치 마법사가 설정 파일에 기록할 수 없습니다. config.inc.php 파일에 대한 쓰기 권한이 있는지 확인하세요. 퍼미션 (666 or 777)',//'安装向导无法写入配置文件, 请设置 config.inc.php 程序属性为可写状态(777)',
 
 	'install_in_processed'		=> '설치중...',//'正在安装...',
-	'install_succeed'		=> '성공적으로 설치되었습니다! 당신의 Discuz! X2에 입장하려면 여기를 클릭하세요.',//'安装成功，点击进入',
+	'install_succeed'		=> '성공적으로 설치되었습니다! 당신의 Discuz! X에 입장하려면 여기를 클릭하세요.',//'安装成功，点击进入',
 	'install_cloud'			=> '설치 후에 Discuz!클라우드 플랫폼에 방문하시면 좋습니다.<br>Discuz! 클라우드 플랫폼은 사이트 방문자를 늘리거나 웹사이트 성능 개선에 도움이 됩니다.<br>Discuz! 클라우드 플랫폼은  QQ 인터넷과 Tencent 분석, 클라우드 검색, QQ 그룹 컴뮤니티, 로밍, SOSO 이모티콘을 제공합니다.<br>Discuz! 플랫폼을 사용하기 전에 (Discuz!, UCHome or SupeSite)은 to Discuz! X2로 업그레이드 해야 합니다.',//'安装成功，欢迎开通Discuz!云平台<br>Discuz!云平台致力于帮助站长提高网站流量，增强网站运营能力，增加网站收入。<br>Discuz!云平台目前免费提供了QQ互联、腾讯分析、纵横搜索、社区QQ群、漫游应用、SOSO表情服务。Discuz!云平台将陆续提供更多优质服务项目。<br>开通Discuz!平台之前，请确保您的网站（Discuz!、UCHome或SupeSite）已经升级到Discuz!X2。',
 	'to_install_cloud'		=> '관리자 센터 열기',//'到后台开通',
 	'to_index'			=> '임시로 폐쇄됨',//'暂不开通',

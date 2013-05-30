@@ -169,7 +169,7 @@ $lang = array(
 	'config_unwriteable'		=> 'Asistente de instalación no puede escribir en el fichero de configuración. permitir que el config.inc.php permisos de escritura (666 o 777)',//'安装向导无法写入配置文件, 请设置 config.inc.php 程序属性为可写状态(777)',
 
 	'install_in_processed'		=> 'Instalación ...',//'正在安装...',
-	'install_succeed'		=> 'Instalado correctamente! Haga clic aquí para entrar en su Discuz! X2',//'安装成功，点击进入',
+	'install_succeed'		=> 'Instalado correctamente! Haga clic aquí para entrar en su Discuz! X',//'安装成功，点击进入',
 	'install_cloud'			=> 'Una vez instalado, Bienvenidos a la apertura Discuz! plataforma de nube<br>Discuz! Plataforma en la nube dedicada a ayudar a propietarios de sitios web para aumentar su tráfico de sitios web, mejorar la capacidad de los operadores de sitios Web, e incrementar los ingresos un sitio web.<br>Discuz! Plataforma en la nube en la actualidad ofrece un servicio gratuito QQ Internet, Análisis de Tencent, Nube de búsqueda, QQ Grupo de la Comunidad,Roaming,SOSO emoticon servicios.Discuz! Plataforma en la nube seguirá ofreciendo más servicios de calidad para el proyecto.<br>Antes de abrir la Plataforma Discuz! debe asegurarse de que su sitio web (Discuz!, UCHome o SupeSite) ha sido actualizado para Discuz! X2.',//'安装成功，欢迎开通Discuz!云平台<br>Discuz!云平台致力于帮助站长提高网站流量，增强网站运营能力，增加网站收入。<br>Discuz!云平台目前免费提供了QQ互联、腾讯分析、纵横搜索、社区QQ群、漫游应用、SOSO表情服务。Discuz!云平台将陆续提供更多优质服务项目。<br>开通Discuz!平台之前，请确保您的网站（Discuz!、UCHome或SupeSite）已经升级到Discuz!X2。',
 	'to_install_cloud'		=> 'Abrir Panel-Admin',//'到后台开通',
 	'to_index'			=> 'No abrir temporalmente',//'暂不开通',
