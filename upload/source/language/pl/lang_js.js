@@ -575,7 +575,7 @@ var lng = {
 //!!! mainly the same as 'color' !!!!!!
 //	'colour'		: 'Colour',//'色',
 	'add_new_title'		: 'Dodaj nowy tytuł',//'添加新标题',
-	'delete_this_sure'	: 'Are you sure to delete it? It can not be restored if you delete it.',//'您确实要删除吗,删除以后将不可恢复',
+	'delete_this_sure'	: 'Czy na pewno chcesz to usunąć? Wszelkie dane zostaną utracone.',//'您确实要删除吗,删除以后将不可恢复',
 	'loading_content'	: 'Wczytywanie zawartości...',//'正在加载内容...',
 	'modified_import'	: 'You have made some modifications, please import it after you save it, otherwise the imported data won\'t include modification of this time.',//'您已经做过修改，请保存后再做导出，否则导出的数据将不包括您这次所做的修改。',
 	'total'			: 'Łącznie ',//'共',

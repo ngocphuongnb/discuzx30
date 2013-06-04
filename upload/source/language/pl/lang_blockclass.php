@@ -161,7 +161,7 @@ $lang = array(
 	'blockclass_portal_category'			=> 'Kategoria',//'门户栏目',
 	'blockclass_category_field_url'			=> 'URL',//'栏目链接',
 	'blockclass_category_field_title'		=> 'Name',//'栏目名称',
-	'blockclass_category_field_articles'		=> 'Number of Articles',//'文章数',
+	'blockclass_category_field_articles'		=> 'Artykułów',//'文章数',
 	'blockclass_category_script_portalcategory'	=> 'Kategoria',//'文章栏目',
 
 	'blockclass_portal_topic'		=> 'Topics',//'专题模块',
