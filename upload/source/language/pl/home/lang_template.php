@@ -1082,7 +1082,7 @@ Po wysłaniu awatara proszę odświeżyć stronę. Prawdopodobnie wtedy zobaczys
 	'eccredit_tradegoods'		=> 'Pokrewne produkty',//'相关商品',
 	'delete_favorite'		=> 'Usuń ulubione',//'删除收藏',
 	'delete_favorite_message'	=> 'Kliknij "potwierdź", aby usunąć obiekt z ulubionych.',//'您确定要删除此收藏吗？',
-	'favorite_count'		=> 'Aktualnie lubisz <b>$fav_count</b> rzeczy',//'已有 <b>$fav_count</b> 人收藏',
+	'favorite_count'		=> 'Aktualnie lubisz <b>$fav_count</b> elementów',//'已有 <b>$fav_count</b> 人收藏',
 	'favorite_description'		=> 'Krótki opis, streszczenie',//'收藏说明',
 	'determine_delete_feed'		=> 'Czy na pewno usunąć wybraną aktywność?',//'确定删除该动态吗？',
 	'next_visit_not_view_feed'	=> 'Such feeds will not shown at the next visit',//'在下次浏览时不再显示此类动态',
