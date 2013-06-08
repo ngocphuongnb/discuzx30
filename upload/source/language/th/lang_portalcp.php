@@ -12,7 +12,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array(
-	'block_diy_nopreview' => '<p>โมดูลนี้ประกอบด้วยโค้ด js จะไม่สามารถแสดงตัวอย่างทันที</p>',
+	'block_diy_nopreview' => '<p>โมดูลนี้ประกอบด้วยโค้ด js จะไม่สามารถแสดงตัวอย่างได้ทันที</p>',
 	'block_diy_summary_html_tag' => 'ข้อผิดพลาดในเนื้อหาที่กำหนดเอง แท็ก HTML: ',
 	'block_diy_summary_not_closed' => ' ไม่ตรงกัน',
 	'block_all_category' => 'หมวดหมู่ทั้งหมด',
@@ -27,8 +27,8 @@ $lang = array(
 	'insert_large_image' => 'แทรกรูปภาพขนาดใหญ่',
 	'insert_file' => 'แทรกไฟล์',
 	'delete' => 'ลบ',
-	'upload_error' => 'อัพโหลดล้มเหลว',
-	'upload_remote_failed' => 'อัพโหลดระยะไกลล้มเหลว',
+	'upload_error' => 'อัปโหลดล้มเหลว',
+	'upload_remote_failed' => 'อัปโหลดระยะไกลล้มเหลว',
 	'article_noexist' => 'บทความที่ระบุไว้ไม่อยู่ กรุณาตรวจสอบ',
 	'article_noallowed' => 'คุณไม่ได้รับอนุญาตให้ดำเนินการใดๆเกี่ยวกับบทความ',
 	'article_publish_noallowed' => 'คุณไม่ได้รับอนุญาตให้ดำเนินการเผยแพร่บทความ',
@@ -77,7 +77,7 @@ $lang = array(
 	'home/space_album_pic' => 'หน้าดูรูปภาพ',
 	'home/space_album_list' => 'หน้ารายการอัลบั้ม',
 	'home/space_activity' => 'หน้ากิจกรรม',
-	'ranklist/ranklist' => 'หน้ารายการอันดับ',
+	'ranklist/ranklist' => 'หน้ารายการจัดอันดับ',
 	'ranklist/blog' => 'หน้าอันดับบล็อก',
 	'ranklist/poll' => 'หน้าอันดับโพล',
 	'ranklist/activity' => 'หน้าอันดับกิจกรรม',
@@ -87,7 +87,7 @@ $lang = array(
 	'ranklist/thread' => 'หน้าอันดับกระทู้',
 	'ranklist/member' => 'หน้าอันดับสมาชิก',
 	'other_page' => 'ไม่มี DIY โมดูล',
-	'upload' => 'อัพโหลด',
+	'upload' => 'อัปโหลด',
 	'remote' => 'ระยะไกล',
 	'portal_index' => 'หน้าแรกพอร์ทัล',
 	'portal_topic_blue' => 'รูปแบบสีฟ้า',

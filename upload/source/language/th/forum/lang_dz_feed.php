@@ -38,9 +38,9 @@ $lang = array
 
 	'feed_post_magic_title' =>		'{operater} ตอบกลับและใช้ไอเท็ม {magiccard} ใน {thread} ของ {actor}',
 
-	'feed_user_profile_title' =>		'{actor} ปรับปรุงข้อมูลส่วนตัว',
+	'feed_user_profile_title' =>		'{actor} อัปเดตข้อมูลส่วนตัว',
 
-	'feed_user_usergroup_title' =>		'{actor} อัพเกรดกลุ่มสมาชิกไปยังกลุ่ม {usergroup}',
+	'feed_user_usergroup_title' =>		'{actor} อัปเกรดกลุ่มสมาชิกไปยังกลุ่ม {usergroup}',
 
 	'feed_user_credit_title' =>		'{actor} ได้รับเครดิต {count}',
 

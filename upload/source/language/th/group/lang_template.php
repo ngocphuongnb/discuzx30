@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php 28113 2012-02-22 09:25:55Z svn_project_zhangjie $
+ *      $Id: lang_template.php 32915 2013-03-22 08:25:34Z zhangjie $
  *
  *	Translated to Thai by jaideejung007
  */
@@ -14,7 +14,7 @@ $lang = array (
   'favorite' => 'เพิ่มในบุ๊คมาร์ก',
   'group_admin' => 'จัดการ{$_G[setting][navs][3][navname]}',
   'group_create' => 'สร้าง{$_G[setting][navs][3][navname]}',
-/*!*/	'group_create_buildcredits'	=> 'Create {$_G[setting][navs][3][navname]} need to consume',//'创建{$_G[setting][navs][3][navname]}需要消耗',
+  'group_create_buildcredits' => 'สร้าง{$_G[setting][navs][3][navname]}จำเป็นต้องใช้เครดิต',
   'group_discuss_area' => 'พื้นที่การสนทนา',
   'group_has_joined' => 'ได้เข้าร่วม{$_G[setting][navs][3][navname]} รอการตรวจสอบ...',
   'group_join_group' => 'เข้าร่วม{$_G[setting][navs][3][navname]}',
@@ -49,7 +49,7 @@ $lang = array (
   'click_to_readmore' => 'คลิกอ่านต่อ',
   'dateline_range' => 'โพสต์เวลา',
   'forum_nothreads' => 'ยังไม่มีการตั้งกระทู้ในคลับนี้',
-  'group_member_status' => 'รายการปรับปรุงของสมาชิก',
+  'group_member_status' => 'ฟีดข่าวของสมาชิก',
   'group_no_latest_feeds' => '{$_G[setting][navs][3][navname]}นี้ยังไม่มีความเคลื่อนไหว',
   'lastpost' => 'โพสต์ล่าสุด',
   'latest_threads' => 'กระทู้ล่าสุด',
@@ -182,12 +182,12 @@ $lang = array (
   'create_group_message1' => 'สร้างคลับของคุณเอง',
   'create_group_message2' => 'ตั้งค่า{$_G[setting][navs][3][navname]}ของคุณ',
   'create_group_message3' => 'ชวนเพื่อนเข้าร่วม{$_G[setting][navs][3][navname]}ของคุณ',
-  'create_group_message4' => 'ใช้เครดิตอัพเกรด{$_G[setting][navs][3][navname]}ของคุณ',
+  'create_group_message4' => 'ใช้เครดิตอัปเกรด{$_G[setting][navs][3][navname]}ของคุณ',
   'create_group_step' => 'ขั้นตอนการสร้าง{$_G[setting][navs][3][navname]}',
   'group_categories' => 'หมวดหมู่{$_G[setting][navs][3][navname]}',
   'group_focus' => '{$_G[setting][navs][3][navname]}ที่น่าสนใจ',
   'group_hot' => 'อันดับเครดิต{$_G[setting][navs][3][navname]}',
-  'group_upgrade' => 'อัพเกรด{$_G[setting][navs][3][navname]}',
+  'group_upgrade' => 'อัปเกรด{$_G[setting][navs][3][navname]}',
   'invite_friend' => 'ชวนเพื่อนเข้าร่วมคลับ',
   'my_group' => '{$_G[setting][navs][3][navname]}ของฉัน',
   'personality_setting' => 'ตั้งค่าคลับ',
@@ -205,13 +205,13 @@ $lang = array (
   'orderby_default' => 'เรียงลำดับตามค่าเริ่มต้น',
   'stats_main_threads_count' => 'กระทู้ที่มี',
   'threads' => 'กระทู้',
-/*!*/	'reply'				=> 'Reply',//'回复',
-/*!*/	'group_live_newreply_refresh'	=> 'New posts appears, click to refresh',//'有新的发言了，点击刷新',
-/*!*/	'group_live_fastreply_notice'	=> '#Quick Reply#',//'#在这里快速回复#',
-/*!*/	'group_live_post'		=> 'Publish',//'发表',
-/*!*/	'group_live_nocontent_error'	=> 'Sorry, you have to enter anything',//'抱歉，您尚未输入内容',
-/*!*/	'login_to_reply'		=> 'You need to log in before you can reply',//'您需要登录后才可以回帖',
-/*!*/	'no_permission_to_post'		=> 'You are have no permissiont to post.',//'您现在无权发帖。',
-/*!*/	'click_to_show_reason'		=> 'Click here for show the reason',//'点击查看原因',
+  'reply' => 'ตอบกลับ',
+  'group_live_newreply_refresh' => 'มีโพสต์ใหม่ คลิกเพื่อรีเฟรช',
+  'group_live_fastreply_notice' => '#กรอกข้อความสำหรับตอบกลับแบบด่วนได้ที่นี่#',
+  'group_live_post' => 'แผยแพร่',
+  'group_live_nocontent_error' => 'ขออภัย คุณยังไม่ได้กรอกข้อความใดๆ เลย',
+  'login_to_reply' => 'คุณจำเป็นต้องลงชื่อเข้าใช้ก่อนที่จะตอบกลับ',
+  'no_permission_to_post' => 'คุณไม่ได้รับอนุญาตให้โพสต์',
+  'click_to_show_reason' => 'คลิกที่นี่ เพื่อดูเหตุผล',
 );
 

@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_notification.php 30795 2012-06-20 02:03:13Z liulanbo $
+ *      $Id: lang_notification.php 32028 2012-10-31 10:12:22Z zhangjie $
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -31,7 +31,7 @@ $lang = array
 	'type_group' => 'คลับ',
 
 	'mail_to_user' => 'ข้อความใหม่',
-	'showcredit' => '{actor} เสนอ {credit} เครดิต เพื่อจัดอันดับให้กับคุณ สนับสนุนการจัดอันดับได้ที่ <a href="misc.php?mod=ranklist&type=member" target="_blank">รายการอันดับ</a>',
+	'showcredit' => '{actor} เสนอ {credit} เครดิต เพื่อจัดอันดับให้กับคุณ สนับสนุนการจัดอันดับได้ที่ <a href="misc.php?mod=ranklist&type=member" target="_blank">รายการจัดอันดับ</a>',
 	'share_space' => '{actor} แบ่งปันโปรไฟล์ของคุณ',
 	'share_blog' => '{actor} แบ่งปันบล็อก <a href="{url}" target="_blank">{subject}</a> ของคุณ',
 	'share_album' => '{actor} แบ่งปันอัลบั้ม <a href="{url}" target="_blank">{albumname}</a> ของคุณ',
@@ -99,8 +99,8 @@ $lang = array
 
 	'reason_quickclear' => '{actor} ได้ลบ {cleartype} ออก <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-/*!*/	'reason_live_update'	=> '{actor} added a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
-/*!*/	'reason_live_cancle'	=> '{actor} removed a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_live_update' => '{actor} ได้แนะนำกระทู้ของคุณใน <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_live_cancle' => '{actor} ได้ยกเลิกแนะนำกระทู้ของคุณใน <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_delete' => 'กระทู้ {threadsubject} ของคุณ ไม่ผ่านการตรวจสอบและตอนนี้ได้ถูกลบออกไปแล้ว!',
 
@@ -112,7 +112,7 @@ $lang = array
 	'modreplies_validate' => 'การโพสต์ตอบกลับของคุณผ่านการตรวจสอบแล้ว! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">ดูเนื้อหา &rsaquo;</a> <p class="summary">เนื้อหา: <span>{post}</span></p>',
 
 	'transfer' => 'คุณได้รับจากเครดิตจาก {actor} ผ่านการโอนเป็นจำนวน {credit} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>
-<p class="summary">{actor} พูดว่า: <span>{transfermessage}</span></p>',
+<p class="summary">{actor} ฝากข้อความถึงคุณว่า: <span>{transfermessage}</span></p>',
 
 	'addfunds' => 'การร้องขอแลกเปลี่ยนเครดิตของคุณเรียบร้อย ระบบได้ส่งรายงานการแลกเปลี่ยนมายังข้อความส่าวนตัวของคุณ &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>
 <p class="summary">หมายเลข: <span>{orderid}</span></p><p class="summary">ค่าใช้จ่าย: <span>฿ {price}  บาท</span></p><p class="summary">รายได้: <span>{value}</span></p>',
@@ -171,16 +171,16 @@ $lang = array
 
 	'task_reward_group' => 'ขอแสดงความยินดีคุณได้ทำกิจกรรม: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>สำเร็จ คุณได้เข้าร่วมกลุ่ม {rewardtext} เป็นเวลา {bonus} วัน &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">ดูระดับการใช้งานของกลุ่มนี้ &rsaquo;</a>',
 
-	'user_usergroup' => 'กลุ่มสมาชิกของคุณได้อัพเกรดเป็น {usergroup} &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">ดูระดับการใช้งานของกลุ่มนี้ &rsaquo;</a>',
+	'user_usergroup' => 'กลุ่มสมาชิกของคุณได้อัปเกรดเป็น {usergroup} &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">ดูระดับการใช้งานของกลุ่มนี้ &rsaquo;</a>',
 
-	'grouplevel_update' => 'ขอแสดงความยินดี กลุ่มของคุณ {groupname} ได้รับการอัพเกรดไปยัง {newlevel}',
+	'grouplevel_update' => 'ขอแสดงความยินดี กลุ่มของคุณ {groupname} ได้รับการอัปเกรดไปยัง {newlevel}',
 
 	'thread_invite' => '{actor} เชิญชวนคุณ {invitename} <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>',
-	'blog_invite' => '{actor} เชิญคุณให้ดูบล็อก <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>', 
+	'blog_invite' => '{actor} เชิญคุณให้ดูบล็อก <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a> &nbsp; <a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>',
 	'article_invite' => '{actor} เชิญคุณให้ดูบทความ <a href="portal.php?mod=view&aid={aid}" target="_blank">{subject}</a> &nbsp; <a href="portal.php?mod=view&aid={aid}" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>',
 	'invite_friend' => 'ขอแสดงความยินดีชวนเพื่อนสำเร็จ {actor} และคุณเป็นเพื่อนกันแล้ว',
 
-	'poke_request' => '<a href="{fromurl}" class="xi2">{fromusername}</a>: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">ตอบกลับคำทักทาย</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">ไม่สนใจ</a>',
+	'poke_request' => '<a href="{fromurl}" class="xi2">{fromusername}</a>: <span class="xw0">{pokemsg}&nbsp;</span><a href="home.php?mod=spacecp&ac=poke&op=reply&uid={fromuid}&from=notice" id="a_p_r_{fromuid}" class="xw1" onclick="showWindow(this.id, this.href, \'get\', 0);">ตอบกลับการสะกิด</a><span class="pipe">|</span><a href="home.php?mod=spacecp&ac=poke&op=ignore&uid={fromuid}&from=notice" id="a_p_i_{fromuid}" onclick="showWindow(\'pokeignore\', this.href, \'get\', 0);">ไม่สนใจ</a>',
 
 	'profile_verify_error' => '{verify} ปฏิเสธข้อมูลของคุณ ต้องกรอกข้อมูลต่อไปนี้:<br/>{profile}<br/>สาเหตุของการปฏิเสธ:{reason}',
 	'profile_verify_pass' => 'ขอแสดงความยินดี ข้อมูลที่คุณกรอกผ่านการตรวจสอบ ตรวจสอบข้อมูลโดย {verify}',
@@ -216,10 +216,9 @@ $lang = array
 	'at_message' => '<a href="home.php?mod=space&uid={buyerid}" target="_blank">{buyer}</a> ได้กล่าวถึงคุณในโพสต์ของ <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> ว่า: <div class="quote"><blockquote>{message}</blockquote></div><a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">คลิกที่นี่เพื่อดูรายละเอียด</a>',
 	'new_report' => 'มีการรายงานเข้ามาใหม่ <a href="admin.php?action=report" target="_blank">คลิกที่นี่เพื่อดูและดำเนินการรายงานนี้</a>',
 	'new_post_report' => 'มีการรายงานใหม่ที่รอการตรวจสอบ <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">คลิกที่นี่เพื่อเข้าสู่ศูนย์จัดการระบบ</a>',
-	'magics_receive' => '{actor} มอบไอเท็ม {magicname} ให้กับคุณ
-<p class="summary">{actor} พูดว่า: <span>{msg}</span></p>
-<p class="mbn"><a href="home.php?mod=magic" target="_blank">รับไอเท็ม</a>
-<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">ดูกล่องไอเท็มของฉัน</a></p>',
+	'magics_receive' => '{actor} ได้มอบไอเท็ม {magicname} ให้กับคุณ
+<p class="summary">และ {actor} ได้ฝากข้อความถึงคุณ: <span>{msg}</span></p>
+<p class="mbn"><a href="home.php?mod=magic" target="_blank">กลับไปยังรายการไอเท็ม</a><span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">ดูกล่องไอเท็มของฉัน</a></p>',
 	'invite_collection' => '{actor} เชิญคุณเข้าร่วมในคลังกระทู้  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a><br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">ยอมรับคำเชิญ</a>',
 	'collection_removed' => 'คลังกระทู้ที่คุณเข้าร่วมตอนนี้  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> ได้ถูกลบออกโดย {actor}',
 	'exit_collection' => 'คุณได้เข้าร่วมคลังกระทู้ก่อนหน้านี้อยู่แล้ว  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>',

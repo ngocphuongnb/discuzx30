@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'login_title'		=> 'ศูนย์กลางการจัดการระบบ',
+	'login_title' => 'ระบบบริหารจัดการเว็บบอร์ด',
 	'login_username' => 'USER',
 	'login_password' => 'PASS',
 
@@ -21,16 +21,16 @@ $lang = array
 	'forcesecques' => 'ต้องระบุ',
 	'security_question' => 'คำถาม',
 	'security_answer' => 'คำตอบ',
-	'security_question_0' => 'เลือกคำถาม (ถ้ากำหนดไว้)',
-	'security_question_1' => 'แม่ของฉันชื่อ?',
-	'security_question_2' => 'ปู่ของฉันชื่อ?',
-	'security_question_3' => 'พ่อของฉันเกิดที่?',
-	'security_question_4' => 'ดาราคนโปรดของฉันชื่อ?',
-	'security_question_5' => 'คอมพิวเตอร์ของฉันยี่ห้อ?',
-	'security_question_6' => 'อาหารจานโปรดของฉัน?',
-	'security_question_7' => 'หมายเลขบัตรประชาชน?',
+	'security_question_0' => 'เลือกคำถาม (ถ้ากำหนด)',
+	'security_question_1' => 'ชื่อแม่ของฉัน',
+	'security_question_2' => 'ชื่อปู่ของฉัน',
+	'security_question_3' => 'สถานที่เกิดพ่อของฉัน',
+	'security_question_4' => 'ชื่อดาราคนโปรดของฉัน',
+	'security_question_5' => 'ยี่ห้อคอมพิวเตอร์ของฉัน',
+	'security_question_6' => 'อาหารจานโปรดของฉัน',
+	'security_question_7' => 'เลขบัตรประชาชน',
 
-	'login_tips' => 'Discuz! คือ CMS ที่สร้างด้วย PHP และ MySQL เป็นผลิตภัณฑ์หนึ่งในเครือของบริษัท <a href="http://www.tencent.com" target="_blank">Tencent</a> และ <a href="http://www.comsenz.com" target="_blank">Comsenz</a> ผู้นำเข้าและแปลเป็นภาษาไทยคือ <a href="http://www.discuzthai.com" target="_blank">ทีมงานดิสคัสไทย</a> คุณสามารถนำมาแก้ไข ปรับแต่ง ได้ตามความต้องการ แต่ยังคงเครดิตของ Discuz! ไว้',
+	'login_tips' => 'Discuz! ถูกออกแบบมาจากการใช้ภาษา PHP และระบบฐานข้อมูล MySQL พร้อมด้วยโซลูชันอื่นๆ ที่มีประสิทธิภาพสูงสุดสำหรับการพัฒนา สิ่งนี้ จะเป็นตัวเลือกอีกหนึ่งชร้อย ที่จะช่วยสร้างแบรนด์ให้กับชุมชนเว็บไซต์ของคุณได้อย่างน่าประทับใจ (พัฒนาให้เป็นภาษาไทยโดย <a href="http://www.discuzthai.com" target="_blank">DiscuzThai</a>, <a href="http://thzaa.com" target="_blank">THZAA Inc.</a>)',
 	'login_nosecques' => 'คุณยังไม่ได้ตั้งค่าคำถามความปลอดภัยในการลงชื่อเข้าใช้ คุณสามารถตั้งค่าคำถามความปลอดภัยได้ที่ข้อมูลส่วนตัวหรือเมนูสมาชิก หรือ <a href="forum.php?mod=memcp&action=profile&typeid=1" target="_blank">คลิกที่นี่เพื่อ</a> เพื่อตั้งค่าคำถามความปลอดภัยของคุณ',
 
 	'login_cplock' => 'การลงชื่อเข้าใช้การจัดการของคุณถูกล็อก! <br>กรุณารอ อีก<b> {ltime} </b>วินาที...  แล้วค่อยลองใหม่อีกครั้ง',
