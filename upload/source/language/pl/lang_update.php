@@ -167,8 +167,8 @@ $lang = array(
 //To lang_template:
 /*!*/	'default_layout'	=> 'Default layout',//'默认方案',
 /*!*/	'qq_bbcode_description'	=> 'QQ online status, points icon and his/her chat',//'显示 QQ 在线状态，点这个图标可以和他（她）聊天',
-/*!*/	'qq_enter'		=> 'Please enter the QQ number',//'请输入 QQ 号码',
-/*!*/	'qq_onlne_status'	=> 'Set QQ online status',//'设置QQ在线状态',
+/*!*/	'qq_enter'		=> 'Proszę wprowadzić numer QQ',//'请输入 QQ 号码',
+/*!*/	'qq_onlne_status'	=> 'Ustaw status QQ online',//'设置QQ在线状态',
 /*!*/	'open_soso'		=> '<br><br>Tips:<br>In order to reduce the forum loading, this upgrade will help you to use our website Geo-location search service.<br>You can go to',//'<br><br>友情提示：<br>为更好的降低论坛搜索时的数据压力，本次升级已经帮本站开通纵横搜索服务。<br>你可以在',
 /*!*/	'open_soso_link'	=> 'AdminCP -&gt; Cloud platform -&gt; Geo-location search Management',//'站点后台-&gt;云平台-&gt;纵横搜索 进行管理',
 

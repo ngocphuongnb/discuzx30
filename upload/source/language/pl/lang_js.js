@@ -289,10 +289,28 @@ var lng = {
 	'video_support'		: 'Wsparcie dla Youku, Potatoes, 56, 6, Cool video i innych serwisów.<br />Wspierane formaty: wmv avi rmvb mov swf flv.<br /> Przykład: http://server/movie.wmv',//'支持优酷、土豆、56、酷6等视频站的视频网址<br />支持 wmv avi rmvb mov swf flv 等视频格式<br />示例: http://server/movie.wmv',
 	'flash_support'		: 'Wspierane formaty: swf flv <br /> Przykład: http://server/flash.swf',//'支持 swf flv 等 Flash 网址<br />示例: http://server/flash.swf',
 	'paste_from_word'	: 'Wklej zawartość programu Word',//'从 Word 粘贴内容',
-	'paste_word_tip'	: 'Użyj skrótu wklejania treści (Ctrl + V), aby móc uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
+	'paste_word_tip'	: 'Użyj skrótu wklejania (Ctrl + V), aby uzupełnić powyższe pole.',//'请通过快捷键(Ctrl+V)把 Word 文件中的内容粘贴到上',
 	'show_tips'		: 'Pokaż wskazówki',//'友情提示',
 	'expire_days'		: 'Valid for (days)',//'有效天数',
 	'expire_days_invalid'	: 'Distance from the posting date is greater than the number of days when the label automatically expire',//'距离发帖日期大于这个天数时标签自动失效',
+	'download_remote'	: 'Downloading remote attachment, please wait ...',//'正在下载远程附件，请稍等……',
+	'create_post_directory'	: 'Create post directory',//'创建帖子目录',
+	'page_number'		: 'Numer strony',//'页码',
+	'jump_to_page'		: 'Skocz do wybranej strony',//'跳转到指定的页',
+	'jump_to_page_comment'	: 'Użyj [page], aby dodać nową stronę',//'用 [page] 对当前帖子分页后的页码',
+	'jump_to_post'		: 'Skocz do wybrantego posta',//'跳转到指定的帖子',
+	'jump_tip_pid'		: 'Post TID and PID',//'帖子的 TID 和 PID',
+	'add_indent'		: 'Add the first line indent',//'添加行首缩进',
+	'enter_post_password'	: 'Please enter the post password',//'请输入帖子密码',
+	'begin_flash_img'	: 'Wprowadź adres URL animacji flash lub obrazka',//'请输入开头动画 Flash 或 图片 地址',
+	'begin_click_url'	: 'Przekierowanie linku',//'点击链接地址',
+	'begin_stay_seconds'	: 'Czas wyświetlania (sek.)',//'停留秒数',
+	'begin_disappearance'	: 'Efekt po załadowaniu',//'载入、消失的效果',
+	'none'			: 'Brak',//'无',
+	'begin_fade'		: 'Zanikanie',//'淡入淡出',
+	'begin_explosive'	: 'Ekspozja',//'展开闭合',
+	'begin_info'		: 'Wspierane formaty: swf flv jpg gif png<br/>Zakres szerokości: 400~1024, zakres wysokości: 300~640<br/>Przykład: http://server/flash.swf',//'支持 swf flv jpg gif png 网址<br />宽高范围: 宽400~1024 高300~640<br />示例: http://server/flash.swf',
+	
 //--------------------------------
 //static/js/forum.js
 
@@ -718,6 +736,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST!
 
 };
