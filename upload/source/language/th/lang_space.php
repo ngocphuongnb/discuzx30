@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_space.php 28726 2012-03-09 03:05:19Z yexinhao $
+ *      $Id: lang_space.php 31607 2012-09-13 08:38:40Z monkey $
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -16,7 +16,7 @@ $lang = array(
 	'before' => 'ที่แล้ว',
 	'minute' => 'นาที',
 	'second' => 'วินาที',
-	'now' => 'เมื่อไม่กี่วินาที',
+	'now' => 'ตอนนี้',
 	'dot' => '. ',
 	'poll' => 'โพล',
 	'blog' => 'บล็อก',
@@ -32,10 +32,10 @@ $lang = array(
 	'wall' => 'ฝากข้อความ',
 	'pic_comment' => 'ความคิดเห็นรูปภาพ',
 	'blog_comment' => 'ความคิดเห็นบล็อก',
-	'clickblog' => 'ตำแหน่งบล็อก',
-	'clickpic' => 'ตำแหน่งรูปภาพ',
-	'clickthread' => 'ตำแหน่งกระทู้',
-	'share_comment' => 'ความคิดเห็นการแบ่งปัน',
+	'clickblog' => 'ความรู้สึกเกี่ยวกับบล็อก',
+	'clickpic' => 'ความรู้สึกเกี่ยวกับรูปภาพ',
+	'clickthread' => 'ความรู้สึกเกี่ยวกับกระทู้',
+	'share_comment' => 'ความรู้สึกเกี่ยวกับแบ่งปัน',
 	'share_notice' => 'แบ่งปัน',
 	'doing_comment' => 'ความคิดเห็นข้อความทักทาย',
 	'friend_notice' => 'เพื่อน',
@@ -101,57 +101,40 @@ $lang = array(
 	'block3' => 'กำหนดโมดูล 3',
 	'block4' => 'กำหนดโมดูล 4',
 	'block5' => 'กำหนดโมดูล 5',
-/*vot*/	'blockdata' => array(
-		'personalinfo' => 'ข้อมูลส่วนตัว',
-		'profile' => 'รูปประจำตัว',
-		'doing' => 'ทักทาย',
-		'feed' => 'ปรับปรุง',
-		'blog' => 'บล็อก',
-		'stickblog' => 'ปักหมุดบล็อก',
-		'album' => 'อัลบั้ม',
-		'friend' => 'เพื่อน',
-		'visitor' => 'ผู้เข้าชมล่าสุด',
-		'wall' => 'ฝากข้อความ',
-		'share' => 'แบ่งปัน',
-		'thread' => 'กระทู้',
-		'group'=>$_G[setting][navs][3][navname],
-		'music'=>'กล่องเพลง',
-		'statistic' => 'สถิติ',
-		'myapp' => 'แอพลิเคชัน',
-		'block1'=>'โมดูฟรี 1',
-		'block2'=>'โมดูฟรี 2',
-		'block3'=>'โมดูฟรี 3',
-		'block4'=>'โมดูฟรี 4',
-		'block5'=>'โมดูฟรี 5'
-	),
+	'blockdata' => array('personalinfo' => 'ข้อมูลส่วนตัว', 'profile' => 'อวาตาร์', 'doing' => 'ทักทาย', 'feed' => 'อัปเดต',
+				'blog' => 'บล็อก', 'stickblog' => 'ปักหมุดบล็อก', 'album' => 'อัลบั้ม', 'friend' => 'เพื่อน',
+				'visitor' => 'ผู้เข้าชมล่าสุด', 'wall' => 'ฝากข้อความ', 'share' => 'แบ่งปัน',
+				'thread' => 'กระทู้', 'group'=>$_G[setting][navs][3][navname],'music'=>'กล่องเพลง',
+				'statistic' => 'สถิติ','myapp' => 'แอพลิเคชัน',
+				'block1'=>'โมดูฟรี 1', 'block2'=>'โมดูฟรี 2', 'block3'=>'โมดูฟรี 3',
+				'block4'=>'โมดูฟรี 4','block5'=>'โมดูฟรี 5'),
 
 	'block_title' => '<div class="blocktitle title"><span>{bname}</span>{more}</div>',
 	'blog_li' => '<dl class="bbda cl"><dt><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a><span class="xg2 xw0"> {date}</span></dt>',
 	'blog_li_img' => '<dd class="atc"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank"><img src="{src}" class="summaryimg" /></a></dd>',
 	'blog_li_ext' => '<dd class="xg1"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">เข้าชม ({viewnum})</a><span class="pipe">|</span><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}#comment" target="_blank">แสดงความคิดเห็น ({replynum})</a></dd>',
-	'album_li' => '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, ปรับปรุง {date}"><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, ปรับปรุง {date}">{albumname}</a></p><span>จำนวนรูปภาพ: {picnum}</span></li>',
+	'album_li' => '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, อัปเดต {date}"><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, อัปเดต {date}">{albumname}</a></p><span>จำนวนรูปภาพ: {picnum}</span></li>',
 	'doing_li' => '<li>{message}</li><br />{date} {from} ตอบกลับ ({replynum})',
 	'visitor_anonymity' => '<div class="avatar48"><img src="image/magic/hidden.gif" alt="ไม่ระบุชื่อ"></div><p>ไม่ระบุชื่อ</p>',
-/*!*/	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="ลบร่องรอยการเข้าถึง"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form' => '<div class="space_wall_post">
-					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
-					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
-					<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
-					<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
-					<input type="hidden" name="id" value="{uid}" />
-					<input type="hidden" name="idtype" value="uid" />
-					<input type="hidden" name="commentsubmit" value="true" />' :
-					($_G['connectguest'] ? '<div class="pt hm">คุณสามารถ <a href="member.php?mod=connect" class="xi2">เชื่อมต่อไปยังบัญชีของคุณ</a> หรือ <a href="member.php?mod=connect&ac=bind" class="xi2">ผูกบัญชีการใช้งาน</a> เพื่อให้สามารถแสดงความคิดเห็นได้</div>' : '<div class="pt hm">คุณจำเป็นจะต้อง <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">ลงชื่อเข้าสู่ระบบ</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
-					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>ฝากข้อความ</strong></button></p>
-					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
-					<span id="return_commentwall_{uid}"></span>
-					<input type="hidden" name="formhash" value="{FORMHASH}" />
-					</form>'.
-					($_G['uid'] ? '<script type="text/javascript">
-						function succeedhandle_commentwall_{uid}(url, msg, values) {
-							wall_add(values[\'cid\']);
-						}
-					</script>' : '').'
+						<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
+							'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
+							<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
+							<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
+							<input type="hidden" name="id" value="{uid}" />
+							<input type="hidden" name="idtype" value="uid" />
+							<input type="hidden" name="commentsubmit" value="true" />' : ($_G['connectguest'] ? '<div class="pt hm">คุณสามารถ <a href="member.php?mod=connect" class="xi2">เชื่อมต่อไปยังบัญชีของคุณ</a> หรือ <a href="member.php?mod=connect&ac=bind" class="xi2">ผูกบัญชีการใช้งาน</a> เพื่อให้สามารถแสดงความคิดเห็นได้</div>' : '<div class="pt hm">คุณจำเป็นจะต้อง <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">ลงชื่อเข้าสู่ระบบ</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
+							<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>ฝากข้อความ</strong></button></p>
+							<input type="hidden" name="handlekey" value="commentwall_{uid}" />
+							<span id="return_commentwall_{uid}"></span>
+							<input type="hidden" name="formhash" value="{FORMHASH}" />
+						</form>'.
+						($_G['uid'] ? '<script type="text/javascript">
+							function succeedhandle_commentwall_{uid}(url, msg, values) {
+								wall_add(values[\'cid\']);
+							}
+						</script>' : '').'
 					</div>',
 	'wall_li' => '<dl class="bbda cl" id="comment_{cid}_li">
 				<dd class="m avt">
@@ -176,22 +159,22 @@ $lang = array(
 	'music_no_content' => 'ไม่ได้ใส่เพลง',
 	'block_profile_diy' => 'แต่งโปรไฟล์',
 	'block_profile_wall' => 'ดูข้อความ',
-	'block_profile_avatar' => 'เปลี่ยนรูปประจำตัว',
-	'block_profile_update' => 'ปรับปรุงข้อมูล',
+	'block_profile_avatar' => 'เปลี่ยนอวาตาร์',
+	'block_profile_update' => 'อัปเดตข้อมูล',
 	'block_profile_follow' => 'ติดตาม',
 	'block_profile_wall_to_me' => 'สมุดเยี่ยม',
 	'block_profile_friend_add' => 'ขอเป็นเพื่อน',
 	'block_profile_friend_ignore' => 'เลิกเป็นเพื่อน',
-	'block_profile_poke' => 'ทักทาย',
+	'block_profile_poke' => 'สะกิด',
 	'block_profile_sendmessage' => 'ส่งข้อความ',
 	'block_doing_reply' => 'ตอบกลับ',
 	'block_doing_no_content' => 'ไม่มีข้อความทักทาย',
-	'block_doing_no_content_publish' => ', <a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">ปรับปรุงข้อความทักทาย</a>',
+	'block_doing_no_content_publish' => ', <a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">อัปเดตข้อความทักทาย</a>',
 	'block_blog_no_content' => 'ไม่มีบล็อก',
 	'block_blog_no_content_publish' => ', <a href ="home.php?mod=spacecp&ac=blog">เขียนบล็อก</a>',
 	'block_album_no_content' => 'ไม่มีอัลบั้ม',
-	'block_album_no_content_publish' => ', <a href ="home.php?mod=spacecp&ac=upload">อัพโหลดรูปภาพ</a>',
-	'block_feed_no_content' => 'ไม่มีรายการปรับปรุง',
+	'block_album_no_content_publish' => ', <a href ="home.php?mod=spacecp&ac=upload">อัปโหลดรูปภาพ</a>',
+	'block_feed_no_content' => 'ไม่มีฟีดข่าว',
 	'block_thread_no_content' => 'ไม่มีกระทู้',
 	'block_thread_no_content_publish' => ', <a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">ตั้งกระทู้</a>',
 	'block_friend_no_content' => 'ไม่มีเพื่อน',
@@ -209,7 +192,7 @@ $lang = array(
 	'block_view_profileinfo_noperm' => 'ไม่มีข้อมูล หรือไม่ได้รับอนุญาตให้ดู',
 	'click_play' => 'คลิกเพื่อเล่น',
 	'click_view' => 'คลิกเพื่อดู',
-	'feed_view_only' => 'ดูรายการปรับปรุง',
+	'feed_view_only' => 'ดูฟีดข่าว',
 
 	'export_pm' => 'ส่งออกข้อความ',
 	'pm_export_header' => 'บันทึกข้อความ (ข้อความนี้ถูกบันทึกเป็นรูปแบบข้อความ ไม่สนับสนุนการนำเข้าอีกครั้ง)',
@@ -221,23 +204,23 @@ $lang = array(
 	'manage_blog' => 'บล็อก',
 	'manage_comment' => 'ความคิดเห็น',
 	'manage_doing' => 'ทักทาย',
-	'manage_feed' => 'ปรับปรุง',
+	'manage_feed' => 'อัปเดต',
 	'manage_group_prune' => 'ลบโพสต์',
-	'manage_group_threads' => 'กระทู้{_G/setting/navs/3/navname}',
+	'manage_group_threads' => 'กระทู้',
 	'manage_share' => 'แบ่งปัน',
 	'manage_pic' => 'รูปภาพ',
 
 	'sb_blog' => 'บล็อกของ {who}',
 	'sb_album' => 'อัลบั้มของ {who}',
 	'sb_space' => 'โปรไฟล์ของ {who}',
-	'sb_feed' => 'รายการปรับปรุงของ {who}',
-	'sb_doing' => 'ข้อความทักทายของ {who}',
-	'sb_sharing' => 'สิ่งดีๆที่ {who} นำมาแบ่งปัน',
+	'sb_feed' => 'ฟีดข่าวของ {who}',
+	'sb_doing' => 'ทักทายของ {who}',
+	'sb_sharing' => 'แบ่งปันของ {who}',
 	'sb_friend' => 'เพื่อนของ {who}',
 	'sb_wall' => 'กระดานข้อความของ {who}',
-	'sb_profile' => 'โปรไฟล์ของ {who}',
+	'sb_profile' => 'ข้อมูลส่วนตัวของ {who}',
 	'sb_thread' => 'กระทู้ของ {who}',
-	'doing_you_can' => 'คุณกำลังทำอะไรอยู่...',
+	'doing_you_can' => 'คุณกำลังคิดอะไรอยู่เหรอ...?',
 	'block_profile_all' => '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">ดูข้อมูลส่วนตัวทั้งหมด</a></p>',
 	'block_profile_edit' => '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">แก้ไขข้อมูลของฉัน</a></span>',
 	'sb_follow' => 'ติดตามของ {who}',
@@ -252,7 +235,7 @@ $lang = array(
 	'viewthread_userinfo_sharings' => 'แบ่งปัน',
 	'viewthread_userinfo_friends' => 'เพื่อน',
 	'viewthread_userinfo_digest' => 'สำคัญ',
-/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
+	'viewthread_userinfo_digestposts' => 'โพสต์สำคัญ',
 	'viewthread_userinfo_credits' => 'เครดิต',
 	'viewthread_userinfo_readperm' => 'สิทธิ์อ่าน',
 	'viewthread_userinfo_regtime' => 'ลงทะเบียน',
@@ -262,8 +245,8 @@ $lang = array(
 	'viewthread_userinfo_buyercredit' => 'ผู้ซื้อเครดิต',
 	'viewthread_userinfo_follower' => 'จำนวนผู้ติดตาม',
 	'viewthread_userinfo_following' => 'จำนวนผู้กำลังติดตาม',
-/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
-/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
+	'viewthread_userinfo_feeds' => 'ฟีดข่าว',
+	'viewthread_userinfo_privacy' => 'ความเป็นส่วนตัว',
 	'follow_view_follow' => 'การติดตามขณะนี้',
 	'follow_view_special' => 'การติดตามพิเศษ',
 	'follow_view_other' => 'การติดตามอื่นๆ',
@@ -271,7 +254,7 @@ $lang = array(
 	'follow_view_thread' => '{who} หัวข้อ',
 	'follow_view_reply' => '{who} ตอบกลับ',
 	'follow_view_profile' => '{who} ข้อมูลส่วนตัว',
-	'follow_view_type_feed' => 'ความเคลื่อนไหว',
+	'follow_view_type_feed' => 'ฟีดข่าว',
 	'follow_view_type_thread' => 'หัวข้อ',
 	'follow_view_type_reply' => 'ตอบกลับ',
 	'follow_view_type_profile' => 'ข้อมูลส่วนตัว',

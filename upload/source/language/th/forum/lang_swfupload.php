@@ -20,15 +20,15 @@ $lang = "
 <stat>สถานะ</stat>
 <browser>เรียกดู</browser>
 <delete>ลบ</delete>
-<return>กลับคืน</return>
-<upload>เริ่ม</upload>
-<okTitle>อัพโหลดสำเร็จ</okTitle>
-<okMsg>ไฟล์ทั้งหมดอัพโหลดเสร็จสมบูรณ์</okMsg>
-<uploadTitle>อัพโหลด</uploadTitle>
+<return>ย้อนกลับ</return>
+<upload>อัปโหลด</upload>
+<okTitle>อัปโหลดสำเร็จ</okTitle>
+<okMsg>อัปโหลดไฟล์เสร็จสมบูรณ์</okMsg>
+<uploadTitle>กำลังอัปโหลด</uploadTitle>
 <uploadMsg1>ทั้งหมด</uploadMsg1>
-<uploadMsg2>อัพโหลดไปแล้ว</uploadMsg2>
+<uploadMsg2>อัปโหลดไปแล้ว</uploadMsg2>
 <uploadMsg3>ไฟล์</uploadMsg3>
 <bigFile>ใหญ่ไป</bigFile>
-<uploaderror>ล้มเหลว</uploaderror>
+<uploaderror>อัปโหลดล้มเหลว</uploaderror>
 ";
 

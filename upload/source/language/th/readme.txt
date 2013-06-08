@@ -1,9 +1,9 @@
 THAI Language Pack
-for Discuz! X2.5 (c) 2001-2099 Comsenz Inc.
+for Discuz! X3.0 (c) 2001-2099 Comsenz Inc.
 
 MultiLingual version by Valery Votintsev, codersclub.org
 
-Thai Language by www.discuzthai.com
+Thai Language by jaideejung007 @ DiscuzThai.com
 
 Code		= 'th';
 English title	= 'Thai';
