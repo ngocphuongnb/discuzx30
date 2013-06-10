@@ -294,6 +294,24 @@ var lng = {
 	'show_tips'		: 'Show Tips',//'友情提示',
 	'expire_days'		: 'Valid for (days)',//'有效天数',
 	'expire_days_invalid'	: 'Distance from the posting date is greater than the number of days when the label automatically expire',//'距离发帖日期大于这个天数时标签自动失效',
+	'download_remote'	: 'Downloading remote attachment, please wait ...',//'正在下载远程附件，请稍等……',
+	'create_post_directory'	: 'Create post directory',//'创建帖子目录',
+	'page_number'		: 'Page number',//'页码',
+	'jump_to_page'		: 'Jump to specified page',//'跳转到指定的页',
+	'jump_to_page_comment'	: 'Use [page] tag for add a page break',//'用 [page] 对当前帖子分页后的页码',
+	'jump_to_post'		: 'Jump to specified post',//'跳转到指定的帖子',
+	'jump_tip_pid'		: 'Post TID and PID',//'帖子的 TID 和 PID',
+	'add_indent'		: 'Add the first line indent',//'添加行首缩进',
+	'enter_post_password'	: 'Please enter the post password',//'请输入帖子密码',
+	'begin_flash_img'	: 'Enter the beginning Flash or image animation URL',//'请输入开头动画 Flash 或 图片 地址',
+	'begin_click_url'	: 'Click on the link URL',//'点击链接地址',
+	'begin_stay_seconds'	: 'Display seconds',//'停留秒数',
+	'begin_disappearance'	: 'Disappear effect after loading',//'载入、消失的效果',
+	'none'			: 'None',//'无',
+	'begin_fade'		: 'Fade',//'淡入淡出',
+	'begin_explosive'	: 'Explode',//'展开闭合',
+	'begin_info'		: 'Supported formats: swf flv jpg gif png<br/>Width range: 400~1024, Height range: 300~640<br/>Example: http://server/flash.swf',//'支持 swf flv jpg gif png 网址<br />宽高范围: 宽400~1024 高300~640<br />示例: http://server/flash.swf',
+
 //--------------------------------
 //static/js/forum.js
 
@@ -464,8 +482,17 @@ var lng = {
 
 //---------------------------
 //static/js/makehtml.js
-	'generated_ok'	: ' generated successfully',//'生成成功',
-	'generate'	: 'Generate ',//'生成',
+	'generate'		: 'Generate ',//'生成',
+	'generate_ok'		: ' generated successfully',//'生成成功',
+	'generate_error'	: ' generation failed',//'生成失败',
+	'generate_start'	: 'Start generating of ',//'开始生成 ',
+	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
+	'generate_completed'	: ' generation is completed',//' 生成完成',
+	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
+	'generate_first'	: 'generated first ',//'正在生成第 ',
+	'generate_percent'	: 'has been completed ',//'已经完成 ',
+
 //	''	: '',//'',
 
 //--------------------------------

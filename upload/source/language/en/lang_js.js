@@ -488,7 +488,7 @@ var lng = {
 	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
 	'generate_completed'	: ' generation is completed',//' 生成完成',
 	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
