@@ -4,8 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_country.php by Valery Votintsev
- *      			http://codersclub.org/discuzx/
+ *      $Id: lang_country.php by Valery Votintsev, http://codersclub.org/discuzx/
  *
  *	Translated to English by Valery Votintsev
  */

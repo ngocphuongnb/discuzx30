@@ -103,4 +103,3 @@ $lang = array
 	'groupactivity_highlight' => 'เน้นสี',
 );
 
-?>

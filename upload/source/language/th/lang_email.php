@@ -20,8 +20,8 @@ $lang = array
 	'moderate_member_validate' => 'ผ่าน',
 
 
-	'get_passwd_subject' =>		'ร้องขอเปลี่ยนรหัสผ่านใหม่',
-	'get_passwd_message' =>		'
+	'get_passwd_subject' => 'ร้องขอเปลี่ยนรหัสผ่านใหม่',
+	'get_passwd_message'	=> '
 <p>{username}, 
 อีเมลนี้ส่งมาจาก {bbname} </p>
 
@@ -120,8 +120,8 @@ $lang = array
 {siteurl}</p>',
 
 
-	'add_member_subject' =>		'คุณได้เป็นสมาชิกกับเว็บไซต์เราแล้ว',
-	'add_member_message' => 	'
+	'add_member_subject' => 'คุณได้เป็นสมาชิกกับเว็บไซต์เราแล้ว',
+	'add_member_message'	=> '
 {newusername} , 
 อีเมลนี้ส่งมาจาก {bbname}<br />
 <br />
@@ -154,8 +154,8 @@ $lang = array
 {siteurl}',
 
 
-	'birthday_subject' =>		'แฮปปี้เบิร์ดเดย์ สุขสันต์วันคล้ายวันเกิด',
-	'birthday_message' => 		'<br />
+	'birthday_subject' => 'แฮปปี้เบิร์ดเดย์ สุขสันต์วันคล้ายวันเกิด',
+	'birthday_message'	=> '<br />
 {username}, <br />
 อีเมลนี้ส่งมาจาก {bbname}<br />
 <br />
@@ -172,8 +172,8 @@ $lang = array
 ทีมงาน {bbname}.<br />
 {siteurl}',
 
-	'email_to_friend_subject' =>	'{$_G[member][username]} แนะนำ: $thread[subject] ให้กับคุณ',
-	'email_to_friend_message' =>	'<br />
+	'email_to_friend_subject' => '{$_G[member][username]} แนะนำ: $thread[subject] ให้กับคุณ',
+	'email_to_friend_message' => '<br />
 อีเมลนี้ส่งมาจาก {$_G[setting][bbname]} โดย {$_G[member][username]} เป็นผู้ส่ง<br />
 <br />
 คุณได้รับอีเมลฉบับนี้เพราะว่า {$_G[member][username]} สมาชิกใน {$_G[setting][bbname]} ใช้เมนู [แนะนำให้เพื่อน]<br />
@@ -195,8 +195,8 @@ $message<br />
 ยินดีต้อนรับเข้าสู่ {$_G[setting][bbname]}<br />
 $_G[siteurl]',
 
-	'email_to_invite_subject' =>	'เพื่อนของคุณ {$_G[member][username]} ส่งโค้ดเชิญสำหรับการลงทะเบียนกับทางเว็บไซต์ {$_G[setting][bbname]} ให้กับคุณ',
-	'email_to_invite_message' =>	'<br />
+	'email_to_invite_subject' => 'เพื่อนของคุณ {$_G[member][username]} ส่งโค้ดเชิญสำหรับการลงทะเบียนกับทางเว็บไซต์ {$_G[setting][bbname]} ให้กับคุณ',
+	'email_to_invite_message'	=> '<br />
 $sendtoname,<br />
 อีเมลนี้ส่งมาจาก {$_G[setting][bbname]} โดย {$_G[member][username]} เป็นผู้ส่ง<br />
 <br />
@@ -221,8 +221,8 @@ $message<br />
 $_G[siteurl]',
 
 
-	'moderate_member_subject' =>	'แจ้งผลการตรวจสอบสมาชิก',
-	'moderate_member_message' =>	'<br />
+	'moderate_member_subject' => 'แจ้งผลการตรวจสอบสมาชิก',
+	'moderate_member_message'	=> '<br />
 <p>{username},
 อีเมลนี้ส่งมาจาก {bbname}</p>
 
@@ -280,4 +280,3 @@ $_G[siteurl]',
 <br />----------------------------------------------------------------------<br />',
 );
 
-?>

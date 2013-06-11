@@ -88,7 +88,6 @@ $lang = array (
   'search_id_invalid' => 'ขออภัย! คำที่คุณค้นหาไม่มีอยู่หรือหมดอายุแล้ว',
   'search_ctrl' => 'ขออภัย! คุณเพิ่งทำการค้นหา คุณสามารถค้นหาอีกครั้งทุกๆ {searchctrl} วินาที',
   'search_toomany' => 'ขออภัย! คุณค้นหามากกว่า {maxspm} ครั้งต่อนาที กรุณาเว้นช่วงการค้นหาซักระยะแล้วกลับมาใหม่ภายหลัง',
-  'search_closed' => 'ฟังก์ชันการค้นหาถูกปิด',
   'no_privilege_myop' => 'ขออภัย! คุณไม่มีสิทธิ์ใช้งานแอพลิเคชันนี้ <a href="home.php?mod=spacecp&ac=usergroup" target="_blank">คลิกที่นี่เพื่อดูสิทธิ์</a>',
   'collection_permission_deny' => 'ขออภัย! คลังกระทู้นี้ไม่มีอยู่หรือไม่ได้รับอนุญาตให้เข้าถึงได้',
   'collection_edit_checkentire' => 'กรุณากรอกข้อมูลลงในเนื้อหาให้สมบูรณ์',
@@ -146,6 +145,7 @@ $lang = array (
   'search_forum_invalid' => 'ขออภัย! คุณยังไม่ได้ระบุบอร์ดสำหรับการค้นหาและใส่คีย์เวิร์ดใหม่อีกครั้ง',
   'search_invalid' => 'ขออภัย! คุณยังไม่ได้ใส่คีย์เวิลด์หรือชื่อสมาชิก สำหรับการค้นหาและใส่คีย์เวิร์ดใหม่อีกครั้ง',
   'search_redirect' => 'ค้นหาเรียบร้อยแล้ว ระบบกำลังพาคุณไปยังหน้าผลลัพธ์การค้นหา',
+  'search_closed' => 'ฟังก์ชันการค้นหาถูกปิด',
   'to_view_the_photo_does_not_exist' => 'ขออภัย! อัลบั้มที่คุณต้องการดูไม่มีอยู่ หรือรอการตรวจสอบ',
   'ban_view_other_thead' => 'ขออภัย! ระบบห้ามไม่ให้ดูกระทู้และโพสต์ของผู้ใช้อื่น',
   'album_does_not_exist' => 'ขออภัย! อัลบั้มที่ระบุไม่มีอยู่ หากนี่คือความผิดพลาด กรุณาติดต่อผู้ดูแลระบบทันที',
@@ -219,7 +219,7 @@ $lang = array (
   'login_succeed' => 'ขอบคุณ {username} ระดับ {usergroup} สำหรับการลงชื่อเข้าใช้ ระบบจะพาคุณไปยังก่อนหน้านี้',
   'login_strike' => 'ระบบตรวจจับได้ว่า คุณลงชื่อเข้าใช้ผิดพลาดเกินกำหนดไว้ กรุณารอหลังจาก 15 นาที แล้วลองใหม่อีกครั้ง',
   'logout_succeed' => 'คุณออกจากระบบจากเว็บไซตแล้ว ระบบกำลังพาคุณไปยังก่อนหน้านี้…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ เคลียร์คุกกี้ในเบราว์เซอร์ของคุณออก ]</a> {ucsynlogout} ',
-  'location_logout_succeed_mobile' => 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',
+/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
   'register_activation_invalid' => 'ขออภัย! การเปิดใช้งานล้มเหลว กรุณาลงชื่อเข้าใช้เพื่อเปิดใช้งานอีกครั้ง',
   'profile_username_tooshort' => 'ขออภัย! ชื่อสมาชิกของคุณสั้นเกินไป อย่างน้อย 3 ตัวอักษร กรุณากลับไปแก้ไข',
   'profile_username_toolong' => 'ขออภัย! ชื่อสมาชิกของคุณยาวเกินไป กรุณากลับไปแก้ไข',
@@ -262,8 +262,8 @@ $lang = array (
 
   'forum_passwd_incorrect' => 'ขออภัย! คุณป้อนรหัสผ่านไม่ถูกต้อง ไม่สามารถเข้าใช้งานบอร์ดนี้ได้',
   'forum_passwd_correct' => 'รหัสผ่านถูกต้อง กำลังเข้าสู่หน้ารายการกระทู้ในบอร์ดนี้ ',
-  'forum_pay_incorrect' => 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',
-  'forum_pay_correct' => 'Paid successfully, please continue to access this forum',
+/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
   'group_rediret_now' => 'ไปที่หน้าแรกของ{_G/setting/navs/3/navname}เดี๋ยวนี้',
   'group_verify' => '{_G/setting/navs/3/navname} ตรวจสอบกลุ่ม',
@@ -274,7 +274,7 @@ $lang = array (
   'group_exit_founder' => 'ขออภัย! ผู้ก่อตั้ง{_G/setting/navs/3/navname}ไม่สามารถออกจาก{_G/setting/navs/3/navname}นี้ได้',
   'group_exit_succeed' => 'ออกจาก{_G/setting/navs/3/navname}เรียบร้อยแล้ว',
   'group_create_usergroup_failed' => 'ขออภัย! กลุ่มสมาชิกของคุณไม่สามารถสร้าง{_G/setting/navs/3/navname}ได้',
-  'group_create_usergroup_credits_failed' => 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
   'group_create_max_failed' => 'ขออภัย! จำนวน{_G/setting/navs/3/navname}ที่คุณสร้าง ถึงจำนวนที่ระบบกำหนดไว้แล้ว ไม่สามารถสร้าง{_G/setting/navs/3/navname}ใหม่ได้',
   'group_category_error' => 'ขออภัย! การเลือกหมวดหมู่{_G/setting/navs/3/navname}มีข้อผิดพลาด',
   'group_create_mod_succeed' => 'สร้าง{_G/setting/navs/3/navname}เรียบร้อยแล้วและกำลังดำเนินการตรวจสอบ',
@@ -469,8 +469,8 @@ $lang = array (
   'faq_content_empty' => 'ขออภัย! การใช้งานที่ระบุไม่มีอยู่',
   'faq_keywords_empty' => 'ขออภัย! คุณไม่ได้ระบุคีย์เวิร์ดที่จะค้นหา กรุณากลับไปและใส่คีย์เวิร์ดใหม่อีกครั้ง',
 
-  'login_reward_succeed' => 'Logged in successfully!',
-  'login_reward_error' => 'Sorry, you have been signed today already!',
+/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
 
   'imagepreview_errorcode_0' => 'รูปภาพไม่ตรงตามเงื่อนไขที่ระบุ ไม่สามารถดำเนินการต่อได้',
   'imagepreview_errorcode_-1' => 'รูปภาพไม่ถูกต้อง ไม่สามารถดำเนินการต่อได้',
@@ -579,7 +579,7 @@ $lang = array (
   'recommend_expiration_invalid' => 'รูปแบบเวลาไม่ถูกต้อง รูปแบบที่ถูกต้องคือ [yyyy-mm-dd hh:mm]',
 
   'members_edit_succeed' => 'อัปเดตข้อมูลสมาชิกสมบูรณ์',
-  'modcp_member_ban_illegal' => 'You can not ban the user directly',
+/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
   'modcp_member_ban_succeed' => 'ข้อมูลของสมาชิกได้อัปเดตเรียบร้อยแล้ว',
 
   'modcp_noaction' => 'คุณไม่ได้เลือกที่จะดำเนินการใดๆ',
@@ -712,7 +712,7 @@ $lang = array (
   'memcp_credits_card_msg_cleardateline_early' => 'ขออภัย! รหัสบัตรเงินสดนี้หมดอายุแล้ว',
   'memcp_credits_card_msg_succeed' => '<span class="xi1">{extcreditsval}{extcreditstitle}</span> เติมเงินสำเร็จ ',
   'memcp_credits_addfunds_msg_incorrect' => 'ขออภัย! คุณไม่ได้ใส่จำนวนที่ต้องการรับ',
-  'memcp_credits_addfunds_msg_notype' => 'Sorry, you did not selected a payment method',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
   'credits_addfunds_amount_invalid' => 'จำนวนได ๆ ไม่ควร ต่ำกว่ากำหนด {ec_maxcredits} หรือสูงกว่า {ec_mincredits}',
   'memcp_credits_transfer_msg_self_incorrect' => 'คุณไม่สามารถโอนให้ตัวเองได้',
   'credits_transfer_balance_insufficient' => 'ขออภัย! หลังจากการโอน{title}จะน้อยกว่า {minbalance}',

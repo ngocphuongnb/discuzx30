@@ -21,6 +21,7 @@ $lang = array(
 	'friend_group_6' => 'เพื่อนร่วมเรียน',
 	'friend_group_7' => 'เพื่อนสนิท',
 	'friend_group_more' => 'กำหนดเอง{num}'
+//vot: !!!!!!!!!!!!!!!!! Add other categories from UCHome lang_source.php !!!!!
+//	'friend_group_0'	=> 'Others',//'其他',
 );
 
-?>

@@ -28,5 +28,3 @@ $lang = array
 
 	'jack_notification' => '{actor} ใช้ไอเท็ม{magicname} กับกระทู้ {subject} ของคุณ <a href="forum.php?mod=viewthread&tid={tid}">ไปดูกระทู้!</a>',
 );
-
-?>

@@ -22,10 +22,10 @@ $extend_lang = array
 	'menu_cloud_siteinfo'	=> 'Site information',//'站点信息',
 	'menu_cloud_doctor'	=> 'Diagnostic tools',//'诊断工具',
 
-	'menu_setting_manyou'		=> 'Roaming application settings',//'漫游应用设置',
+	'menu_setting_manyou'		=> 'Cloud application settings',//'漫游应用设置',
 	'menu_setting_qqconnect'	=> 'QQ Connect Settings',//'QQ互联设置',
 
-	'menu_cloud_manyou'	=> 'Roaming applications',//'漫游应用',
+	'menu_cloud_manyou'	=> 'Cloud applications',//'漫游应用',
 	'menu_cloud_connect'	=> 'QQ Connect',//'QQ互联',
 	'menu_cloud_search'	=> 'Aspect Search',//'纵横搜索',
 	'menu_cloud_stats'	=> 'Tencent analysis',//'腾讯分析',

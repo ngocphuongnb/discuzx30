@@ -209,7 +209,7 @@ $lang = array(
 	'do_stat_eventcomment' => 'ความคิดเห็นกิจกรรม',
 	'do_stat_eventjoin' => 'เข้าร่วมกิจกรรม',
 	'do_stat_sharecomment' => 'ความคิดเห็นแบ่งปัน',
-	'do_stat_post' => 'ตอบกลับ',
+//vot	'do_stat_post' => 'ตอบกลับ',
 	'do_stat_click' => 'แสดงความรู้สึก',
 	'do_stat_wall' => 'ฝากข้อความ',
 	'do_stat_poke' => 'สะกิด',
@@ -218,7 +218,7 @@ $lang = array(
 	'do_stat_friend' => 'รับเป็นเพื่อน',
 	'do_stat_post_number' => 'จำนวนโพสต์',
 	'do_stat_statistic' => 'สถิติโดยรวม',
-	'logs_credit_update_INDEX' => array('TRC','RTC','RAC','MRC','BMC','TFR','RCV','CEC','ECU','SAC','BAC','PRC','RSC','STC','BTC','AFD','UGP','RPC','ACC','RCT','RCA','RCB','CDC','RGC','BGC','AGC','RKC','BME','RPR','RPZ','FCP','BGC'),
+/*!*/	'logs_credit_update_INDEX'	=> array('TRC','RTC','RAC','MRC','BMC','TFR','RCV','CEC','ECU','SAC','BAC','PRC','RSC','STC','BTC','AFD','UGP','RPC','ACC','RCT','RCA','RCB','CDC','RGC','BGC','AGC','RKC','BME','RPR','RPZ','FCP','BGC'),
 	'logs_credit_update_TRC' => 'ร่วมกิจกรรมของเว็บไซต์',
 	'logs_credit_update_RTC' => 'ตั้งกระทู้รางวัล',
 	'logs_credit_update_RAC' => 'ตอบคำถามถูกต้อง',
@@ -249,9 +249,9 @@ $lang = array(
 	'logs_credit_update_BME' => 'ซื้อเหรียญ',
 	'logs_credit_update_RPR' => 'เครดิตสะสม',
 	'logs_credit_update_RPZ' => 'ประวัติเครดิต',
-	'logs_credit_update_FCP' => 'Pay the forum',
-	'logs_credit_update_BGR' => 'Build Group',
-	'buildgroup' => 'View already built groups',
+/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
+/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
 	'logs_credit_update_reward_clean' => 'เคลียร์',
 	'logs_select_operation' => 'กรุณาเลือกประเภทของการดำเนินการ',
 	'task_credit' => 'รางวัลเครดิตภารกิจ',
@@ -277,7 +277,7 @@ $lang = array(
 	'buy_credit' => 'เติมเงินเครดิต',
 	'buy_usergroup' => 'เติมเงินกลุ่มผู้ใช้งาน',
 	'buy_medal' => 'ซื้อเหรียญ',
-	'buy_forum' => 'Buy a paid forum access permissions',
+/*!*/	'buy_forum'			=> 'Buy a paid forum access permissions',//'购买付费版块的访问权限',
 	'report_credit' => 'รายงานเครดิต',
 	'join' => 'เข้าร่วม',
 	'activity_credit' => 'หักเครดิตค่ากิจกรรม',
@@ -306,7 +306,7 @@ $lang = array(
 	'district_level_3' => '-ตำบล-',
 	'district_level_4' => '-หมู่บ้าน-',
 	'invite_you_to_visit' => '{user} เชิญชวนคุณให้เข้าชม {bbname}',
-
+//vot	'district_level_0'		=> '- Country -',//'-国家-',
 	'portal' => 'พอร์ทัล',
 	'group' => 'กลุ่ม',
 	'follow' => 'ติดตาม',
@@ -330,9 +330,10 @@ $lang = array(
 
 	'spacecp_message_prompt' => '(สนับสนุนตั้งแต่ {msg} ตัวอักษร จนถึงสูงสุด 1000 ตัวอักษร)',
 	'card_update_doing' => ' <a class="xi2" href="###">[อัปเดตข้อความทักทาย]</a>',
-	'email_acitve_message' => '<img src="{imgdir}/mail_inactive.png" alt="ยังไม่ได้ยืนยัน" class="vm" /> <span class="xi1">อีเมล ({newemail}) ของคุณยังไม่ได้ยืนยัน...</span><br />
-								ระบบได้ส่งการยืนยันไปยังอีเมลที่คุณใช้ลงทะเบียนแล้ว โปรดตรวจสอบเพื่อยืนยันและเปิดใช้งาน<br>
-								ถ้าคุณไม่ได้รับ คุณสามารถเปลี่ยนอีเมลใหม่ หรือ<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">คลิกที่นี่เพื่อขอรับการยืนยันอีกครั้ง</a>',
+	'email_acitve_message' => '<img src="{imgdir}/mail_inactive.png" alt="ยังไม่ได้ยืนยัน" class="vm" />
+					<span class="xi1">อีเมล ({newemail}) ของคุณยังไม่ได้ยืนยัน...</span><br />
+					ระบบได้ส่งการยืนยันไปยังอีเมลที่คุณใช้ลงทะเบียนแล้ว โปรดตรวจสอบเพื่อยืนยันและเปิดใช้งาน<br>
+					ถ้าคุณไม่ได้รับ คุณสามารถเปลี่ยนอีเมลใหม่ หรือ<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">คลิกที่นี่เพื่อขอรับการยืนยันอีกครั้ง</a>',
 	'qq_set_status' => 'ฉันกำหนดค่าสถานะ QQ ของฉันเป็นออนไลน์',
 	'qq_dialog' => 'เริ่มการแชทด้วย QQ',
 

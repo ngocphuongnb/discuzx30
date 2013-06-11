@@ -100,4 +100,3 @@ $lang = array
 	'activitylist_highlight' => 'เน้นสี',
 );
 
-?>
