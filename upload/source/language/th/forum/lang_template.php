@@ -239,7 +239,7 @@ $lang = array (
   'attachcredits' => 'ดาวน์โหลดไฟล์นี้ต้องใช้เครดิต',
   'attachment_buy' => 'ซื้อ',
   'clicktodownload' => 'คลิกชื่อไฟล์เพื่อดาวน์โหลด',
-  'guestviewthumb' => 'Login/Register to enlarge',
+/*!*/	'guestviewthumb'		=> 'Login/Register to enlarge',//'登录/注册后可看大图',
   'discuzcode_copyclipboard' => 'คัดลอกไปที่คลิปบอร์ด',
   'downloads' => 'ดาวน์โหลดแล้ว',
   'post_hide' => 'เนื้อหาถูกซ่อนไว้',
@@ -304,7 +304,7 @@ $lang = array (
   'post_newthreadtrade' => 'ตั้งกระทู้ค้าขาย',
   'recommended_groups' => '{$_G[setting][navs][3][navname]}แนะนำ',
   'return_index' => 'ย้อนกลับ',
-  'rss_subscribe_this' => 'RSS',
+	'rss_subscribe_this'		=> 'RSS',//'订阅',
   'send_posts' => 'ตั้งกระทู้ใหม่',
   'their' => 'บอร์ดในหมวดหมู่',
   'threads_all' => 'กระทู้ทั้งหมด',
@@ -1308,7 +1308,6 @@ $lang = array (
   'hide_preview' => 'ซ่อนตัวอย่าง',
   'collapse_preview' => 'ปิดตัวอย่าง',
   'hot_thread' => 'กระทู้ยอดนิยม',
-
 
 // Added by Valery Votintsev
 	'view_thread_textmode'		=> 'โหมดข้อความ',//'文字模式',

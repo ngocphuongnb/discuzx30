@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'discuz_lang' => 'misc',
+	'discuz_lang'		=> 'misc',
 	'contact' => 'ติดต่อ:',
 	'anonymous' => 'ไม่ระบุชื่อ',
 	'anonymoususer' => 'สมาชิกไม่ระบุชื่อ',
@@ -217,7 +217,7 @@ $lang = array
 	'perms_maxattachsize' => 'ขนาดไฟล์แนบสูงสุด',
 	'perms_maxsizeperday' => 'ขนาดไฟล์แนบสูงสุดต่อวัน',
 	'perms_maxattachnum' => 'จำนวนไฟล์แนบสูงสุดต่อวัน',
-	'perms_allowbioimgcode' => 'ใช้โค้ด [img] ในการแนะนำตัว',
+//vot	'perms_allowbioimgcode' => 'ใช้โค้ด [img] ในการแนะนำตัว',
 	'perms_attachextensions' => 'รูปแบบไฟล์แนบ',
 	'perms_allowstickthread' => 'ปักหมุดกระทู้',
 	'perms_allowdigestthread' => 'เพิ่มเข้ากระทู้สำคัญ',

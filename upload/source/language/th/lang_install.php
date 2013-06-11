@@ -195,10 +195,10 @@ $lang = array(
 	'init_group_8' => 'รอยืนยัน',
 	'init_group_9' => 'ขอส่วนบุญ',
 	'init_group_10' => 'Newbie',
-	'init_group_11' => 'Member',
+	'init_group_11'	=> 'Member',//'注册会员',
 	'init_group_12' => 'Conqueror',
-	'init_group_13' => 'Senior Member',
-	'init_group_14' => 'Gold Member',
+	'init_group_13'	=> 'Senior Member',//'高级会员',
+	'init_group_14'	=> 'Gold Member',//'金牌会员',
 	'init_group_15' => 'Forum Legend',
 
 	'init_rank_1' => 'ผู้เริ่มต้น',
@@ -359,9 +359,9 @@ $lang = array(
 //vot	'regiondata'			=> 'Add regions data',//'Add location data',
 //vot	'regiondata_check_label'	=> 'Install additional regional data (countries/regions/cities)',//'Install additional regional data (countries/regions/cities)',
 //vot	'install_region_data'		=> 'Install regional data',//'Install regional data',
-
 	'php_version_too_low'		=> 'PHP version is too low',
 	'php_version_too_low_comment'	=> 'For normal functioning Discuz! requires for more new version of PHP',
+
 //---------------------------------------------------------------
 
 );

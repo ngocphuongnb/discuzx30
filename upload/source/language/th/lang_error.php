@@ -21,8 +21,8 @@ $lang = array
 	'request_tainting' => 'การร้องขอการเข้าถึงของคุณประกอบด้วยอักขระที่ไม่ถูกต้อง ได้รับการปฏิเสธโดยระบบ',
 	'db_help_link' => 'คลิกที่นี่เพื่อขอความช่วยเหลือ',
 	'db_error_message' => 'ข้อความแสดงข้อผิดพลาด',
-	'db_error_sql' => '<b>SQL</b>: $sql<br />',
-	'db_error_backtrace' => '<b>Backtrace</b>: $backtrace<br />',
+	'db_error_sql'			=> '<b>SQL</b>: $sql<br />',//'<b>SQL</b>: $sql<br />',
+	'db_error_backtrace'		=> '<b>Backtrace</b>: $backtrace<br />',
 	'db_error_no' => 'รหัสข้อผิดพลาด',
 	'db_notfound_config' => 'ไม่พบไฟล์การตั้งค่าของ "config_global.php" หรือไม่สามารถเข้าถึงได้',
 	'db_notconnect' => 'ไม่สามารถเชื่อมต่อไปยังเซิร์ฟเวอร์ฐานข้อมูล',
@@ -41,4 +41,3 @@ $lang = array
 	'file_upload_error_-104' => 'อัปโหลดล้มเหลว! รูปแบบไฟล์ของรูปภาพไม่ถูกต้อง กรุณาย้อนกลับ',
 );
 
-?>

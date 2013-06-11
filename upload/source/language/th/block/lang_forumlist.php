@@ -14,8 +14,8 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'forumlist_fids' => 'Specified forum',
-	'forumlist_fids_comment' => 'Fill in specified forum ID (fid), separate multiple forums with a comma (,)',
+	'forumlist_fids'			=> 'Specified forum',//'指定版块',
+	'forumlist_fids_comment'		=> 'Fill in specified forum ID (fid), separate multiple forums with a comma (,)',//'填入指定版块的ID(fid)，多个版块之间用逗号(,)分隔',
 	'forumlist_fups' => 'รายการบอร์ด',
 	'forumlist_fups_comment' => 'กำหนดบอร์ดที่ต้องการให้แสดงข้อมูล',
 	'forumlist_titlelength' => 'ความยาวชื่อบอร์ด',

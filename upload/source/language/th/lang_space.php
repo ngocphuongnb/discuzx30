@@ -17,7 +17,7 @@ $lang = array(
 	'minute' => 'นาที',
 	'second' => 'วินาที',
 	'now' => 'ตอนนี้',
-	'dot' => '. ',
+	'dot'			=> '. ',//'、',
 	'poll' => 'โพล',
 	'blog' => 'บล็อก',
 	'friend_group_default' => 'อื่นๆ',
@@ -101,61 +101,78 @@ $lang = array(
 	'block3' => 'กำหนดโมดูล 3',
 	'block4' => 'กำหนดโมดูล 4',
 	'block5' => 'กำหนดโมดูล 5',
-	'blockdata' => array('personalinfo' => 'ข้อมูลส่วนตัว', 'profile' => 'อวาตาร์', 'doing' => 'ทักทาย', 'feed' => 'อัปเดต',
-				'blog' => 'บล็อก', 'stickblog' => 'ปักหมุดบล็อก', 'album' => 'อัลบั้ม', 'friend' => 'เพื่อน',
-				'visitor' => 'ผู้เข้าชมล่าสุด', 'wall' => 'ฝากข้อความ', 'share' => 'แบ่งปัน',
-				'thread' => 'กระทู้', 'group'=>$_G[setting][navs][3][navname],'music'=>'กล่องเพลง',
-				'statistic' => 'สถิติ','myapp' => 'แอพลิเคชัน',
-				'block1'=>'โมดูฟรี 1', 'block2'=>'โมดูฟรี 2', 'block3'=>'โมดูฟรี 3',
-				'block4'=>'โมดูฟรี 4','block5'=>'โมดูฟรี 5'),
+/*vot*/	'blockdata' => array(
+		'personalinfo' => 'ข้อมูลส่วนตัว',
+		'profile' => 'อวาตาร์',
+		'doing' => 'ทักทาย',
+		'feed' => 'อัปเดต',
+		'blog' => 'บล็อก',
+		'stickblog' => 'ปักหมุดบล็อก',
+		'album' => 'อัลบั้ม',
+		'friend' => 'เพื่อน',
+		'visitor' => 'ผู้เข้าชมล่าสุด',
+		'wall' => 'ฝากข้อความ',
+		'share' => 'แบ่งปัน',
+		'thread' => 'กระทู้',
+		'group'=>$_G[setting][navs][3][navname],
+		'music'=>'กล่องเพลง',
+		'statistic' => 'สถิติ',
+		'myapp' => 'แอพลิเคชัน',
+		'block1'=>'โมดูฟรี 1',
+		'block2'=>'โมดูฟรี 2',
+		'block3'=>'โมดูฟรี 3',
+		'block4'=>'โมดูฟรี 4',
+		'block5'=>'โมดูฟรี 5'
+	),
 
-	'block_title' => '<div class="blocktitle title"><span>{bname}</span>{more}</div>',
-	'blog_li' => '<dl class="bbda cl"><dt><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a><span class="xg2 xw0"> {date}</span></dt>',
-	'blog_li_img' => '<dd class="atc"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank"><img src="{src}" class="summaryimg" /></a></dd>',
+	'block_title'		=> '<div class="blocktitle title"><span>{bname}</span>{more}</div>',
+	'blog_li'		=> '<dl class="bbda cl"><dt><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">{subject}</a><span class="xg2 xw0"> {date}</span></dt>',
+	'blog_li_img'		=> '<dd class="atc"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank"><img src="{src}" class="summaryimg" /></a></dd>',
 	'blog_li_ext' => '<dd class="xg1"><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}" target="_blank">เข้าชม ({viewnum})</a><span class="pipe">|</span><a href="home.php?mod=space&uid={uid}&do=blog&id={blogid}#comment" target="_blank">แสดงความคิดเห็น ({replynum})</a></dd>',
 	'album_li' => '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, อัปเดต {date}"><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, อัปเดต {date}">{albumname}</a></p><span>จำนวนรูปภาพ: {picnum}</span></li>',
 	'doing_li' => '<li>{message}</li><br />{date} {from} ตอบกลับ ({replynum})',
 	'visitor_anonymity' => '<div class="avatar48"><img src="image/magic/hidden.gif" alt="ไม่ระบุชื่อ"></div><p>ไม่ระบุชื่อ</p>',
 	'visitor_list' => '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="ลบร่องรอยการเข้าถึง"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
-	'wall_form' => '<div class="space_wall_post">
-						<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
-							'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
-							<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
-							<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
-							<input type="hidden" name="id" value="{uid}" />
-							<input type="hidden" name="idtype" value="uid" />
-							<input type="hidden" name="commentsubmit" value="true" />' : ($_G['connectguest'] ? '<div class="pt hm">คุณสามารถ <a href="member.php?mod=connect" class="xi2">เชื่อมต่อไปยังบัญชีของคุณ</a> หรือ <a href="member.php?mod=connect&ac=bind" class="xi2">ผูกบัญชีการใช้งาน</a> เพื่อให้สามารถแสดงความคิดเห็นได้</div>' : '<div class="pt hm">คุณจำเป็นจะต้อง <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">ลงชื่อเข้าสู่ระบบ</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
-							<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>ฝากข้อความ</strong></button></p>
-							<input type="hidden" name="handlekey" value="commentwall_{uid}" />
-							<span id="return_commentwall_{uid}"></span>
-							<input type="hidden" name="formhash" value="{FORMHASH}" />
-						</form>'.
-						($_G['uid'] ? '<script type="text/javascript">
-							function succeedhandle_commentwall_{uid}(url, msg, values) {
-								wall_add(values[\'cid\']);
-							}
-						</script>' : '').'
+	'wall_form'		=> '<div class="space_wall_post">
+					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
+					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
+					<br /><textarea name="message" id="comment_message" class="pt" rows="3" cols="60" onkeydown="ctrlEnter(event, \'commentsubmit_btn\');" style="width: 90%;"></textarea>
+					<input type="hidden" name="refer" value="home.php?mod=space&uid={uid}" />
+					<input type="hidden" name="id" value="{uid}" />
+					<input type="hidden" name="idtype" value="uid" />
+					<input type="hidden" name="commentsubmit" value="true" />' :
+					($_G['connectguest'] ? '<div class="pt hm">คุณสามารถ <a href="member.php?mod=connect" class="xi2">เชื่อมต่อไปยังบัญชีของคุณ</a> หรือ <a href="member.php?mod=connect&ac=bind" class="xi2">ผูกบัญชีการใช้งาน</a> เพื่อให้สามารถแสดงความคิดเห็นได้</div>' : '<div class="pt hm">คุณจำเป็นจะต้อง <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">ลงชื่อเข้าสู่ระบบ</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">'.$_G['setting']['reglinkname'].'</a></div>')).'
+					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>ฝากข้อความ</strong></button></p>
+					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
+					<span id="return_commentwall_{uid}"></span>
+					<input type="hidden" name="formhash" value="{FORMHASH}" />
+					</form>'.
+					($_G['uid'] ? '<script type="text/javascript">
+						function succeedhandle_commentwall_{uid}(url, msg, values) {
+							wall_add(values[\'cid\']);
+						}
+					</script>' : '').'
 					</div>',
-	'wall_li' => '<dl class="bbda cl" id="comment_{cid}_li">
-				<dd class="m avt">
-				{author_avatar}
-				</dd>
-				<dt>
-				{author}
-				<span class="y xw0">{op}</span>
-				<span class="xg1 xw0">{date}</span>
-				<span class="xgl">{moderated}</span>
-				</dt>
-				<dd id="comment_{cid}">{message}</dd>
-				</dl>',
+	'wall_li'		=> '<dl class="bbda cl" id="comment_{cid}_li">
+					<dd class="m avt">
+					{author_avatar}
+					</dd>
+					<dt>
+					{author}
+					<span class="y xw0">{op}</span>
+					<span class="xg1 xw0">{date}</span>
+					<span class="xgl">{moderated}</span>
+					</dt>
+					<dd id="comment_{cid}">{message}</dd>
+					</dl>',
 	'wall_more' => '<dl><dt><span class="y xw0"><a href="home.php?mod=space&uid={uid}&do=wall">ดูทั้งหมด</a></span><dt></dl>',
 	'wall_edit' => '<a href="home.php?mod=spacecp&ac=comment&op=edit&cid={cid}&handlekey=editcommenthk_{cid}" id="c_{cid}_edit" onclick="showWindow(this.id, this.href, \'get\', 0);">แก้ไข</a> ',
 	'wall_del' => '<a href="home.php?mod=spacecp&ac=comment&op=delete&cid={cid}&handlekey=delcommenthk_{cid}" id="c_{cid}_delete" onclick="showWindow(this.id, this.href, \'get\', 0);">ลบ</a> ',
 	'wall_reply' => '<a href="home.php?mod=spacecp&ac=comment&op=reply&cid={cid}&handlekey=replycommenthk_{cid}" id="c_{cid}_reply" onclick="showWindow(this.id, this.href, \'get\', 0);">ตอบกลับ</a>',
-	'group_li' => '<li><a href="forum.php?mod=group&fid={groupid}" target="_blank"><img src="{icon}" alt="{name}" /></a><p><a href="forum.php?mod=group&fid={groupid}" target="_blank">{name}</a></p></li>',
+	'group_li'		=> '<li><a href="forum.php?mod=group&fid={groupid}" target="_blank"><img src="{icon}" alt="{name}" /></a><p><a href="forum.php?mod=group&fid={groupid}" target="_blank">{name}</a></p></li>',
 	'poll_li' => '<div class="c z"><img alt="poll" src="static/image/feed/poll.gif" alt="poll" class="t" /><h4 class="h"><a target="_blank" href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a></h4><div class="mtn xg1">โพสต์เมื่อ: {dateline}</div></div>',
-	'myapp_li_icon' => '<li><img src="{icon}" onerror="this.onerror=null;this.src=\'http://appicon.manyou.com/icons/{appid}\'" alt="{appname}" class="vm" /> <a href="userapp.php?mod=app&id={appid}">{appname}</a></li>',
-	'myapp_li_logo' => '<li><a href="userapp.php?mod=app&id={appid}"><img src="http://appicon.manyou.com/logos/{appid}" alt="{appname}" /><p><a href="userapp.php?mod=app&id={appid}">{appname}</a></p></li>',
+	'myapp_li_icon'		=> '<li><img src="{icon}" onerror="this.onerror=null;this.src=\'http://appicon.manyou.com/icons/{appid}\'" alt="{appname}" class="vm" /> <a href="userapp.php?mod=app&id={appid}">{appname}</a></li>',
+	'myapp_li_logo'		=> '<li><a href="userapp.php?mod=app&id={appid}"><img src="http://appicon.manyou.com/logos/{appid}" alt="{appname}" /><p><a href="userapp.php?mod=app&id={appid}">{appname}</a></p></li>',
 	'music_no_content' => 'ไม่ได้ใส่เพลง',
 	'block_profile_diy' => 'แต่งโปรไฟล์',
 	'block_profile_wall' => 'ดูข้อความ',

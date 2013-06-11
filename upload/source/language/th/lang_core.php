@@ -51,7 +51,7 @@ $lang = array
 	'seccode_sound_tips' => 'ป้อนอักษรตามเสียงที่คุณได้ยิน<br />',
 	'secqaa_tips' => 'ป้อนคำตอบสำหรับคำถามต่อไปนี้<br />',
 
-	'fullblankspace' => '　',
+	'fullblankspace'		=> '&nbsp;',//'　',
 
 	'title_goruptype' => 'หมวดหมู่',
 	'title_of' => 'ของ',
@@ -93,7 +93,7 @@ $lang = array
 	'title_article_favorite' => 'บทความโปรด',
 	'title_all_favorite' => 'บุ๊คมาร์กทั้งหมด',
 	'title_friend_list' => 'รายชื่อเพื่อน',
-//	'title_of' => 'ของ',
+//vot	'title_of' => 'ของ',
 	'title_all_poll' => 'โพลทั้งหมด',
 	'title_we_poll' => 'โพลของเพื่อน',
 	'title_me_poll' => 'โพลของฉัน',
@@ -159,7 +159,7 @@ $lang = array
 	'title_memcp_privacy' => 'ความเป็นส่วนตัว',
 	'title_memcp_avatar' => 'เปลี่ยนอวาตาร์',
 	'title_memcp_profile' => 'ข้อมูลส่วนตัว',
-	'title_memcp_sendmail' => 'ส่งอีเมลแจ้งเตือน',
+//vot	'title_memcp_sendmail' => 'ส่งอีเมลแจ้งเตือน',
 	'title_memcp_credit' => 'เครดิต',
 	'title_memcp_friend' => 'เพื่อน',
 	'title_memcp_usergroup' => 'กลุ่มสมาชิก',
@@ -220,7 +220,10 @@ $lang = array
 
 	'close' => 'ปิด',
 
-//vot source/include/misc/misc_security.php
+//--------------------------------------------------------------------------
+// Added by Valery Votintsev
+
+//source/include/misc/misc_security.php
 	'attackevasive_1_subject'	=> 'อัตราความถี่ในการฟื้นฟู',
 	'attackevasive_1_message'	=> 'คุณดำเนินการเร็วเกินไป กรุณารออย่างน้อยซักสองวินาที แล้วค่อยลองใหม่..',
 	'attackevasive_2_subject'	=> 'การเข้าถึงเซิร์ฟเวอร์ถูกจำกัดไว้',
@@ -228,7 +231,7 @@ $lang = array
 	'attackevasive_4_subject'	=> 'เปิดหน้ารีโหลดหน้าเว็บ',
 	'attackevasive_4_message'	=> 'ยินดีต้อนรับเข้าสู่เว็บไซต์ หน้าเว็บเพจนี้กำลังรีโหลด โปรดรอสักครู่ ...',
 
-//vot Months Names
+// Months Names
 	'month_name'	=> array('เดือน','มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'),
 
 );

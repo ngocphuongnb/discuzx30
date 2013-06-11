@@ -25,4 +25,3 @@ $lang = array
 	'article_category_comment'	=> 'Set the category to display Ads in',// '设置广告投放的频道分类',
 );
 
-?>

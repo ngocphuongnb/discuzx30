@@ -114,8 +114,11 @@ $lang = array
 	'transfer' => 'คุณได้รับจากเครดิตจาก {actor} ผ่านการโอนเป็นจำนวน {credit} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>
 <p class="summary">{actor} ฝากข้อความถึงคุณว่า: <span>{transfermessage}</span></p>',
 
-	'addfunds' => 'การร้องขอแลกเปลี่ยนเครดิตของคุณเรียบร้อย ระบบได้ส่งรายงานการแลกเปลี่ยนมายังข้อความส่าวนตัวของคุณ &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>
-<p class="summary">หมายเลข: <span>{orderid}</span></p><p class="summary">ค่าใช้จ่าย: <span>฿ {price}  บาท</span></p><p class="summary">รายได้: <span>{value}</span></p>',
+	'addfunds' => 'การร้องขอแลกเปลี่ยนเครดิตของคุณเรียบร้อย ระบบได้ส่งรายงานการแลกเปลี่ยนมายังข้อความส่าวนตัวของคุณ
+				&nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">ดูรายละเอียด &rsaquo;</a>
+				<p class="summary">หมายเลข: <span>{orderid}</span></p>
+				<p class="summary">ค่าใช้จ่าย: <span>฿ {price}  บาท</span></p>
+				<p class="summary">รายได้: <span>{value}</span></p>',
 
 	'rate_reason' => '{actor} ให้คะแนนกระทู้ <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> ของคุณ {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -217,8 +220,9 @@ $lang = array
 	'new_report' => 'มีการรายงานเข้ามาใหม่ <a href="admin.php?action=report" target="_blank">คลิกที่นี่เพื่อดูและดำเนินการรายงานนี้</a>',
 	'new_post_report' => 'มีการรายงานใหม่ที่รอการตรวจสอบ <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">คลิกที่นี่เพื่อเข้าสู่ศูนย์จัดการระบบ</a>',
 	'magics_receive' => '{actor} ได้มอบไอเท็ม {magicname} ให้กับคุณ
-<p class="summary">และ {actor} ได้ฝากข้อความถึงคุณ: <span>{msg}</span></p>
-<p class="mbn"><a href="home.php?mod=magic" target="_blank">กลับไปยังรายการไอเท็ม</a><span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">ดูกล่องไอเท็มของฉัน</a></p>',
+				<p class="summary">และ {actor} ได้ฝากข้อความถึงคุณ: <span>{msg}</span></p>
+				<p class="mbn"><a href="home.php?mod=magic" target="_blank">กลับไปยังรายการไอเท็ม</a>
+				<span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">ดูกล่องไอเท็มของฉัน</a></p>',
 	'invite_collection' => '{actor} เชิญคุณเข้าร่วมในคลังกระทู้  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a><br /> <a href="forum.php?mod=collection&action=edit&op=acceptinvite&ctid={ctid}&dateline={dateline}">ยอมรับคำเชิญ</a>',
 	'collection_removed' => 'คลังกระทู้ที่คุณเข้าร่วมตอนนี้  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> ได้ถูกลบออกโดย {actor}',
 	'exit_collection' => 'คุณได้เข้าร่วมคลังกระทู้ก่อนหน้านี้อยู่แล้ว  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>',
@@ -226,7 +230,7 @@ $lang = array
 	'collection_befollowed' => 'มีสมาชิกได้ติดตามคลังกระทู้ <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a> ของคุณ',
 	'collection_becollected' => 'ขอแสดงความยินดี! กระทู้ <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> ของคุณได้รับการจัดเก็บในคลังกระทู้แล้ว  <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>',
 
-	'pmreportcontent' => '{pmreportcontent}',
+	'pmreportcontent'		=> '{pmreportcontent}',
 
 );
 

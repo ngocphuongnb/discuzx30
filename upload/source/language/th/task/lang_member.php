@@ -19,7 +19,7 @@ $lang = array
 	'member_complete_var_act' => 'การกระทำ',
 	'member_complete_var_act_favorite' => 'บุ๊คมาร์ก',
 	'member_complete_var_act_magic' => 'ไอเท็ม',
-	'member_complete_var_act_userapp' => 'Add application',
+	'member_complete_var_act_userapp'	=> 'Add application',//'添加漫游应用',
 	'member_complete_var_num' => 'จำกัดจำนวนการดำเนินการ',
 	'member_complete_var_num_comment' => 'จะต้องจำกัดจำนวนการดำเนินการขั้นต่ำที่สมาชิกจะต้องดำเนินการ',
 	'member_complete_var_time' => 'จำกัดเวลา(ชั่วโมง)',
@@ -29,7 +29,6 @@ $lang = array
 	'task_complete_time_limit' => '{value} ชั่วโมง',
 	'task_complete_act_favorite' => '{value} บุ๊คมาร์ก',
 	'task_complete_act_magic' => 'ใช้ {value} ไอเท็ม<br />สามารถใช้ได้ใน หน้ากระทู้ หน้าบล็อก หน้ารูปภาพ',
-	'task_complete_act_userapp' => 'Added {value} applications',
+	'task_complete_act_userapp'		=> 'Added {value} applications',//'添加 {value} 个漫游应用',
 );
 
-?>
