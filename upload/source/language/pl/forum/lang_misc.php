@@ -181,7 +181,7 @@ $lang = array
 	'week_5'	=> 'Pią',//'星期五',
 	'week_6'	=> 'Sob',//'星期六',
 
-/*!*/	'y_m_d'		=> 'R-m-d',//'Y年m月d日',
+/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
 
 	'notice_actor'		=> ', and so on. Łącznie: $actorcount osób',//'等 $actorcount 人',
 
