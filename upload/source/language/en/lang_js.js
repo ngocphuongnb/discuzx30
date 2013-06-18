@@ -316,7 +316,7 @@ var lng = {
 
 	'del_thread_sure'	: 'Are you sure you want to remove this thread from hot threads?',//'您确认要把此主题从热点主题中移除么？',
 	'there_are'		: 'There are ',//'有',
-	'new_reply_exists'	: 'The thread has new replies, click on View',//'有新回复的主题，点击查看',
+	'new_reply_exists'	: 'There are new thread replies, click for View',//'有新回复的主题，点击查看',
 //--------------------------------
 //static/js/forum_google.js
 
@@ -736,6 +736,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: '' // This key MUST BE THE LAST!
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };
