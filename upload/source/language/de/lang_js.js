@@ -64,7 +64,7 @@ var colortexts = {
 	'PaleTurquoise'		: 'Türkis',//'Cang gem Green',//'苍宝石绿',
 	'LightBlue'		: 'Hellblau',//'Bright blue',//'亮蓝色',
 	'Plum'			: 'Zwetschkenblau',//'Plum color',//'洋李色',
-	'White'			: 'Weiß',//'White' //'白色'
+	'White'			: 'Weiß' //'White' //'白色'
 };
 
 /*
