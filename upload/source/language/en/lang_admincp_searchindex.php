@@ -36,6 +36,17 @@ $lang = array (
   array (
     'index' =>
     array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  3 =>
+  array (
+    'index' =>
+    array (
       'Site Info' => 'action=setting&operation=basic',
     ),
     'text' =>
@@ -43,7 +54,7 @@ $lang = array (
       0 => 'Site Info',
     ),
   ),
-  3 =>
+  4 =>
   array (
     'index' =>
     array (
@@ -54,7 +65,7 @@ $lang = array (
       0 => 'Access control',//'注册与访问',
     ),
   ),
-  4 =>
+  5 =>
   array (
     'index' =>
     array (
@@ -65,7 +76,7 @@ $lang = array (
       0 => 'Site modules',//'站点功能',
     ),
   ),
-  5 =>
+  6 =>
   array (
     'index' =>
     array (
@@ -76,7 +87,7 @@ $lang = array (
       0 => 'Performance Optimization',//'性能优化',
     ),
   ),
-  6 =>
+  7 =>
   array (
     'index' =>
     array (
@@ -87,7 +98,7 @@ $lang = array (
       0 => 'SEO settings',//'SEO设置',
     ),
   ),
-  7 =>
+  8 =>
   array (
     'index' =>
     array (
@@ -98,7 +109,7 @@ $lang = array (
       0 => 'Domain settings',//'域名设置',
     ),
   ),
-  8 =>
+  9 =>
   array (
     'index' =>
     array (
@@ -109,7 +120,7 @@ $lang = array (
       0 => 'Follow settings',//'广播设置',
     ),
   ),
-  9 =>
+  10 =>
   array (
     'index' =>
     array (
@@ -120,7 +131,7 @@ $lang = array (
       0 => 'Space settings',//'空间设置',
     ),
   ),
-  10 =>
+  11 =>
   array (
     'index' =>
     array (
@@ -131,7 +142,7 @@ $lang = array (
       0 => 'User Permissions',//'用户权限',
     ),
   ),
-  11 =>
+  12 =>
   array (
     'index' =>
     array (
@@ -142,7 +153,7 @@ $lang = array (
       0 => 'Money Setttings',//'积分设置',
     ),
   ),
-  12 =>
+  13 =>
   array (
     'index' =>
     array (
@@ -153,7 +164,7 @@ $lang = array (
       0 => 'Anti-spam settings',//'防灌水设置',
     ),
   ),
-  13 =>
+  14 =>
   array (
     'index' =>
     array (
@@ -164,7 +175,7 @@ $lang = array (
       0 => 'Time settings',//'时间设置',
     ),
   ),
-  14 =>
+  15 =>
   array (
     'index' =>
     array (
@@ -175,7 +186,7 @@ $lang = array (
       0 => 'Attachment Settings',//'上传设置',
     ),
   ),
-  15 =>
+  16 =>
   array (
     'index' =>
     array (
@@ -186,7 +197,7 @@ $lang = array (
       0 => 'Watermark',//'水印设置',
     ),
   ),
-  16 =>
+  17 =>
   array (
     'index' =>
     array (
@@ -197,7 +208,7 @@ $lang = array (
       0 => 'Attachment size',//'附件类型尺寸',
     ),
   ),
-  17 =>
+  18 =>
   array (
     'index' =>
     array (
@@ -208,7 +219,7 @@ $lang = array (
       0 => 'Search Settings',//'搜索设置',
     ),
   ),
-  18 =>
+  19 =>
   array (
     'index' =>
     array (
@@ -219,7 +230,7 @@ $lang = array (
       0 => 'Region settings',//'地区设置',
     ),
   ),
-  19 =>
+  20 =>
   array (
     'index' =>
     array (
@@ -230,7 +241,7 @@ $lang = array (
       0 => 'Rank List',//'排行榜设置',
     ),
   ),
-  20 =>
+  21 =>
   array (
     'index' =>
     array (
@@ -241,7 +252,18 @@ $lang = array (
       0 => 'Mobile Access settings',//'手机版访问设置',
     ),
   ),
-  21 =>
+  22 =>
+  array (
+    'index' =>
+    array (
+      'Anti grab settings' => 'action=setting&operation=antitheft',//'防采集设置'
+    ),
+    'text' =>
+    array (
+      0 => 'Anti grab settings',//'防采集设置',
+    ),
+  ),
+  23 =>
   array (
     'index' =>
     array (
@@ -252,7 +274,7 @@ $lang = array (
       0 => 'Navigation settings',//'导航设置',
     ),
   ),
-  22 =>
+  24 =>
   array (
     'index' =>
     array (
@@ -263,7 +285,7 @@ $lang = array (
       0 => 'Style settings',//'界面设置',
     ),
   ),
-  23 =>
+  25 =>
   array (
     'index' =>
     array (
@@ -274,7 +296,7 @@ $lang = array (
       0 => 'Style Management',//'风格管理',
     ),
   ),
-  24 =>
+  26 =>
   array (
     'index' =>
     array (
@@ -285,7 +307,7 @@ $lang = array (
       0 => 'Template Management',//'模板管理',
     ),
   ),
-  25 =>
+  27 =>
   array (
     'index' =>
     array (
@@ -296,7 +318,7 @@ $lang = array (
       0 => 'Smile management',//'表情管理',
     ),
   ),
-  26 =>
+  28 =>
   array (
     'index' =>
     array (
@@ -307,7 +329,7 @@ $lang = array (
       0 => 'Rate management',//'表态动作',
     ),
   ),
-  27 =>
+  29 =>
   array (
     'index' =>
     array (
@@ -318,7 +340,7 @@ $lang = array (
       0 => 'Thread icons',//'主题鉴定',
     ),
   ),
-  28 =>
+  30 =>
   array (
     'index' =>
     array (
@@ -329,7 +351,7 @@ $lang = array (
       0 => 'Editor Settings',//'编辑器设置',
     ),
   ),
-  29 =>
+  31 =>
   array (
     'index' =>
     array (
@@ -340,7 +362,7 @@ $lang = array (
       0 => 'Online List icons',//'在线列表图标',
     ),
   ),
-  30 =>
+  32 =>
   array (
     'index' =>
     array (
@@ -351,7 +373,7 @@ $lang = array (
       0 => 'Moderate',//'内容审核',
     ),
   ),
-  31 =>
+  33 =>
   array (
     'index' =>
     array (
@@ -362,7 +384,7 @@ $lang = array (
       0 => 'Bad Word Filter',//'词语过滤',
     ),
   ),
-  32 =>
+  34 =>
   array (
     'index' =>
     array (
@@ -373,7 +395,7 @@ $lang = array (
       0 => 'User Reports',//'用户举报',
     ),
   ),
-  33 =>
+  35 =>
   array (
     'index' =>
     array (
@@ -384,7 +406,7 @@ $lang = array (
       0 => 'Tag Management',//'标签管理',
     ),
   ),
-  34 =>
+  36 =>
   array (
     'index' =>
     array (
@@ -395,7 +417,7 @@ $lang = array (
       0 => 'Collections',//'淘帖管理',
     ),
   ),
-  35 =>
+  37 =>
   array (
     'index' =>
     array (
@@ -406,7 +428,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  36 =>
+  38 =>
   array (
     'index' =>
     array (
@@ -417,7 +439,7 @@ $lang = array (
       0 => 'Forum Thread Management',//'论坛主题管理',
     ),
   ),
-  37 =>
+  39 =>
   array (
     'index' =>
     array (
@@ -428,7 +450,7 @@ $lang = array (
       0 => 'Bulk post delete',//'论坛批量删帖',
     ),
   ),
-  38 =>
+  40 =>
   array (
     'index' =>
     array (
@@ -439,29 +461,29 @@ $lang = array (
       0 => 'Attachment Management',//'论坛附件管理',
     ),
   ),
-  39 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
-  40 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
   41 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  42 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  43 =>
   array (
     'index' =>
     array (
@@ -472,7 +494,7 @@ $lang = array (
       0 => 'Group Thread Management',//'群组主题管理',
     ),
   ),
-  42 =>
+  44 =>
   array (
     'index' =>
     array (
@@ -483,7 +505,7 @@ $lang = array (
       0 => 'Group Posts Batch delete',//'群组批量删帖',
     ),
   ),
-  43 =>
+  45 =>
   array (
     'index' =>
     array (
@@ -494,29 +516,29 @@ $lang = array (
       0 => 'Group Attachment Management',//'群组附件管理',
     ),
   ),
-  44 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
-  45 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
   46 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  47 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  48 =>
   array (
     'index' =>
     array (
@@ -527,7 +549,7 @@ $lang = array (
       0 => 'Recycle Bin Management',//'主题回收站',
     ),
   ),
-  47 =>
+  49 =>
   array (
     'index' =>
     array (
@@ -538,7 +560,7 @@ $lang = array (
       0 => 'Replies Recycle Bin',//'回帖回收站',
     ),
   ),
-  48 =>
+  50 =>
   array (
     'index' =>
     array (
@@ -549,7 +571,7 @@ $lang = array (
       0 => 'Forum/Group Top',//'版块/群组置顶',
     ),
   ),
-  49 =>
+  51 =>
   array (
     'index' =>
     array (
@@ -560,29 +582,29 @@ $lang = array (
       0 => 'Post Comment Management',//'帖子点评管理',
     ),
   ),
-  50 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
-  51 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
   52 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  53 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  54 =>
   array (
     'index' =>
     array (
@@ -593,7 +615,7 @@ $lang = array (
       0 => 'Doings Management',//'记录管理',
     ),
   ),
-  53 =>
+  55 =>
   array (
     'index' =>
     array (
@@ -604,7 +626,18 @@ $lang = array (
       0 => 'Blogs Management',//'日志管理',
     ),
   ),
-  54 =>
+  56 =>
+  array (
+    'index' =>
+    array (
+      'Blog Recycle Bin' => 'action=blogrecyclebin',//'日志回收站',
+    ),
+    'text' =>
+    array (
+      0 => 'Blog Recycle Bin',//'日志回收站',
+    ),
+  ),
+  57 =>
   array (
     'index' =>
     array (
@@ -615,7 +648,7 @@ $lang = array (
       0 => 'Feed management',//'动态管理',
     ),
   ),
-  55 =>
+  58 =>
   array (
     'index' =>
     array (
@@ -626,7 +659,7 @@ $lang = array (
       0 => 'Albums manage',//'相册管理',
     ),
   ),
-  56 =>
+  59 =>
   array (
     'index' =>
     array (
@@ -637,7 +670,7 @@ $lang = array (
       0 => 'Images Management',//'图片管理',
     ),
   ),
-  57 =>
+  60 =>
   array (
     'index' =>
     array (
@@ -648,7 +681,7 @@ $lang = array (
       0 => 'Comments/Messages Management',//'评论/留言管理',
     ),
   ),
-  58 =>
+  61 =>
   array (
     'index' =>
     array (
@@ -659,7 +692,7 @@ $lang = array (
       0 => 'Share Management',//'分享管理',
     ),
   ),
-  59 =>
+  62 =>
   array (
     'index' =>
     array (
@@ -670,7 +703,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  60 =>
+  63 =>
   array (
     'index' =>
     array (
@@ -681,7 +714,7 @@ $lang = array (
       0 => 'User Management',//'用户管理',
     ),
   ),
-  61 =>
+  64 =>
   array (
     'index' =>
     array (
@@ -692,7 +725,7 @@ $lang = array (
       0 => 'Add User',//'添加用户',
     ),
   ),
-  62 =>
+  65 =>
   array (
     'index' =>
     array (
@@ -703,7 +736,7 @@ $lang = array (
       0 => 'User profile',//'用户栏目',
     ),
   ),
-  63 =>
+  66 =>
   array (
     'index' =>
     array (
@@ -714,7 +747,7 @@ $lang = array (
       0 => 'Statistics',//'资料统计',
     ),
   ),
-  64 =>
+  67 =>
   array (
     'index' =>
     array (
@@ -725,7 +758,7 @@ $lang = array (
       0 => 'Send notification',//'发送通知',
     ),
   ),
-  65 =>
+  68 =>
   array (
     'index' =>
     array (
@@ -736,18 +769,18 @@ $lang = array (
       0 => 'Mobile notification',//'发送手机通知',
     ),
   ),
-  66 =>
+  69 =>
   array (
     'index' =>
     array (
-      'User Tags' => 'action=usertag', //'用户标签'
+      'User Tags' => 'action=usertag',//'用户标签'
     ),
     'text' =>
     array (
       0 => 'User Tags',//'用户标签'
     ),
   ),
-  67 =>
+  70 =>
   array (
     'index' =>
     array (
@@ -758,7 +791,7 @@ $lang = array (
       0 => 'Ban users',//'禁止用户',
     ),
   ),
-  68 =>
+  71 =>
   array (
     'index' =>
     array (
@@ -769,7 +802,7 @@ $lang = array (
       0 => 'Ban IP',//'禁止 IP',
     ),
   ),
-  69 =>
+  72 =>
   array (
     'index' =>
     array (
@@ -780,7 +813,7 @@ $lang = array (
       0 => 'Reward points',//'积分奖惩',
     ),
   ),
-  70 =>
+  73 =>
   array (
     'index' =>
     array (
@@ -791,7 +824,7 @@ $lang = array (
       0 => 'Review new users',//'审核新用户',
     ),
   ),
-  71 =>
+  74 =>
   array (
     'index' =>
     array (
@@ -802,7 +835,7 @@ $lang = array (
       0 => 'Group Management',//'管理组',
     ),
   ),
-  72 =>
+  75 =>
   array (
     'index' =>
     array (
@@ -813,7 +846,7 @@ $lang = array (
       0 => 'User Groups',//'用户组',
     ),
   ),
-  73 =>
+  76 =>
   array (
     'index' =>
     array (
@@ -824,7 +857,7 @@ $lang = array (
       0 => 'Follows',//'推荐关注',
     ),
   ),
-  74 =>
+  77 =>
   array (
     'index' =>
     array (
@@ -835,7 +868,7 @@ $lang = array (
       0 => 'Default friends',//'推荐好友',
     ),
   ),
-  75 =>
+  78 =>
   array (
     'index' =>
     array (
@@ -846,7 +879,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  76 =>
+  79 =>
   array (
     'index' =>
     array (
@@ -857,7 +890,7 @@ $lang = array (
       0 => 'Verification settings',//'认证设置',
     ),
   ),
-  77 =>
+  80 =>
   array (
     'index' =>
     array (
@@ -868,7 +901,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  78 =>
+  81 =>
   array (
     'index' =>
     array (
@@ -879,7 +912,18 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  79 =>
+  82 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=verify&operation=verify&do=3',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  83 =>
   array (
     'index' =>
     array (
@@ -890,7 +934,7 @@ $lang = array (
       0 => 'Portal Categories',//'频道栏目',
     ),
   ),
-  80 =>
+  84 =>
   array (
     'index' =>
     array (
@@ -901,7 +945,7 @@ $lang = array (
       0 => 'Article management',//'文章管理',
     ),
   ),
-  81 =>
+  85 =>
   array (
     'index' =>
     array (
@@ -912,7 +956,18 @@ $lang = array (
       0 => 'Topic management',//'专题管理',
     ),
   ),
-  82 =>
+  86 =>
+  array (
+    'index' =>
+    array (
+      'HTML管理' => 'action=makehtml',
+    ),
+    'text' =>
+    array (
+      0 => 'HTML管理',
+    ),
+  ),
+  87 =>
   array (
     'index' =>
     array (
@@ -923,7 +978,7 @@ $lang = array (
       0 => 'Layout Management',//'页面管理',
     ),
   ),
-  83 =>
+  88 =>
   array (
     'index' =>
     array (
@@ -934,7 +989,7 @@ $lang = array (
       0 => 'Block Management',//'模块管理',
     ),
   ),
-  84 =>
+  89 =>
   array (
     'index' =>
     array (
@@ -945,7 +1000,7 @@ $lang = array (
       0 => 'Block styles',//'模块模板',
     ),
   ),
-  85 =>
+  90 =>
   array (
     'index' =>
     array (
@@ -956,7 +1011,7 @@ $lang = array (
       0 => 'Third-party blocks',//'第三方模块',
     ),
   ),
-  86 =>
+  91 =>
   array (
     'index' =>
     array (
@@ -967,7 +1022,7 @@ $lang = array (
       0 => 'Portal permissions',//'权限列表',
     ),
   ),
-  87 =>
+  92 =>
   array (
     'index' =>
     array (
@@ -978,7 +1033,7 @@ $lang = array (
       0 => 'Blog Categories',//'日志分类',
     ),
   ),
-  88 =>
+  93 =>
   array (
     'index' =>
     array (
@@ -989,7 +1044,7 @@ $lang = array (
       0 => 'Album Categories',//'相册分类',
     ),
   ),
-  89 =>
+  94 =>
   array (
     'index' =>
     array (
@@ -1000,7 +1055,7 @@ $lang = array (
       0 => 'Forum Management',//'版块管理',
     ),
   ),
-  90 =>
+  95 =>
   array (
     'index' =>
     array (
@@ -1011,7 +1066,7 @@ $lang = array (
       0 => 'Forum merge',//'版块合并',
     ),
   ),
-  91 =>
+  96 =>
   array (
     'index' =>
     array (
@@ -1022,7 +1077,18 @@ $lang = array (
       0 => 'Thread types',//'分类信息',
     ),
   ),
-  92 =>
+  97 =>
+  array (
+    'index' =>
+    array (
+      'Home grid' => 'action=grid',//'首页四格',
+    ),
+    'text' =>
+    array (
+      0 => 'Home grid',//'首页四格',
+    ),
+  ),
+  98 =>
   array (
     'index' =>
     array (
@@ -1033,7 +1099,7 @@ $lang = array (
       0 => 'Group settings',//'群组设置',
     ),
   ),
-  93 =>
+  99 =>
   array (
     'index' =>
     array (
@@ -1044,7 +1110,7 @@ $lang = array (
       0 => 'Group categories',//'群组分类',
     ),
   ),
-  94 =>
+  100 =>
   array (
     'index' =>
     array (
@@ -1055,7 +1121,7 @@ $lang = array (
       0 => 'Group Management',//'群组管理',
     ),
   ),
-  95 =>
+  101 =>
   array (
     'index' =>
     array (
@@ -1066,7 +1132,7 @@ $lang = array (
       0 => 'Main group permissions',//'群主权限',
     ),
   ),
-  96 =>
+  102 =>
   array (
     'index' =>
     array (
@@ -1077,7 +1143,7 @@ $lang = array (
       0 => 'Group level',//'群组等级',
     ),
   ),
-  97 =>
+  103 =>
   array (
     'index' =>
     array (
@@ -1088,7 +1154,7 @@ $lang = array (
       0 => 'Group moderation',//'审核群组',
     ),
   ),
-  98 =>
+  104 =>
   array (
     'index' =>
     array (
@@ -1099,7 +1165,7 @@ $lang = array (
       0 => 'Site Announce',//'站点公告',
     ),
   ),
-  99 =>
+  105 =>
   array (
     'index' =>
     array (
@@ -1110,7 +1176,7 @@ $lang = array (
       0 => 'Site Advertising',//'站点广告',
     ),
   ),
-  100 =>
+  106 =>
   array (
     'index' =>
     array (
@@ -1121,7 +1187,7 @@ $lang = array (
       0 => 'Site Tasks',//'站点任务',
     ),
   ),
-  101 =>
+  107 =>
   array (
     'index' =>
     array (
@@ -1132,7 +1198,7 @@ $lang = array (
       0 => 'Magic Center',//'道具中心',
     ),
   ),
-  102 =>
+  108 =>
   array (
     'index' =>
     array (
@@ -1143,7 +1209,7 @@ $lang = array (
       0 => 'Medal Center',//'勋章中心',
     ),
   ),
-  103 =>
+  109 =>
   array (
     'index' =>
     array (
@@ -1154,7 +1220,7 @@ $lang = array (
       0 => 'Site Help',//'站点帮助',
     ),
   ),
-  104 =>
+  110 =>
   array (
     'index' =>
     array (
@@ -1165,7 +1231,7 @@ $lang = array (
       0 => 'E-Commerce',//'电子商务',
     ),
   ),
-  105 =>
+  111 =>
   array (
     'index' =>
     array (
@@ -1176,7 +1242,7 @@ $lang = array (
       0 => 'Friend Links',//'友情链接',
     ),
   ),
-  106 =>
+  112 =>
   array (
     'index' =>
     array (
@@ -1187,7 +1253,7 @@ $lang = array (
       0 => 'Webmaster Recommended',//'站长推荐',
     ),
   ),
-  107 =>
+  113 =>
   array (
     'index' =>
     array (
@@ -1198,7 +1264,7 @@ $lang = array (
       0 => 'Related Links',//'关联链接',
     ),
   ),
-  108 =>
+  114 =>
   array (
     'index' =>
     array (
@@ -1209,7 +1275,7 @@ $lang = array (
       0 => 'Recharge card secret',//'充值卡密',
     ),
   ),
-  109 =>
+  115 =>
   array (
     'index' =>
     array (
@@ -1220,7 +1286,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  110 =>
+  116 =>
   array (
     'index' =>
     array (
@@ -1231,7 +1297,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  111 =>
+  117 =>
   array (
     'index' =>
     array (
@@ -1242,7 +1308,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  112 =>
+  118 =>
   array (
     'index' =>
     array (
@@ -1253,7 +1319,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  113 =>
+  119 =>
   array (
     'index' =>
     array (
@@ -1264,7 +1330,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  114 =>
+  120 =>
   array (
     'index' =>
     array (
@@ -1275,7 +1341,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  115 =>
+  121 =>
   array (
     'index' =>
     array (
@@ -1286,7 +1352,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  116 =>
+  122 =>
   array (
     'index' =>
     array (
@@ -1297,7 +1363,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  117 =>
+  123 =>
   array (
     'index' =>
     array (
@@ -1308,7 +1374,7 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  118 =>
+  124 =>
   array (
     'index' =>
     array (
@@ -1319,7 +1385,51 @@ $lang = array (
       0 => NULL,
     ),
   ),
-  119 =>
+  125 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=vip&operation=info',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  126 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=vip&operation=safeguard',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  127 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=vip&operation=payment',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  128 =>
+  array (
+    'index' =>
+    array (
+      '' => 'action=vip&operation=updater',
+    ),
+    'text' =>
+    array (
+      0 => NULL,
+    ),
+  ),
+  129 =>
   array (
     'index' =>
     array (
@@ -1330,7 +1440,7 @@ $lang = array (
       0 => 'Application Center',//'应用中心',
     ),
   ),
-  120 =>
+  130 =>
   array (
     'index' =>
     array (
@@ -1341,18 +1451,7 @@ $lang = array (
       0 => 'Plugins',//'插件',
     ),
   ),
-  121 =>
-  array (
-    'index' =>
-    array (
-      '' => 'action=plugins&operation=config&do=138',
-    ),
-    'text' =>
-    array (
-      0 => NULL,
-    ),
-  ),
-  122 =>
+  131 =>
   array (
     'index' =>
     array (
@@ -1363,7 +1462,7 @@ $lang = array (
       0 => 'Update cache',//'更新缓存',
     ),
   ),
-  123 =>
+  132 =>
   array (
     'index' =>
     array (
@@ -1374,7 +1473,7 @@ $lang = array (
       0 => 'Update statistics',//'更新统计',
     ),
   ),
-  124 =>
+  133 =>
   array (
     'index' =>
     array (
@@ -1385,7 +1484,7 @@ $lang = array (
       0 => 'Operation log',//'运行记录',
     ),
   ),
-  125 =>
+  134 =>
   array (
     'index' =>
     array (
@@ -1396,7 +1495,7 @@ $lang = array (
       0 => 'Scheduled Tasks',//'计划任务',
     ),
   ),
-  126 =>
+  135 =>
   array (
     'index' =>
     array (
@@ -1407,7 +1506,7 @@ $lang = array (
       0 => 'Check file permissions',//'文件权限检查',
     ),
   ),
-  127 =>
+  136 =>
   array (
     'index' =>
     array (
@@ -1418,7 +1517,7 @@ $lang = array (
       0 => 'File Checksum',//'文件校验',
     ),
   ),
-  128 =>
+  137 =>
   array (
     'index' =>
     array (
@@ -1429,7 +1528,7 @@ $lang = array (
       0 => 'Check Hooks',//'嵌入点校验',
     ),
   ),
-  129 =>
+  138 =>
   array (
     'index' =>
     array (
@@ -1440,7 +1539,7 @@ $lang = array (
       0 => 'Admin Team',//'后台管理团队',
     ),
   ),
-  130 =>
+  139 =>
   array (
     'index' =>
     array (
@@ -1451,7 +1550,7 @@ $lang = array (
       0 => 'Mail Settings',//'邮件设置',
     ),
   ),
-  131 =>
+  140 =>
   array (
     'index' =>
     array (
@@ -1462,7 +1561,7 @@ $lang = array (
       0 => 'Security Center',//'安全中心',
     ),
   ),
-  132 =>
+  141 =>
   array (
     'index' =>
     array (
@@ -1473,7 +1572,7 @@ $lang = array (
       0 => 'UCenter Settings',//'UCenter 设置',
     ),
   ),
-  133 =>
+  142 =>
   array (
     'index' =>
     array (
@@ -1484,7 +1583,7 @@ $lang = array (
       0 => 'Database',//'数据库',
     ),
   ),
-  134 =>
+  143 =>
   array (
     'index' =>
     array (
@@ -1495,7 +1594,7 @@ $lang = array (
       0 => 'Optimize user table',//'用户表优化',
     ),
   ),
-  135 =>
+  144 =>
   array (
     'index' =>
     array (
@@ -1506,7 +1605,7 @@ $lang = array (
       0 => 'Split posts',//'帖子分表',
     ),
   ),
-  136 =>
+  145 =>
   array (
     'index' =>
     array (
@@ -1517,7 +1616,7 @@ $lang = array (
       0 => 'Split thread',//'主题分表',
     ),
   ),
-  137 =>
+  146 =>
   array (
     'index' =>
     array (
@@ -1528,114 +1627,15 @@ $lang = array (
       0 => 'Online Upgrade',//'在线升级',
     ),
   ),
-  138 =>
-  array (
-    'index' =>
-    array (
-      '后台管理团队' => 'action=founder&operation=perm',
-    ),
-    'text' =>
-    array (
-      0 => '后台管理团队',
-    ),
-  ),
-  139 =>
-  array (
-    'index' =>
-    array (
-      '邮件设置' => 'action=setting&operation=mail',
-    ),
-    'text' =>
-    array (
-      0 => '邮件设置',
-    ),
-  ),
-  140 =>
-  array (
-    'index' =>
-    array (
-      '安全中心' => 'action=patch',
-    ),
-    'text' =>
-    array (
-      0 => '安全中心',
-    ),
-  ),
-  141 =>
-  array (
-    'index' =>
-    array (
-      'UCenter 设置' => 'action=setting&operation=uc',
-    ),
-    'text' =>
-    array (
-      0 => 'UCenter 设置',
-    ),
-  ),
-  142 =>
-  array (
-    'index' =>
-    array (
-      '数据库' => 'action=db&operation=export',
-    ),
-    'text' =>
-    array (
-      0 => '数据库',
-    ),
-  ),
-  143 =>
-  array (
-    'index' =>
-    array (
-      '用户表优化' => 'action=membersplit&operation=check',
-    ),
-    'text' =>
-    array (
-      0 => '用户表优化',
-    ),
-  ),
-  144 =>
-  array (
-    'index' =>
-    array (
-      '帖子分表' => 'action=postsplit&operation=manage',
-    ),
-    'text' =>
-    array (
-      0 => '帖子分表',
-    ),
-  ),
-  145 =>
-  array (
-    'index' =>
-    array (
-      '主题分表' => 'action=threadsplit&operation=manage',
-    ),
-    'text' =>
-    array (
-      0 => '主题分表',
-    ),
-  ),
-  146 =>
-  array (
-    'index' =>
-    array (
-      '在线升级' => 'action=upgrade',
-    ),
-    'text' =>
-    array (
-      0 => '在线升级',
-    ),
-  ),
   147 =>
   array (
     'index' =>
     array (
-      '优化大师' => 'action=optimizer',
+      'Optimizer' => 'action=optimizer',//'优化大师',
     ),
     'text' =>
     array (
-      0 => '优化大师',
+      0 => 'Optimizer',//'优化大师',
     ),
   ),
   148 =>
@@ -1663,8 +1663,8 @@ $lang = array (
       13 => 'Allow highlight thread',//'允许高亮主题',
       14 => 'Set whether to allow highligh threads',//'设置是否允许高亮管理范围内的主题',
       15 => 'admingroup_edit_live_thread',
-      16 => '允许直播主题',
-      17 => '设置是否允许直播管理范围内的主题',
+      16 => 'Allow Live Threads',//'允许直播主题',
+      17 => 'Set whether to allow to manage of live topics',//'设置是否允许直播管理范围内的主题',
       18 => 'admingroup_edit_recommend_thread',
       19 => 'Allow to recommend thread',//'允许推荐主题',
       20 => 'Set whether to allow the Recommend thread management (Set the Recommend feature in the appropriate forum settings)',//'设置是否允许推荐管理范围内的主题 (要在相应版块的扩展设置里开启推荐主题功能)',
@@ -1853,8 +1853,8 @@ $lang = array (
       7 => 'Allow collection management',//'允许管理淘专辑',
       8 => 'Set whether to allow collection management',//'设置是否允许管理淘专辑',
       9 => 'admingroup_edit_allow_make_html',
-      10 => '允许生成HTML文件',
-      11 => '设置是否允许生成HTML文件',
+      10 => 'Allow to generate HTML files',//'允许生成HTML文件',
+      11 => 'Set whether to allow the HTML files generation',//'设置是否允许生成HTML文件',
     ),
   ),
   153 =>
@@ -2090,28 +2090,28 @@ $lang = array (
   array (
     'index' =>
     array (
-      '日志回收站' => 'action=blogrecyclebin',
-      '日志列表' => 'action=blogrecyclebin',
+      'Blog Recycle Bin' => 'action=blogrecyclebin',//'日志回收站',
+      'Blog List' => 'action=blogrecyclebin',//'日志列表',
     ),
     'text' =>
     array (
-      0 => '日志回收站 &raquo; 日志列表',
+      0 => 'Blog Recycle Bin &raquo; Blog List',//'日志回收站 &raquo; 日志列表',
       1 => 'blog_tips',
-      2 => '批量日志信息管理用于删除日志使用，并且连同对应的回复一同删除。关键字可以使用限定符 {x} 以限定相邻两字符间可忽略的文字，x 是忽略字符的个数，如 "a{1}s{2}s"(不含引号) 可以搜索到 "ass" 也可搜索到 "axsxs" 和 "axsxxs" 等等。提醒：点击搜索结果页的删除按钮，将会直接删除相关信息！',
+      2 => 'Batch blog management used for delete blogs together with the corresponding replies. Keywords qualifier {x} can be used to define some number of characters, where "x" is a number of ignored characters. I.e. "a{1}s{2}s" (without the quotes) can search "ass" or "axsxs" or "axsxxs" and so on. Warning: Click on the Delete button at the search results page will remove directly all the relevant items!',//'批量日志信息管理用于删除日志使用，并且连同对应的回复一同删除。关键字可以使用限定符 {x} 以限定相邻两字符间可忽略的文字，x 是忽略字符的个数，如 "a{1}s{2}s"(不含引号) 可以搜索到 "ass" 也可搜索到 "axsxs" 和 "axsxxs" 等等。提醒：点击搜索结果页的删除按钮，将会直接删除相关信息！',
     ),
   ),
   164 =>
   array (
     'index' =>
     array (
-      '日志管理' => 'action=blog',
-      '搜索' => 'action=blog&search=true',
+      'Blog Management' => 'action=blog',//'日志管理',
+      'Search' => 'action=blog&search=true',//'搜索',
     ),
     'text' =>
     array (
-      0 => '日志管理 &raquo; 搜索',
+      0 => 'Blog Management &raquo; Search',//'日志管理 &raquo; 搜索',
       1 => 'blog_search_detail',
-      2 => '显示详细日志列表',
+      2 => 'Show Blog List',//'显示详细日志列表',
       3 => 'blog_search_perpage',
       4 => '每页显示数',
       5 => 'resultsort',
