@@ -3233,7 +3233,7 @@ $lang = array (
   array (
     'index' =>
     array (
-      'Generate all' => 'action=makehtml&operation=all',,//'生成全部'
+      'Generate all' => 'action=makehtml&operation=all',//'生成全部',
     ),
     'text' =>
     array (
