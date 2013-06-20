@@ -3254,6 +3254,7 @@ $lang = array (
     'text' =>
     array (
       0 => 'html &raquo; Generate HTML',//'html &raquo; 生成HTML',
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       1 => 'setting_functions_makehtml',
       2 => '生成HTML',
       3 => 'setting_functions_makehtml_extendname',
