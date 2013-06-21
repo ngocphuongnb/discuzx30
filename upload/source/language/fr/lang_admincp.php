@@ -958,6 +958,7 @@ $lang = array
 	'setting_styles_index_forumallowside'		=> 'Afficher Barre Lat&#233;rale', // '显示边栏'
 	'setting_styles_index_forumallowside_comment'	=> 'Choisissez "Oui" c&#244;t&#233; Accueil Forum affichera le contenu d\'information du Forum global', // '选择“是”论坛首页侧边将显示聚合论坛内容的信息'
 	'setting_styles_index_whosonline'		=> 'Voir les Utilisateurs En-Ligne', // '显示在线用户'
+/**/	'setting_styles_index_display_none'			=> 'Do not show',//'不显示',
 	'setting_styles_index_whosonline_comment'	=> 'Sp&#233;cifiez si le fond du forum de l\'accueil et les Membres du Forum Forum en ligne sur SideShow', // '设置是否在论坛首页底部和论坛版块边栏显示在线会员列表'
 	'setting_styles_index_whosonline_contract'	=> 'Liste Abr&#233;g&#233;e Indique en Ligne', // '缩略显示在线列表'
 	'setting_styles_index_whosonline_contract_comment'	=> 'Si vous activez cette option, la liste affichera uniquement les Utilisateurs en ligne en ligne, ne pas montrer les d&#233;tails, puis les Membres peuvent ouvrir manuellement la liste des Utilisateurs en ligne (jusqu\'&#224; plus de 500 personnes du syst&#232;me en ligne affichera automatiquement le r&#233;pertoire en ligne des abr&#233;g&#233;s)', // '如果打开该选项, 在线列表将只显示在线用户数, 不显示详情, 此时会员可手动打开在线用户列表(最大在线超过 500 人系统将自动缩略显示在线列表)'
