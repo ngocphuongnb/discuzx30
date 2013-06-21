@@ -362,7 +362,7 @@ var lng = {
 	'files attached_num'	: 'File đính kèm',//'个附件',
 	'images'		: 'Ảnh',//'图片',
 	'attachments'		: 'Đính kèm',//'附件',
-	'upload_failed'		: 'Tải lên lỗi',//'上传失败',
+//	'upload_failed'		: 'Tải lên lỗi',//'上传失败',
 
 	'attach_big'		: 'Kích cỡ file đính kèm lớn hơn cho phép',//'服务器限制无法上传那么大的附件',
 	'attach_group_big'	: 'Ttổng kích thước file đính kèm vượt quá giới hạn cho phép nhóm người sử dụng.',//'用户组限制无法上传那么大的附件',
@@ -401,8 +401,8 @@ var lng = {
 //static/js/handlers.js
 	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
 	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
-	'files'			: ' more files',//' 个文件',
+	'can_choose_more'	: 'You yet can choose ',//'您还可以选择 ',
+	'files'			: ' files',//' 个文件',
 	'file_is_large'		: 'File is too large.',//'文件太大.',
 	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
@@ -493,7 +493,23 @@ var lng = {
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
-//	''	: '',//'',
+//---------------------------
+//static/js/mobile/common.js
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
+
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -636,7 +652,7 @@ var lng = {
 //--------------------------------
 //static/js/seditor.js
 	'enter_username'	: 'Please enter the user name',//'请输用户名',
-	'at_friend'		: '@Friend, you can remind him to view the post',//'@朋友账号，就能提醒他来看帖子',
+	'at_friend'		: '@user, you can remind him to view the post',//'@朋友账号，就能提醒他来看帖子',
 
 //--------------------------------
 //static/js/smilies.js
@@ -669,6 +685,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Xin lỗi, loại file này không hỗ trợ.',//'对不起，不支持上传此类文件',
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -690,6 +707,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };

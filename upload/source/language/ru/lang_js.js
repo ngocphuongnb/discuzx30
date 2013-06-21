@@ -261,7 +261,7 @@ var lng = {
 	'bg_color'		: 'Цвет фона',//'背景颜色',
 	'table_intro0'		: 'Помощь по созданию таблиц',//'快速书写表格提示',
 	'table_intro1'		: '&quot;[tr=color]&quot; - Цвет фона строки<br />&quot;[td=Width]&quot; - Ширина столбца<br />&quot;[td=Column_Span,Row_Span,Width]&quot; - Установить Row-Span, Column-Span и ширину колонки<br /><br />Пример создания таблицы: ',//'“[tr=颜色]” 定义行背景<br />“[td=宽度]” 定义列宽<br />“[td=列跨度,行跨度,宽度]” 定义行列跨度<br /><br />快速书写表格范例：',
-	'table_intro2'		: '[table]<br />Name:|Discuz!<br />Version:|X2ML<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
+	'table_intro2'		: '[table]<br />Name:|Discuz!<br />Version:|X1.5<br />[/table]',//'[table]<br />Name:|Discuz!<br />Version:|X1<br />[/table]',
 	'table_intro3'		: 'Используйте символ вертикальной черты &quot;|&quot; для разделения колонок. Если внутри ячейки нужен символ &quot;|&quot;, экранируйте его обратным слэшем: &quot;\\|&quot;. Разделяйте строки переводом строки: &quot;\\n&quot;.',//'用“|”分隔每一列，表格中如有“|”用“\\|”代替，换行用“\\n”代替。',
 	'audio_url'		: 'Введите URL аудио-файла',//'请输入音乐文件地址',
 	'video_url'		: 'Введите URL видео-файла',//'请输入视频地址',
@@ -364,7 +364,7 @@ var lng = {
 	'files attached_num'	: 'прикреплённых файлов',//'个附件',
 	'images'		: 'Изображения',//'图片',
 	'attachments'		: 'Файлы',//'附件',
-	'upload_failed'		: 'Ошибка загрузки',//'上传失败',
+//	'upload_failed'		: 'Ошибка загрузки',//'上传失败',
 
 	'attach_big'		: 'Размер файла превышает установленный лимит',//'服务器限制无法上传那么大的附件',
 	'attach_group_big'	: 'Превышен суммарный объём загружаемых файлов для Вашей группы',//'用户组限制无法上传那么大的附件',
@@ -491,29 +491,27 @@ var lng = {
 	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
 	'generate_completed'	: ' generation is completed',//' 生成完成',
 	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
 //---------------------------
 //static/js/mobile/common.js
-//	'first'	: 'First ',//'第 ',
-//	'page'	: ' Page',//' 页',
-//	'prev_page'	: 'Prev',//'上一页',
-//	'click_to_reload'	: 'Click to reload',//'点击重新加载',
-//	'submit'		: 'Submit',//'确定',
-//	'cancel'		: 'Cancel',//'取消',
-//	'loading'	: 'Loading...',//'正在加载...',
-//	'loading'		: 'Loading...',//'加载中...',
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
 
-//	''	: 'Get location timeout, please try again',//'获取位置超时，请重试',
-//	''	: 'Unable to detect your current location',//'无法检测到您的当前位置',
-//	''	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
-//	''	: 'Unknown error occurred',//'发生未知错误',
-//	''	: 'Dropdown can refresh',//'下拉可以刷新',
-//	''	: 'Dropdown can refresh',//'下拉可以刷新',
-//	''	: 'Release can refresh',//'松开可以刷新',
-//	''	: '',//'',
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -617,7 +615,7 @@ var lng = {
 	'tab_label'		: 'Уровень вкладок',//'tab标签',
 	'temp_action'		: 'Кликните по кнопке "Продолжить" для загрузки временных данных в текущий стиль страницы.<br />Кликните по кнопке "Удалить" для удаления временных данных.',//'按继续按钮将打开暂存数据并DIY，<br />按删除按钮将删除暂存数据。',
 	'continue'		: 'Продолжить',//'继续',
-
+	'block_no_rights'	: 'Sorry, you have no permission to add or edit block',//'抱歉，您没有权限添加或编辑模块',
 
 //--------------------------------
 //static/js/portal_diy_data.js
@@ -626,22 +624,6 @@ var lng = {
 //--------------------------------
 //static/js/qshare.js
 	'from_tencent'		: 'Отправлено из Tencent',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
-
-//---------------------------
-//static/js/redef.js
-//[2]:  参数
-//[3]:  parent			放置瀑布流元素的容器，默认为 $("waterfall")
-//[4]:  container		放置瀑布流的父容器，默认为 $("threadlist")
-//[5]:  maxcolumn		最多多少列，默认为 0 不限制
-//[6]:  space			图片间距，默认为 10
-//[7]:  index			从第几张开始排列，默认为 0
-//[8]:  tag			瀑布流元素的 tagName，默认为 li
-//[9]:  columnsheight	存放列高度的数组
-//[11]:  返回值
-//[12]:  index			当前瀑布流已经排列了多少个图片
-//[13]:  totalwidth		当前瀑布流的总宽度
-//[14]:  totalheight	当前瀑布流的总高度
-//[15]:  columnsheight	存放瀑布流列高的数组
 
 //--------------------------------
 //static/js/register.js
@@ -705,19 +687,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Извините, данный тип файлов не поддерживается',//'对不起，不支持上传此类文件',
-//[1099]: 			progress.setStatus("等待上传...");
-//[1117]: 			showDialog("您选择的文件个数超过限制。\n"+(message === 0 ? "您已达到上传文件的上限了。" : "您还可以选择 " + message + " 个文件"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1127]: 				progress.setStatus("文件太大.");
-//[1131]: 				progress.setStatus("不能上传零字节文件.");
-//[1135]: 				progress.setStatus("禁止上传该类型的文件.");
-//[1200]: 		progress.setStatus("上传中...");
-//[1219]: 		progress.setStatus("正在上传("+percent+"%)...");
-//[1276]: 						progress.setStatus("取消上传");
-//[1303]: 				newTd.innerHTML = '图片描述<br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
-//[1307]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1327]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1344]: 				showDialog('上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1352]: 			progress.setStatus("上传完成.");
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -739,6 +709,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };
