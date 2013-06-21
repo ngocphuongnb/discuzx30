@@ -361,7 +361,7 @@ var lng = {
 	'files attached_num'	: 'files attached',//'个附件',
 	'images'		: 'Images',//'图片',
 	'attachments'		: 'attachments',//'附件',
-	'upload_failed'		: 'Upload Failed',//'上传失败',
+//	'upload_failed'		: 'Upload Failed',//'上传失败',
 
 	'attach_big'		: 'Attachment size exceeds the allowed limit',//'服务器限制无法上传那么大的附件',
 	'attach_group_big'	: 'You user group total attachment size exceeds allowed limit',//'用户组限制无法上传那么大的附件',
@@ -400,8 +400,8 @@ var lng = {
 //static/js/handlers.js
 	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
 	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
-	'files'			: ' more files',//' 个文件',
+	'can_choose_more'	: 'You yet can choose ',//'您还可以选择 ',
+	'files'			: ' files',//' 个文件',
 	'file_is_large'		: 'File is too large.',//'文件太大.',
 	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
@@ -494,23 +494,21 @@ var lng = {
 
 //---------------------------
 //static/js/mobile/common.js
-//	'first'	: 'First ',//'第 ',
-//	'page'	: ' Page',//' 页',
-//	'prev_page'	: 'Prev',//'上一页',
-//	'click_to_reload'	: 'Click to reload',//'点击重新加载',
-//	'submit'		: 'Submit',//'确定',
-//	'cancel'		: 'Cancel',//'取消',
-//	'loading'	: 'Loading...',//'正在加载...',
-//	'loading'		: 'Loading...',//'加载中...',
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
 
-//	''	: 'Get location timeout, please try again',//'获取位置超时，请重试',
-//	''	: 'Unable to detect your current location',//'无法检测到您的当前位置',
-//	''	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
-//	''	: 'Unknown error occurred',//'发生未知错误',
-//	''	: 'Dropdown can refresh',//'下拉可以刷新',
-//	''	: 'Dropdown can refresh',//'下拉可以刷新',
-//	''	: 'Release can refresh',//'松开可以刷新',
-//	''	: '',//'',
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -532,7 +530,7 @@ var lng = {
 	'settings_expand'	: 'Expand setting',//'展开设置项',
 	'settings_hide'		: 'Hide setting',//'收起设置项',
 	'custom_content_error'	: 'Custom content error! HTML code: ',//'自定义内容错误，',
-	'html_error'		: 'HTML code: ',//'HTML代码：',
+	'html_error'		: 'HTML Code: ',//'HTML代码：',
 	'tags_not_match'	: ' - Tags does not match',//' 标签不匹配',
 	'entered'		: 'Have entered ',//'已输入 ',
 	'exceed'		: 'Exceed ',//'超出 ',
@@ -624,22 +622,6 @@ var lng = {
 //static/js/qshare.js
 	'from_tencent'		: 'I come from Tencent microblogging an open platform',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
 
-//---------------------------
-//static/js/redef.js
-//[2]:  参数
-//[3]:  parent			放置瀑布流元素的容器，默认为 $("waterfall")
-//[4]:  container		放置瀑布流的父容器，默认为 $("threadlist")
-//[5]:  maxcolumn		最多多少列，默认为 0 不限制
-//[6]:  space			图片间距，默认为 10
-//[7]:  index			从第几张开始排列，默认为 0
-//[8]:  tag			瀑布流元素的 tagName，默认为 li
-//[9]:  columnsheight	存放列高度的数组
-//[11]:  返回值
-//[12]:  index			当前瀑布流已经排列了多少个图片
-//[13]:  totalwidth		当前瀑布流的总宽度
-//[14]:  totalheight	当前瀑布流的总高度
-//[15]:  columnsheight	存放瀑布流列高的数组
-
 //--------------------------------
 //static/js/register.js
 
@@ -702,19 +684,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Sorry, this file type is unsupported',//'对不起，不支持上传此类文件',
-//[1099]: 			progress.setStatus("等待上传...");
-//[1117]: 			showDialog("您选择的文件个数超过限制。\n"+(message === 0 ? "您已达到上传文件的上限了。" : "您还可以选择 " + message + " 个文件"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1127]: 				progress.setStatus("文件太大.");
-//[1131]: 				progress.setStatus("不能上传零字节文件.");
-//[1135]: 				progress.setStatus("禁止上传该类型的文件.");
-//[1200]: 		progress.setStatus("上传中...");
-//[1219]: 		progress.setStatus("正在上传("+percent+"%)...");
-//[1276]: 						progress.setStatus("取消上传");
-//[1303]: 				newTd.innerHTML = '图片描述<br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
-//[1307]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1327]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1344]: 				showDialog('上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1352]: 			progress.setStatus("上传完成.");
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php

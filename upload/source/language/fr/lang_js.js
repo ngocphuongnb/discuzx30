@@ -35,7 +35,7 @@ var colortexts = {
 	'DarkSlateGray'		: 'Vert Foncé',//'墨绿色', //  'Dark Green'
 	'DarkRed'		: 'Rouge Foncé',//'暗红色', // 'Dark Red'
 	'DarkOrange'		: 'Orange Foncé',//'暗桔黄色', // 'Dark Orange'
-	'Olive'			: 'Olive',//'橄榄色', // 'Olive'
+	'Olive'			: 'Olive',//'橄榄色',
 	'Green'			: 'Vert',//'绿色', // 'Green'
 	'Teal'			: 'Sarcelle',//'水鸭色', // 'Teal'
 	'Blue'			: 'Bleu',//'蓝色', // 'Blue'
@@ -50,7 +50,7 @@ var colortexts = {
 	'Purple'		: 'Violet',//'紫色', // 'Purple'
 	'Gray'			: 'Gris',//'灰色', // 'Gray'
 	'Magenta'		: 'Rouge Pourpre',//'红紫色', // 'Red Purple'
-	'Orange'		: 'Orange',//'橙色', // 'Orange'
+	'Orange'		: 'Orange',//'橙色',
 	'Yellow'		: 'Jaune',//'黄色', //  'Yellow'
 	'Lime'			: 'Orange Acide',//'酸橙色', // 'Acid Orange'
 	'Cyan'			: 'Bleu Vert',//'青色', // 'Blue Green'
@@ -160,8 +160,8 @@ var lng = {
 	'month'		: 'Mois',//'月', // 'Month'
 	'today'		: 'Aujourd\'hui',//'今天', // 'Today'
 	'hours'		: 'Heures',//'点', // 'Hours'
-	'minutes'	: 'Minutes',//'分', // 'Minutes'
-	'halfhour'	: 'Half hour',//'分',
+	'minutes'	: 'Minutes',//'分',
+	'halfhour'	: 'Half hour',//'半小时',
 	'ok'		: 'Ok',//'OK',
 
 //--------------------------------
@@ -187,7 +187,7 @@ var lng = {
 	'month6'		: '6 Mois',//'半年', // '6 Months'
 	'year1'			: '1 Année',//'一年', // '1 Year'
 	'custom'		: 'Personnalisé',//'自定义', //  'Custom'
-	'permanent'		: 'Permanent',//'永久', // 'Permanent'
+	'permanent'		: 'Permanent',//'永久',
 	'show_all_expr'		: 'Voir tous les Smileys',//'显示所有表情', // 'Show all smiles'
 	'page_prev'		: 'Page Préc.',//'上页', // 'Prev Page'
 	'page_next'		: 'Page Suiv.',//'下页', // 'Next Page'
@@ -242,7 +242,7 @@ var lng = {
 	'current_length'	: 'Longueur Actuelle',//'当前长度', // 'Current Length'
 	'bytes'			: 'octets',//'字节', // 'bytes'
 	'system_limit'		: 'Limite Système',//'系统限制', // 'System limit'
-	'up_to'			: '~',//'到', // '~'
+	'up_to'			: '~',//'到',
 	'check_length'		: 'Comptez longueur',//'字数检查', // 'Length Count'
 	'data_restored'		: 'Données ont été Restaurées',//'数据已恢复', // 'The Data was restored'
 	'data_saved'		: 'Données Sauvées',//'数据已保存', // 'Data saved'
@@ -278,7 +278,7 @@ var lng = {
 	'autosave_enabled'	: 'Les Données de sauvegarde automatique Activé',//'数据自动保存已开启', // 'Data auto-saving enabled'
 	'autosave_disabled'	: 'Les Données de sauvegarde automatique Désactivé',//'数据自动保存已关闭', // 'Data auto-saving disabled'
 	'data_saved_at'		: 'Les données enregistrées en',//'数据已于', // 'Data saved at'
-	'saved_time'		: '',//NOT REQUIRED IN ENGLISH!//'保存', // 
+	'saved_time'		: '',//NOT REQUIRED IN ENGLISH!//'保存',
 	'sec_before_saving'	: 's avant que la sauvegarde automatique',//'秒后保存', // 
 	'insert_quote'		: 'Insérez la Citation',//'请输入要插入的引用', // 
 	'insert_code'		: 'Insérez le Code',//'请输入要插入的代码', // 'Insert the Code'
@@ -361,7 +361,7 @@ var lng = {
 	'files attached_num'	: 'fichiers joints',//'个附件', // 'files attached'
 	'images'		: 'Images',//'图片', // 'Images'
 	'attachments'		: 'pièces jointes',//'附件', // 'attachments'
-	'upload_failed'		: 'Echec lors du transfert',//'上传失败', // 'Upload Failed'
+//	'upload_failed'		: 'Echec lors du transfert',//'上传失败', // 'Upload Failed'
 
 	'attach_big'		: 'Taille des pièces jointes dépasses la limite autorisée',//'服务器限制无法上传那么大的附件', // 'Attachment size exceeds the allowed limit'
 	'attach_group_big'	: 'Vous avez des pièces jointe du groupe d\'utilisateurs dont la taille totale dépasse la limite autorisée',//'用户组限制无法上传那么大的附件', //  'You user group total attachment size exceeds allowed limit'
@@ -400,8 +400,8 @@ var lng = {
 //static/js/handlers.js
 	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
 	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
-	'files'			: ' more files',//' 个文件',
+	'can_choose_more'	: 'You yet can choose ',//'您还可以选择 ',
+	'files'			: ' files',//' 个文件',
 	'file_is_large'		: 'File is too large.',//'文件太大.',
 	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
@@ -488,29 +488,27 @@ var lng = {
 	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
 	'generate_completed'	: ' generation is completed',//' 生成完成',
 	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
 //---------------------------
 //static/js/mobile/common.js
-//	'first'	: 'First ',//'第 ',
-//	'page'	: ' Page',//' 页',
-//	'prev_page'	: 'Prev',//'上一页',
-//	'click_to_reload'	: 'Click to reload',//'点击重新加载',
-//	'submit'		: 'Submit',//'确定',
-//	'cancel'		: 'Cancel',//'取消',
-//	'loading'	: 'Loading...',//'正在加载...',
-//	'loading'		: 'Loading...',//'加载中...',
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
 
-//	''	: 'Get location timeout, please try again',//'获取位置超时，请重试',
-//	''	: 'Unable to detect your current location',//'无法检测到您的当前位置',
-//	''	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
-//	''	: 'Unknown error occurred',//'发生未知错误',
-//	''	: 'Dropdown can refresh',//'下拉可以刷新',
-//	''	: 'Dropdown can refresh',//'下拉可以刷新',
-//	''	: 'Release can refresh',//'松开可以刷新',
-//	''	: '',//'',
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -532,7 +530,7 @@ var lng = {
 	'settings_expand'	: 'Développer Paramètre',//'展开设置项', // 'Expand setting'
 	'settings_hide'		: 'Cacher Paramètre',//'收起设置项', // 'Hide setting'
 	'custom_content_error'	: 'Erreur de contenu personnalisé! Le code HTML: ',//'自定义内容错误，', // 'Custom content error! HTML code: '
-	'html_error'		: 'HTML code: ',//'HTML代码：', // 'HTML code: '
+	'html_error'		: 'HTML Code: ',//'HTML代码：',
 	'tags_not_match'	: ' - Mots clés ou Tags ne correspondent pas',//' 标签不匹配', // ' - Tags does not match'
 	'entered'		: 'Have entered ',//'已输入 ',
 	'exceed'		: 'Exceed ',//'超出 ',
@@ -564,7 +562,7 @@ var lng = {
 	'repeat_x'		: 'Répéter Horizontal',//'横向平铺', // 'Repeat Horizontal'
 	'repeat_y'		: 'Répéter Vertical',//'纵向平铺', // 'Repeat Vertical'
 	'no_style'		: 'Aucun style',//'无样式', // 'No style'
-	'solid_line'		: 'Solid Line',//'实线', // 'Solid Line'
+	'solid_line'		: 'Solid Line',//'实线',
 	'dotted_line'		: 'Ligne en pointillé',//'点线', // 'Dotted Line'
 	'dashed_line'		: 'Ligne pointillée',//'虚线', // 'Dased Line'
 	'link'			: 'Lien',//'链接', //  'Link'
@@ -574,7 +572,7 @@ var lng = {
 	'separate_config'	: 'Config. séparés',//'分别设置', // 'Separate Config'
 	'right'			: 'Droit',//'右', // 'Right'
 	'bottom'		: 'Dessous',//'下', // 'Bottom'
-	'top'			: 'Top',//'上', // 'Top'
+	'top'			: 'Top',//'上',
 	'left'			: 'Gauche',//'左', // 'Left'
 	'margin'		: 'Marge',//'外边距', //  'Margin'
 	'padding'		: 'Remplissage',//'内边距', // 'Padding'
@@ -585,8 +583,8 @@ var lng = {
 	'onclick'		: 'SurClic',//'点击', // 'onClick'
 	'onmouseover'		: 'SurvolSouris',//'滑过', //  'onMouseover'
 	'switch_type'		: 'Type de Commutateur',//'切换类型', // 'Switch Type'
-	'image'			: 'Image',//'图片',  // 'Image'
-	'position'		: 'Position',//'位置', // 'Position'
+	'image'			: 'Image',//'图片',
+	'position'		: 'Position',//'位置',
 	'align_left'		: 'Aligné à gauche',//'居左', // 'Left Align'
 	'align_right'		: 'Aligné à droite',//'居右',  // 'Right Align'
 	'offset'		: 'décalage',//'偏移量', // 'Offset'
@@ -596,8 +594,8 @@ var lng = {
 	'delete_this_sure'	: 'Etes-vous sûr de le supprimer? Il ne peut pas être restauré si vous le supprimez.',//'您确实要删除吗,删除以后将不可恢复', // 'Are you sure to delete it? It can not be restored if you delete it.'
 	'loading_content'	: 'Chargement du contenu...',//'正在加载内容...',  // 'Loading content...'
 	'modified_import'	: 'Vous avez fait quelques modifications, Svp. à l\'importation après l\'avoir enregistré, sinon les données importées ne seront  pas inclus dans la modification cette fois-ci..',//'您已经做过修改，请保存后再做导出，否则导出的数据将不包括您这次所做的修改。', // 'You have made some modifications, please import it after you save it, otherwise the imported data won\'t include modification of this time.'
-	'total'			: 'Total ',//'共',  // 'Total '
-	'blocks'		: 'blocs',//'个模块', // 'blocks'
+	'total'			: 'Total ',//'共',
+	'blocks'		: 'blocs',//'个模块',
 	'updating_the'		: 'actualisation #',//'正在更新第', // 'updating #'
 	'done'			: 'fini',//'已完成', // 'done'
 	'start_updating'	: 'Démarrer la mise à jour...',//'开始更新...',  // 'Start Updating...'
@@ -613,8 +611,8 @@ var lng = {
 	'update_completed'	: 'La Mise à Jour est Terminée.',//'已更新完成。',  // 'Updating is completed.'
 	'tab_label'		: 'Tab Etiquettes',//'tab标签',  // 'Tab Label'
 	'temp_action'		: 'Cliquez sur le bouton "Continuer" pour charger les données temporaires dans le style actuel,<br />Cliquez sur le bouton "Supprimer"  pour supprimer des données temporaires.',//'按继续按钮将打开暂存数据并DIY，<br />按删除按钮将删除暂存数据。', // 'Click the "Continue" button to load the temporary data into current style,<br />Click the "Delete" button for delete temporary data.'
-	'continue'		: 'Continue',//'继续',  // 'Continue'
-
+	'continue'		: 'Continue',//'继续',
+	'block_no_rights'	: 'Sorry, you have no permission to add or edit block',//'抱歉，您没有权限添加或编辑模块',
 
 //--------------------------------
 //static/js/portal_diy_data.js
@@ -623,22 +621,6 @@ var lng = {
 //--------------------------------
 //static/js/qshare.js
 	'from_tencent'		: 'Je viens de microblogging Tencent une plateforme ouverte',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0", // 'I come from Tencent microblogging an open platform'
-
-//---------------------------
-//static/js/redef.js
-//[2]:  参数
-//[3]:  parent			放置瀑布流元素的容器，默认为 $("waterfall")
-//[4]:  container		放置瀑布流的父容器，默认为 $("threadlist")
-//[5]:  maxcolumn		最多多少列，默认为 0 不限制
-//[6]:  space			图片间距，默认为 10
-//[7]:  index			从第几张开始排列，默认为 0
-//[8]:  tag			瀑布流元素的 tagName，默认为 li
-//[9]:  columnsheight	存放列高度的数组
-//[11]:  返回值
-//[12]:  index			当前瀑布流已经排列了多少个图片
-//[13]:  totalwidth		当前瀑布流的总宽度
-//[14]:  totalheight	当前瀑布流的总高度
-//[15]:  columnsheight	存放瀑布流列高的数组
 
 //--------------------------------
 //static/js/register.js
@@ -694,7 +676,7 @@ var lng = {
 	'numeric_invalid'	: 'La valeur numérique est invalide',//'数字填写不正确',  // 'Numeric value is invalid'
 	'email_invalid'		: 'Adresse E-mail est invalide',//'邮件地址不正确',  // 'E-mail address is invalid'
 	'text_too_long'		: 'Valeur du champ est trop long',//'填写项目长度过长',  // 'Field value is too long'
-	'value_is_greater'	: 'Value is greater than the maximum',//'大于设置最大值', // 'Value is greater than the maximum'
+	'value_is_greater'	: 'Value is greater than the maximum',//'大于设置最大值',
 	'value_is_less'		: 'La valeur est inférieure au minimum',//'小于设置最小值', // 'Value is less than minimum'
 	'enter_valid_url'	: 'Please enter correct URL address beginning with http://',//'请正确填写以http://开头的URL地址',
 
@@ -702,19 +684,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Désolé, ce type de fichier n\'est pas supporté',//'对不起，不支持上传此类文件', // 'Sorry, this file type is unsupported'
-//[1099]: 			progress.setStatus("等待上传...");
-//[1117]: 			showDialog("您选择的文件个数超过限制。\n"+(message === 0 ? "您已达到上传文件的上限了。" : "您还可以选择 " + message + " 个文件"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1127]: 				progress.setStatus("文件太大.");
-//[1131]: 				progress.setStatus("不能上传零字节文件.");
-//[1135]: 				progress.setStatus("禁止上传该类型的文件.");
-//[1200]: 		progress.setStatus("上传中...");
-//[1219]: 		progress.setStatus("正在上传("+percent+"%)...");
-//[1276]: 						progress.setStatus("取消上传");
-//[1303]: 				newTd.innerHTML = '图片描述<br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
-//[1307]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1327]: 				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1344]: 				showDialog('上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-//[1352]: 			progress.setStatus("上传完成.");
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -736,6 +706,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };

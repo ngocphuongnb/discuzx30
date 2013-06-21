@@ -361,7 +361,7 @@ var lng = {
 	'files attached_num'	: 'ไฟล์ที่แนบมา',//'个附件',
 	'images'		: 'ภาพ',//'图片',
 	'attachments'		: 'ไฟล์แนบ',//'附件',
-	'upload_failed'		: 'อัพโหลดล้มเหลว',//'上传失败',
+//	'upload_failed'		: 'อัพโหลดล้มเหลว',//'上传失败',
 
 	'attach_big'		: 'ขนาดไฟล์แนบเกินกว่าที่กำหนดไว้',//'服务器限制无法上传那么大的附件',
 	'attach_group_big'	: 'กลุ่มผู้ใช้ของคุณมีขนาดไฟล์แนบเกินขีดจำกัดของระบบ',//'用户组限制无法上传那么大的附件',
@@ -400,8 +400,8 @@ var lng = {
 //static/js/handlers.js
 	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
 	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
-	'files'			: ' more files',//' 个文件',
+	'can_choose_more'	: 'You yet can choose ',//'您还可以选择 ',
+	'files'			: ' files',//' 个文件',
 	'file_is_large'		: 'File is too large.',//'文件太大.',
 	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
@@ -488,11 +488,27 @@ var lng = {
 	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
 	'generate_completed'	: ' generation is completed',//' 生成完成',
 	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
-//	''	: '',//'',
+//---------------------------
+//static/js/mobile/common.js
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
+
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -596,7 +612,7 @@ var lng = {
 	'tab_label'		: 'ป้ายชื่อแท็บ',//'tab标签',
 	'temp_action'		: 'คลิกที่ปุ่ม "ดำเนินการต่อ" เพื่อโหลดข้อมูลชั่วคาวไว้ในรูปแบบปัจจุบัน,<br />คลิกปุ่ม "ลบ" เพื่อลบข้อมูลชั่วคราวออก.',//'按继续按钮将打开暂存数据并DIY，<br />按删除按钮将删除暂存数据。',
 	'continue'		: 'ดำเนินการต่อ',//'继续',
-
+	'block_no_rights'	: 'Sorry, you have no permission to add or edit block',//'抱歉，您没有权限添加或编辑模块',
 
 //--------------------------------
 //static/js/portal_diy_data.js
@@ -668,6 +684,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'ขออภัย, รูปแบบไฟล์ไม่รองรับ',//'对不起，不支持上传此类文件',
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -689,6 +706,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: '' // This key MUST BE THE LAST!
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };

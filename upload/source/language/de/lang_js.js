@@ -50,14 +50,14 @@ var colortexts = {
 	'Purple'		: 'Violet',//'Purple',//'紫色',
 	'Gray'			: 'Grau',//'Gray',//'灰色',
 	'Magenta'		: 'Rot-violett',//'Red Purple',//'红紫色',
-	'Orange'		: 'Orange',//'Orange',//'橙色',
+	'Orange'		: 'Orange',//'橙色',
 	'Yellow'		: 'Gelb',//'Yellow',//'黄色',
 	'Lime'			: 'Limone',//'Acid Orange',//'酸橙色',
 	'Cyan'			: 'Blaugrün',//'Blue Green',//'青色',
 	'DeepSkyBlue'		: 'Tiefblau',//'Deep Sky Blue',//'深天蓝色',
 	'DarkOrchid'		: 'Orchidee',//'Dark Purple',//'暗紫色',
 	'Silver'		: 'Silber',//'Silver',//'银色',
-	'Pink'			: 'Pink',//'Pink',//'粉色',
+	'Pink'			: 'Pink',//'粉色',
 	'Wheat'			: 'Hellgelb',//'Light Yellow',//'浅黄色',
 	'LemonChiffon'		: 'Zitronengelb',//'Lemon Silk',//'柠檬绸色',
 	'PaleGreen'		: 'Cang-grün',//'Cang Green',//'苍绿色',
@@ -161,7 +161,7 @@ var lng = {
 	'today'		: 'Heute',//'今天',
 	'hours'		: 'Stunden',//'点',
 	'minutes'	: 'Minuten',//'分',
-	'halfhour'	: 'Half hour',//'分',
+	'halfhour'	: 'Half hour',//'半小时',
 	'ok'		: 'Ok',//'OK',
 
 //--------------------------------
@@ -208,7 +208,7 @@ var lng = {
 	'narrow_screen'		: 'Schmales Bild',//'切换到窄版',
 	'wide_screen'		: 'Weites Bild',//'切换到宽版',
 	'logging_wait'		: 'Logging, bitte warten...',//'登录中，请稍后...',
-	'notices_no'		: '[    ]',//'【　　　】',
+	'notices_no'		: '[　　　]',//'【　　　】',
 	'notices_yes'		: '[Neu]',//'【新提醒】',
 	'sec_after_win_closed'	: ' Sekunden bevor das Fenster geschlossen wird',//' 秒后窗口关闭',
 	'sec_after_page_jump'	: ' Sekunden bevor die Seite weitergeleitet wird',//' 秒后页面跳转',
@@ -361,7 +361,7 @@ var lng = {
 	'files attached_num'	: 'Dateien angehängt',//'个附件',
 	'images'		: 'Bilder',//'图片',
 	'attachments'		: 'Anhänge',//'附件',
-	'upload_failed'		: 'Hochladen fehlgeschlagen',//'上传失败',
+//	'upload_failed'		: 'Hochladen fehlgeschlagen',//'上传失败',
 
 	'attach_big'		: 'Anlagengröße überschreitet das zulässige Limit',//'服务器限制无法上传那么大的附件',
 	'attach_group_big'	: 'Die Nutzergruppe Größe von Dateianhängen überschreitet die zulässige Grenze',//'用户组限制无法上传那么大的附件',
@@ -400,8 +400,8 @@ var lng = {
 //static/js/handlers.js
 	'file_selected_exceed'	: 'You have selected too many files.',//'您选择的文件个数超过限制。',
 	'upload_number_exceed'	: 'You cannot add any more files.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You may only add ',//'您还可以选择 ',
-	'files'			: ' more files',//' 个文件',
+	'can_choose_more'	: 'You yet can choose ',//'您还可以选择 ',
+	'files'			: ' files',//' 个文件',
 	'file_is_large'		: 'File is too large.',//'文件太大.',
 	'file_is_empty'		: 'You can not upload a zero byte file.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
@@ -488,11 +488,27 @@ var lng = {
 	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
 	'generate_completed'	: ' generation is completed',//' 生成完成',
 	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
-//	''	: '',//'',
+//---------------------------
+//static/js/mobile/common.js
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
+
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -668,6 +684,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Sorry, dieser Dateityp wird nicht unterstützt',//'对不起，不支持上传此类文件',
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -689,6 +706,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };

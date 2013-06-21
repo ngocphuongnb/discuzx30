@@ -363,7 +363,7 @@ var lng = {
 	'files attached_num'	: ' ملفات تم ارفاقها',//'个附件',
 	'images'		: 'الصور',//'图片',
 	'attachments'		: 'المرفقات',//'附件',
-	'upload_failed'		: 'فشل الرفع',//'上传失败',
+//	'upload_failed'		: 'فشل الرفع',//'上传失败',
 
 	'attach_big'		: 'حجم المرفقات تجاوز الحد الأقصى',//'服务器限制无法上传那么大的附件',
 	'attach_group_big'	: 'مجموعتك تجاوزت الحد الأقصى من المرفقات',//'用户组限制无法上传那么大的附件',
@@ -389,7 +389,7 @@ var lng = {
 	'notify_on_reply'	: 'استقبال تنبيه الرد',//'接收回复通知',
 	'notify_on_reply_cancel'	: 'إلغاء استقبال التنبيه',//'取消回复通知',
 	'share_connection_failed'	: 'فشل الاتصال للمشاركة, حاول مرة أخرى لاحقاً',//'分享服务连接失败，请稍后再试',
-	'qq_bind'		: 'Please bind your QQ account',//'请先绑定QQ账号',// not im (arabic)
+	'qq_bind'		: 'Please bind your QQ account',//'请先绑定QQ账号',
 	'quote_by'		: 'اقتُبِس بواسطة  .*? في .*? ',//'本帖最后由 .*? 于 .*? 编辑',
 	'copy_code'		: 'نسخ الكود',//'复制代码',
 	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
@@ -490,11 +490,27 @@ var lng = {
 	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
 	'generate_completed'	: ' generation is completed',//' 生成完成',
 	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 '
+	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
 	'generate_first'	: 'generated first ',//'正在生成第 ',
 	'generate_percent'	: 'has been completed ',//'已经完成 ',
 
-//	''	: '',//'',
+//---------------------------
+//static/js/mobile/common.js
+	'first'		: 'First ',//'第 ',
+	'page'		: 'Page',//'页',
+	'pages'		: ' pages',//'页',
+	'prev_page'	: 'Prev',//'上一页',
+	'next_page'	: 'Next',//'下一页',
+	
+	'click_to_reload'	: 'Click to reload',//'点击重新加载',
+	'loading_now'		: 'Loading...',//'正在加载...',
+
+	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
+	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -598,7 +614,7 @@ var lng = {
 	'tab_label'		: 'علامة التبويب',//'tab标签',
 	'temp_action'		: 'إضغط على "استمرار" لجلب المعلومات الحالية للاستايل الحالي,<br />إضغط على زر  "حذف" لحذف البيانات المؤقتة.',//'按继续按钮将打开暂存数据并DIY，<br />按删除按钮将删除暂存数据。',
 	'continue'		: 'مواصلة',//'继续',
-
+	'block_no_rights'	: 'Sorry, you have no permission to add or edit block',//'抱歉，您没有权限添加或编辑模块',
 
 //--------------------------------
 //static/js/portal_diy_data.js
@@ -670,6 +686,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'عذراً, نوع الملف غير صالح',//'对不起，不支持上传此类文件',
+	'wait_upload'		: 'Wait for upload...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
@@ -691,6 +708,6 @@ var lng = {
 //-------------------------------------
 //	''	: '',//'',
 
-'fiction'	: ''
+'fiction'	: '' // This key MUST BE THE LAST row!
 
 };
