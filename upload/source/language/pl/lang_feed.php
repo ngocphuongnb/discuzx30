@@ -61,7 +61,7 @@ $lang = array
 
 	'feed_invite'				=> '{actor} zaprosił do znajomych {username}',//'{actor} 发起邀请，和 {username} 成为了好友',
 
-	'magicuse_thunder_announce_title'	=> '<strong>{username} użył a &quot;błyskawicy&quot;</strong>',//'<strong>{username} 发出了“雷鸣之声”</strong>',
+	'magicuse_thunder_announce_title'	=> '<strong>{username} użył &quot;błyskawicy&quot;</strong>',//'<strong>{username} 发出了“雷鸣之声”</strong>',
 	'magicuse_thunder_announce_body'	=> 'Cześć wszystkim!<br /><a href="home.php?mod=space&uid={uid}">Zapraszam na mój profil</a>.',//'大家好，我上线啦<br /><a href="home.php?mod=space&uid={uid}" target="_blank">欢迎来我家串个门</a>',
 
 

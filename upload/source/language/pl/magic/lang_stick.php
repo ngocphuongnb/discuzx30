@@ -21,7 +21,7 @@ $lang = array
 	'stick_info'			=> 'Stick designated thread for {expiration} hours, enter the thread ID',//'置顶指定的主题 {expiration} 小时，请输入主题的 ID',
 	'stick_info_nonexistence'	=> 'Enter the thread ID to stick',//'请指定要置顶的主题',
 	'stick_succeed'			=> 'The thread is sticked successfully',//'你操作的主题已置顶',
-	'stick_info_noperm'		=> 'Using this magic for this forum is disabled',//'对不起，主题所在版块不允许使用本道具',
+	'stick_info_noperm'		=> 'Magia na tym forum została wyłączona.',//'对不起，主题所在版块不允许使用本道具',
 
 	'stick_notification'		=> '{actor} used a magic &quot;{magicname}&quot; for your thread &quot;{subject}&quot;, <a href="forum.php?mod=viewthread&tid={tid}">view</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
 );

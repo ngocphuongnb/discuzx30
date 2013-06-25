@@ -11,8 +11,8 @@ if(!defined('IN_DISCUZ')) {
 }
 $lang = array
 (
-	'flicker_name'		=> 'Flicker',//'彩虹炫',
-	'flicker_desc'		=> 'Enable to use a rainbow flicker on your post',//'在日志、相册评论中使用彩虹炫',
-	'flicker_info'		=> 'Enable to use a rainbow flicker on your post',//'在日志、相册评论中使用彩虹炫',
-	'flicker_succeed'	=> 'Flicker used successfully',//'彩虹炫使用成功。',
+	'flicker_name'		=> 'Migotanie',//'彩虹炫',
+	'flicker_desc'		=> 'Umożliwia kolorowanie tekstu w komentarzach.',//'在日志、相册评论中使用彩虹炫',
+	'flicker_info'		=> 'Umożliwia kolorowanie tekstu w komentarzach.',//'在日志、相册评论中使用彩虹炫',
+	'flicker_succeed'	=> 'Migotanie zostało nadane.',//'彩虹炫使用成功。',
 );

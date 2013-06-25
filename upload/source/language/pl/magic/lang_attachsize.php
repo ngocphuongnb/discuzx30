@@ -14,8 +14,8 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	'attachsize_name'	=> 'Załączniki',//'附件增容卡',
-	'attachsize_desc'	=> 'Umożliwia zwiększenie rozmiaru załącznika',//'增加附件容量上限',
-	'attachsize_info'	=> 'Increase your attach space on {num} Mb',//'额外增加 {num} M 附件容量上限',
-	'attachsize_addsize'	=> 'Add size',//'增加容量',
+	'attachsize_desc'	=> 'Zwiększ limit rozmiaru załącznika',//'增加附件容量上限',
+	'attachsize_info'	=> 'Zwiększa rozmiar załącznika do {num} Mb',//'额外增加 {num} M 附件容量上限',
+	'attachsize_addsize'	=> 'Dodaj rozmiar',//'增加容量',
 );
 

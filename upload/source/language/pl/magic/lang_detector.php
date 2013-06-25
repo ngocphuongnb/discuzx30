@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'detector_name'	=> 'Detector',//'探测器',
+	'detector_name'	=> 'Wykrywacz',//'探测器',
 	'detector_desc'	=> 'Detection of Red envelope buried by members',//'探测埋了红包的会员空间',
 	'detector_num'	=> 'Maximum number of detected members',//'最大探测数',
 	'detector_info'	=> 'Detect (up to {num}) members buried a Red envelope',//'探测(最多 {num} 个)埋了红包的会员空间',

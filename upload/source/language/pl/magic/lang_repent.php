@@ -19,7 +19,7 @@ $lang = array
 	'repent_info'			=> 'For delete your post, please enter the post ID',//'删除自己的帖子，请输入帖子的 ID',
 	'repent_info_nonexistence'	=> 'Enter the post to delete',//'请指定要删除的帖子',
 	'repent_succeed'		=> 'Your post was deleted successfully',//'你操作的帖子已删除',
-	'repent_info_noperm'		=> 'Using this magic for this forum is disabled',//'对不起，主题所在版块不允许使用本道具',
+	'repent_info_noperm'		=> 'Magia na tym forum została wyłączona.',//'对不起，主题所在版块不允许使用本道具',
 	'repent_info_user_noperm'	=> 'You can delete only your own posts',//'对不起，你只能删除自己的帖子',
 	'repent_do_not_rushreply'	=> 'Can not use this magic for grabbed floor posts',//'不能在抢楼帖中使用此道具',
 );
