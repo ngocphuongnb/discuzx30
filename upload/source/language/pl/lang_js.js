@@ -135,7 +135,7 @@ var lng = {
 
 //---------------------------
 //upload/static/js/at.js
-//	'enter_username'	: 'Please enter the user name',//'请输用户名',
+//	'enter_username'	: 'Proszę wybrać nazwę użytkownika',//'请输用户名',
 
 //---------------------------
 //upload/static/js/common_extra.js
@@ -400,8 +400,8 @@ var lng = {
 //static/js/handlers.js
 	'file_selected_exceed'	: 'Wybrano zbyt wiele plików.',//'您选择的文件个数超过限制。',
 	'upload_number_exceed'	: 'Nie możesz dodać więcej plików.',//'您已达到上传文件的上限了。',
-	'can_choose_more'	: 'You yet can choose ',//'您还可以选择 ',
-	'files'			: ' files',//' 个文件',
+	'can_choose_more'	: 'Możesz dodać ',//'您还可以选择 ',
+	'files'			: ' pliki więcej.',//' 个文件',
 	'file_is_large'		: 'Plik jest za duży.',//'文件太大.',
 	'file_is_empty'		: 'Nie możesz dodawać pustych plików.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'Upload of such type files is disabled.',//'禁止上传该类型的文件.',
@@ -440,11 +440,11 @@ var lng = {
 //--------------------------------
 //static/js/home_common.js
 
-	'show_orig_image'	: 'Show original image in a new window',//'点击图片，在新窗口显示原始尺寸',
-	'continue_sure'		: 'Are you sure to proceed?',//'您确定要执行本操作吗？',
+	'show_orig_image'	: 'Pokaż oryginalny obrazek w nowym oknie',//'点击图片，在新窗口显示原始尺寸',
+	'continue_sure'		: 'Czy na pewno chcesz kontynuować?',//'您确定要执行本操作吗？',
 	'select_item'		: 'Please choose the item to operate with',//'请选择要操作的对象',
-	'image_url_invalid'	: 'Incorrect image URL',//'图片地址不正确',
-	'audio_url_invalid'	: 'Incorrect audio URL, can not be empty',//'音乐地址错误，不能为空',
+	'image_url_invalid'	: 'Błędny adres URL dla obrazka',//'图片地址不正确',
+	'audio_url_invalid'	: 'Błędny adres URL dla audio. To pole nie może być puste.',//'音乐地址错误，不能为空',
 
 //!!!!! MayBe wrap this names!!
 	'collapse'		: 'Zwiń',//'收起',
@@ -455,7 +455,7 @@ var lng = {
 
 	'select_max'		: 'Możesz wybrać do',//'最多只允许选择',
 	'users'			: 'użytkowników',//'个用户',
-	'allready_exists'	: 'Already exists',//'已经存在',
+	'allready_exists'	: 'już istnieje.',//'已经存在',
 
 //--------------------------------
 //static/js/home_manage.js
@@ -483,32 +483,31 @@ var lng = {
 //static/js/makehtml.js
 	'generate'	: 'Generuj ',//'生成',
 	'generate_ok'	: ' wygenerowano prawidłowo',//'生成成功',
-	'generate_error'	: ' generation failed',//'生成失败',
-	'generate_start'	: 'Start generating of ',//'开始生成 ',
-	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
-	'generate_completed'	: ' generation is completed',//' 生成完成',
-	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
-	'generate_first'	: 'generated first ',//'正在生成第 ',
-	'generate_percent'	: 'has been completed ',//'已经完成 ',
+	'generate_error'	: ' wystąpił błąd podczas generowania.',//'生成失败',
+	'generate_start'	: 'Rozpoczęcie generowania ',//'开始生成 ',
+	'generate_click_continue'	: 'Jeśli Twoja przeglądarka nie odpowiada, kliknij tutaj, aby kontynuować...',//'如果您的浏览器没有反应，请点击继续...',
+	'generate_completed'	: ' generowanie zakończone.',//' 生成完成',
+	'generate_total'	: 'Przewidziany czas ',//'本次共需要生成 ',
+	'generate_files'	: ' plików wygenerowano prawidłowo.',//' 文件，成功生成 ',
+	'generate_first'	: 'wygenerowano na początku ',//'正在生成第 ',
+	'generate_percent'	: 'wykonano ',//'已经完成 ',
 
 //---------------------------
 //static/js/mobile/common.js
-	'first'		: 'First ',//'第 ',
-	'page'		: 'Page',//'页',
-	'pages'		: ' pages',//'页',
-	'prev_page'	: 'Prev',//'上一页',
-	'next_page'	: 'Next',//'下一页',
-	
-	'click_to_reload'	: 'Click to reload',//'点击重新加载',
-	'loading_now'		: 'Loading...',//'正在加载...',
+	'first'		: 'Pierwsza ',//'第 ',
+	'page'		: 'strona',//'页',
+	'pages'		: ' strony',//'页',
+	'prev_page'	: 'Poprzednia',//'上一页',
+	'next_page'	: 'Następna',//'下一页',
 
-	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
-	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
-	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
-	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
-	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
-	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
+	'click_to_reload'	: 'Kliknij tutaj, aby przeładować',//'点击重新加载',
+	'loading_now'		: 'Wczytywanie...',//'正在加载...',
+	'geo_timeout'		: 'Nie można otrzymać lokalizacji. Proszę spróbować raz jeszcze.',//'获取位置超时，请重试',
+	'geo_error'		: 'Nie można otrzymać aktualnej lokalizacji.',//'无法检测到您的当前位置',
+	'geo_permission'	: 'Proszę zezwolić na dostęp lokalizujący Twoje aktualne położenie.',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'Wystąpił nieznany błąd.',//'发生未知错误',
+	'touch_down_refresh'	: 'Dotknij dół, aby odświeżyć.',//'下拉可以刷新',
+	'touch_up_refresh'	: 'Dotknij górę, aby odświeżyć.',//'松开可以刷新',
 
 //--------------------------------
 //static/js/portal.js
@@ -622,6 +621,7 @@ var lng = {
 //static/js/qshare.js
 	'from_tencent'		: 'I come from Tencent microblogging an open platform',//"\u6211\u6765\u81EA\u4E8E\u817E\u8BAF\u5FAE\u535A\u5F00\u653E\u5E73\u53F0",
 
+
 //--------------------------------
 //static/js/register.js
 
@@ -684,7 +684,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'Przepraszamy, ten typ pliku nie jest wspierany',//'对不起，不支持上传此类文件',
-	'wait_upload'		: 'Wait for upload...',//'等待上传...',
+	'wait_upload'		: 'Proszę czekać, trwa wysyłanie...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php

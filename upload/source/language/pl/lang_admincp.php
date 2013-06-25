@@ -958,7 +958,6 @@ $lang = array
 	'setting_styles_index_forumallowside'			=> 'Show Sidebar',//'显示边栏',
 	'setting_styles_index_forumallowside_comment'		=> 'Select &quot;Yes&quot; to display the sidebar information at the Forum Home',//'选择“是”论坛首页侧边将显示聚合论坛内容的信息',
 	'setting_styles_index_whosonline'			=> 'Show online users',//'显示在线用户',
-/**/	'setting_styles_index_display_none'			=> 'Do not show',//'不显示',
 	'setting_styles_index_whosonline_comment'		=> 'Display online users at Forum Home and each Forum page',//'设置是否在论坛首页底部和论坛版块边栏显示在线会员列表',
 	'setting_styles_index_whosonline_contract'		=> 'Display online list as thumbnails',//'缩略显示在线列表',
 	'setting_styles_index_whosonline_contract_comment'	=> 'If you open the option list will only appear online users without details. Then members can manually open the online users list (If the largest online more than 500, the system will automatically display a list of abbreviations)',//'如果打开该选项，在线列表将只显示在线用户数，不显示详情，此时会员可手动打开在线用户列表(最大在线超过 500 人系统将自动缩略显示在线列表)',

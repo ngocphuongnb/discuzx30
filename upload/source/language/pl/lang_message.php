@@ -57,7 +57,7 @@ $lang = array (
 	'trade_credit_lack'		=> 'Nie masz wystarczającej ilości kredytów',//'您的积分不足无法购买，请返回。',
 	'trade_closed'			=> 'Ten produkt został zamknięty.',//'本交易已关闭',
 	'trade_input_no'		=> 'Please input a correct product quantity',//'请输入正确的商品数，请返回修改。',
-	'trade_lack'			=> 'Product quantity is not enough',//'商品剩余数量不足，请返回修改。',
+	'trade_lack'			=> 'Wprowadzono nieprawidłową liczbę sztuk.',//'商品剩余数量不足，请返回修改。',
 	'forum_access_view_disallow'	=> 'Sorry, you are not allowed to do this operation is this forum',//'对不起，您在本版无权进行此操作，请返回',
 	'view_log_invalid'		=> 'Views log file ({logfile}) can not be written, please set it to 777 or delete for auto-rebuild.',//'浏览量记录文件({logfile})无法写入，请设置其属性 777 或删除后重新建立。',
 	'invite_code_error'		=> 'Sorry, your invitation URL is not correct.',//'对不起，您访问的邀请链接不正确。',
@@ -118,9 +118,9 @@ $lang = array (
 	'trade_price_between'		=> 'Przepraszamy, cena produltu powinna wynosić od {mintradeprice} do {maxtradeprice} PLN.',//'对不起，商品人民币价格必须在 {mintradeprice} 元至 {maxtradeprice} 元之间，请返回修改。',
 	'trade_credit_between'		=> 'Przepraszamy, cena produltu powinna wynosić od {mintradeprice} do {maxtradeprice}.',//'对不起，商品积分价格必须在 {mintradeprice} 至 {maxtradeprice} 之间，请返回修改。',
 	'trade_price_more_than'		=> 'Przepraszamy, cena produltu powinna być większa niż {mintradeprice} PLN.',//'对不起，商品人民币价格必须大于 {mintradeprice} 元，请返回修改。',
-	'trade_credit_more_than'	=> 'Sorry, product price should larger than {mintradeprice}.',//'对不起，商品积分价格必须大于 {mintradeprice} ，请返回修改。',
-	'trade_pricecredit_need'	=> 'Sorry, product price can not be blank.',//'对不起，商品价格不能为空，请返回修改。',
-	'tread_please_number'		=> 'Sorry, product quantity can not be blank.',//'对不起，商品数量不能为空，请返回修改。',
+	'trade_credit_more_than'	=> 'Przepraszamy, cena produktu powinna być większa niż {mintradeprice}.',//'对不起，商品积分价格必须大于 {mintradeprice} ，请返回修改。',
+	'trade_pricecredit_need'	=> 'Przepraszamy, cena produktu nie może być pusta.',//'对不起，商品价格不能为空，请返回修改。',
+	'tread_please_number'		=> 'Przepraszamy, liczba produktu nie może być pusta.',//'对不起，商品数量不能为空，请返回修改。',
 	'post_reply_mod_succeed'	=> 'Thanks, your post needs moderation, it will be displayed when pass moderation.',//'非常感谢，管理员设置了需要对新回复进行审核，你的帖子通过审核后将被显示出来。',
 	'postperm_login_nopermission'	=> 'Zaloguj się, aby móc wysyłać tematy.',//'对不起，您还未登录，无权在该版块发帖。',
 	'post_type_isnull'		=> 'You did not select a thread type.',//'您没有选择主题的类别，请返回修改。',
@@ -391,13 +391,13 @@ $lang = array (
 
 	'trade_credits_no_enough'	=> 'Your {credittitle} is not ennough, can not {credittitle} benefits in exchange for products.',//'您的 {credittitle} 不足，无法用 {credittitle} 换取商品的优惠，请返回修改。',
 	'trade_directtopay'		=> 'Order submitted successfully and will now jump to the payment page.',//'订单提交成功，现在将跳转到支付页面。',
-	'trade_password_error'		=> 'The password you entered is not correct, can not modify the order status.',//'您输入的密码不正确，不能修改订单状态，请返回修改。',
-	'trade_orderstatus_updated'	=> 'Single status deal has been updated.',//'交易单状态已更新。',
+	'trade_password_error'		=> 'Hasło, które wprowadziłeś jest nieprawidłowe. Aby zarządzać zamówieniem, proszę podać prawidłowe hasło.',//'您输入的密码不正确，不能修改订单状态，请返回修改。',
+	'trade_orderstatus_updated'	=> 'Transakcja została zaktualizowana.',//'交易单状态已更新。',
 	'trade_pricecredit_error'	=> 'Sorry, product price is invalid.',//'对不起，商品基价输入错误，请返回修改。',
 	'trade_not_found'		=> 'Product not found',//'没有找到商品',
 	'trade_invalid'			=> 'Invalid trade requrest',//'无效的交易请求',
 	'trade_by_myself'		=> 'You can not buy products of yourself.',//'您无法购买自己的商品，请返回修改。',
-	'trade_order_created'		=> 'Single transaction has been created and will now turn to deal a single page.',//'交易单已创建，现在将转入交易单页面。',
+	'trade_order_created'		=> 'Informacje o transakcji zostały wysłane. Zostaniesz przekierowany do nowej strony.',//'交易单已创建，现在将转入交易单页面。',
 
 	'post_not_found'		=> 'The post not found',//'没有找到帖子',
 
@@ -413,14 +413,14 @@ $lang = array (
 	'invite_friend_ok'		=> 'Friends invited to confirm the completed',//'好友邀请确认完成了',
 
 	'magics_close'			=> 'Magic shop is closed.',//'道具中心关闭，请返回。',
-	'magics_buy_succeed'		=> 'You used {credit} to buy {num} {magicname}',//'你用 {credit} 购买了 {num} 张{magicname}',
-	'magics_buygive_succeed'	=> 'You used {credit} to buy {num} {magicname}, and presented to {toname}',//'你用 {credit} 购买了 {num} 张{magicname}，并把它送给了 {toname}',
+	'magics_buy_succeed'		=> 'Zapłaciłeś {credit} za {num} {magicname}',//'你用 {credit} 购买了 {num} 张{magicname}',
+	'magics_buygive_succeed'	=> 'Zapłaciłeś {credit} za {num} {magicname} w prezencie dla {toname}',//'你用 {credit} 购买了 {num} 张{magicname}，并把它送给了 {toname}',
 	'magics_use_nopermission'	=> 'You are not allowed to use this magic.',//'无权使用该道具，请返回。',
 	'magics_outofperoid_1'		=> 'Sorry, you can use this magic only {usenum} times per day',//'对不起，今天你只能使用 {usenum} 次本道具',
 	'magics_outofperoid_2'		=> 'Sorry, you can use this magic only {usenum} times per week',//'对不起，一周你只能使用 {usenum} 次本道具',
 	'magics_outofperoid_3'		=> 'Sorry, you can use this magic only {usenum} times per month',//'对不起，一个月你只能使用 {usenum} 次本道具',
 	'magics_outofperoid_4'		=> 'Sorry, you can use this magic only {usenum} times in 24 hours',//'对不起，24 小时内你只能使用 {usenum} 次本道具',
-	'magics_sell_succeed'		=> 'You sold {num} {magicname}, get {credit}',//'你卖出了 {num} 张{magicname}，获得 {credit}',
+	'magics_sell_succeed'		=> 'Sprzedałeś {num} {magicname}, otrzymując {credit}',//'你卖出了 {num} 张{magicname}，获得 {credit}',
 	'magics_drop_succeed'		=> 'You dropped {num} {magicname}',//'你丢弃了 {num} 张{magicname}',
 
 	'medal_apply_invalid'		=> 'Sorry, this medal can not be applied.',//'对不起此勋章不可申请，请返回。',
@@ -733,7 +733,7 @@ $lang = array (
 
 	'eccredit_order_notfound'	=> 'Specified order does not exist or has been deleted.',//'指定的订单不存在或已被删除。',
 	'eccredit_rate_repeat'		=> 'Rate can not be repeated.',//'不能重复评价。',
-	'eccredit_succeed'		=> 'Rate successfully.',//'您的评价已经成功。',
+	'eccredit_succeed'		=> 'Ocena została zatwierdzona.',//'您的评价已经成功。',
 	'eccredit_reexplanation_repeat'	=> 'Please do not repeat explanation.',//'请勿重复解释。',
 	'eccredit_reexplanation_closed'	=> 'Sorry, explanation time expired!',//'对不起，允许解释的有效期已过！',
 
@@ -1054,7 +1054,7 @@ $lang = array (
 
 	'magics_credit_message'		=> 'Gratulację, otrzymałeś {credit}',//'恭喜你获得 {credit}',
 
-	'magics_thunder_message'	=> '{magicname} was published successfully',//'已成功发布 {magicname}',
+	'magics_thunder_message'	=> 'Zaklęcie {magicname} zostało rzucone.',//'已成功发布 {magicname}',
 	/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
 	/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
 	/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',

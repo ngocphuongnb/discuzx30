@@ -25,7 +25,7 @@ $lang = array
 	'highlight_info_nonexistence_blogid'	=> 'Please specify the blog to highlight',//'请指定要高亮的日志',
 	'highlight_succeed_tid'		=> 'The thread highlighted successfully',//'您操作的帖子已高亮',
 	'highlight_succeed_blogid'	=> 'You have been highlighted the blog',//'您操作的日志已高亮',
-	'highlight_info_noperm'		=> 'Using this magic for this forum is disabled',//'对不起，主题所在版块不允许使用本道具',
+	'highlight_info_noperm'		=> 'Magia na tym forum została wyłączona.',//'对不起，主题所在版块不允许使用本道具',
 	'highlight_info_notype'		=> 'Parameter error, operation type is not specified.',//'参数错误，没有指定操作类型。',
 
 	'highlight_notification'	=> '{actor} used a magic &quot;{magicname}&quot; for your thread &quot;{subject}&quot;, <a href="forum.php?mod=viewthread&tid={tid}">view</a>',//'你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
