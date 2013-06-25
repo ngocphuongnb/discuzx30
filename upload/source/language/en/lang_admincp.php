@@ -798,7 +798,7 @@ $lang = array
 	'setting_access_register_send_register_url'		=> 'Send Registration link via e-mail',//'通过邮件发送注册链接',
 	'setting_access_register_send_register_url_comment'	=> 'If turned on, the system will send a registration address to the user mailbox. When a user come to this address, the registration is confirmed. It is also recommended to enable registration in UCenter only by a mailbox.<br/>Note: Only the <a href="?action=setting&operation=mail">Webmaster - Mail settings</a> Complete the mail settings, Ensure that mail can be sent successfully this feature can be turned on ',//'开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户<br/>注意：只有在<a href="?action=setting&operation=mail">站长 - 邮件设置</a>中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
 	'setting_access_register_forge_email'		=> 'Cancel require for registered mail',//'取消注册邮箱必填',
-	'setting_access_register_forge_email_comment'	=> 'Turn on if users does not fill out the registration mailbox, a random e-mail address will generated automatically.',//'开启后如果用户不填写注册邮箱，将自动生成一个随机邮箱地址',
+	'setting_access_register_forge_email_comment'	=> 'When turn on, if users does not fill out the registration mailbox, a random e-mail address will generated automatically.',//'开启后如果用户不填写注册邮箱，将自动生成一个随机邮箱地址',
 
 
 	'setting_access_register_invite_buy'			=> 'Enable to buy an invitation code',//'允许充值购买邀请码',
@@ -1015,7 +1015,7 @@ $lang = array
 	'setting_styles_forumdisplay_disfixednv_forumdisplay'		=> 'Disable the fixed top of the navigation',//'关闭顶部导航固定',
 	'setting_styles_forumdisplay_disfixednv_forumdisplay_comment'	=> 'When you scroll up the screen, The main navigation will immediately appear in the top of the screen',//'当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
 	'setting_styles_forumdisplay_threadpreview'			=> 'Disable Thread Preview',//'关闭主题预览',
-	'setting_styles_forumdisplay_threadpreview_comment'		=> 'Set if disable the the post content preview in the thread list',//'关闭后将不可在主题列表页预览帖子内容',
+	'setting_styles_forumdisplay_threadpreview_comment'		=> 'Set whether to disable the post content preview in the thread list',//'关闭后将不可在主题列表页预览帖子内容',
 
 	'setting_styles_viewthread'				=> 'View thread',//'帖子内容页',
 	'setting_styles_viewthread_ppp'				=> 'Posts per page',//'每页显示帖数',
@@ -1089,19 +1089,19 @@ $lang = array
 	'setting_styles_viewthread_maxsmilies'			=> 'Maximum number of smiles per post',//'最大单一表情解析次数',
 	'setting_styles_viewthread_maxsmilies_comment'		=> 'Set the limit of smiles can be used in a single post. More smiles will not be rendered to smile images. This feature is usefull for prevent malicious posts with a lot of smiles. Set to 0 for no limits.',//'在一篇帖子中解析的单一表情符号的最大次数，超过此次数限制的表情将不被解析而保留原样，以避免用户在一篇帖子中恶意发表大量表情影响正常阅读，0 为不限制',
 	'setting_styles_viewthread_usernamepos'			=> 'Display user name position',//'作者用户名显示位置',
-	'setting_styles_viewthread_imgcontent'			=> 'The Thread contents of the generated image width',//'主题内容生成图片宽度',
+	'setting_styles_viewthread_imgcontent'			=> 'The Thread content generated image width',//'主题内容生成图片宽度',
 	'setting_styles_viewthread_imgcontent_comment'		=> 'This feature requires PHP support for GD library. Chinese need to be Chinese content TTF font file into the static/image/seccode/font/ch/ directory. The default is 100 characters, The type of font width is slightly different, Please according to the actual effect adjustment.',//'本功能需要PHP支持GD库，内容里有中文需要将中文 TTF 字体文件放到 static/image/seccode/font/ch/ 目录下。默认100个汉字，字体不同宽度略有差别，请跟据实际效果调整。',
 	'setting_styles_viewthread_fast_reply'			=> 'Open Post Quick Reply',//'开启帖子快速回复',
 	'setting_styles_viewthread_fast_reply_comment'		=> 'If Open, then will show the quick reply box below the topic posts',//'开启后将在主题帖下方展示快速回复框',
 	'setting_styles_viewthread_allow_replybg'		=> 'Open Post Quick Reply box background',//'开启帖子快速回复框背景',
-	'setting_styles_viewthread_allow_replybg_comment'	=> 'If Open and allow post Quick Reply box to add a background picture',//'开启后允许给帖子快速回复框添加背景图片',
+	'setting_styles_viewthread_allow_replybg_comment'	=> 'If Open then allow to add a background image for the post Quick Reply box',//'开启后允许给帖子快速回复框添加背景图片',
 	'setting_styles_viewthread_global_reply_background'	=> 'The Global background for Posts quick reply box',//'全局帖子快速回复框背景',
 	'setting_styles_viewthread_global_reply_background_comment'	=> 'Set the global background image for post quick reply box, Forum settings have more priority',//'设置全局帖子快速回复框背景图片，版块设置优先',
 
 	'setting_threadprofile'			=> 'Set the layout',//'布局方案设置',
 	'setting_styles_threadprofile'		=> 'User info inside the thread',//'帖内用户信息',
 	'setting_styles_threadprofile_group'	=> 'Set User group layout',//'用户组方案设置',
-	'setting_styles_threadprofile_project'	=> 'Program Layout list',//'布局方案列表',
+	'setting_styles_threadprofile_project'	=> 'Layout Scheme list',//'布局方案列表',
 	'setting_styles_threadprofile_name'	=> 'Name',//'名称',
 	'setting_styles_threadprofile_plan'	=> 'Scheme',//'方案',
 	'setting_styles_threadprofile_addplan'	=> 'Add a new scheme',//'添加新方案',
@@ -1346,7 +1346,7 @@ $lang = array
 	'setting_profile_time_zone'			=> 'Time Zone',//'时区',
 	'setting_profile_tips'				=> '<li>Must enable at least part of users groups. If not enabled, the default is all enabled</li>',//'<li>用户栏目分组至少必须启用一项，如果都不启用，默认为全部启用</li>',
 
-	'setting_threadprofile_tpl_tpls'	=> '<li>{<b>Tag</b>} Excluding Parameter Posted within User Information Tag called。</li><li>{<b>tag</b>=<b>parameter</b>} Paste parameters, user information tag called. Separate Multiple parameters with a comma &quot;,&quot;.</li><li>{<b>tag</b>} <b>HTML</b> {<b>*</b>} <b>HTML</b> {/<b>tag</b>} When call the content value {*} Before and after HTML content</li><li>&quot;<b>plugin:plugin_ID</b>&quot; format <b>tag</b> paste plugin adds user information tag call. For plugin developers: Read the &laquo;<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! Technical Library</a>&raquo; carefully before designing a new paste user information tag.</li>',//'<li>{<b>标记</b>} 不含参数的贴内用户信息标记调用。</li><li>{<b>标记</b>=<b>参数</b>} 含参数的贴内用户信息标记调用，多个参数用","分割</li><li>{<b>标记</b>}<b>HTML</b>{<b>*</b>}<b>HTML</b>{/<b>标记</b>} 当有调用内容有值时显示 {*} 前后的 HTML 内容</li><li>“<b>plugin:插件标识</b>”格式的<b>标记</b>为插件增加的贴内用户信息标记调用。插件开发人员在设计新的贴内用户信息标记前请务必仔细阅读《<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
+	'setting_threadprofile_tpl_tpls'	=> '<li>{<b>Tag</b>} Excluding Parameter Posted within User Information Tag called.</li><li>{<b>tag</b>=<b>parameter</b>} Paste parameters, user information tag called. Separate Multiple parameters with a comma &quot;,&quot;.</li><li>{<b>tag</b>} <b>HTML</b> {<b>*</b>} <b>HTML</b> {/<b>tag</b>} When call the content value {*} Before and after HTML content</li><li>&quot;<b>plugin:plugin_ID</b>&quot; format <b>tag</b> paste plugin adds user information tag call. For plugin developers: Read the &laquo;<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! Technical Library</a>&raquo; carefully before designing a new paste user information tag.</li>',//'<li>{<b>标记</b>} 不含参数的贴内用户信息标记调用。</li><li>{<b>标记</b>=<b>参数</b>} 含参数的贴内用户信息标记调用，多个参数用","分割</li><li>{<b>标记</b>}<b>HTML</b>{<b>*</b>}<b>HTML</b>{/<b>标记</b>} 当有调用内容有值时显示 {*} 前后的 HTML 内容</li><li>“<b>plugin:插件标识</b>”格式的<b>标记</b>为插件增加的贴内用户信息标记调用。插件开发人员在设计新的贴内用户信息标记前请务必仔细阅读《<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
 
 	'setting_numbercard'			=> 'User attributes buiseness card',//'用户属性名片',
 	'setting_numbercard_row'		=> 'First {i} rows',//'第 {i} 列',
@@ -1759,7 +1759,7 @@ $lang = array
 
 	'setting_functions_makehtml'				=> 'Make HTML',//'生成HTML',
 	'setting_functions_makehtml_articlehtmldir'		=> 'Directory for store article HTML',//'文章HTML存放根目录',
-	'setting_functions_makehtml_articlehtmldir_comment'	=> 'Article static files stored in a subfolder with the channel name, starting from the site root directory, without ending slash /. If empty, then stored under the current channel folder.',//'文章静态文件存放的根目录，子目录与频道目录相同，从网站的根目录开始，结尾不需要添加/，为空则存放在当前频道的文件夹下',
+	'setting_functions_makehtml_articlehtmldir_comment'	=> 'Set a subfolder name in the current category folder for store article static files, starting from the site root directory, without ending slash /. If this subfolder name is empty, then static files will be stored in the current category folder.',//'文章静态文件存放的根目录，子目录与频道目录相同，从网站的根目录开始，结尾不需要添加/，为空则存放在当前频道的文件夹下',
 	'setting_functions_makehtml_htmldirformat'		=> 'Directory format',//'目录结构',
 	'setting_functions_makehtml_htmldirformat_comment'	=> 'Set the static file storage directory/sub-directory structure, 0:/Ym/, 1:/Ym/d/, 2:/Y/m/, 3:/Y/m/d/',//'静态文件文件存放目录的下级目录结构, 0:/Ym/, 1:/Ym/d/, 2:/Y/m/, 3:/Y/m/d/',
 	'setting_functions_makehtml_topichtmldir'		=> 'Topics HTML store directory',//'专题HTML存放目录',
@@ -1777,7 +1777,7 @@ $lang = array
 	'setting_functions_makehtml_make'			=> 'Make',//'生成',
 	'setting_functions_makehtml_made'			=> 'Already generated',//'已生成',
 	'setting_functions_makehtml_dismake'			=> 'Dismake',//'未生成',
-	'setting_functions_makehtml_cleanhtml'			=> 'No nee to clean the HTML',//'需要清理的HTML',
+	'setting_functions_makehtml_cleanhtml'			=> 'No need to clean the HTML',//'需要清理的HTML',
 	'setting_functions_makehtml_cleanhtml_comment'		=> 'Need to clean up HTML',//'选择需要要清理的HTML',
 	'setting_functions_makehtml_cleanhtml_index'		=> 'Portal Homepage',//'门户首页',
 	'setting_functions_makehtml_cleanhtml_category'		=> 'All categories page',//'所有频道页',
@@ -1787,7 +1787,7 @@ $lang = array
 	'setting_functions_other'				=> 'Other',//'其他',
 	'setting_functions_other_pwdsafety'			=> 'Enable password encryption',//'启用登录密码加密',
 	'setting_functions_other_pwdsafety_comment'		=> 'Select "Yes", if a password must be encrypted before transmitted to the server',//'选择“是”，站点登录时的密码将进行加密后再传输',
-	'setting_functions_other_uidlogin'			=> 'Enable UID Login',//'启用UID登录',
+	'setting_functions_other_uidlogin'			=> 'Enable Login by UID',//'启用UID登录',
 	'setting_functions_other_uidlogin_comment'		=> 'Select "Yes" for allow login by the UID',//'选择“是”，站点登录时允许通过 UID的方式登录验证',
 	'setting_functions_other_autoidselect'			=> 'Enable automatic account detection while login',//'启用登录自动选择帐号',
 	'setting_functions_other_autoidselect_comment'		=> 'Select "Yes" for autodetect the user account by first matching of a user name, UID or E-mail',//'选择“是”，站点登录时的将自动按 UID、E-mail、用户名的顺序逐一去匹配，其中UID验证只有UID登录方式被启用后才有效',
@@ -4892,7 +4892,7 @@ $lang = array
 	'misc_link_group4'		=> 'Group 4',//'分组4',
 	'misc_link'			=> 'Links',//'友情链接',
 	'misc_link_add'			=> 'Add Link',//'添加友情链接',
-	'misc_link_tips'		=> '<li>If you do not want to display links at the page, you can disable it in the "<a href="'.ADMINSCRIPT.'?action=setting&operation=styles&anchor=index">Interface settings</a>".</li>
+	'misc_link_tips'		=> '<li>If you do not want to display links at the page, you can disable it in the "<a href="'.ADMINSCRIPT.'?action=setting&operation=styles&anchor=index">Style settings</a>".</li>
 					    <li>Link without description will be displayed in a compact form.</li>',//'<li>如果您不想在首页显示友情链接，可以在“<a href="'.ADMINSCRIPT.'?action=setting&operation=styles&anchor=index">界面设置</a>”中关闭。</li><li>未填写文字说明的项目将以紧凑型显示。</li>',
 	'misc_link_edit'		=> 'Edit link',//'友情链接编辑',
 	'misc_link_edit_name'		=> 'Site Name',//'站点名称',
