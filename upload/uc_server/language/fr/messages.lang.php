@@ -65,5 +65,5 @@ $lang = array(
 	'pm_send_seccode_error'		=> 'Erreur de Code de Vérification',
 	'pm_send_regdays_error'		=> 'Vous devez attendre #$pmsendregdays jours après votre inscription avant de pouvoir envoyer des MP',
 	'pm_send_limit1day_error'	=> 'Vous avez atteint la limite journalière pour les envois de MPs.',
-	'pm_send_floodctrl_error'	=> 'Vous envoyez trop rapidement, veuillez attendre une minute avant d’envoyer à nouveau',
+	'pm_send_floodctrl_error'	=> 'Vous envoyez trop de fois, veuillez attendre une minute avant d’envoyer à nouveau',
 );

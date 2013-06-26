@@ -58,7 +58,7 @@ $lang = array(
 	'pm_send'		=> 'Envoyer un Message Public',
 	'pm_delete'		=> 'Supprimer un Message Public',
 	'pm_clear'		=> 'Effacer tous les Messages',
-	'badword_add'		=> 'Ajouter un Nouveau Filtre [visiter <a href="http://www.msg2me.com" target=_blank>Msg2me.com</a> pour obtenir un filtre complêt]',
+	'badword_add'		=> 'Ajouter un Nouveau Filtre [visiter <a href="http://www.msg2me.com" target=_blank>Msg2me.com</a> pour obtenir un filtre complet]',
 	'badword_delete'	=> 'Supprimer un Filtre',
 	'admin_add'		=> 'Ajouter un Nouvel Administrateur',
 	'admin_pw_edit'		=> 'Changer le Mot de passe <b>Principal</b>',

@@ -6,7 +6,7 @@
 // Based on UCenter 1.6.0, (c) Comsenz.inc, discuz.net
 //------------------------------------------------------
 // French Language Pack
-// by Andre13, discuz-fr.fr
+// by Andre13, discuz-france.fr
 //------------------------------------------------------
 
 $lang = array(
@@ -19,7 +19,7 @@ $lang = array(
 	'user_search'	=> 'Rechercher',
 	'user_add'	=> 'Ajouter',
 	'user_password'	=> 'Mot de passe',
-	'user_addsubmit'	=> 'Soumettre',
+	'user_addsubmit'	=> 'Envoyer',
 	'delete'	=> 'Supprimer',
 	'email'		=> 'Courriel',
 	'user_list'	=> 'Liste des Utilisateurs',

@@ -13,10 +13,10 @@ define('UC_VERNAME', 'International Version');
 
 $lang = array(
 
-	'SC_GBK'	=> 'Chinois simplifié', // '简体中文版'
-	'TC_BIG5'	=> 'Chinois traditionnel', // '繁体中文版'
+	'SC_GBK'	=> 'Chinois Simplifié', // '简体中文版'
+	'TC_BIG5'	=> 'Chinois Traditionnel', // '繁体中文版'
 	'SC_UTF8'	=> 'chinoise SC UTF8', // 'Tiếng Trung SC UTF8'
-	'TC_UTF8'	=> 'Chinois traditionnel UTF8 Version', // '繁体中文 UTF8 版'
+	'TC_UTF8'	=> 'Chinois Traditionnel UTF8 Version', // '繁体中文 UTF8 版'
 	'EN_ISO'	=> 'ANGLAIS ISO8859', // 'ENGLISH ISO8859'
 	'EN_UTF8'	=> 'ANGLAIS_ST UTF-8', // 'ENGLIST UTF-8'
 
@@ -33,11 +33,11 @@ $lang = array(
 	'config_nonexistence'	=> 'Fichier de configuration inexistant', // '配置文件不存在'
 	'nodir'			=> 'Répertoire inexistant', // '目录不存在'
 	'short_open_tag_invalid'	=> 'Je suis désolé, Svp. dans le fichier php.ini short_open_tag Activée, sinon l\'installation ne peut continuer.', // '对不起, 请将 php.ini 中的 short_open_tag 设置为 On, 否则无法继续安装.'
-	'redirect'			=> 'Les navigateurs sont retour à la page, Svp. patienter.<br>Sauf si votre navigateur ne supporte pas les frames, alors, Cliquez ici', // 'Trình duyệt đang chuyển trang, vui lòng chờ.<br>除非当您的浏览器没有自动跳转时, 请点击这里'
+	'redirect'			=> 'Le navigateur va automatiquement retourné sur la page, Svp. merci de patienter.<br>Sauf, si votre navigateur ne supporte pas les frames, alors, Cliquez ici', // 'Trình duyệt đang chuyển trang, vui lòng chờ.<br>除非当您的浏览器没有自动跳转时, 请点击这里'
 
 	'database_errno_2003'	=> 'Impossible de se connecter à la base de données, vérifier si la base de données est démarré, l\'adresse du serveur de bases de données sont correctes', // '无法连接数据库, 请检查数据库是否启动, 数据库服务器地址是否正确'
-	'database_errno_1044'	=> 'Impossible de créer une nouvelle base de données, Svp. remplir le nom de base de données correcte pour la vérification', // '无法创建新的数据库, 请检查数据库名称填写是否正确'
-	'database_errno_1045'	=> 'Impossible de se connecter à la base de données, vérifiez le nom utilisateur ou lemot de passe de la base de données est correct', // '无法连接数据库, 请检查数据库用户名或者密码是否正确'
+	'database_errno_1044'	=> 'Impossible de créer une nouvelle base de données, Svp. veuillez remplir le nom de la base de données correctement pour la vérification', // '无法创建新的数据库, 请检查数据库名称填写是否正确'
+	'database_errno_1045'	=> 'Impossible de se connecter à la base de données, vérifiez le nom utilisateur ou le mot de passe de la base de données sont correctes', // '无法连接数据库, 请检查数据库用户名或者密码是否正确'
 	'database_errno_1064'	=> 'Erreur de syntaxe SQL', // 'SQL 语法错误'
 
 	'dbpriv_createtable'	=> 'supporte pas les cadres ou framesCREATE TABLEautorisations, Installation ne peut pas continuer', //  '没有CREATE TABLE权限, 无法继续安装'
@@ -48,7 +48,7 @@ $lang = array(
 	'dbpriv_droptable'	=> 'supporte pas les cadres ou framesDROP TABLEpermissions, ne peut pas installer', // '没有DROP TABLE权限, 无法安装'
 
 	'db_not_null'		=> 'Base de données est installé UCenter, Les données initiales seront autorisés à continuer cette installation.', // '数据库中已经安装过 UCenter, 继续安装会清空原有数据.'
-	'db_drop_table_confirm'	=> 'continuer cette installation va effacer toutes les données existantes, Etes-vous sûr de vouloir continuer?', // '继续安装会清空全部原有数据, 您确定要继续吗?'
+	'db_drop_table_confirm'	=> 'continuer cette installation va effacer toutes les données existantes, Etes-vous sûr de vouloir continuer ?', // '继续安装会清空全部原有数据, 您确定要继续吗?'
 
 	'writeable'	=> 'Peut écrire', // '可写'
 	'unwriteable'	=> 'Ne peut pas écrire', // '不可写'
@@ -62,30 +62,30 @@ $lang = array(
 	'step_env_check_title'	=> 'Lancez cette Installation', // '开始安装'
 	'step_env_check_desc'	=> 'Permissions Environnement et vérification répertoire', // '环境以及文件目录权限检查'
 	'step_db_init_title'	=> 'Installez la base de données', // '安装数据库'
-	'step_db_init_desc'	=> 'Exécution de cetteinstallation de la base de données', // '正在执行数据库安装'
+	'step_db_init_desc'	=> 'Exécution de cette installation de la base de données', // '正在执行数据库安装'
 
-	'step1_file'		=> 'fichier catalogue', // '目录文件'
+	'step1_file'		=> 'Fichier catalogue', // '目录文件'
 	'step1_need_status'	=> 'Etat requis', // '所需状态'
 	'step1_status'		=> 'Situation Actuelle', // '当前状态'
-	'not_continue'		=> 'Svp. essayez le haut pour corriger certains de la croix rouge', // '请将以上红叉部分修正再试'
+	'not_continue'		=> 'Svp. veuillez essayer au-dessus de la croix rouge pour en corriger certains ', // '请将以上红叉部分修正再试'
 
 	'tips_dbinfo'		=> 'Remplissez les informations de la base de données', // '填写数据库信息'
 	'tips_dbinfo_comment'	=> '', // '',
-	'tips_admininfo'	=> 'Remplissez les informations administrateur', // '填写管理员信息'
+	'tips_admininfo'	=> 'Remplissez les informations Administrateur', // '填写管理员信息'
 	'tips_admininfo_comment'	=> 'Gardez en tête UCenter Fondateur du mot de passe, avec le mot de passe vous vous connecter UCenter.', // '请牢记 UCenter 创始人密码, 凭该密码登陆 UCenter.'
 	'step_ext_info_title'	=> 'Une installation réussie ', // '安装成功 '
-	'step_ext_info_desc'	=> 'Cliquez pour entrer au débarquement', // '点击进入登陆'
+	'step_ext_info_desc'	=> 'Cliquez pour entrer le login', // '点击进入登陆'
 
 	'ext_info_succ'		=> 'Une installation réussie ', // '安装成功 '
-	'install_locked'	=> 'Installez des verrouillages déjà installé, si vous êtes sûr de vouloir ré-installer, allez dans le serveur à supprimer<br /> '.str_replace(ROOT_PATH, '', $lockfile),
-	'error_quit_msg'	=> 'Vous avez à résoudre le problème ci-dessus, cette installation puisse se poursuivre', // '您必须解决以上问题, 安装才可以继续'
+	'install_locked'	=> 'Installez des verrouillages déjà installé, si vous êtes sûr de vouloir ré-installer, allez dans le serveur afin de supprimer<br /> '.str_replace(ROOT_PATH, '', $lockfile),
+	'error_quit_msg'	=> 'Vous avez à résoudre le problème ci-dessus, pour que cette installation puisse se poursuivre', // '您必须解决以上问题, 安装才可以继续'
 // 	'install_locked'	=> '安装锁定, 已经安装过了, 如果您确定要重新安装, 请到服务器上删除<br /> '.str_replace(ROOT_PATH, '', $lockfile),
 	'step_app_reg_title'	=> 'Réglez contexte opérationnel', // '设置运行环境'
 	'step_app_reg_desc'	=> 'Environnement de serveur de test et de définir ou réglage UCenter', // '检测服务器环境以及设置 UCenter'
-	'tips_ucenter'		=> 'Svp. remplissez le UCenter Informations connexes', // '请填写 UCenter 相关信息' 
-	'tips_ucenter_comment'	=> 'UCenter Soit Comsenz Le produit du programme de base du service, Discuz! Board Dépend de cette installation et le fonctionnement de ce programme si vous avez installé UCenter, Svp.remplir les informations suivantes, sinon, passez à <a href="http://www.discuz.com/" target="blank">Comsenz Centre Produits</a> Télécharger et installer, puis continuer.', // 'UCenter 是 Comsenz 公司产品的核心服务程序, Discuz! Board 的安装和运行依赖此程序.如果您已经安装了 UCenter, 请填写以下信息.否则, 请到 <a href="http://www.discuz.com/" target="blank">Comsenz 产品中心</a> 下载并且安装, 然后再继续.'
+	'tips_ucenter'		=> 'Svp. veuillez remplir le UCenter des Informations connexes', // '请填写 UCenter 相关信息' 
+	'tips_ucenter_comment'	=> 'UCenter Soit Comsenz Le produit du programme de base du service, Discuz! Board Dépend de cette installation et le fonctionnement de ce programme si vous avez installé UCenter, Svp.veuillez remplir les informations suivantes, sinon, passez à <a href="http://www.discuz.com/" target="blank">Comsenz Centre Produits</a> Télécharger et installer, puis continuer.', // 'UCenter 是 Comsenz 公司产品的核心服务程序, Discuz! Board 的安装和运行依赖此程序.如果您已经安装了 UCenter, 请填写以下信息.否则, 请到 <a href="http://www.discuz.com/" target="blank">Comsenz 产品中心</a> 下载并且安装, 然后再继续.'
 
-	'advice_mysql_connect'		=> 'Svp. vérifier mysql Module est correctement chargé', //  '请检查 mysql 模块是否正确加载'
+	'advice_mysql_connect'		=> 'Svp. vérifier mysql Module soit correctement chargé', //  '请检查 mysql 模块是否正确加载'
 	'advice_fsockopen'		=> 'Cette fonction nécessite cette option allow_url_fopen est activé dans le fichier php.ini, Svp. contactez le domaine espace , ouverte pour déterminer la fonction', // '该函数需要 php.ini 中 allow_url_fopen 选项开启.请联系空间商, 确定开启了此项功能'
 	'advice_gethostbyname'		=> 'Configuration de PHP est interdit gethostbynameFonction espace Svp. contacter le fournisseur pour déterminer cette fonction est activée sur le', //  '是否php配置中禁止了gethostbyname函数.请联系空间商, 确定开启了此项功能'
 	'advice_file_get_contents'	=> 'Cette fonction nécessite php.ini Dans allow_url_fopen Option est active, Svp. contactez le domaine espace , ouverte pour déterminer la fonction', // '该函数需要 php.ini 中 allow_url_fopen 选项开启.请联系空间商, 确定开启了此项功能'
@@ -96,19 +96,19 @@ $lang = array(
 
 	'tips_siteinfo'	=> 'Svp.remplir les informations du site', // '请填写站点信息'
 	'sitename'	=> 'Nom du site', // '站点名称'
-	'siteurl'	=> 'site URL', // '站点 URL'
+	'siteurl'	=> 'Url du site', // '站点 URL'
 
 	'forceinstall'			=> 'installation obligatoire', // '强制安装'
-	'dbinfo_forceinstall_invalid'	=> 'Parmi les préfixe de table base de données actuelle contient déjà la table des mêmes données, Vous pouvez modifier le "préfixe de table" pour éviter de supprimer les anciennes données,Ou choisir de forcer cette installation. Forcer cette installation va supprimer les anciennes données, et ne peuvent pas être restaurées', // '当前数据库当中已经含有同样表前缀的数据表, 您可以修改“表名前缀”来避免删除旧的数据, 或者选择强制安装.强制安装会删除旧数据, 且无法恢复'
+	'dbinfo_forceinstall_invalid'	=> 'Parmi la table de préfixes de la base de données actuelle celle-ci contient déjà la table de mêmes données, Vous pouvez modifier le "préfixe de cette table" pour éviter de supprimer les anciennes données ou bien, choisir de forcer cette installation. Forcer cette installation va supprimer les anciennes données, et ne peuvent pas être restaurées', // '当前数据库当中已经含有同样表前缀的数据表, 您可以修改“表名前缀”来避免删除旧的数据, 或者选择强制安装.强制安装会删除旧数据, 且无法恢复'
 
 	'click_to_back'		=> 'Cliquez ici pour revenir', // '点击返回上一步'
-	'adminemail'		=> 'Système de messagerie Email', // '系统信箱 Email'
+	'adminemail'		=> 'Système de messagerie E-mail', // '系统信箱 Email'
 	'adminemail_comment'	=> 'Utilisé pour envoyer le rapport de bug', // '用于发送程序错误报告'
 	'dbhost_comment'	=> 'Adresse du serveur de la base de données, généralement localhost', //  '数据库服务器地址, 一般为 localhost'
 	'tablepre_comment'	=> 'Lorsque vous exécutez plusieurs forums de la même base de données, modifier le préfixe', //  '同一数据库运行多个论坛时, 请修改前缀'
-	'forceinstall_check_label'	=> 'Je veux supprimer les données, cette installation obligatoire  !!!', // '我要删除数据, 强制安装 !!!'
+	'forceinstall_check_label'	=> 'Je veux supprimer les données, cette installation est obligatoire  !!!', // '我要删除数据, 强制安装 !!!'
 
-	'uc_url_empty'		=> 'Vous avez pas rempli UCenter Sur URL, Svp. retourner remplissez le', // '您没有填写 UCenter 的 URL, 请返回填写'
+	'uc_url_empty'		=> 'Vous avez pas rempli UCenter Sur URL, Svp. veuillez retourner afin de le remplir', // '您没有填写 UCenter 的 URL, 请返回填写'
 	'uc_url_invalid'	=> 'URL erreur de format', //  'URL 格式错误'
 	'uc_url_unreachable'	=> 'UCenter Sur URL Adresse peut être rempli par erreur Svp. vérifier', // 'UCenter 的 URL 地址可能填写错误, 请检查'
 	'uc_ip_invalid'		=> 'Impossible de résoudre le nom de domaine, Svp.remplir cet emplacement IP</font>', // '无法解析该域名, 请填写站点的 IP</font>'
@@ -152,7 +152,7 @@ $lang = array(
 	'uc_version_incorrect'	=> 'Votre UCenter Server version est trop faible, Svp. mettre à niveau terminée UCenter services aux dernières versions et mises à jour, téléchargement：http://www.comsenz.com/ .', // '您的 UCenter 服务端版本过低, 请升级 UCenter 服务端到最新版本, 并且升级, 下载地址：http://www.comsenz.com/ .'
 	'config_unwriteable'	=> 'Assistant de configuration ne peut pas écrire dans le fichier de configuration, réglez config.inc.php État de attribut du programme modifiable (777)', // '安装向导无法写入配置文件, 请设置 config.inc.php 程序属性为可写状态(777)'
 
-	'install_in_processed'	=> 'En cours install...', // '正在安装...'
+	'install_in_processed'	=> 'Instal. en cours...', // '正在安装...'
 	'install_succeed'	=> 'Utilisateur correctement installé, cliquez pour entrer dans la prochaine étape', // '安装用户中心成功, 点击进入下一步'
 	'license'		=> '<div class="license"><h1>Version chinoise du contrat de licence pour les utilisateurs chinois</h1>
 
