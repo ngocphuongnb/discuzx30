@@ -31,7 +31,7 @@ $lang = array
 	'articlelist_endtime_comment'	=> 'Les articles publi&#233;s avant l\'heure sp&#233;cifi&#233;e',  //   '文章的发布时间在指定时间之前'
 	'articlelist_catid'		=> 'Section Articles',  // '文章栏目' 
 	'articlelist_catid_comment'	=> 'Choisissez l\'article appartient &#224; la section',  // '选择文章所属栏目' 
-	'articlelist_picrequired'	=> 'Pas d\'histoire couvercle du filtre',  //  '过滤无封面文章'
+	'articlelist_picrequired'	=> 'Aucun historique de la couverture du filtre',  //  '过滤无封面文章'
 	'articlelist_picrequired_comment'	=> 'Que l\'image de couverture du filtre de l\'article n\'est pas r&#233;gl&#233;',  // '是否过滤未设置封面图片的文章' 
 	'articlelist_orderby'		=> 'Trier les Articles',  //  '文章排序方式'
 	'articlelist_orderby_comment'	=> 'Param&#232;tres pour quel champ pour trier ou la mani&#232;re de l\'article',  // '设置以哪一字段或方式对文章进行排序' 
@@ -42,10 +42,10 @@ $lang = array
 	'articlelist_publishdateline'		=> 'Temps Articles Publi&#233;s',  //  '文章发布时间'
 	'articlelist_publishdateline_nolimit'	=> 'Aucune Restriction',  //  '不限制'
 	'articlelist_publishdateline_hour'	=> '1 heure',  //  '1小时内'
-	'articlelist_publishdateline_day'	=> 'Dans les 24 heures',  //  '24小时内'
+	'articlelist_publishdateline_day'	=> 'En 24 heures',  //  '24小时内'
 	'articlelist_publishdateline_week'	=> '7 jours',  //  '7天内'
 	'articlelist_publishdateline_month'	=> '1 mois',  //  '1个月内'
 	'articlelist_keyword'		=> 'Mot-cl&#233; Titre',  //  '标题关键字'
-	'articlelist_keyword_comment'	=> 'R&#233;glez le titre contient le mot-cl&#233;.Remarque: Blanc a pas de Filtrage; Mots Cl&#233;s Pouvez Utiliser des Jokers *; Plus de Mots Cl&#233;s, L\'espace disponible ou ETConnexion, comme win32 ET UNIX; correspondre un ou plusieurs mots-cl&#233;s pour | connexion ou OR, comme win32 ou unix',  // '设置标题包含的关键字.注意: 留空为不进行任何过滤; 关键字中可使用通配符 *; 匹配多个关键字全部, 可用空格或 AND 连接.如 win32 AND unix; 匹配多个关键字其中部分, 可用 | 或 OR 连接.如 win32 OR unix' 
+	'articlelist_keyword_comment'	=> 'R&#233;glez le titre qui contient le mot-cl&#233;.Remarque: Blanc pour aucun Filtrage; Mots Cl&#233;s Pouvez Utiliser des Jokers *; Plus de Mots Cl&#233;s, L\'espace disponible ou ETConnexion, comme win32 ET UNIX; correspondre un ou plusieurs mots-cl&#233;s pour | connexion ou OR, comme win32 ou unix',  // '设置标题包含的关键字.注意: 留空为不进行任何过滤; 关键字中可使用通配符 *; 匹配多个关键字全部, 可用空格或 AND 连接.如 win32 AND unix; 匹配多个关键字其中部分, 可用 | 或 OR 连接.如 win32 OR unix' 
 );
 

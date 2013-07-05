@@ -22,12 +22,12 @@ $lang = "
 <return>Retour</return>
 <upload>Charger</upload>
 <okTitle>Finis</okTitle>
-<okMsg>Charger avec Succs</okMsg>
+<okMsg>Charger avec Succ&#232;s</okMsg>
 <uploadTitle>T&#233;l&#233;ch.</uploadTitle>
 <uploadMsg1>Total </uploadMsg1>
-<uploadMsg2> fichier en attente,tlchargement... </uploadMsg2>
+<uploadMsg2> fichier en attente,t&#233;l&#233;chargement... </uploadMsg2>
 <uploadMsg3> fichiers</uploadMsg3>
 <bigFile>Trop grand</bigFile>
-<uploaderror>Charge. Echec</uploaderror>
+<uploaderror>Chargem. en &#201;chec</uploaderror>
 ";
 

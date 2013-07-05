@@ -24,28 +24,28 @@ $lang = array
 
 	'DIG'	=> 'Ajouter au sommaire',  //  'Add to digest'
 	'UDG'	=> 'Retirer sommaire',  //  'Remove digest'
-	'EDI'	=> 'Limit&#233; dans le temps sommaire',  //  'Time-limited digest'
-	'UED'	=> 'Retirer limit&#233; dans le temps sommaire',  //  'Remove time-limited digest'
+	'EDI'	=> 'D&#233;lai sommaire',  //  'Time-limited digest'
+	'UED'	=> 'Retirer le d&#233;lai au sommaire',  //  'Remove time-limited digest'
 
 	'CLS'	=> 'Fermer',  //  'Close'
 	'OPN'	=> 'Ouvrir',  // 'Open' 
-	'ECL'	=> 'Limit&#233; dans le temps Fermeture',  // 'Time-limited close' 
-	'UEC'	=> 'Retirer limit&#233; dans le temps ouvertes Fermeture',  //  'Remove time-limited close'
-	'EOP'	=> 'Limit&#233; dans le temps ouvertes',  // 'Time-limited open' 
-	'UEO'	=> 'Retirer limit&#233; dans le temps ouvertes',  // 'Remove time-limited open' 
+	'ECL'	=> 'D&#233;lai Fermeture',  // 'Time-limited close' 
+	'UEC'	=> 'Retirer d&#233;lai fermeture',  //  'Remove time-limited close'
+	'EOP'	=> 'Ouverture D&#233;lai',  // 'Time-limited open' 
+	'UEO'	=> 'Retirer Ouverture D&#233;lai',  // 'Remove time-limited open' 
 
 	'STK'	=> 'Scotcher',  // 'Stick' 
 	'UST'	=> 'Retirer Scotch&#233;',  // 'Remove stick' 
-	'EST'	=> 'Limit&#233; dans le temps Scotch&#233;',  // 'Time-limited stick' 
-	'UES'	=> 'Retirer limit&#233; dans le temps Scotch&#233;',  // 'Remove time-limited stick' 
+	'EST'	=> 'D&#233;lai Scotch&#233;',  // 'Time-limited stick' 
+	'UES'	=> 'Retirer d&#233;lai Scotch&#233;',  // 'Remove time-limited stick' 
 
 	'SPL'	=> 'Couper',  //  'Split'
 	'MRG'	=> 'Fusionner',  // 'Merge' 
 
-	'HLT'	=> 'Souligner',  // 'Highlight' 
-	'UHL'	=> 'Retirer souligner',  //  'Remove highlight'
-	'EHL'	=> 'Limit&#233;s dans le temps souligner',  //  'Time-limited highlight'
-	'UEH'	=> 'Retirer dur&#233;e limit&#233;e en &#233;vidence',  // 'Remove time-limited highlight' 
+	'HLT'	=> 'Surligner',  // 'Highlight' 
+	'UHL'	=> 'Retirer Surligner',  //  'Remove highlight'
+	'EHL'	=> 'D&#233;lai Surligner',  //  'Time-limited highlight'
+	'UEH'	=> 'Retirer D&#233;lai Surligner',  // 'Remove time-limited highlight' 
 
 	'BMP'	=> 'Heurt',  // 'Bump' 
 	'DWN'	=> 'Bas',  // 'Down' 
@@ -61,34 +61,34 @@ $lang = array
 	'ABL'	=> 'Ajouter au blog',  // 'Add to blog' 
 	'RBL'	=> 'Enlever blog',  // 'Remove blog' 
 
-	'PTS'	=> 'Recommander sujet',  // 'Recommend thread' 
-	'RFS'	=> 'Enlever recommander',  // 'Remove recommend' 
-	'RMR'	=> 'Enlever r&#233;compense',  // 'Remove reward' 
-	'BNP'	=> 'Bannir post',  //  'Ban post'
-	'UBN'	=> 'Enlever banni',  // 'Remove ban' 
+	'PTS'	=> 'Sujet &#224; Recommander ',  // 'Recommend thread' 
+	'RFS'	=> 'Enlever Recommandation',  // 'Remove recommend' 
+	'RMR'	=> 'Enlever Bonus',  // 'Remove reward' 
+	'BNP'	=> 'Post Ban',  //  'Ban post'
+	'UBN'	=> 'Enlever Ban',  // 'Remove ban' 
 
 	'REC'	=> 'Recommander',  // 'Recommend' 
-	'URE'	=> 'Enlever recommander',  // 'Remove recommend' 
+	'URE'	=> 'Enlever recommandation',  // 'Remove recommend' 
 
 	'WRN'	=> 'Attention',  // 'Warn' 
-	'UWN'	=> 'Enlever attention',  //  'Remove warning'
+	'UWN'	=> 'Enlever Attention',  //  'Remove warning'
 
-	'SPA'	=> 'Ajouter timbre',  // 'Add stamp' 
-	'SPD'	=> 'Enlever timbre',  // 'Remove stamp' 	
+	'SPA'	=> 'Ajouter Timbre',  // 'Add stamp' 
+	'SPD'	=> 'Enlever Timbre',  // 'Remove stamp' 	
 
 	'SLA'	=> 'Ajouter Ic&#244;ne',  //  'Add icon'
 	'SLD'	=> 'Enlever Ic&#244;ne',  // 'Remove icon' 
 
-	'REG'	=> 'Groupe conseillons',  // 'Group recommend' 
+	'REG'	=> 'Groupe Recommander',  // 'Group recommend' 
 
-	'PTA'	=> 'G&#233;n&#233;rer l\'article',  //  'Generate article'
+	'PTA'	=> 'G&#233;n&#233;rer Article',  //  'Generate article'
 
 	'MAG'	=> 'Accessoires',  // 'Props' 
 	
 	'REB'	=> 'Appuyez',  //  'Push'
 
-/*!*/	'LIV'	=> 'Live',//'直播',
-/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
+/*!*/	'LIV'	=> 'Live',//'直播', //  'Live',
+/*!*/	'LIC'	=> 'Annuler Live',//'取消直播',  //  'Cancel Live',
 
 );
 

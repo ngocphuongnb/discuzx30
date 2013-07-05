@@ -14,6 +14,6 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	'feed_name'	=> 'Espace publicitaire dynamique',
-	'feed_desc'	=> 'Montrer le chemin: le journal montre la dynamique de l\'annonce du haut.',
+	'feed_desc'	=> 'Montrer le chemin: le journal ou log affiche la dynamique de l\'annonce du haut.',
 );
 

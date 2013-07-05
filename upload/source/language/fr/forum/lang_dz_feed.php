@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *	$Id: lang_dz_feed.php by Valery Votintsev at sources.ru
-  *         Traduction en French par Andre13 - 26 -déc-2011- discuz-fr.fr - -Actualisation 12 janvier 2012-
+  *         Traduction en French par Andre13 - 26 -déc-2011- discuz-france.fr - -Actualisation 12 janvier 2012- Release 27 juin 2013 by Andre13
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -55,7 +55,7 @@ $lang = array
         'feed_announce_title'           => 'Annonce: {subject}',//'公告: {subject}',
         'feed_announce_body'            => '{message}',
 
-        'you'                           => 'vous',//'您',
+        'you'                           => 'Vos',//'您',
 
 );
 

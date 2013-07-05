@@ -12,7 +12,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array(
-	'editor_switch_media'	=> 'Interrupteur aux M&#233;dias',  //  'Switch to media'
+	'editor_switch_media'	=> 'Basculer  aux M&#233;dias',  //  'Switch to media' // Commuter au média
 	'editor_cut'		=> 'Couper',  //  'Cut'
 	'editor_copy'		=> 'Copier',  //  'Copy'
 	'editor_paste'		=> 'Coller',  // 'Paste' 
@@ -28,14 +28,14 @@ $lang = array(
 	'editor_hyperlink'	=> 'Lien',  //  'Link'
 	'editor_remove_link'	=> 'Supprimer Lien',  //  'Remove link'
 	'editor_link_image'	=> 'Citation Image',  //  'Quote image'
-	'editor_link_attach'		=> 'Add attachment',//'添加附件',
+	'editor_link_attach'		=> 'Ajouter P-Jointe',//'添加附件', // 'Add attachment', // Ajouter pièce jointe
 	'editor_link_flash'	=> 'Citation Flash',  //  'Quote flash'
-	'editor_insert_smiley'	=> 'Ins&#233;rer smilies',  //  'Insert smilies'
-	'editor_doodle'		=> 'griffonner',  //  'Doodle'
+	'editor_insert_smiley'	=> 'Ins&#233;rer humeurs',  //  'Insert smilies'
+	'editor_doodle'		=> 'Griffonner',  //  'Doodle'
 	'editor_pagebreak'	=> 'Ins&#233;rer Saut de Page',  //  'Insert page break'
 	'editor_download_remote'	=> 'T&#233;l&#233;ch. des Images Distant',  //  'Download remote image'
 	'editor_restore'	=> 'Restaurer',  //  'Restore'
-	'editor_switch_text'	=> 'Commutateur du texte',  //  'Switch to text'
+	'editor_switch_text'	=> 'Basculer au texte',  //  'Switch to text' // 'Commutateur du texte', -Basculer au texte
 	'editor_font_song'	=> 'SimSun',  //  'SimSun'
 	'editor_font_hei'	=> 'SimHei',  //  'SimHei'
 	'editor_font_kai'	=> 'KaiTi_GB2312',  // 'KaiTi_GB2312' 
@@ -46,7 +46,7 @@ $lang = array(
 	'editor_fontsize_small'		=> 'Petit',  //  'Small'
 	'editor_fontsize_medium'	=> 'Moyen',  // 'Medium' 
 	'editor_fontsize_large'	=> 'Grand',  //  'Large'
-	'editor_list_order'	=> 'liste ordonn&#233;e',  //  'Ordered list'
+	'editor_list_order'	=> 'Liste ordonn&#233;e',  //  'Ordered list'
 	'editor_list_unorder'	=> 'Liste non ordonn&#233;e',  // 'Unordered list' 
 	'editor_align_left'	=> 'Aligner &#224; gauche',  //  'Algin left'
 	'editor_align_center'	=> 'Aligner au centre',  // 'Align center' 
@@ -73,12 +73,12 @@ $lang = array(
 	'editor_cancel'			=> 'Annuler',  //  'Cancel'
 	'editor_prompt_textlink'	=> 'Svp. entrer un lien',  //  'Please enter link'
 	'editor_prompt_imagelink'	=> 'Svp. entrez l\'adresse d\'image',  //  'Please enter image address'
-	'editor_prompt_pagetitle'	=> 'PSvp. entrez le titre de la page',  // 'Please enter the page title' 
+	'editor_prompt_pagetitle'	=> 'Svp. entrez le titre de la page',  // 'Please enter the page title' 
 	'editor_prompt_videolink'	=> 'Svp. entrez l\'adresse flash',  //  'Please enter flash addres'
 	'editor_prompt_video_flash'	=> 'Flash',  //  'Flash'
 	'editor_prompt_video_media'	=> 'M&#233;dia Vid&#233;o',  //  'Media video'
-	'editor_prompt_video_real'	=> 'Real Vid&#233;o',  // 'Real video' 
-	'editor_prompt_mp3'		=> 'Mp3 Music',  //  'Mp3 Music'
-	'editor_full_screen'		=> 'Full Screen',
+	'editor_prompt_video_real'	=> 'Real Vid&#233;o',  // 'Real video'  //  'Real Vid&#233;o',
+	'editor_prompt_mp3'		=> 'Musique Mp3',  //  'Mp3 Music'
+	'editor_full_screen'		=> 'Plein &#233;cran',  // 'Full Screen',
 );
 

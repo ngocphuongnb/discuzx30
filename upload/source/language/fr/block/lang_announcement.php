@@ -16,7 +16,7 @@ $lang = array
 	'announcement_type'		=> 'Type de l\'Avis',  //  '公告类型'
 	'announcement_type_text'	=> 'Avis &#233;crit',  //  '文字公告'
 	'announcement_type_link'	=> 'Lien Web',  //  '网站链接'
-	'announcement_titlelength'	=> 'Long. Titre',  //  '标题长度'
-	'announcement_summarylength'	=> 'Long. Contenu',  // '内容长度'  
-	'announcement_startrow'		=> 'Position D&#233;part',  // '起始位置' 
+	'announcement_titlelength'	=> 'Longueur du Titre',  //  '标题长度'
+	'announcement_summarylength'	=> 'Longueur du Contenu',  // '内容长度'  
+	'announcement_startrow'		=> 'Position de D&#233;part',  // '起始位置' 
 );

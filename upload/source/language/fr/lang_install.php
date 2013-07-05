@@ -22,59 +22,59 @@ $lang = array(
 	'agreement_no'		=> 'Je ne souscris pas',//'我不同意', // 'I do NOT agree'
 	'notset'		=> 'Non d&#233;fini',//'不限制',//????? No limits, Not limited // 'Not set'
 
-	'message_title'		=> 'Reminder',//'提示信息', //  'Reminder'
+	'message_title'		=> 'Mémento',//'提示信息', //  'Reminder' // Rappel OU Mémento
 	'error_message'		=> 'Message Erreur',//'错误信息', // 'Error message'
 	'message_return'	=> 'Retour',//'返回', // 'Return'
 	'return'		=> 'Retour',//'返回', // 'Return'
 	'install_wizard'	=> 'Assistant de configuration',//'安装向导',  // 'Setup Wizard'
 	'config_nonexistence'	=> 'Fichier de configuration Inexistant',//'配置文件不存在', // 'Configuration file does not exist'
-	'nodir'			=> 'Le r&#233;pertoire n\'existe pas',//'目录不存在',  // 'Directory does not exist'
-	'redirect'		=> 'Navigateur va automatiquement rediriger la page, sans intervention humaine.<br>Sauf si votre navigateur ne supporte pas les frames, Svp., cliquez ici',//'浏览器会自动跳转页面，无需人工干预。<br>除非当您的浏览器没有自动跳转时，请点击这里', // 'Browser will automatically redirect the page, without a human intervention.<br>Except when your browser does not support frames, please click here'
-	'auto_redirect'		=> 'Navigateur va automatiquement rediriger la page, sans intervention humaine.',//'浏览器会自动跳转页面，无需人工干预', // 'Browser will automatically redirect the page, without a human intervention.'
-	'database_errno_2003'	=> 'Impossible de se connecter &#224; la base de donn&#233;es, v&#233;rifier si la base de donn&#233;es est ex&#233;cut&#233; et l\'adresse du serveur de bases de donn&#233;es est correct.',//'无法连接数据库，请检查数据库是否启动，数据库服务器地址是否正确', // 'Can not connect to the database, check whether the database is run and the database server address is correct.'
-	'database_errno_1044'	=> 'Impossible de cr&#233;er une nouvelle base de donn&#233;es, Svp. v&#233;rifier le nom base de donn&#233;es est correct.',//'无法创建新的数据库，请检查数据库名称填写是否正确',  // 'Unable to create a new database, please check the database name is correct.'
-	'database_errno_1045'	=> 'Impossible de se connecter &#224; la base de donn&#233;es, v&#233;rifiez le nom d\'utilisateur et mot de passe base de donn&#233;es sont corrects.',//'无法连接数据库，请检查数据库用户名或者密码是否正确', // 'Can not connect to the database, check the database user name and password are correct.'
-	'database_errno_1064'	=> 'Erreur de Syntaxe SQL',//'SQL 语法错误', // 'SQL Syntax error'
+	'nodir'			=> 'Le r&#233;pertoire est Inexistant',//'目录不存在',  // 'Directory does not exist'
+	'redirect'		=> 'Le Navigateur va automatiquement rediriger la page, sans intervention humaine.<br>Sauf si votre navigateur ne supporte pas les frames, Svp., cliquez ici',//'浏览器会自动跳转页面，无需人工干预。<br>除非当您的浏览器没有自动跳转时，请点击这里', // 'Browser will automatically redirect the page, without a human intervention.<br>Except when your browser does not support frames, please click here'
+	'auto_redirect'		=> 'Le Navigateur va automatiquement rediriger la page, sans intervention humaine.',//'浏览器会自动跳转页面，无需人工干预', // 'Browser will automatically redirect the page, without a human intervention.'
+	'database_errno_2003'	=> 'Impossible de se connecter &#224; la Database, v&#233;rifier si la Database est ex&#233;cut&#233; et l\'adresse du serveur de bases de donn&#233;es est correct.',//'无法连接数据库，请检查数据库是否启动，数据库服务器地址是否正确', // 'Can not connect to the database, check whether the database is run and the database server address is correct.'
+	'database_errno_1044'	=> 'Impossible de cr&#233;er une nouvelle Database, Svp. v&#233;rifier le nom Database est correct.',//'无法创建新的数据库，请检查数据库名称填写是否正确',  // 'Unable to create a new database, please check the database name is correct.'
+	'database_errno_1045'	=> 'Impossible de se connecter &#224; la Database, v&#233;rifiez le nom d\'utilisateur et mot de passe Database sont corrects.',//'无法连接数据库，请检查数据库用户名或者密码是否正确', // 'Can not connect to the database, check the database user name and password are correct.'
+	'database_errno_1064'	=> 'Erreur Syntaxe SQL',//'SQL 语法错误', // 'SQL Syntax error'
 
-	'dbpriv_createtable'	=> 'Aucune autorisation pour CREER une TABLE, ne peuvent pas continuer l\'installation.',//'没有CREATE TABLE权限，无法继续安装', // 'No CREATE TABLE permission, can not continue installation.'
+	'dbpriv_createtable'	=> 'Aucune autorisation pour CREER une TABLE, ne pouvant pas continuer son installation.',//'没有CREATE TABLE权限，无法继续安装', // 'No CREATE TABLE permission, can not continue installation.'
 	'dbpriv_insert'		=> 'Aucune autorisation CHOISIS, ne peut pas continuer l\'installation.',//'没有INSERT权限，无法继续安装', // 'No INSERT permission, can not continue installation.'
 	'dbpriv_select'		=> 'Aucun privil&#232;ge CHOISIS, ne peut pas continuer l\'installation.',//'没有SELECT权限，无法继续安装', // 'No SELECT privileges, can not continue installation.'
 	'dbpriv_update'		=> 'Aucune autorisation DE MISE A JOUR ne peut pas continuer l\'installation.',//'没有UPDATE权限，无法继续安装', // 'No UPDATE permissions, can not continue installation.'
 	'dbpriv_delete'		=> 'Aucune autorisation pour SUPPRIMER ne peut pas continuer l\'installation.',//'没有DELETE权限，无法继续安装', // 'No DELETE permissions, can not continue installation.'
 	'dbpriv_droptable'	=> 'Aucune autorisation COMMANDE de la TABLE &#224; installer.',//'没有DROP TABLE权限，无法安装', // 'No DROP TABLE permissions to install.'
 
-	'db_not_null'		=> 'Base de donn&#233;es UCenter d&#233;j&#224; install&#233;, continuez l\'installation effacera les anciennes donn&#233;es.',//'数据库中已经安装过 UCenter, 继续安装会清空原有数据。', //  'UCenter database already installed, continue the installation will clear the old data.'
+	'db_not_null'		=> 'Database UCenter d&#233;j&#224; install&#233;, continuez l\'installation effacera les anciennes donn&#233;es.',//'数据库中已经安装过 UCenter, 继续安装会清空原有数据。', //  'UCenter database already installed, continue the installation will clear the old data.'
 	'db_drop_table_confirm'	=> 'Pour continuer l\'installation il est n&#233;cessaire d\'effacer toutes les anciennes donn&#233;es, &#234;tes-vous s&#251;r de vouloir continuer?',//'继续安装会清空全部原有数据，您确定要继续吗?', // 'To continue the installation it is required to clear all the old data, are you sure you want to continue?'
 
 	'writeable'		=> 'Access. en &#233;criture',//'可写', // 'writable'
-	'unwriteable'		=> 'PAS ACCES en &#233;criture',//'不可写', // 'NOT writable'
+	'unwriteable'		=> 'AUCUN ACCES en &#233;criture',//'不可写', // 'NOT writable'
 	'old_step'		=> '&#233;tape pr&#233;c&#233;dente',//'上一步', // 'Previous step'
 	'new_step'		=> 'Prochaine &#233;tape',//'下一步', // 'Next step'
 
-	'database_errno_2003'	=> 'Impossible de se connecter &#224; la base de donn&#233;es, v&#233;rifier si la base de donn&#233;es est ex&#233;cut&#233; et l\'adresse du serveur de bases de donn&#233;es est correct.',//'无法连接数据库，请检查数据库是否启动，数据库服务器地址是否正确', // 'Can not connect to the database, check whether the database is run and the database server address is correct.'
-	'database_errno_1044'	=> 'Impossible de cr&#233;er une nouvelle base de donn&#233;es, Svp. v&#233;rifier le nom base de donn&#233;es est correct.',//'无法创建新的数据库，请检查数据库名称填写是否正确', //  'Unable to create a new database, please check the database name is correct.'
-	'database_errno_1045'	=> 'Impossible de se connecter &#224; la base de donn&#233;es, v&#233;rifiez le nom d\'utilisateur et mot de passe base de donn&#233;es sont corrects.',//'无法连接数据库，请检查数据库用户名或者密码是否正确', // 'Can not connect to the database, check the database user name and password are correct.'
-	'database_connect_error'	=> 'Erreur de connexion base de donn&#233;es.',//'数据库连接错误', // 'Database connection error.'
+	'database_errno_2003'	=> 'Impossible de se connecter &#224; la Database, v&#233;rifier si la Database est ex&#233;cut&#233; et l\'adresse du serveur de bases de donn&#233;es est correct.',//'无法连接数据库，请检查数据库是否启动，数据库服务器地址是否正确', // 'Can not connect to the database, check whether the database is run and the database server address is correct.'
+	'database_errno_1044'	=> 'Impossible de cr&#233;er une nouvelle Database, Svp. v&#233;rifier le nom Database est correct.',//'无法创建新的数据库，请检查数据库名称填写是否正确', //  'Unable to create a new database, please check the database name is correct.'
+	'database_errno_1045'	=> 'Impossible de se connecter &#224; la Database, v&#233;rifiez le nom d\'utilisateur et mot de passe Database sont corrects.',//'无法连接数据库，请检查数据库用户名或者密码是否正确', // 'Can not connect to the database, check the database user name and password are correct.'
+	'database_connect_error'	=> 'Erreur de connexion Database.',//'数据库连接错误', // 'Database connection error.'
 
 	'step_title_1'		=> 'V&#233;rifiez les conditions',//'检查安装环境', // 'Check environment'
 	'step_title_2'		=> 'D&#233;finir les conditions',//'设置运行环境', //  'Set environment'
-	'step_title_3'		=> 'Cr&#233;er la Base',//'创建数据库', // 'Create Database'
+	'step_title_3'		=> 'Cr&#233;er Database',//'创建数据库', // 'Create Database'
 	'step_title_4'		=> 'Installer',//'安装', // 'Install'
 	'step_env_check_title'	=> 'D&#233;marrer l\'installation',//'开始安装', // 'Start Installation'
 	'step_env_check_desc'	=> 'V&#233;rifiez les conditions et les fichiers/des droits des r&#233;pertoires',//'环境以及文件目录权限检查', // 'Check environment and files/directories permissions'
-	'step_db_init_title'	=> 'Installez Base de Donn&#233;es',//'安装数据库', // 'Install database'
+	'step_db_init_title'	=> 'Installez Database',//'安装数据库', // 'Install database'
 	'step_db_init_desc'	=> 'D&#233;marrage de l\'installation de bases de donn&#233;es',//'正在执行数据库安装', // 'Starting the database installation'
 
 	'step1_file'		=> 'Liste des Fichiers',//'目录文件', // 'File list'
 	'step1_need_status'	=> 'Obligatoires',//'所需状态', // 'Required'
 	'step1_status'		=> 'Statuts',//'当前状态', // 'Status'
-	'not_continue'		=> 'Svp., essayez de r&#233;parer positions marqu&#233;es par une croix rouge',//'请将以上红叉部分修正再试', // 'Please, try to repair positions marked by a red cross'
+	'not_continue'		=> 'Svp., Veuillez essayer de r&#233;parer les endroits marqu&#233;es par une belle croix rouge',//'请将以上红叉部分修正再试', // 'Please, try to repair positions marked by a red cross'
 
-	'tips_dbinfo'		=> 'R&#233;glage de la base de donn&#233;es des informations',//'填写数据库信息', // 'Setting the database information'
+	'tips_dbinfo'		=> 'R&#233;glage des Informations de la Database',//'填写数据库信息', // 'Setting the database information'
 	'tips_dbinfo_comment'	=> '',//'',
 	'tips_admininfo'	=> 'Configuration des Informations Administrateur',//'填写管理员信息', // 'Setting the administrator information'
 	'step_ext_info_title'	=> 'Install&#233; avec Succ&#232;s.',//'安装成功。', // 'Installed successfully.'
-	'step_ext_info_comment'	=> 'Cliquez pour entrer la connexion',//'点击进入登陆', // 'Click to enter login'
+	'step_ext_info_comment'	=> 'Cliquez pour saisir votre login',//'点击进入登陆', // 'Click to enter login'
 
 	'ext_info_succ'		=> 'Install&#233; avec Succ&#232;s.',//'安装成功。', // 'Installed successfully.'
 	'install_submit'	=> 'Envoyer',//'提交', // 'Submit'
@@ -83,25 +83,25 @@ $lang = array(
 
 	'step_app_reg_title'	=> 'Configuration Environnement',//'设置运行环境', // 'Setting environment'
 	'step_app_reg_desc'	=> 'V&#233;rifiez un environnement serveur, et mettre UCenter',//'检测服务器环境以及设置 UCenter', // 'Check the server environment, and set UCenter'
-	'tips_ucenter'		=> 'Svp. remplissez les informations pour les UCenter',//'请填写 UCenter 相关信息', // 'Please fill in the information for UCenter'
+	'tips_ucenter'		=> 'Svp. veuillez remplir les informations pour les UCenter',//'请填写 UCenter 相关信息', // 'Please fill in the information for UCenter'
 	'tips_ucenter_comment'	=> 'UCenter est le Comsenz inc. programme de service de base. Discuz! Conseil et d\'autres applications Comsenz comptent sur ce programme. Si vous avez d&#233;j&#224; install&#233; UCenter, Svp. remplir les informations ci-dessous. Sinon, Svp. aller &#224; <a href="http://www.discuz.com/" target="blank">Produits Comsenz</a> pour t&#233;l&#233;charger et installer UCenter, puis continuer.',//'UCenter 是 Comsenz 公司产品的核心服务程序，Discuz! Board 的安装和运行依赖此程序。如果您已经安装了 UCenter，请填写以下信息。否则，请到 <a href="http://www.discuz.com/" target="blank">Comsenz 产品中心</a> 下载并且安装，然后再继续。', // 'UCenter is the Comsenz inc. core service program. Discuz! Board and other Comsenz applications rely on this program. If you have already installed UCenter, please fill in the information below. Otherwise, please go to <a href="http://www.discuz.com/" target="blank">Comsenz Products</a> to download and install UCenter, and then continue.'
 
-	'advice_mysql_connect'		=> 'Svp. v&#233;rifiez le module MySQL est correctement charg&#233;.',//'请检查 mysql 模块是否正确加载', // 'Please check the mysql module is loaded correctly.'
+	'advice_mysql_connect'		=> 'Svp. veuillez v&#233;rifier le module MySQL est correctement charg&#233;.',//'请检查 mysql 模块是否正确加载', // 'Please check the mysql module is loaded correctly.'
 	'advice_gethostbyname'		=> 'Configuration de PHP n\'est pas permis &#224; la <b>gethostbyname</b> fonction. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'是否php配置中禁止了gethostbyname函数。请联系空间商，确定开启了此项功能', // 'PHP configuration is not allowed the <b>gethostbyname</b> function. Please contact the server administrator to resolve this problem.'
-	'advice_file_get_contents'	=> 'Cette fonction n&#233;cessite <b>allow_url_fopen</b> option to <b>On</b> in php.ini. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', // 'This function require the <b>allow_url_fopen</b> option to <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.'
+	'advice_file_get_contents'	=> 'Cette fonction n&#233;cessite pour <b>allow_url_fopen</b> option to <b>On</b> in php.ini. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', // 'This function require the <b>allow_url_fopen</b> option to <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.'
 	'advice_xml_parser_create'	=> 'Cette fonction n&#233;cessite le soutien PHP de XML. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 PHP 支持 XML。请联系空间商，确定开启了此项功能', // 'This function require the PHP support for XML. Please contact the server administrator to resolve this problem.'
-	'advice_fsockopen'		=> 'Cette fonction n&#233;cessite <b>allow_url_fopen</b> possibilit&#233; d\'&#234;tre <b>On</b> in php.ini. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', // 'This function require the <b>allow_url_fopen</b> option to be <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.'
-	'advice_pfsockopen'		=> 'This function requires to allow_url_fopen in php.ini. Please contact the hosting provider to set this value',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
-	'advice_stream_socket_client'	=> 'Whether enabled the stream_socket_client function in PHP configuration',//'是否 PHP 配置中禁止了 stream_socket_client 函数',
-	'advice_curl_init'		=> 'Whether enabled the curl_init function in PHP configuration',//'是否 PHP 配置中禁止了 curl_init 函数',
+	'advice_fsockopen'		=> 'Cette fonction n&#233;cessite pour <b>allow_url_fopen</b> possibilit&#233; d\'&#234;tre <b>On</b> in php.ini. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', // 'This function require the <b>allow_url_fopen</b> option to be <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.'
+	'advice_pfsockopen'		=> 'Cette fonction n&#233;cessite pour Allow_url_fopen dans le fichier php.ini. S\'il vous pla&#238;t contacter le fournisseur d\'h&#233;bergement pour d&#233;finir cette valeur',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', //  'This function requires to allow_url_fopen in php.ini. Please contact the hosting provider to set this value',
+	'advice_stream_socket_client'	=> 'Qu\'il s\'agisse d\'activ&#233; la fonction stream_socket_client dans la configuration PHP',//'是否 PHP 配置中禁止了 stream_socket_client 函数',  // 'Whether enabled the stream_socket_client function in PHP configuration',
+	'advice_curl_init'		=> 'Qu\'il s\'agisse d\'activ&#233; la fonction curl_init dans la configuration PHP',//'是否 PHP 配置中禁止了 curl_init 函数', // 'Whether enabled the curl_init function in PHP configuration',
 
-	'ucurl'				=> 'UCenter URL',//'UCenter 的 URL', // 'UCenter URL'
-	'ucpw'				=> 'Ucenter Mot de Passe Administrateur',//'UCenter 创始人密码', // 'UCenter administrator password'
-	'ucip'				=> 'UCenter adresse IP',//'UCenter 的IP地址', // 'UCenter IP address'
-	'ucenter_ucip_invalid'		=> 'Format Invalide, Svp. indiquer l\'adresse IP correctement',//'格式错误，请填写正确的 IP 地址', // 'Invalid format, please fill in the correct IP address'
-	'ucip_comment'			=> 'Dans la plupart des cas, vous pouvez laisser ce vide',//'绝大多数情况下您可以不填', // 'In most cases you can leave this empty'
+	'ucurl'				=> 'URL UCenter',//'UCenter 的 URL', // 'UCenter URL'
+	'ucpw'				=> 'Mot de Passe Administrateur Ucenter',//'UCenter 创始人密码', // 'UCenter administrator password'
+	'ucip'				=> 'Adresse IP UCenter ',//'UCenter 的IP地址', // 'UCenter IP address'
+	'ucenter_ucip_invalid'		=> 'Format Invalide, Svp. Veuillez indiquer l\'adresse IP correctement',//'格式错误，请填写正确的 IP 地址', // 'Invalid format, please fill in the correct IP address'
+	'ucip_comment'			=> 'Dans la plupart des cas, vous pouvez laisser ceci vide',//'绝大多数情况下您可以不填', // 'In most cases you can leave this empty'
 
-	'tips_siteinfo'			=> 'Svp. remplir les informations du site',//'请填写站点信息', // 'Please fill in the site information'
+	'tips_siteinfo'			=> 'Svp.Veuillez remplir les informations du site',//'请填写站点信息', // 'Please fill in the site information'
 	'sitename'			=> 'Nom du Site',//'站点名称', // 'Site Name'
 	'siteurl'			=> 'URL du Site',//'站点 URL', // 'Site URL'
 
@@ -119,11 +119,11 @@ $lang = array(
 	'uc_url_invalid'		=> 'Format d\'URL est invalide UCenter',//'URL 格式错误', // 'UCenter URL format is invalid'
 	'uc_url_unreachable'		=> 'Adresse URL UCenter est inaccessible, Svp. v&#233;rifier',//'UCenter 的 URL 地址可能填写错误，请检查', // 'UCenter URL address is unreachable, please check'
 	'uc_ip_invalid'			=> 'Impossible de r&#233;soudre le nom de domaine, Svp. remplir l\'adresse IP du site',//'无法解析该域名，请填写站点的 IP', // 'Can not resolve the domain name, please fill in the site IP address'
-	'uc_admin_invalid'		=> 'UCenter administrateur mot de passe invalide, Svp. re-remplir',//'UCenter 创始人密码错误，请重新填写',  //  'UCenter administrator password invalid, please re-fill'
+	'uc_admin_invalid'		=> 'Mot de passe Administrateur UCenter est invalide, Svp. veuillez re-v&#233;rifier',//'UCenter 创始人密码错误，请重新填写',  //  'UCenter administrator password invalid, please re-fill'
 	'uc_data_invalid'		=> 'D&#233;faillance de communication UCenter. V&#233;rifiez l\'adresse URL est correcte UCenter',//'通信失败，请检查 UCenter 的URL 地址是否正确 ',  //  'UCenter communication failure. Check the UCenter URL address is correct'
 	'uc_dbcharset_incorrect'	=> 'Mettre UCenter caract&#232;res de la base est incompatible avec le jeu de caract&#232;res application actuelle',//'UCenter 数据库字符集与当前应用字符集不一致',  //  'UCenter database character set is inconsistent with the current application character set'
-	'uc_api_add_app_error'		=> 'Ajout &#224; une erreur d\'application UCenter',//'向 UCenter 添加应用错误', // 'Adding to UCenter application error' 
-	'uc_dns_error'			=> 'Erreurs UCenter r&#233;solution DNS. Svp. revenir et de remplir l\'adresse IP UCenter',//'UCenter DNS解析错误，请返回填写一下 UCenter 的 IP地址', // 'UCenter DNS resolution error. Please return and fill in the UCenter IP address'
+	'uc_api_add_app_error'		=> 'UCenter Erreur Log/Application Ajout&#233;',//'向 UCenter 添加应用错误', // 'Adding to UCenter application error' 
+	'uc_dns_error'			=> 'Erreurs UCenter r&#233;solution DNS. Svp.Veuillez revenir et de remplir l\'adresse IP UCenter',//'UCenter DNS解析错误，请返回填写一下 UCenter 的 IP地址', // 'UCenter DNS resolution error. Please return and fill in the UCenter IP address'
 
 	'ucenter_ucurl_invalid'		=> 'URL UCenter est le format vide ou mal plac&#233;s Svp. v&#233;rifier',//'UCenter 的URL为空，或者格式错误，请检查', // 'UCenter URL is empty or wrong format, please check'
 	'ucenter_ucpw_invalid'		=> 'UCenter mot de passe administrateur est vide, ou des erreurs de formatage, Svp. v&#233;rifier',//'UCenter 的创始人密码为空，或者格式错误，请检查', // 'UCenter administrator password is blank, or formatting errors, please check'
@@ -131,8 +131,8 @@ $lang = array(
 	'siteinfo_sitename_invalid'	=> 'Le nom du site est le format vide ou mal plac&#233;s Svp. v&#233;rifier',//'站点名称为空，或者格式错误，请检查', // 'The site name is empty or wrong format, please check'
 	'dbinfo_dbhost_invalid'		=> 'Serveur de base est vide, ou de mauvaise forme, Svp. v&#233;rifier',//'数据库服务器为空，或者格式错误，请检查', // 'Database server is empty, or wrong format, please check'
 	'dbinfo_dbname_invalid'		=> 'Nom de la base est vide, ou de mauvaise forme, Svp. v&#233;rifier',//'数据库名为空，或者格式错误，请检查', // 'Database name is empty, or wrong format, please check'
-	'dbinfo_dbuser_invalid'		=> 'Nom d\'utilisateur base de donn&#233;es est vide, ou une erreur de format, Svp. v&#233;rifier',//'数据库用户名为空，或者格式错误，请检查', // 'Database user name is blank, or format error, please check'
-	'dbinfo_dbpw_invalid'		=> 'Base de donn&#233;es de mot de passe est vide, ou une erreur de format, Svp. v&#233;rifier',//'数据库密码为空，或者格式错误，请检查', // 'Database password is blank, or format error, please check'
+	'dbinfo_dbuser_invalid'		=> 'Nom d\'utilisateur Database est vide, ou une erreur de format, Svp. v&#233;rifier',//'数据库用户名为空，或者格式错误，请检查', // 'Database user name is blank, or format error, please check'
+	'dbinfo_dbpw_invalid'		=> 'Database de mot de passe est vide, ou une erreur de format, Svp. v&#233;rifier',//'数据库密码为空，或者格式错误，请检查', // 'Database password is blank, or format error, please check'
 	'dbinfo_adminemail_invalid'	=> 'L\'adresse email du site syst&#232;me est vide, ou une erreur de format, Svp. v&#233;rifier',//'系统邮箱为空，或者格式错误，请检查', // 'The site system email address is empty, or format error, please check'
 	'dbinfo_tablepre_invalid'	=> 'Le pr&#233;fixe de table est vide, ou une erreur de format, Svp. v&#233;rifier',//'数据表前缀为空，或者格式错误，请检查', // 'Table prefix is blank, or format error, please check'
 	'admininfo_username_invalid'	=> 'Nom d\'utilisateur administrateur est vide, ou une erreur de format, Svp. v&#233;rifier',//'管理员用户名为空，或者格式错误，请检查', // 'Administrator user name is blank, or format error, please check'
@@ -159,7 +159,7 @@ $lang = array(
 	'admin_exist_password_error'	=> 'Cet utilisateur existe d&#233;j&#224;. Si vous souhaitez d&#233;finir cet utilisateur comme administrateur, Svp. entrez le mot correct pour l\'utilisateur, ou de remplacer le nom de l\'administrateur',//'该用户已经存在，如果您要设置此用户为论坛的管理员，请正确输入该用户的密码，或者请更换论坛管理员的名字', // 'This user already exists. If you want to set this user as an administrator, please enter the correct password for the user, or replace the administrator name'
 
 	'tagtemplates_subject'		=> 'Titre',//'标题', // 'Title'
-	'tagtemplates_uid'		=> 'UTILISATEUR ID',//'用户 ID', // 'User ID'
+	'tagtemplates_uid'		=> 'ID Utilisateur',//'用户 ID', // 'User ID'
 	'tagtemplates_username'		=> 'Publi&#233; par',//'发帖者', // 'Posted by'
 	'tagtemplates_dateline'		=> 'Date',//'日期', //  'Date'
 	'tagtemplates_url'		=> 'URL Mod&#232;les',//'主题地址', // 'Templates URL'
@@ -171,7 +171,7 @@ $lang = array(
 	'install_succeed'		=> 'Installation avec succ&#232;s! Cliquez ici pour entrer votre Discuz! X',//'安装成功，点击进入', // 'Installation successfully completed! Click here to enter your Discuz! X2'
 	'install_cloud'			=> 'Apr&#232;s une installation r&#233;ussie, Bienvenue &#224; l\'ouverture de Discuz! cloud Platform<br>Discuz! Cloud Platform d&#233;di&#233;e &#224; aider les propri&#233;taires de site Web pour augmenter leur trafic de sites Web, de renforcer la capacit&#233; des op&#233;rateurs de sites Web, et d\'augmenter un chiffre d\'affaires site.<br>Discuz! Cloud Platform fournit actuellement un Internet libre QQ, Tencent analyse, Nuage de recherche, QQ groupe communautaire, d\'itin&#233;rance, SOSO &#233;motic&#244;ne services.Discuz! Cloud Platform continuera &#224; fournir des services de qualit&#233; plus pour le projet.<br>Avant ouverture de Discuz! Platform make sure that your website (Discuz!, UCHome ou SupeSite) a &#233;t&#233; am&#233;lior&#233; pour Discuz! X2.',//'安装成功，欢迎开通Discuz!云平台<br>Discuz!云平台致力于帮助站长提高网站流量，增强网站运营能力，增加网站收入。<br>Discuz!云平台目前免费提供了QQ互联、腾讯分析、纵横搜索、社区QQ群、漫游应用、SOSO表情服务。Discuz!云平台将陆续提供更多优质服务项目。<br>开通Discuz!平台之前，请确保您的网站（Discuz!、UCHome或SupeSite）已经升级到Discuz!X2。', // 'After successful installation, Welcome to the opening Discuz! Cloud platform<br>Discuz! Cloud platform dedicated to help website owners to increase their websites traffic, enhance the ability of Web site operators, and increase a website revenue.<br>Discuz! Cloud platform currently provides a free QQ Internet, Tencent analysis, Cloud search, QQ Group Community,Roaming,SOSO emoticon services.Discuz! Cloud platform will continue to provide more quality services to the project.<br>Before open the Discuz! Platform make sure that your website (Discuz!, UCHome or SupeSite) has been upgraded to Discuz! X2.'
 	'to_install_cloud'		=> 'Ouvrir Admin-Center',//'到后台开通', // 'Open Admin-Center'
-	'to_index'			=> 'Temporairement pas ouvert',//'暂不开通',  // 'Temporarily not open'
+	'to_index'			=> 'Temporairement fermer',//'暂不开通',  // 'Temporarily not open'
 
 	'init_credits_karma'	=> 'R&#233;putation',//'威望',//!!! The same in install_var.php // 'Reputation'
 	'init_credits_money'	=> 'Points',//'金钱',//!!! The same in install_var.php // 'Points'
@@ -181,14 +181,14 @@ $lang = array(
 	'init_postno2'		=> '#3',//'板凳',   //!!! The same in install_var.php // '#3'
 	'init_postno3'		=> '#4',//'地板',   //!!! The same in install_var.php // '#4'
 
-	'init_support'		=> 'Digg',//'支持',   //!!! The same in install_var.php // 'Digg' 
+	'init_support'		=> 'Soutien',//'支持',   //!!! The same in install_var.php // 'Digg' 
 	'init_opposition'	=> 'Enfouir',//'反对',//!!! The same in install_var.php // 'Bury'
 
 	'init_group_0'	=> 'Membre',//'会员', // 'Member'
 	'init_group_1'	=> 'Administrateur',//'管理员', // 'Administrator'
 	'init_group_2'	=> 'Super Mod&#233;rateur',//'超级版主', // 'Super Moderator'
 	'init_group_3'	=> 'Mod&#233;rateur',//'版主', // 'Moderator'
-	'init_group_4'	=> 'L/E Membre',//'禁止发言', // 'R/O Member'
+	'init_group_4'	=> 'L/E Membre',//'禁止发言', // 'R/O Member' // Lecture & Ecriture du Membre
 	'init_group_5'	=> 'Banni',//'禁止访问', // 'Banned'
 	'init_group_6'	=> 'IP Banni',//'禁止 IP', // 'IP Banned'
 	'init_group_7'	=> 'Inviter',//'游客', // 'Guest'
@@ -209,7 +209,7 @@ $lang = array(
 
 	'init_cron_1'	=> 'Compteur de Posts aujourd\'hui vides',//'清空今日发帖数', // 'Empty today\'s post count'
 	'init_cron_2'	=> 'Videz le temps de ce mois en ligne',//'清空本月在线时间', // 'Empty this month\'s online time'
-	'init_cron_3'	=> 'Donn&#233;es quotidiennes de nettoyage',//'每日数据清理', // 'Daily data cleaning'
+	'init_cron_3'	=> 'Nettoyage Quotidiens des Donn&#233;es',//'每日数据清理', // 'Daily data cleaning'
 	'init_cron_4'	=> 'Les statistiques d\'anniversaire et e-mail des abonnements',//'生日统计与邮件祝福', //  'Birthday statistics and e-mail subscriptions'
 	'init_cron_5'	=> 'Notifications sujet R&#233;pondre',//'主题回复通知', // 'Topic reply notifications'
 	'init_cron_6'	=> 'Bulletin quotidien de nettoyage',//'每日公告清理', // 'Daily bulletin clean up'
@@ -321,16 +321,16 @@ $lang = array(
 	'func_name'		=> 'Nom de la Fonction',//'函数名称', // 'Function name'
 	'check_result'		=> 'V&#233;rifier le r&#233;sultat',//'检查结果', // 'Check result'
 	'suggestion'		=> 'Recommandation',//'建议', // 'Recommendation'
-	'advice_mysql'		=> 'Svp. v&#233;rifiez le module MySQL est correctement charg&#233;',//'请检查 mysql 模块是否正确加载', // 'Please check the mysql module is loaded correctly'
+	'advice_mysql'		=> 'Svp. Veuillez v&#233;rifier le module MySQL est correctement charg&#233;',//'请检查 mysql 模块是否正确加载', // 'Please check the mysql module is loaded correctly'
 	'advice_fopen'		=> 'Cette fonction n&#233;cessite <b>allow_url_fopen</b> possibilit&#233; d\'&#234;tre <b>On</b> dans php.ini. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', // 'This function require the <b>allow_url_fopen</b> option to be <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.'
 	'advice_file_get_contents'	=> 'Cette fonction n&#233;cessite <b>allow_url_fopen</b> possibilit&#233; d\'&#234;tre <b>On</b> dans php.ini. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能', // 'This function require the <b>allow_url_fopen</b> option to be <b>On</b> in php.ini. Please contact the server administrator to resolve this problem.'
 	'advice_xml'			=> 'Cette fonction n&#233;cessite le soutien PHP de XML. Svp. contactez l\'administrateur du serveur pour r&#233;soudre ce probl&#232;me.',//'该函数需要 PHP 支持 XML。请联系空间商，确定开启了此项功能', // 'This function require the PHP support for XML. Please contact the server administrator to resolve this problem.'
 	'none'				=> 'Aucun',//'无', // 'None'
 
-	'dbhost'		=> 'Serveur Base de Donn&#233;es',//'数据库服务器',  // 'Database server'
-	'dbuser'		=> 'Base de donn&#233;es identifiant',//'数据库用户名',  // 'Database username'
-	'dbpw'			=> 'Base de donn&#233;es mot de passe',//'数据库密码',  // 'Database password'
-	'dbname'		=> 'Nom Base Donn&#233;es',//'数据库名',  // 'Database name'
+	'dbhost'		=> 'Serveur Database',//'数据库服务器',  // 'Database server'
+	'dbuser'		=> 'Database Identifiant',//'数据库用户名',  // 'Database username'
+	'dbpw'			=> 'Database Mot de passe',//'数据库密码',  // 'Database password'
+	'dbname'		=> 'Nom Database',//'数据库名',  // 'Database name'
 	'tablepre'		=> 'Le Pr&#233;fixe de Table',//'数据表前缀',  // 'Table prefix'
 
 	'ucfounderpw'		=> 'UCenter mot de passe admin',//'创始人密码',  // 'UCenter admin password'
@@ -338,7 +338,7 @@ $lang = array(
 
 	'init_log'		=> 'Initialiser journaux',//'初始化记录',  // 'Initialize log'
 	'clear_dir'		=> 'Effacer le r&#233;pertoire',//'清空目录',  // 'Clear directory'
-	'select_db'		=> 'Choisissez la base de donn&#233;es',//'选择数据库',  // 'Select the database'
+	'select_db'		=> 'Choisissez la Database',//'选择数据库',  // 'Select the database'
 	'create_table'		=> 'Cr&#233;er la Table',//'建立数据表',  // 'Create table'
 	'succeed'		=> 'Succ&#232;s',//'成功 ',  // 'Success'
 
@@ -346,7 +346,7 @@ $lang = array(
 	'install_test_data'		=> 'Installer les Donn&#233;es R&#233;gionales',//'正在安装附加数据',  // 'Install regional data'
 
 	'method_undefined'		=> 'M&#233;thode Non D&#233;finie',//'未定义方法',  // 'Undefined method'
-	'database_nonexistence'		=> 'Objet base de donn&#233;es Inexistante',//'数据库操作对象不存在', // 'Database object does not exist'
+	'database_nonexistence'		=> 'Objet Database Inexistante',//'数据库操作对象不存在', // 'Database object does not exist'
 	'skip_current'			=> 'Passer cette &#233;tape',//'跳过本步', // 'Skip this step'
 	'topic'				=> 'Topic',//'专题', // 'Topic'
 
@@ -360,8 +360,8 @@ $lang = array(
 //vot	'regiondata_check_label'	=> 'Install additional regional data (countries/regions/cities)',//'Install additional regional data (countries/regions/cities)',
 //vot	'install_region_data'		=> 'Install regional data',//'Install regional data',
 
-	'php_version_too_low'		=> 'PHP version is too low',
-	'php_version_too_low_comment'	=> 'For normal functioning Discuz! requires for more new version of PHP',
+	'php_version_too_low'		=> 'Version de PHP est trop faible', //   'PHP version is too low',
+	'php_version_too_low_comment'	=> 'Pour son bon fonctionnement Discuz! requiert une nouvelle version de PHP sup&#233;rieure', // 'For normal functioning Discuz! requires for more new version of PHP',
 //---------------------------------------------------------------
 
 );

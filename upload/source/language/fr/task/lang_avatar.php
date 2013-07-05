@@ -17,7 +17,7 @@ $lang = array
 	'avatar_desc'	=> 'Apr&#232;s avoir termin&#233; la t&#226;che, vous obtiendrez des prix.',
 	'avatar_view'	=> '<strong>Svp. suivre les &#233;tapes ci-dessous:</strong>
 		<ul>
-		<li>1. <a href="home.php?mod=spacecp&ac=avatar" target="_blank">Ouvrez la page de modifier avatar dans nouvelle fen&#234;tre</a>;</li>
+		<li>1. <a href="home.php?mod=spacecp&ac=avatar" target="_blank">Ouvrir la page afin de modifier l&#180;avatar dans une nouvelle fen&#234;tre</a>;</li>
 		<li>2. Ajouter une image personnaliser.</li>
 		</ul>',
 );

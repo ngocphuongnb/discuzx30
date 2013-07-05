@@ -19,7 +19,8 @@ $lang = array
 	'google_lang_comment'	=> 'Forum R&#233;glez leur propre langue page web peut effectivement am&#233;liorer la qualit&#233; des r&#233;sultats de recherche',  //  '设置适合自己论坛的网页语言可以有效的提高搜索结果的质量'
 	'google_lang_any'	=> 'Tout langage',  //  '任何语言'
 	'google_lang_en'	=> 'Anglaise',  // '英文' 
-	'google_lang_zh-CN'	=> 'Chinois simplifi&#233;',  //  '简体中文'
+	'google_lang_fr'	=> 'Fran&#231;aise',  // Ajouter par Andre13 (Add. Andre13)
+	'google_lang_zh-CN'	=> 'Chinois Simplifi&#233;',  //  '简体中文'
 	'google_lang_zh-TW'	=> 'Chinois Traditionnel',  //  '繁体中文'
 	'google_default'	=> 'Options de recherche par D&#233;faut',  //  '默认搜索选择'
 	'google_default_comment'	=> '&#201;l&#233;ment de la bo&#238;te de recherche est s&#233;lectionn&#233; par d&#233;faut',  //  '搜索框默认选择的项目'
@@ -29,5 +30,7 @@ $lang = array
 	'google_client_comment'	=> 'Si vous avez int&#233;grer l\'alliance de recherche Google, o&#249; vous pouvez remplissez le ID',  //  '如果你加入了 Google 搜索联盟, 可以在这里填写 ID'
 // ToDo:
 // Make Language List from the config settings!
+// A Faire:
+// Faire la liste des langues dans les paramètres de configuration!
 );
 

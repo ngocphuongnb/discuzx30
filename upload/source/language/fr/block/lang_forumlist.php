@@ -13,8 +13,8 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'forumlist_fids'			=> 'Specified forum',//'指定版块',
-	'forumlist_fids_comment'		=> 'Fill in specified forum ID (fid), separate multiple forums with a comma (,)',//'填入指定版块的ID(fid)，多个版块之间用逗号(,)分隔',
+	'forumlist_fids'			=> 'Forum divulgu&#233;',//'指定版块',  //   'Specified forum',
+	'forumlist_fids_comment'		=> 'Remplir l\'ID de forum (fid)sp&#233;cifique  par les multiples forums en les s&#233;parants par une virgule (,)',//'填入指定版块的ID(fid)，多个版块之间用逗号(,)分隔', //  'Fill in specified forum ID (fid), separate multiple forums with a comma (,)',
 	'forumlist_fups'		=> 'Forum Parents',  // '上级版块' 
 	'forumlist_fups_comment'	=> 'R&#233;glez l\'affichage dans certaines cat&#233;gories du Forum ou de l\'Instance',  //  '设置显示某些分类或版块下属的版块'
 	'forumlist_titlelength'		=> 'Longueur du Nom',  // '名称长度' 

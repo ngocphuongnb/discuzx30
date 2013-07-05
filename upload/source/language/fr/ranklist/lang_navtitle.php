@@ -22,13 +22,13 @@ $lang = array(
   'ranklist_title_member_invite'	=> 'Invitations',   // Invites 
   'ranklist_title_member_post'		=> 'Posts',   //  Posts
   'ranklist_title_member_blog'		=> 'Blogs',   // Blogs 
-  'ranklist_title_member_onlinetime'	=> 'Tmps. En-Ligne',   //  Online Time
+  'ranklist_title_member_onlinetime'	=> 'Tmps. En-Ligne',   //  Online Time // Temps en ligne
 
   'ranklist_title_thread_reply'		=> 'R&#233;ponses(sujet)',   //  Replies(thread)
   'ranklist_title_thread_view'		=> 'Vues(sujet)',   //  Views(thread)
   'ranklist_title_thread_share'		=> 'Partages(sujet)',   //  Shares(thread)
   'ranklist_title_thread_favorite'	=> 'Favoris(sujet)',   //  Favorites(thread)
-  'ranklist_title_thread_heat'		=> 'Top Chauds Posts',   // Top Heat Posts 
+  'ranklist_title_thread_heat'		=> 'Top Posts Hot',   // Top Heat Posts  // 'Top Chauds Posts'
 
   'ranklist_title_blog_heat'	=> 'Hot(blog)',   //  Hot(blog)
   'ranklist_title_blog_reply'	=> 'Commentaires(blog)',   //  Comments(blog)

@@ -10,11 +10,11 @@
  */
 
 $lang = array (
-  'no_tag'		=> 'Pas encore de tags',
+  'no_tag'		=> 'Aucun tags',
   'tag'			=> 'Tags',
   'blog_read'		=> 'Seconde lecture',
   'blog_replay'		=> 'Re-Voir',
-  'empty_tags'		=> 'Sans cette &#233;tiquette, vous pouvez continuer &#224; rechercher des balises ou des <a href="misc.php?mod=tag" title="Retour &#224; la page tag">Retourner!</a>',
+  'empty_tags'		=> 'Aucun Tags, vous pouvez continuer &#224; rechercher des Tags ou <a href="misc.php?mod=tag" title="Retour page aux Tags">Retourner!</a>',
   'forum'		=> 'Forum',
   'hot'			=> 'Hot',
   'lastpost'		=> 'Dernier Post',
