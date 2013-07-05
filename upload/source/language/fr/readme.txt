@@ -3,7 +3,7 @@ for Discuz! X2.5 (c) 2001-2099 Comsenz Inc.
 
 MultiLingual version by Valery Votintsev, codersclub.org
 
-Traduction par Andre13 - modeur Bertrand - discuz-fr.fr
+Traduction par Andre13 - modeur Bertrand - discuz-france.fr
 
 Code		= 'fr';
 English title	= 'French';

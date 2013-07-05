@@ -13,6 +13,6 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'adv_title'	=> 'Saisissez un Nom', // '或者输入名称'
-	'adv_adv'	=> 'Choisissez une Annonce', //  '选择广告'
+	'adv_title'	=> 'Saisir un Nom', // '或者输入名称'
+	'adv_adv'	=> 'Saisir une Annonce', //  '选择广告'
 );

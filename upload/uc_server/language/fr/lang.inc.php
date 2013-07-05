@@ -6,7 +6,7 @@
 // Based on UCenter 1.6.0, (c) Comsenz.inc, discuz.net
 //------------------------------------------------------
 // French Language Pack
-// by Andre13, discuz-fr.fr
+// by Andre13, discuz-france.fr
 //------------------------------------------------------
 
 define('UC_VERNAME', 'International Version');

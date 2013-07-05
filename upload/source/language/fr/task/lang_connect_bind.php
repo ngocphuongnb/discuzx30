@@ -25,7 +25,7 @@ $lang = array
 	'connect_bind_view'	=> '<strong>Suivez les instructions pour participer &#224; la t&#226;che</strong>
 		<ul>
 		<li>1. <a href="connect.php?mod=config" target="_blank">Ouvrir un nouveau compte tenu des pages QQ</a></li>
-		<li>2. Dans la nouvelle page qui s\'ouvre, cliquez sur "Liaison QQ compte", entrez votre num&#233;ro de compte sur le mot de passe QQ pour compl&#233;ter la liaison</li>
+		<li>2. Dans la nouvelle page qui s&#180;ouvre, cliquez sur "Liaison QQ compte", entrez votre num&#233;ro de compte sur le mot de passe QQ pour compl&#233;ter la liaison</li>
 		</ul>',
 );
 

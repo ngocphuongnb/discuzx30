@@ -52,17 +52,17 @@ $lang = array
 	'feed_profile_update_base'	=> '{actor} a mis &#224; jour le profil de base', // '{actor} updated basic profile'
 	'feed_profile_update_contact'	=> '{actor} a mis &#224; jour sa pr&#233;sence de contact', // '{actor} updated contact'
 	'feed_profile_update_edu'	=> '{actor} a mis l\'enseignement &#224; jour', // '{actor} updated education'
-	'feed_profile_update_work'	=> '{actor} a mis &#224; jour les informations de travaux effectu&#233;s', // '{actor} updated work information'
+	'feed_profile_update_work'	=> '{actor} a mis &#224; jour les informations des logs effectu&#233;s', // '{actor} updated work information'
 	'feed_profile_update_info'	=> '{actor} a mis &#224; jour information personel', // '{actor} updated personal information'
 	'feed_profile_update_bbs'	=> '{actor} a mis &#224; jour l\'information du forum', // '{actor} updated forum information'
 	'feed_profile_update_verify'	=> '{actor} a mis &#224; jour et v&#233;rifier les informations', // '{actor} updated verified information'
 
 	'feed_add_attachsize'		=> '{actor} a utilis&#233; des points {credit} pour &#233;changer {size} pi&#232;ces jointes de l\'espace.(<a href="home.php?mod=spacecp&ac=credit&op=addsize">Je tiens &#224; &#233;changer</a>)', // '{actor} used points {credit} to exchange {size} attachment space.(<a href="home.php?mod=spacecp&ac=credit&op=addsize">I want to exchange</a>)'
 
-	'feed_invite'			=> '{actor} a envoy&#233; une invitation et deviennent ses Amis {username}', // '{actor} sent an invitation and become friends with {username}'
+	'feed_invite'			=> '{actor} a envoy&#233; une invitation et deviennent un de ses amis {username}', // '{actor} sent an invitation and become friends with {username}'
 
 	'magicuse_thunder_announce_title'	=> '<strong>{username} a utilis&#233; une carte de tonnerre</strong>', // '<strong>{username} used a thunder card</strong>'
-	'magicuse_thunder_announce_body'	=> 'Bonjour tout le monde, Je suis maintenant en ligne.<br /><a href="home.php?mod=space&uid={uid}" target="_blank">Bienvenue pour visiter mon Espace</a>', // 'Hello everyone, I\'m online now.<br /><a href="home.php?mod=space&uid={uid}" target="_blank">Welcome to visit my space</a>'
+	'magicuse_thunder_announce_body'	=> 'Bonjour tout le monde, je suis maintenant En-Ligne.<br /><a href="home.php?mod=space&uid={uid}" target="_blank">Bienvenue pour visiter mon Espace</a>', // 'Hello everyone, I\'m online now.<br /><a href="home.php?mod=space&uid={uid}" target="_blank">Welcome to visit my space</a>'
 
 
 	'feed_thread_title'		=> '{actor} a post&#233; un nouveau sujet', // '{actor} posted a new thread'
@@ -75,27 +75,27 @@ $lang = array
 	'feed_thread_poll_title'	=> '{actor} a post&#233; un nouveau sondage', // '{actor} posted a new poll'
 	'feed_thread_poll_message'	=> '<b>{subject}</b><br />{message}', // '<b>{subject}</b><br />{message}'
 
-	'feed_thread_votepoll_title'	=> '{actor} a rejoint un sondage de {subject}', // '{actor} joined a poll about {subject}'
+	'feed_thread_votepoll_title'	=> '{actor} a rejoint au sondage de {subject}', // '{actor} joined a poll about {subject}'
 	'feed_thread_votepoll_message'	=> '', // ''
 
-	'feed_thread_goods_title'	=> '{actor} a ajout&#233; une nouvelle marchandise', // '{actor} added a new goods'
+	'feed_thread_goods_title'	=> '{actor} a ajout&#233; une New marchandise', // '{actor} added a new goods'
 	'feed_thread_goods_message_1'	=> '<b>{itemname}</b><br />Prix {itemprice} USD et {itemcredit}{creditunit}', // '<b>{itemname}</b><br />Price {itemprice} USD and {itemcredit}{creditunit}'
 	'feed_thread_goods_message_2'	=> '<b>{itemname}</b><br />Prix {itemprice} USD', // 
 	'feed_thread_goods_message_3'	=> '<b>{itemname}</b><br />Prix {itemcredit}{creditunit}', // '<b>{itemname}</b><br />Price {itemcredit}{creditunit}'
 
-	'feed_thread_reward_title'	=> '{actor} a post&#233; une nouvelle r&#233;compense', // '{actor} posted a new reward'
-	'feed_thread_reward_message'	=> '<b>{subject}</b><br />R&#233;compense {rewardprice}{extcredits}', // '<b>{subject}</b><br />Reward {rewardprice}{extcredits}'
+	'feed_thread_reward_title'	=> '{actor} a post&#233; un New Bonus', // '{actor} posted a new reward'
+	'feed_thread_reward_message'	=> '<b>{subject}</b><br /> Bonus  de {rewardprice}{extcredits}', // '<b>{subject}</b><br />Reward {rewardprice}{extcredits}'
 
-	'feed_reply_reward_title'	=> '{actor} a r&#233;pondu au sujet de la r&#233;compense  {subject}', // '{actor} replied a reward about {subject}'
+	'feed_reply_reward_title'	=> '{actor} a r&#233;pondu au sujet du Bonus  {subject}', // '{actor} replied a reward about {subject}'
 	'feed_reply_reward_message'	=> '', // ''
 
-	'feed_thread_activity_title'	=> '{actor} a post&#233; une nouvelle activit&#233;', // '{actor} posted a new activity'
+	'feed_thread_activity_title'	=> '{actor} a post&#233; une New activit&#233;', // '{actor} posted a new activity'
 	'feed_thread_activity_message'	=> '<b>{subject}</b><br />Temps: {starttimefrom}<br />Lieu: {activityplace}<br />{message}', // '<b>{subject}</b><br />Time: {starttimefrom}<br />Location: {activityplace}<br />{message}'
 
 	'feed_reply_activity_title'	=> '{actor} a rejoint l\'activit&#233; de {subject}', // '{actor} joined activity about {subject}'
 	'feed_reply_activity_message'	=> '', // ''
 
-	'feed_thread_debate_title'	=> '{actor} a post&#233; un nouveau d&#233;bat', // '{actor} posted a new debate'
+	'feed_thread_debate_title'	=> '{actor} a post&#233; un New d&#233;bat', // '{actor} posted a new debate'
 	'feed_thread_debate_message'	=> '<b>{subject}</b><br />Place: {affirmpoint}<br />Adversaire: {negapoint}<br />{message}', // '<b>{subject}</b><br />Square: {affirmpoint}<br />Opponent: {negapoint}<br />{message}'
 
 	'feed_thread_debatevote_title_1'	=> '{actor} rejoint un d&#233;bat sur {subject} comme plac&#233;', // '{actor} joined a debate about {subject} as square'

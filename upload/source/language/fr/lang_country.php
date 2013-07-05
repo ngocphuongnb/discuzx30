@@ -8,11 +8,14 @@
  *      			http://codersclub.org/discuzx/
  *
  *	Translated to English by Valery Votintsev
+ *
+ * Translated to French by Andre13 and Bertrand
+ *        http://www.discuz-france.fr
  */
 
 $lang = array(
-	'A1'	=> 'Anonymous Proxy',
-	'A2'	=> 'Satellite Provider',
+	'A1'	=> 'Proxy Anonyme', //  'Anonymous Proxy',
+	'A2'	=> 'FAI Services Satellite',  //   'Satellite Provider',  
 	'AB'	=> 'Abkhasia',
 	'AD'	=> 'Andorra',
 	'AE'	=> 'United Arab Emirates',
@@ -256,13 +259,13 @@ $lang = array(
 	'VU'	=> 'Vanuatu',
 	'WF'	=> 'Wallis and Futuna',
 	'WS'	=> 'Samoa',
-	'YE'	=> 'Yemen',
+	'YE'	=> 'Yémen', //  
 	'YT'	=> 'Mayotte',
-	'ZA'	=> 'South Africa',
-	'ZM'	=> 'Zambia',
+	'ZA'	=> 'Afrique du Sud', //  
+	'ZM'	=> 'Zambie',
 	'ZW'	=> 'Zimbabwe',
-	'??'	=> 'Unknown',
+	'??'	=> 'Inconnu', //  Unknown
 	'LAN'	=> 'LAN',
 	'LOC'	=> 'Localhost',
-	'ERR'	=> 'Invalid IP Address',
+	'ERR'	=> 'Adresse IP Invalide', //  'Invalid IP Address',
 );

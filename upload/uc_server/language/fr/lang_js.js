@@ -26,7 +26,7 @@ var lng = {
 	'wday5'		: 'Ve',//'五', // 'Fr'
 	'wday6'		: 'Sa',//'六', // 'Sa'
 	'month'		: 'Mois',//'月', // 'Month'
-	'today'		: 'Aujourd\'hui',//'今天', // 'Today'
+	'today'		: 'Aujourd&#180;hui',//'今天', // 'Today'
 	'hours'		: 'Heures',//'点', // 'Hours'
 	'minutes'	: 'Minutes',//'分', // 'Minutes'
 	'ok'		: 'Ok',//'OK',

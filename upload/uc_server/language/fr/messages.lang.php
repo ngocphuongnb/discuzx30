@@ -6,12 +6,12 @@
 // Based on UCenter 1.6.0, (c) Comsenz.inc, discuz.net
 //------------------------------------------------------
 // French Language Pack
-// by Andre13, discuz-fr.fr
+// by Andre13, discuz-france.fr
 //------------------------------------------------------
 
 $lang = array(
 	'please_login'		=> 'Veuillez vous reconnecter',
-	'receiver_no_exists'	=> 'Le destinataire n’existe pas, veuillez en essayer un autre',
+	'receiver_no_exists'	=> 'Le destinataire est Inexistant, veuillez en essayer un autre',
 	'pm_save_succeed'	=> 'Sauvegardé dans les Brouillons',
 	'pm_send_succeed'	=> '$sent MP envoyé avec succès !',
 	'pm_send_announce_succeed'	=> 'Message Public envoyé avec succès !',
@@ -34,10 +34,10 @@ $lang = array(
 	'dbback_error_code_1'	=> 'Ne peut créer le repertoire',
 	'dbback_error_code_2'	=> 'Échec de l’écriture du fichier de sauvegarde',
 	'dbback_error_code_3'	=> 'Erreur de requête Sql',
-	'dbback_error_code_4'	=> 'Le répertoire est vide ou n’existe pas',
+	'dbback_error_code_4'	=> 'Répertoire vide ou est Inexistant',
 	'dbback_error_code_5'	=> 'Aucun fichier de sauvegarde légitime n’a été trouvé dans le répertoire indiqué',
 	'dbback_error_code_6'	=> 'Fichier de sauvegarde manquant',
-	'dbback_error_code_7'	=> 'Le répetoire de sauvegarde n’existe pas',
+	'dbback_error_code_7'	=> 'Répetoire de sauvegarde est Inexistant',
 	'dbback_error_code_8'	=> 'Erreur lors de la suppression du fichier de sauvegarde indiqué',
 	'dbback_error_code_9'	=> 'Ce type de sauvegarde d’application n’est pas supporté par le script d’interface de sauvegarde',
 	'undefine_error'	=> 'Erreur Indéterminée',

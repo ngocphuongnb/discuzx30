@@ -8,7 +8,7 @@
  */
 
 if(!defined('IN_DISCUZ')) {
-	exit('Accs Refus');
+	exit('Access Refused');
 }
 
 $lang = array (

@@ -20,7 +20,7 @@ $lang = array
 	'article_position_float'	=> 'Autour de la zone de contenu',
 	'article_position_up'		=> 'Lecture connexe au sommet (le)',
 	'article_position_down'		=> 'Lire connexes ci-dessus (ci-dessous)',
-	'article_category'		=> 'Emplacement cha&#238;ne de classification',
-	'article_category_comment'	=> 'Canal publicitaire Class&#233; ensemble',
+	'article_category'		=> 'Emplacement Ordre en cha&#238;ne',
+	'article_category_comment'	=> 'Par Ordre de tout les canaux publicitaire',
 );
 
