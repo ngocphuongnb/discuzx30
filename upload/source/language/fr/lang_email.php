@@ -39,14 +39,14 @@ Ne sont pas un Membre de notre Site, Svp. Ignorer ce Message</p>
 <strong>Comment R&#233;initialiser le Mot de Passe</strong><br />
 ----------------------------------------------------------------------</p>
 </p>
-Pour R&#233;initialiser Votre Mot De Passe, Svp. Visiter Le Lien Ci-dessous Les 3 Jours Ouvrables:<br />
+Pour R&#233;initialiser Votre Mot De Passe, Svp. Visiter Le Lien Ci-dessous sur les 3 Jours ouvrables:<br />
 
 <a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}</a>
 <br />
-(Si En Cliquant Sur L\'url de ce Message ne fonctionne Pas, Il Suffit de Copier et De
-Le Coller dans la Barre d\'Adresse de votre Navigateur.)</p>
+(Si En Cliquant Sur L\'url de ce Message ne fonctionne Pas, Il suffit de Copier et de
+Le coller dans la Barre d\'Adresse de votre Navigateur.)</p>
 
-<p>Svp. Visitez la Page Sur et R&#233;initialiser le Mot, Alors Vous Pouvez L\'utiliser pour Vous Connecter Sur notre Site. Vous Pouvez Changer votre Mot de Passe dans Param&#232;tre.</p>
+<p>Svp. Visitez la Page et R&#233;initialiser le Mot de passe, Ainsi vous pourrez L\'utiliser pour pouvoir Vous Connecter Sur notre Site. Vous Pouvez Changer votre Mot de Passe dans Param&#232;tre.</p>
 
 <p>Demande IP: {clientip}</p>
 
@@ -58,7 +58,7 @@ Votre,<br />
 {siteurl}</p>',
 
 
-	'email_verify_subject'	=> 'V&#233;rif. Courr. Electr. E-mail',
+	'email_verify_subject'	=> 'V&#233;rification Courriel E-mail',
 	'email_verify_message'	=> '
 <p>{username},
 Ce Courrier est Envoy&#233; Par {bbname}.</p>
@@ -90,40 +90,40 @@ Votre,<br />
 {bbname} Team.<br />
 {siteurl}</p>',
 
-	'email_register_subject' =>	'Forum registration',//'论坛注册地址',
+	'email_register_subject' =>	'Forum sur abonnement',//'论坛注册地址',  // 'Forum registration', 
 'email_register_message' =>	'<br />
-<p>This letter is sent from {bbname}.</p>
+<p>Ce  Courriel est envoy&#233;e &#224; partir de {bbname}.</p>
 
-<p>You have received this message due to somebody (may be you) registered this E-Mail address at {bbname}.
-If you do not want to access to {bbname}, or you did not registered at this site,
-please ignore this message.
+<p>Vous recevez ce message en raison d\'une personne (peut &#234;tre vous) enregistr&#233; cette adresse E-Mail &#224; {bbname}.
+Si vous ne souhaitez pas acc&#233;der &#224; {bbname}, ou si vous n\'&#234;tes pas encore inscrit(e) sur ​ce site,
+s\'il vous pla&#238;t ignorer ce message. Merci de votre compr&#233;hension.
 
-You do not need to unsubscribe or do any other further action.</p>
+Vous n\'avez pas besoin de vous d&#233;sabonner ou de faire toute autre suite &#224; donner.</p>
 <br />
-----------------------------------------------------------------------<br />
-<strong>New user registration instructions</strong><br />
-----------------------------------------------------------------------<br />
+-------------------------------------------------------------------------------<br />
+<strong>De nouvelles instructions d\'enregistrement des utilisateurs  </strong><br />
+-------------------------------------------------------------------------------<br />
 <br />
-<p>If you are a {bbname} new user, or have modified your registered before Email address,
-it is required to verify your mailbox address in order to avoid junk or malicious e-mail.</p>
+<p>Si vous &#234;tes un {bbname} nouvel utilisateur, ou vous avez modifi&#233; auparavant votre adresse &#233;lectronique,
+il est n&#233;cessaire de v&#233;rifier votre adresse de bo&#238;te aux lettres afin d\'&#233;viter ind&#233;sirable ou e-mail malveillant.</p>
 
-<p>For register just click on the link below. The following link is valid for 3 days. After expired you can request to re-send the activation email to a new e-mail address:<br />
+<p>Pour vous inscrire il suffit de cliquer sur le lien ci-dessous. Le lien suivant est valable durant 3 jours uniquement. Apr&#232;s ce d&#233;lai d\'expiration, vous pouvez demander de renvoyer l\'email d\'activation &#224; une nouvelle adresse E-mail:<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(If the above link is not working, copy the link URL and paste it into your browser address bar manually)</p>
+(Si le lien ci-dessus ne fonctionne pas, copiez l\'URL du lien et le coller dans votre barre d\'adresse du navigateur manuellement)</p>
 
-<p>Thank you for your visit, we are glad to see you at our site!</p>
+<p>Merci de votre visite, nous sommes heureux de vous voir sur notre site!</p>
 
 
 <p>
-Sincerely yours,<br />
+Cordialement,<br />
 
-{bbname} management team.<br />
+{bbname} &#233;quipe de direction. Discuz-france.fr<br />
 {siteurl}</p>',
 
 
-	'add_member_subject'	=> 'Renseignements Sur le Compte Important',
+	'add_member_subject'	=> 'Informations Importantes pour le Compte',
 	'add_member_message'	=> '
 {newusername},
 Ce Courrier est Envoy&#233; Par {bbname}.
