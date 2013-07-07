@@ -9,18 +9,18 @@
 $lang = array(
 
 	'config_dbhost'		=> 'Serveur Base de Données',//'数据库服务器',
-	'config_dbuser'		=> 'Base de Données Identifiant',//'数据库用户名',
-	'config_dbpw'		=> 'Base de Données mot de passe',//'数据库密码',
+	'config_dbuser'		=> 'Database Identifiant',//'数据库用户名',
+	'config_dbpw'		=> 'Database Mot de Passe',//'数据库密码',
 	'config_dbname'		=> 'Nom de la Base',//'数据库',
-	'config_tablepre'	=> 'Préfixe de la table',//'数据表前缀',
-	'config_dbcharset'	=> 'Base de Données jeu de caractères (facultatif)',//'数据表字符集 (可选)',
+	'config_tablepre'	=> 'Préfixe de la Table',//'数据表前缀',
+	'config_dbcharset'	=> 'Database jeu de caractères (facultatif)',//'数据表字符集 (可选)',
 	'config_pconnect'	=> 'Connexion Permanente',//'持久连接',
 
-	'config_type_source'	=> 'Base de données des paramètres Source (la version originale de la base de données)',//'数据源服务器设置 (原始版本的数据库)',
-	'config_type_target'	=> 'Paramètres de base cible (correctement installé Discuz! Base de données X)',//'目标服务器设置 (已正确安装 Discuz! X 的数据库)',
+	'config_type_source'	=> 'Database des paramètres Source (la version originale de la Database)',//'数据源服务器设置 (原始版本的数据库)',
+	'config_type_target'	=> 'Paramètres de base cible (correctement installé Discuz! Database X)',//'目标服务器设置 (已正确安装 Discuz! X 的数据库)',
 	'config_type_ucenter'	=> 'UCenter paramètres du serveur (base de données correctement installé UCenter)',//'UCenter 服务器设置 (已正确安装 UCenter 的数据库)',
 
-	'config_type_target_comment'	=> 'Note: La base de données cible sera remplacé ou mis à jour les données, comme ceux-ci contiennent un contenu important, Svp. faire une sauvegarde avant',//'注意：目标数据库的数据将会被替换或者更新,如当中含有重要内容,请先备份',
+	'config_type_target_comment'	=> 'Note: La Database cible sera remplacé ou mis à jour des données, comme ceux-ci contiennent un contenu important, Svp. faire une sauvegarde avant',//'注意：目标数据库的数据将会被替换或者更新,如当中含有重要内容,请先备份',
 	'config_write_error'	=> 'data/ répertoire n\'est pas accessible en écriture, Svp. assurer que ce répertoire ont les permissions d\'écriture, de définir les droits 777',//'转换程序的 data/ 目录不可写,请确保此目录的可写权限,设置 777 属性',
 
 	'config_save'		=> 'Enregistrer les paramètres du serveur',//'保存服务器设置',
@@ -192,7 +192,7 @@ $lang = array(
 //convert/source/d7.2_x2.0/table/moderators.php
 
 	'converted'	=> ', Converti ',//'，已转换',
-	'records'	=> ' records.',//'条记录。',
+	'records'	=> ' enregistrements.',//'条记录。',  //  ' records.',
 
 //---------------------------
 //convert/source/uch2.0_x1.0/table/home_event.php++
@@ -222,5 +222,5 @@ $lang = array(
 //---------------------------
 //convert/source/uch2.0_x1.0/table/home_space.php++
 
-	'space_home_error'	=> 'Erreur: les points de l\'Espace est vide. Configurer l\'Espace d\'info des points correspondants',//'发生错误,请配置积分对应关系信息',
+	'space_home_error'	=> 'Erreur: L\'Espace des points est vide. Configurer l\'Espace d\'info des points correspondants',//'发生错误,请配置积分对应关系信息',
 );

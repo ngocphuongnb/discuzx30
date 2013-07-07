@@ -61,7 +61,7 @@ $lang = array(
 	'reply'			=> 'R&#233;pondre', // Reply
 	'from'			=> 'De', // From
 	'anonymity'		=> 'Anonyme', // Anonymous
-	'viewmore'		=> 'Bcp. plus', // More
+	'viewmore'		=> 'Plus encore', // More
 	'constellation_1'	=> 'Verseau', // Aquarius
 	'constellation_2'	=> 'Poissons', // Pisces
 	'constellation_3'	=> 'B&#233;lier', // Aries
@@ -75,7 +75,7 @@ $lang = array(
 	'constellation_11'	=> 'Sagittaire', // Sagittarius
 	'constellation_12'	=> 'Capricorne', // Capricorn
 	'zodiac_1'		=> 'Rat', // Rat
-	'zodiac_2'		=> 'Buf', // Ox
+	'zodiac_2'		=> 'Boeuf', // Ox // Boeuf
 	'zodiac_3'		=> 'Tigre', // Tiger
 	'zodiac_4'		=> 'Lapin', // Rabbit
 	'zodiac_5'		=> 'Dragon', // Dragon
@@ -104,8 +104,8 @@ $lang = array(
 /*vot*/	'blockdata'		=> array(
 		'personalinfo'	=> 'Infos Perso.',// 'Personal Info'
 		'profile'	=> 'Profil', // 'Profile'
-		'doing'		=> 'Agiss.', // 'Doing'
-		'feed'		=> 'Flux rss', // 'Feed'
+		'doing'		=> 'Actes', // 'Doing'
+		'feed'		=> 'Flux', // 'Feed'
 		'blog'		=> 'Blog', // 'Blog'
 		'stickblog'	=> 'Top Blogs',//'Top blogs'
 		'album'		=> 'Album', // 'Album'
@@ -132,7 +132,7 @@ $lang = array(
 	'album_li'		=> '<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}">{albumname}</a></p><span>Images:({picnum})</span><span>Mise &#224; jour {date}</span></li>', // 
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} R&#233;ponse({replynum})', // 
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonyme"></div><p>Anonyme</p>', // 
-	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Retirez la visite"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -141,7 +141,7 @@ $lang = array(
 					<input type="hidden" name="id" value="{uid}" />
 					<input type="hidden" name="idtype" value="uid" />
 					<input type="hidden" name="commentsubmit" value="true" />' :
-					($_G['connectguest'] ? '<div class="pt hm">You have to <a href="member.php?mod=connect" class="xi2">Improve the account information</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> before you can reply</div>' : '<div class="pt hm">You need to log in before you can <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">Login</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">Register</a></div>')).'
+					($_G['connectguest'] ? '<div class="pt hm">Vous devez <a href="member.php?mod=connect" class="xi2">Am&#233;liorer les informations du compte</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Lier un compte existant</a> avant que vous puissiez r&#233;pondre</div>' : '<div class="pt hm">Vous devez vous identifier avant de faire cela <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">Connexion</a> | <a href="member.php?mod='.$_G['setting']['regname'].'" class="xi2">Inscription</a></div>')).'
 					<p class="ptn"><button '.($_G['uid'] ? 'type="submit"' : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"').' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>Laissez un Message</strong></button></p>
 					<input type="hidden" name="handlekey" value="commentwall_{uid}" />
 					<span id="return_commentwall_{uid}"></span>
@@ -174,53 +174,53 @@ $lang = array(
 	'myapp_li_icon'		=> '<li><img src="{icon}" onerror="this.onerror=null;this.src=\'http://appicon.manyou.com/icons/{appid}\'" alt="{appname}" class="vm" /> <a href="userapp.php?mod=app&id={appid}">{appname}</a></li>', // '<li><img src="{icon}" onerror="this.onerror=null;this.src=\'http://appicon.manyou.com/icons/{appid}\'" alt="{appname}" class="vm" /> <a href="userapp.php?mod=app&id={appid}">{appname}</a></li>'
 	'myapp_li_logo'		=> '<li><a href="userapp.php?mod=app&id={appid}"><img src="http://appicon.manyou.com/logos/{appid}" alt="{appname}" /><p><a href="userapp.php?mod=app&id={appid}">{appname}</a></p></li>', // '<li><a href="userapp.php?mod=app&id={appid}"><img src="http://appicon.manyou.com/logos/{appid}" alt="{appname}" /><p><a href="userapp.php?mod=app&id={appid}">{appname}</a></p></li>'
 	'music_no_content'	=> 'Vous avez aucune Musique', // You do not have any music
-	'block_profile_diy'	=> 'DIY Espace', // DIY Space
+	'block_profile_diy'	=> 'Espace BRICO ', // DIY Space
 	'block_profile_wall'	=> 'Voir message', // View message
-	'block_profile_avatar'	=> 'Editer Avatar', // Edit Avatar
+	'block_profile_avatar'	=> '&#201;tesditer Avatar', // Edit Avatar
 	'block_profile_update'	=> 'Mise &#224; jour Profil', // Update Profile
-	'block_profile_follow'		=> 'View Feed',//'查看广播',
+	'block_profile_follow'		=> 'Voir le Flux',//'查看广播', // 'View Feed', 
 	'block_profile_wall_to_me'	=> 'Message', // Message
-	'block_profile_friend_add'	=> 'Ajout. Ami', // Add Friend
+	'block_profile_friend_add'	=> 'Ajouter Ami', // Add Friend
 	'block_profile_friend_ignore'	=> 'Supprimer un Ami', // Remove Friend
 	'block_profile_poke'		=> 'Dit "salut"', // 'Say "hi"'
 	'block_profile_sendmessage'	=> 'Envoyer M.P.', // 'Send P.M.'
-	'block_doing_reply'		=> 'R&#233;pondre', // Reply
-	'block_doing_no_content'	=> 'Vous avez Aucun Agissements.', // 'You do not have any doing.'
+	'block_doing_reply'		=> 'R&#233;ponse', // Reply
+	'block_doing_no_content'	=> 'Vous avez Aucune action', // 'You do not have any doing.'
 	'block_doing_no_content_publish'	=> ',<a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">Mise &#224; jour</a>', // ',<a href ="home.php?mod=space&uid={uid}&do=doing&view=me&from=space">Update</a>'
-	'block_blog_no_content'			=> 'Pas encore de Blogs', // No any blog yet
+	'block_blog_no_content'			=> 'Aucun Blogs', // No any blog yet
 	'block_blog_no_content_publish'		=> ',<a href ="home.php?mod=spacecp&ac=blog">Bloguer</a>', // ',<a href ="home.php?mod=spacecp&ac=blog">Blogging</a>'
-	'block_album_no_content'		=> 'Pas encore d\'albums', // No albums yet
+	'block_album_no_content'		=> 'Aucun Albums', // No albums yet
 	'block_album_no_content_publish'	=> ',<a href ="home.php?mod=spacecp&ac=upload">Charger</a>', // ',<a href ="home.php?mod=spacecp&ac=upload">Upload</a>'
-	'block_feed_no_content'			=> 'Il n\'y a pas de flux rss actuellement', // There is no dynamic now
-	'block_thread_no_content'		=> 'Sujets n\'ont pas encore essayer', // Topics have not yet
+	'block_feed_no_content'			=> 'Aucun flux actuellement', // There is no dynamic now
+	'block_thread_no_content'		=> 'Topics n&#180;ont pas encore essayer', // Topics have not yet
 	'block_thread_no_content_publish'	=> ',<a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">Post un sujet</a>', // ',<a href ="forum.php?mod=misc&action=nav&special=0&from=home" onclick="showWindow(\'nav\', this.href);return false;">Post a topic</a>'
-	'block_friend_no_content'		=> 'Pas encore d\'Amis', // No friends yet
+	'block_friend_no_content'		=> 'Aucun Amis', // No friends yet
 	'block_friend_no_content_publish'	=> ',<a href ="home.php?mod=spacecp&ac=search">Trouver Amis</a> or <a href ="home.php?mod=spacecp&ac=invite">Inviter Amis</a>', // ',<a href ="home.php?mod=spacecp&ac=search">Find Friends</a> or <a href ="home.php?mod=spacecp&ac=invite">Invite Friends</a>'
 	'block_visitor_no_content'		=> 'Aucun visiteurs en ce moment', // No visitors now
 	'block_visitor_no_content_publish'	=> ',<a href ="home.php?mod=space&do=friend&view=online&type=member">La porte de la cha&#238;ne</a>', // 
-	'block_share_no_content'		=> 'Vous n\'avez pas encore partag&#233;', // Have not yet shared
-	'block_wall_no_content'			=> 'Aucun contenu', // No shout
-	'block_group_no_content'		=> 'Il n\'existe aucun Groupe &#224; rejoindre', // There is no group joined
+	'block_share_no_content'		=> 'Vous n&#180;avez pas encore partag&#233;', // Have not yet shared
+	'block_wall_no_content'			=> 'Aucun Contenu', // No shout
+	'block_group_no_content'		=> 'Aucun Groupe Existant &#224; rejoindre', // There is no group joined
 	'block_group_no_content_publish'	=> ',<a href ="forum.php?mod=group&action=create">Cr&#233;ez votre propre Groupe</a> or <a href ="group.php?mod=index">Joindre Groupe</a>', // ',<a href ="forum.php?mod=group&action=create">Create your own group</a> or <a href ="group.php?mod=index">Join group</a>'
 	'block_group_no_content_join'		=> ',<a href ="group.php?mod=index">Joindre Groupe</a>', // 
-	'block_myapp_no_content'		=> 'N\'ont pas encore d\'applications', // 
+	'block_myapp_no_content'		=> 'Aucun Journal(log)', //  Aucune appluications ou Aucun journal
 	'block_myapp_no_content_publish'	=> ',<a href ="userapp.php?mod=manage&my_suffix=/app/list">Je veux jouer aux applications</a>', // ',<a href ="userapp.php?mod=manage&my_suffix=/app/list">I want to play applications</a>'
-	'block_view_noperm'		=> 'Pas de permission', // No permission
-	'block_view_profileinfo_noperm'	=> 'Aucune entr&#233;e de donn&#233;es ou de droite pour voir', // 'No data entry or right to view'
+	'block_view_noperm'		=> 'Aucune Permission', // No permission
+	'block_view_profileinfo_noperm'	=> 'Aucune entr&#233;e de donn&#233;es ou de droit pour voir', // 'No data entry or right to view'
 	'click_play'			=> 'Cliquez pour jouer', // Click to play
 	'click_view'			=> 'Cliquez pour voir', // Click to view
-	'feed_view_only'		=> 'Flux Affichage seul du genre', // Only view feeds of this type
+	'feed_view_only'		=> 'Voir seulement les flux de ce type', // Only view feeds of this type
 
 	'export_pm'		=> 'Exporter Messages', // Export Messages
-	'pm_export_header'	=> 'Enreg. de messages Prague.co (Cet enreg. est au format txt, ne peuvent pas importer)', // 'Prague.co Message Records(This record is txt format, cannot import)'
+	'pm_export_header'	=> 'Enregistrer des messages Prague.co (Cet enreg. est au format txt, ne peuvent pas importer)', // 'Prague.co Message Records(This record is txt format, cannot import)'
 	'pm_export_touser'	=> 'A: {touser}', // 'To: {touser}'
-	'pm_export_subject'	=> 'Chat sujet: {subject}', // 'Chat topic: {subject}'
+	'pm_export_subject'	=> 'Sujet du T-chat: {subject}', // 'Chat topic: {subject}'
 	'all'			=> 'Tout', // All
 	'manage_post'		=> 'Posts', // Posts
 	'manage_album'		=> 'Albums', // Albums
 	'manage_blog'		=> 'Blogs', // Blogs
 	'manage_comment'	=> 'Comment.', // Comments
-	'manage_doing'		=> 'Agiss.', // Doings
+	'manage_doing'		=> 'Actes', // Doings  // Agissements
 	'manage_feed'		=> 'Flux', // Feeds
 	'manage_group_prune'	=> 'Posts', // Posts
 	'manage_group_threads'	=> 'Sujets', // Threads
@@ -231,7 +231,7 @@ $lang = array(
 	'sb_album'		=> '{who}\'s albums', // '{who}\'s albums'
 	'sb_space'		=> '{who}\'s Espace', // '{who}\'s space'
 	'sb_feed'		=> '{who}\'s Flux', // '{who}\'s feeds'
-	'sb_doing'		=> '{who}\'s Agiss.', // '{who}\'s doings'
+	'sb_doing'		=> '{who}\'s Actes', // '{who}\'s doings'
 	'sb_sharing'		=> '{who}\'s partages', // '{who}\'s shares'
 	'sb_friend'		=> '{who}\'s Amis', // '{who}\'s friends'
 	'sb_wall'		=> '{who}\'s message board', // '{who}\'s message board'
@@ -240,52 +240,52 @@ $lang = array(
 	'doing_you_can'		=> 'Qu-est-ce qui vous pr&#233;occupe, laissez les Amis le savoir ...', // 'What is on your mind,let the friends know ...'
 	'block_profile_all'	=> '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">Informations Perso.</a></p>', // '<p style="text-align: right;"><a href="home.php?mod=space&uid={uid}&do=profile">Personal information</a></p>'
 	'block_profile_edit'	=> '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">Mon Profil</a></span>', // '<span class="y xw0"><a href="home.php?mod=spacecp&ac=profile">My Profile</a></span>'
-	'sb_follow'		=> '{who} followings',//'{who}的广播',
+	'sb_follow'		=> '{who} diffusions',//'{who}的广播',  //  '{who} followings', // qui suivent cette diffusion
 	
 	'viewthread_userinfo_hour'	=> 'Heures', // Hours
 	'viewthread_userinfo_uid'	=> 'UID', // UID
 	'viewthread_userinfo_posts'	=> 'Posts', // Posts
 	'viewthread_userinfo_threads'	=> 'Topics', // Topics
-	'viewthread_userinfo_doings'	=> 'Enreg.', // Record
+	'viewthread_userinfo_doings'	=> 'Sauver', // Record // Enregistrement
 	'viewthread_userinfo_blogs'	=> 'Blogs', // Blogs
 	'viewthread_userinfo_albums'	=> 'Albums', // Albums
 	'viewthread_userinfo_sharings'	=> 'Partages', // Shares
 	'viewthread_userinfo_friends'	=> 'Amis', // Friends
 	'viewthread_userinfo_digest'	=> 'R&#233;sum&#233;s', // Digests
-/*!*/	'viewthread_userinfo_digestposts'	=> 'Digests',//'精华',
+/*!*/	'viewthread_userinfo_digestposts'	=> 'R&#233;sum&#233;s',//'精华',  // 'Digests', 
 	'viewthread_userinfo_credits'	=> 'Int&#233;grale', // Integral
 	'viewthread_userinfo_readperm'	=> 'Lire les Autorisations', // Read Permissions
 	'viewthread_userinfo_regtime'	=> 'Inscrits', // Registered
 	'viewthread_userinfo_lastdate'	=> 'Derni&#232;re Connexion', // Last Login
 	'viewthread_userinfo_oltime'	=> 'Temps En-Ligne', // Online Time
-	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
-	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
-/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
-/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
-/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
-/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
-	'follow_view_follow'			=> 'I follow',//'我关注的',
-	'follow_view_special'			=> 'Special attention',//'特别关注',
-	'follow_view_other'			=> 'Following Hall',//'广播大厅',
-	'follow_view_feed'			=> '{who}\'s feed',//'{who}的广播',
-	'follow_view_thread'			=> '{who}\s threads',//'{who}的主题',
-	'follow_view_reply'			=> '{who}\s replies',//'{who}的回复',
-	'follow_view_profile'			=> '{who}\s Personal data',//'{who}的个人资料',
-	'follow_view_type_feed'			=> 'Follow',//'广播',
-	'follow_view_type_thread'		=> 'Threads',//'主题',
-	'follow_view_type_reply'		=> 'Reply',//'回帖',
-	'follow_view_type_profile'		=> 'Profile',//'个人资料',
-	'follow_view_type_follower'		=> 'Follower list',//'听众列表',
-	'follow_view_type_following'		=> 'Followings list',//'收听用户',
-	'follow_view_my_follower'		=> 'My followers',//'我的听众',
-	'follow_view_my_following'		=> 'My followings',//'我收听的人',
-	'follow_view_do_follower'		=> 'His followers',//'他的听众',
-	'follow_view_do_following'		=> 'His followings',//'他收听的人',
-	'follow_view_fulltext'			=> '... View full text',//'...查看全文',
-	'follow_retract'			=> 'Collapse',//'收起',
-	'follow_click_play'			=> 'Click to Play',//'点击播放',
-	'follow_cancle_follow'			=> 'Cancel follow',//'取消收听',
-	'follow_follow_ta'			=> 'Follow the author',//'收听TA',
+	'viewthread_userinfo_sellercredit'	=> 'Note Vendeur',//'卖家信用',  // 'Seller rating',
+	'viewthread_userinfo_buyercredit'	=> 'Note Acheteur',//'买家信用',  // 'Buyer rating',
+/*!*/	'viewthread_userinfo_follower'		=> 'Adeptes',//'听众',  // 'Followers',
+/*!*/	'viewthread_userinfo_following'		=> 'Ecoutes',//'收听',  // 'Listenings',
+/*!*/	'viewthread_userinfo_feeds'		=> 'Flux',//'广播',  // 'Feeds',
+/*!*/	'viewthread_userinfo_privacy'		=> 'Confidentialit&#233;',//'保密',  // 'Privacy',
+	'follow_view_follow'			=> 'Je diffuse',//'我关注的',  // 'I follow', // J'ai suivi ??? 
+	'follow_view_special'			=> 'Attention particuli&#232;re',//'特别关注',  // 'Special attention',
+	'follow_view_other'			=> 'Salon de Diffusion',//'广播大厅',  // 'Following Hall',
+	'follow_view_feed'			=> '{who}\'s flux',//'{who}的广播',  // '{who}\'s feed',
+	'follow_view_thread'			=> '{who}\s sujets',//'{who}的主题',  // '{who}\s threads',
+	'follow_view_reply'			=> '{who}\s r&#233;ponses',//'{who}的回复',  //  '{who}\s replies',
+	'follow_view_profile'			=> '{who}\s donn&#233;es personnelles',//'{who}的个人资料',  // '{who}\s Personal data',
+	'follow_view_type_feed'			=> 'Suivi',//'广播',  //  'Follow', // Diffusion ?
+	'follow_view_type_thread'		=> 'Sujets',//'主题', // 'Threads', 
+	'follow_view_type_reply'		=> 'R&#233;ponse',//'回帖', //  'Reply',
+	'follow_view_type_profile'		=> 'Profil',//'个人资料', //  'Profile', 
+	'follow_view_type_follower'		=> 'Liste Adepte',//'听众列表', //  'Follower list',
+	'follow_view_type_following'		=> 'Liste Diffusions',//'收听用户', //  'Followings list',
+	'follow_view_my_follower'		=> 'Mes adeptes',//'我的听众', //  'My followers',
+	'follow_view_my_following'		=> 'Mes diffusions',//'我收听的人', //  'My followings',
+	'follow_view_do_follower'		=> 'Ses adeptes',//'他的听众',  // 'His followers', 
+	'follow_view_do_following'		=> 'Ses diffusions',//'他收听的人',  // 'His followings', 
+	'follow_view_fulltext'			=> '... Voir le texte complet',//'...查看全文',  //  '... View full text',
+	'follow_retract'			=> 'R&#233;duire',//'收起',  //  'Collapse',
+	'follow_click_play'			=> 'Cliquez ici pour regarder',//'点击播放',  //  'Click to Play',
+	'follow_cancle_follow'			=> 'Annuler le suivi',//'取消收听',  // 'Cancel follow', 
+	'follow_follow_ta'			=> 'Suivre l&#180;Auteur',//'收听TA',  //  'Follow the author',
 
 
 );

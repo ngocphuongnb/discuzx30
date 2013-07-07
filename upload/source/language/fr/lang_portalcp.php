@@ -12,17 +12,17 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array(
-	'block_diy_nopreview'		=> '<p>Ce module contient js, vous ne pouvez pas pr&#233;visualiser, Svp. enregistrer et afficher</p>',  //  '<p>This module contain js, you cannot preview, please save and view</p>'  
-	'block_diy_summary_html_tag'	=> 'Erreurs de contenu personnalis&#233;, les balises HTML:',  //  'Custom content errors, HTML tags:'  
+	'block_diy_nopreview'		=> '<p>Ce module contient du js, vous ne pouvez pas pr&#233;visualiser, Svp. veuillez enregistrer et afficher</p>',  //  '<p>This module contain js, you cannot preview, please save and view</p>'  
+	'block_diy_summary_html_tag'	=> 'Erreurs personnalis&#233; de son contenu , sans doute les balises HTML:',  //  'Custom content errors, HTML tags:'  
 	'block_diy_summary_not_closed'	=> ' Ne correspond pas',  // ' Does not match'   
 	'block_all_category'		=> 'Toutes Cat&#233;gories',  //  All categories  
 	'block_first_category'		=> 'Top Cat&#233;gories',  // Top category   
-	'block_all_forum'		=> 'Tout les Forums',  //  All forums  
-	'block_all_group'		=> 'Tout les Groupes Utilisateurs',  //  All usergroups  
+	'block_all_forum'		=> 'Tout Forums',  //  All forums  
+	'block_all_group'		=> 'Tout Groupes Utilisateurs',  //  All usergroups  
 	'block_all_type'		=> 'Toutes cat&#233;gories',  // All categories   
 	'file_size_limit'		=> 'Le Fichier est plus grand que {size} kio, Svp. retour.',  //  File is larger than {size} kb, please return.  
 	'set_to_conver'			=> 'D&#233;finir comme cover',  //  Set as cover  
-	'small_image'			=> 'Small image',//'小图',
+	'small_image'			=> 'Petite image',//'小图',  //   'Small image',
 	'insert_small_image'		=> 'Ins&#233;rez la petite image',  //  Insert small image  
 	'insert_large_image'		=> 'Ins&#233;rer image de grande taille',  //   Insert large image 
 	'insert_file'			=> 'Ins&#233;rer Fichier',  // Insert file   
@@ -30,10 +30,10 @@ $lang = array(
 	'upload_error'			=> 'T&#233;l&#233;chargement a &#233;chou&#233;',  //   Uploading failed 
 	'upload_remote_failed'		=> 'T&#233;l&#233;chargement distant a &#233;chou&#233;',  // Remote uploading failed   
 	'article_noexist'		=> 'Arcticle particulier inexistant',  // Specific arcticle does not exists   
-	'article_noallowed'		=> 'Vous n\'&#234;tes pas autoris&#233; &#224; op&#233;rer cet article',  //  You are not allowed to operate this article  
-	'article_publish_noallowed'	=> 'Vous n\'&#234;tes pas autoris&#233; &#224; publier cet article',  //  You are not allowed to publish article  
-	'article_category_empty'	=> 'Sorry, the category can not be empty',//'抱歉，栏目不能为空',
-	'article_edit_nopermission'	=> 'Sorry, you do not have permission to edit current article',//'抱歉，您没有权限进行当前文章操作',
+	'article_noallowed'		=> 'Vous n&#180;&#234;tes pas autoris&#233; &#224; op&#233;rer cet article',  //  You are not allowed to operate this article  
+	'article_publish_noallowed'	=> 'Vous n&#180;&#234;tes pas autoris&#233; &#224; publier cet article',  //  You are not allowed to publish article  
+	'article_category_empty'	=> 'D&#233;sol&#233;, cette cat&#233;gorie ne peut pas &#234;tre vide',//'抱歉，栏目不能为空',  // 'Sorry, the category can not be empty',
+	'article_edit_nopermission'	=> 'D&#233;sol&#233;, vous n&#180;avez pas l&#180;autorisation de modifier l\'article actuel',//'抱歉，您没有权限进行当前文章操作', //  'Sorry, you do not have permission to edit current article',
 	'article_publish'		=> 'Publiez',  //   Publish 
 	'article_manage'		=> 'G&#233;rer',  //   Manage 
 	'article_tag'			=> 'Tag',  //  Tag  
@@ -43,9 +43,9 @@ $lang = array(
 	'article_pushplus_info'	=> '<p><center><i><a href="{url}" class="xg1 xs1">Le contenu est fourni par {author}</a></i><center></p>',  //  '<p><center><i><a href="{url}" class="xg1 xs1">The content is provided by {author}</a></i><center></p>'  
 
 	'diytemplate_name_null'	=> '[Null]',  //  '[Null]'  
-	'portal_view_name'		=> ' Article view page',//' 文章查看页',
-	'forum_viewthread_name'		=> ' Posts View Page',//' 帖子查看页',
-	'portal/index'		=> 'Portail Index',  // Portal Index   
+	'portal_view_name'		=> ' Article vu(s) par page',//' 文章查看页',  // Article view page
+	'forum_viewthread_name'		=> ' Posts Vu(s) par Page',//' 帖子查看页', //  ' Posts View Page',
+	'portal/index'		=> 'Index du Portail',  // Portal Index   
 	'portal/list'		=> 'Article liste page(public)',  //   Article list page(public) 
 	'portal/view'		=> 'Article contenu page(public)',  // Article content page(public)   
 	'portal/comment'	=> 'Article comment. page',  //  Article comment page  
@@ -53,18 +53,18 @@ $lang = array(
 	'forum/viewthread'	=> 'Posts contenu page(public)',  // Posts content page(public)   
 	'forum/forumdisplay'	=> 'Forum liste page(public)',  // Forum list page(public)   
 	'group/index'		=> $_G['setting']['navs'][3]['navname'].' Index',  //  ' Index'  
-	'group/group_my'	=> 'My'.$_G['setting']['navs'][3]['navname'].' Index',  // ' Index'   
+	'group/group_my'	=> 'Mon'.$_G['setting']['navs'][3]['navname'].' Index',  // ' Index'    //   'My'.$_G['setting']['navs'][3]['navname'].' Index',
 	'group/group'		=> $_G['setting']['navs'][3]['navname'].' contenu page',  // ' content page'   
 	'home/space_home'	=> 'Espace Index',  // Space Index   
 	'home/space_trade'	=> 'Espace page Commerce',  // Space trade page   
 	'home/space_top'	=> 'Espace page Rang',  // Space ranking page   
 	'home/space_thread'	=> 'Espace page Sujet',  // Space thread page   
-	'home/space_reward'	=> 'Espace page R&#233;compense',  //  Space reward page  
+	'home/space_reward'	=> 'Espace page Bonus',  //  Space reward page  
 	'home/space_share_list'	=> 'Espace page Partage',  // Space share page   
-	'home/space_share_view'	=> 'Espace contenu page Partage',  //  Space share content page  
-	'space_share_view'	=> 'Espace vue page Partage',  //  Space share view page  
+	'home/space_share_view'	=> 'Espace page Partage contenu',  //  Space share content page  
+	'space_share_view'	=> 'Espace page Partage vue',  //  Space share view page  
 	'home/space_poll'	=> 'Espace page Sondage',  //  Space poll page  
-	'home/space_pm'		=> 'Espace M.P. page',  // Space P.M. page   
+	'home/space_pm'		=> 'Espace page M.P.',  // Space P.M. page   
 	'home/space_notice'	=> 'Espace Page Avis',  //  Space notice page  
 	'home/space_group'	=> 'Espace'.$_G['setting']['navs'][3]['navname'].' page',  // ' page'   
 	'home/space_friend'	=> 'Espace page Amis',  // Space friends page   
@@ -86,18 +86,18 @@ $lang = array(
 	'ranklist/group'	=> 'Groupe page Rang',  //  Group ranking page  
 	'ranklist/thread'	=> 'Posts page Rang',  // Posts ranking page   
 	'ranklist/member'	=> 'Utilisateurs page Rang',  // Users ranking page   
-	'other_page'		=> 'Pas de Module BRICO',  //   Not DIY module 
-	'upload'		=> 'T&#233;l&#233;ch.',  //   Upload 
+	'other_page'		=> 'Aucun Module BRICO',  //   Not DIY module 
+	'upload'		=> 'Charger',  //   Upload 
 	'remote'		=> 'Distant',  //   Remote 
-	'portal_index'		=> 'Portail Accueil',  //  Portal Home  
+	'portal_index'		=> 'Accueil du Portail',  //  Portal Home  
 	'portal_topic_blue'	=> 'Th&#232;me Bleu',  //  Blue theme  
 	'portal_topic_green'	=> 'Th&#232;me Vert',  // Green theme   
 	'portal_topic_grey'	=> 'Th&#232;me Gris',  //  Grey theme  
 	'portal_topic_red'	=> 'Th&#232;me Rouge',  //  Red theme  
 
-	'itemtypename0'			=> 'Auto',//'自动',
-	'itemtypename1'			=> '<span style="color: #FF0000">Fixed</span>',//'<span style="color: #FF0000">固定</span>',
-	'itemtypename2'			=> '<span style="color: #00BFFF">Edit</span>',//'<span style="color: #00BFFF">编辑</span>',
-	'itemtypename3'			=> '<span style="color: #0000FF">Push</span>',//'<span style="color: #0000FF">推送</span>',
+	'itemtypename0'			=> 'Auto',//'自动',  // Auto',
+	'itemtypename1'			=> '<span style="color: #FF0000">est r&#233;par&#233;</span>',//'<span style="color: #FF0000">固定</span>',  //  '<span style="color: #FF0000">Fixed</span>',
+	'itemtypename2'			=> '<span style="color: #00BFFF">a &#233;t&#233; modifi&#233;</span>',//'<span style="color: #00BFFF">编辑</span>',  //  '<span style="color: #00BFFF">Edit</span>',
+	'itemtypename3'			=> '<span style="color: #0000FF">a &#233;t&#233; appuy&#233; </span>',//'<span style="color: #0000FF">推送</span>',  //  '<span style="color: #0000FF">Push</span>',
 
 );

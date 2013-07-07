@@ -24,7 +24,7 @@ $lang = array(
 
 	'wall_pm_subject'	=> 'Bonjour, je laisse un message pour vous',  // Hello, I leave a message to you 
 	'wall_pm_message'	=> 'Je laisse un message pour vous, [url=\\1]cliquer ici pour voir[/url]',  // I leave a message to you, [url=\\1]click here to view[/url] 
-	'reward'		=> 'R&#233;comp.',  //  Reward
+	'reward'		=> 'Bonus',  //  Reward // REMPLACED Prix Récompense OU px. Recomp. BY Prime Bonus ) Say: Andre13
 	'reward_info'		=> 'Vote: + \\1',  //  'Vote: + \\1'
 	'poll_separator'	=> '","',  //  '","'	//modify'poll_separator'	=> '"、"',  //  
 	
@@ -44,7 +44,7 @@ $lang = array(
 	'message_can_not_send_13'	=> 'Ce n\'est pas un message du Groupe',  //  This is not a group message
 	'message_can_not_send_14'	=> 'Ce n\'est pas un Message Priv&#233;',  //  This is not a Private Message
 	'message_can_not_send_15'	=> 'Donn&#233;es sont incorrectes',  //  Data is incorrect
-	'message_can_not_send_16'	=> 'You have exceeded the maximum number of PM within 24 hours',//'您超出了24小时内发短消息数量的上限',
+	'message_can_not_send_16'	=> 'Vous avez d&#233;pass&#233; le nombre maximum de MPs dans les 24 heures',//'您超出了24小时内发短消息数量的上限',
 	'message_can_not_send_onlyfriend'	=> 'L\'utilisateur n\'acceptera qu\'un Ami envoit un court message &#224; envoyer',  // The user will only accept friend a short message to send 
 
 
@@ -57,16 +57,16 @@ $lang = array(
 	'share_comment'		=> '<a href="\\2" target="_blank">\\1 a laiss&#233; un commentaire sur votre partage</a>',  //  '<a href="\\2" target="_blank">\\1 left a comment on your share</a>'
 	'friend_pm'		=> '<a href="\\2" target="_blank">\\1 vous a envoy&#233; un message</a>',  // '<a href="\\2" target="_blank">\\1 sent you a message</a>' 
 	'poke_subject'		=> '<a href="\\2" target="_blank">\\1 poke &#224; vous</a>',  //  '<a href="\\2" target="_blank">\\1 poke to you</a>'
-	'mtag_reply'		=> '<a href="\\2" target="_blank">\\1 a r&#233;pondu votre sujet</a>',  //  '<a href="\\2" target="_blank">\\1 replied your thread</a>'
+	'mtag_reply'		=> '<a href="\\2" target="_blank">\\1 a r&#233;pondu &#224; votre sujet</a>',  //  '<a href="\\2" target="_blank">\\1 replied your thread</a>'
 	'event_comment'		=> '<a href="\\2" target="_blank">\\1 a laiss&#233; un commentaire sur votre activit&#233;</a>',  // '<a href="\\2" target="_blank">\\1 left a comment on your activity</a>' 
 
 	'friend_pm_reply'	=> '\\1 a r&#233;pondu &#224; votre message',  // '\\1 replied your message' 
-	'comment_friend_reply'	=> '\\1 a r&#233;pondu votre message',  //  '\\1 replied your message'
-	'blog_comment_reply'	=> '\\1 a r&#233;pondu votre commentaire du Blog',  //  '\\1 replied your comment of blog'
-	'photo_comment_reply'	=> '\\1 a r&#233;pondu votre commentaire de la photo',  //  '\\1 replied your comment of photo'
-	'poll_comment_reply'	=> '\\1 a r&#233;pondu votre commentaire du sondage',  //  '\\1 replied your comment of poll'
-	'share_comment_reply'	=> '\\1 a r&#233;pondu votre commentaire du partage ',  //  '\\1 replied your comment of share'
-	'event_comment_reply'	=> '\\1 a r&#233;pondu votre commentaire de cette activit&#233;',  //  '\\1 replied your comment of activity'
+	'comment_friend_reply'	=> '\\1 a r&#233;pondu &#224; votre message',  //  '\\1 replied your message'
+	'blog_comment_reply'	=> '\\1 a r&#233;pondu &#224; votre commentaire du Blog',  //  '\\1 replied your comment of blog'
+	'photo_comment_reply'	=> '\\1 a r&#233;pondu &#224; votre commentaire de la photo',  //  '\\1 replied your comment of photo'
+	'poll_comment_reply'	=> '\\1 a r&#233;pondu &#224; votre commentaire du sondage',  //  '\\1 replied your comment of poll'
+	'share_comment_reply'	=> '\\1 a r&#233;pondu &#224; votre commentaire du partage ',  //  '\\1 replied your comment of share'
+	'event_comment_reply'	=> '\\1 a r&#233;pondu &#224; votre commentaire pour cette activit&#233;',  //  '\\1 replied your comment of activity'
 
 	'mail_my'		=> 'Interagir avec mes Amis pour rappeler',  //  'Interact with my friends to remind'
 	'mail_system'		=> 'Alertes Syst&#232;me',  //  'System alerts'
@@ -120,7 +120,7 @@ $lang = array(
 	'share_article'		=> ' a partag&#233; un article',  // ' shared an article' 
 	'album'			=> 'Album',  //  'Album'
 	'share_thread'		=> ' a partag&#233; un sujet',  //  ' shared a thread'
-	'mtag'			=> 'Group',  //  'Group'
+	'mtag'			=> 'Groupe',  //  'Group' //  
 	'share_mtag'		=> ' a partag&#233; un groupe',  //  ' shared a group'
 	'share_mtag_membernum'	=> 'est {membernum} Membres',  // 'has {membernum} members' //Modify
 	'share_tag'		=> ' a partag&#233; un label',  // ' shared a tag' 
@@ -186,7 +186,7 @@ $lang = array(
 	'do_stat_doing'		=> 'Agiss.',  //  'Doing'
 	'do_stat_blog'		=> 'Blog',  //  Blog
 	'do_stat_activity'	=> 'Activit&#233;',  //  Activity
-	'do_stat_reward'	=> 'R&#233;comp.',  //  Reward
+	'do_stat_reward'	=> 'Bonus',  //  Reward  // REMPLACED : 'R&#233;comp.', by: Prime Bonus
 	'do_stat_debate'	=> 'D&#233;bats',  //  Debate
 	'do_stat_trade'		=> 'Commerce',  //  Trade
 	'do_stat_group'		=> "Cr&#233;er un Groupe",
@@ -238,7 +238,7 @@ $lang = array(
 	'logs_credit_update_UGP'	=> 'Acheter Groupe Utilisateurs &#233;largie',  //  'Buy Extended User Group'
 	'logs_credit_update_RPC'	=> 'Encouragement pour le signalement',  // 'Incentive to report' 
 	'logs_credit_update_ACC'	=> 'Participer &#224; des activit&#233;s',  //  'Participate in activities'
-	'logs_credit_update_RCT'	=> 'R&#233;compenses ??r&#233;ponses',  //  'Replies Awards'
+	'logs_credit_update_RCT'	=> 'Prime Bonus R&#233;ponses',  //  'Replies Awards'
 	'logs_credit_update_RCA'	=> 'R&#233;ponses Gagnante',  //  'Replies winning'
 	'logs_credit_update_RCB'	=> 'R&#233;ponses retour de points de bonus',  //  'Replies return of bonus points'
 	'logs_credit_update_CDC'	=> 'Rechargez le secret de la carte',  // 'Recharge card secret' 
@@ -246,13 +246,13 @@ $lang = array(
 	'logs_credit_update_BGC'	=> 'Plant&#233; enveloppe rouge',  //  'Planted red envelope'
 	'logs_credit_update_AGC'	=> 'Obtenez paquets rouges',  //  'Get red packets'
 	'logs_credit_update_RKC'	=> 'PPC',  // 'PPC' 
-	'logs_credit_update_BME'	=> 'Buy Medal',//'购买勋章',
-	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
-	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
-/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
-/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
-/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
-	'logs_credit_update_reward_clean'	=> 'Clean',//'清零',
+	'logs_credit_update_BME'	=> 'Achat M&#233;daille',//'购买勋章',
+	'logs_credit_update_RPR'	=> 'Points Contexte r&#233;compenses et de punitions',//'后台积分奖惩',
+	'logs_credit_update_RPZ'	=> 'Nettoyage Points Contexte r&#233;compenses et punitions',//'后台积分奖惩清零',
+/*!*/	'logs_credit_update_FCP'	=> 'Payer le forum',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'Groupe Cr&#233;er',//'创建群组',
+/*!*/	'buildgroup'			=> 'Voir les groupes d&#233;j&#224; construit',//'查看已创建的群组',
+	'logs_credit_update_reward_clean'	=> 'Nettoyer',//'清零',
 	'logs_select_operation'		=> 'Svp. choisissez une op&#233;ration',  // 'Please choose an operation' 
 	'task_credit'			=> 'Des points de r&#233;compense des t&#226;ches',  //  'Task reward points'
 	'special_3_credit'		=> 'Des points de r&#233;compense Th&#232;me d&#233;duits',  //  'Theme reward points deducted'
@@ -276,8 +276,8 @@ $lang = array(
 	'thread_credit2'		=> 'Sujets des D&#233;penses Partie Int&#233;grante',  //  'Topics spending integral'
 	'buy_credit'			=> 'Rechargez l\'int&#233;grale',  //  'Recharge the integral'
 	'buy_usergroup'			=> 'D&#233;penses points pour acheter des du Groupe Utilisateurs &#233;tendu',  //  'Spending points to buy extended user group'
-	'buy_medal'			=> 'Buy Medal',//'购买勋章',
-/*!*/	'buy_forum'			=> 'Buy a paid forum access permissions',//'购买付费版块的访问权限',
+	'buy_medal'			=> 'Achat M&#233;daille',//'购买勋章',
+/*!*/	'buy_forum'			=> 'Acheté l\'acc&#232;s au forum',//'购买付费版块的访问权限', // 'Buy a paid forum access permissions'
 	'report_credit'			=> 'Fonction de la prime pour le signalement',  //  'Function of the incentive to report'
 	'join'				=> 'Participation',  //  'Participation'
 	'activity_credit'		=> 'Activit&#233;s, d&#233;duction faite de points',  //  'Activities, net of points'
@@ -293,7 +293,7 @@ $lang = array(
 	'credit_update_reward_clean'	=> 'Clean',//'清零',
 
 	'profile_unchangeable'		=> 'Immuable, apr&#232;s envoie',  //  'Unchangeable after submit'
-	'profile_is_verifying'		=> 'En attendant la mod&#233;ration',  //  'Pending moderate'
+	'profile_is_verifying'		=> 'En attendant de mod&#233;ration',  //  'Pending moderate'
 	'profile_mypost'		=> 'je soumets',  //  'I sumbit'
 	'profile_need_verifying'	=> 'Besoin de mod&#233;ration',  //  'Need moderation'
 	'profile_edit'			=> 'Modifier',  //  'Edit'
@@ -307,35 +307,35 @@ $lang = array(
 	'district_level_4'		=> '-Village-',  //  '-Village-'
 	'invite_you_to_visit'		=> '{user} vous invites &#224; d&#233;couvrir {bbname}',  //  '{user} invites you to visit {bbname}'
 //vot	'district_level_0'		=> '- Country -',//'-国家-',
-	'portal'		=> 'Portal',//'门户',
-	'group'			=> 'Groups',//'群组',
-	'follow'		=> 'Follow',//'广播',
+	'portal'		=> 'Portail',//'门户',  //  'Portal',
+	'group'			=> 'Groupes',//'群组',// Groups', 
+	'follow'		=> 'Suivre',//'广播', // 'Follow',  
 	'collection'		=> 'Collection',//'淘帖',
-	'guide'			=> 'Guide',//'导读',
-	'feed'			=> 'Feeds',//'动态',
-	'blog'			=> 'Blogs',//'日志',
-	'doing'			=> 'Doings',//'记录',
-	'wall'			=> 'Wall',//'留言板',
-	'homepage'		=> 'Personal Space',//'个人主页',
-	'ranklist'		=> 'RankList',//'排行榜',
-	'select_the_navigation_position'	=> 'Select {type} navigation position',//'选择{type}导航位置',
-	'close_module'		=> 'Close the {type} module',//'关闭{type}功能',
+	'guide'			=> 'Guide',//'导读',//  
+	'feed'			=> 'Flux',//'动态',//  
+	'blog'			=> 'Blogs',//'日志',//  
+	'doing'			=> 'Agiss.',//'记录',
+	'wall'			=> 'Mur',//'留言板', // wall
+	'homepage'		=> 'Espace Personnel ',//'个人主页',
+	'ranklist'		=> 'ListeRang',//'排行榜',  // 'RankList',
+	'select_the_navigation_position'	=> 'Choisissez la position pour la navigation {type}',//'选择{type}导航位置', //  'Select {type} navigation position'
+	'close_module'		=> 'Fermer le module {type} ',//'关闭{type}功能', // 'Close the {type} module'
 
-	'follow_add_remark'		=> 'Add remark',//'添加备注',
-	'follow_modify_remark'		=> 'Edit remark',//'修改备注',
-	'follow_specified_group'	=> 'Follow specified group',//'广播专区',
-	'follow_specified_forum'	=> 'Follow specified forum',//'广播专版',
+	'follow_add_remark'		=> 'Ajout. remarque',//'添加备注',  //   'Add remark', // Ajouter remarque OU Ajouter observation
+	'follow_modify_remark'		=> 'Modif. remarque',//'修改备注', // 'Edit remark',
+	'follow_specified_group'	=> 'Suivre Groupe d&#233;fini',//'广播专区', //  'Follow specified group',
+	'follow_specified_forum'	=> 'Suivre Forum d&#233;fini',//'广播专版', //  'Follow specified forum',
 
-	'filesize_lessthan'		=> 'File size should be less than ',//'文件大小应该小于',
+	'filesize_lessthan'		=> 'La taille du fichier doit &#234;tre inf&#233;rieure &#224; ',//'文件大小应该小于', //  'File size should be less than ',
 
-	'spacecp_message_prompt'	=> '(Support {msg} code, max 1000 caract&#232;res)',  //  
-	'card_update_doing'		=> ' <a class="xi2" href="###">[Agissements &#224; jour]</a>',  //  
+	'spacecp_message_prompt'	=> '(Support {msg} code, max 1000 caract&#232;res)',  
+	'card_update_doing'		=> ' <a class="xi2" href="###">[Agissements &#224; jour]</a>',  
 	'email_acitve_message'		=> '<img src="{imgdir}/mail_inactive.png" alt="pas v&#233;rifier" class="vm" />
 						<span class="xi1">Nouveau email ({newemail}) Attendre pour la Validation ...</span><br />
 						Le syst&#232;me a envoy&#233; un courriel de v&#233;rification pour l\'activation, Svp. consulter votre courrier &#233;lectronique.<br>
 						Si vous ne recevez pas de courriel de v&#233;rification, changer votre email, ou <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2"> appliquer &#224; nouveau</a>',  
-	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
-	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
+	'qq_set_status'		=> 'Je configure mon statut en ligne QQ',//'设置我的QQ在线状态', //  'I set my QQ online status',
+	'qq_dialog'		=> 'D&#233;marrer QQ chat',//'发起QQ聊天', //  'Start QQ chat',
 
 );
 
