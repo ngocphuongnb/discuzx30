@@ -5072,7 +5072,7 @@ $lang = array
 	'misc_stamp_icon'		=> 'Associated icon',//'关联图标',
 
 	'misc_attachtype'		=> 'Attach Type Management',//'附件类型管理',
-	'misc_attachtype_add'		=> 'Add new attacht type',//'添加新附件类型',
+	'misc_attachtype_add'		=> 'Add new attach type',//'添加新附件类型',
 	'misc_attachtype_tips'		=> '<li>This feature may limit some attachment types to a particular maximum size. When it was set smaller than the maximum allowed size of the user group, this attachment type size limit will prevail.</li><li>You can set the maximum size to 0 for certain types of attachments for prohibit such attachments to be uploaded at all.</li>',//'<li>本功能可限定某特定类型附件的最大尺寸，当这里设定的尺寸小于用户组允许的最大尺寸时，指定类型的附件尺寸限制将按本设定为准。</li><li>您可以设置某类附件最大尺寸为 0 以整体禁止这类附件被上传。</li>',
 	'misc_attachtype_ext'		=> 'Attach Extension (lowercase)',//'扩展名(小写)',
 	'misc_attachtype_maxsize'	=> 'Maximum size (Kb)',//'最大尺寸(单位：KB)',
