@@ -1318,8 +1318,9 @@ $lang = array (
 	'follow_add'			=> 'Ecouter',//'收听',//Subscribe  //   'Listen',
 	'modmenu'			=> 'Menu du sujet',//'本主题菜单', //  'Thread Menu',
 //	'e_paste'			=> 'Paste',//'粘贴',
-	'disable_post_parseurl'			=> 'D&#233;sactiver Analyse URL',//'禁用 链接识别',
-	'disable_smilies'			=> 'D&#233;sactiver Smilies',//'禁用 表情',
-	'disable_discuzcode'			=> 'D&#233;sactiver BB-Code',//'禁用 编辑器代码',
+	'disable_post_parseurl'		=> 'D&#233;sactiver Analyse URL',//'禁用 链接识别',
+	'disable_smilies'		=> 'D&#233;sactiver Smilies',//'禁用 表情',
+	'disable_discuzcode'		=> 'D&#233;sactiver BB-Code',//'禁用 编辑器代码',
+	'modmenu'			=> 'Thread menu:',//'审核中',
 );
 
