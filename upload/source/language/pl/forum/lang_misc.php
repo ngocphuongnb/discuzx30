@@ -125,7 +125,7 @@ $lang = array
 	'invite_forum_royalty'		=> 'Transaction fee',//'交易手续费',
 
 	'formulaperm_regdate'		=> 'Data rejestracji',//'注册时间',
-	'formulaperm_regday'		=> 'Ilość dni na forum',//'注册天数',
+	'formulaperm_regday'		=> 'Liczba dni na forum',//'注册天数',
 	'formulaperm_regip'		=> 'IP rejestracji',//'注册 IP',
 	'formulaperm_lastip'		=> 'Ostatnie IP',//'最后登录 IP',
 	'formulaperm_buyercredit'	=> 'Buyer rate',//'买家信用评价',

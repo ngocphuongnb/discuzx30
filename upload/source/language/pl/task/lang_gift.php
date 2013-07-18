@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'gift_name'	=> 'Prezent',//'红包类任务',
-	'gift_desc'	=> 'Aby rozwiązać to zadanie, musisz otrzymać upominek od innej osoby.',//'申请此任务即可领取红包',
+	'gift_name'	=> 'Zaczepka',//'红包类任务',
+	'gift_desc'	=> 'Aby rozwiązać to zadanie, zaczep użytkownika i odczekaj na zaczepkę.',//'申请此任务即可领取红包',
 );
 

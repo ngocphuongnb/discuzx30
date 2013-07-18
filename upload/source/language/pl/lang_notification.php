@@ -50,7 +50,7 @@ $lang = array
 	'pic_comment'		=> '{actor} dodał komentarz do <a href="{url}" target="_blank">obrazka</a>.',//'{actor} 评论了你的 <a href="{url}" target="_blank">图片</a>',
 	'blog_comment'		=> '{actor} zamieścił komentarz na Twoim blogu <a href="{url}" target="_blank">{subject}</a>.',//'{actor} 评论了你的日志 <a href="{url}" target="_blank">{subject}</a>',
 	'share_comment'		=> '{actor} skomentował Twój <a href="{url}" target="_blank">element udostępniony</a>.',//'{actor} 评论了你的 <a href="{url}" target="_blank">分享</a>',
-	'click_blog'		=> '{actor} ratedon your blog <a href="{url}" target="_blank">{subject}</a> made a statement.',//'{actor} 对你的日志 <a href="{url}" target="_blank">{subject}</a> 做了表态',
+	'click_blog'		=> '{actor} ocenił Twój wpis na blogu <a href="{url}" target="_blank">{subject}</a>.',//'{actor} 对你的日志 <a href="{url}" target="_blank">{subject}</a> 做了表态',
 	'click_pic'		=> '{actor} ocenił Twój <a href="{url}" target="_blank">obrazek</a>.',//'{actor} 对你的 <a href="{url}" target="_blank">图片</a> 做了表态',
 	'click_article'		=> '{actor} ocenił Twój <a href="{url}" target="_blank">artykuł</a>.',//'{actor} 对你的 <a href="{url}" target="_blank">文章</a> 做了表态',
 	'show_out'		=> '{actor} visited your home page, this showed your final bid point also consumed.',//'{actor} 访问了你的主页后，你在竞价排名榜中最后一个积分也被消费掉了',
@@ -166,9 +166,9 @@ $lang = array
 
 	'comment_add'		=> '{actor} skomentował Twój temat <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Pokaż &rsaquo;</a>',
 
-	'reppost_noticeauthor'	=> '{actor} odpowiedział w Twoim temacie <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a>. &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Pokaż</a>',
+	'reppost_noticeauthor'	=> '{actor} odpowiedział w temacie <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a>. &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">Pokaż</a>',
 
-	'task_reward_credit'	=> 'Congratulation! You have completed the task: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, and get bonus {creditbonus} points. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">View my points &rsaquo;</a></p>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得积分 {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看我的积分 &rsaquo;</a></p>',
+	'task_reward_credit'	=> 'Gratulacje! Ukończyłeś zadanie: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, otrzymując przy tym bonus o wartości {creditbonus} kredytów. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Pokaż kredyty &rsaquo;</a></p>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得积分 {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看我的积分 &rsaquo;</a></p>',
 
 	'task_reward_magic'	=> 'Congratulation! You have completed the task: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, and get {bonus} magic <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得道具 <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a> {bonus} 张',
 

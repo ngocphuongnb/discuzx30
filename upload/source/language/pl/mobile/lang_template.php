@@ -70,7 +70,7 @@ $lang = array (
 	'digest'			=> '<span class="xi1">Wykop</span>',//'<span class="xi1">精华</span>',
 	'forum_views'			=> 'Wyświetleń',//'看',
 	'send_pm'			=> 'Wyślij PW',//'发消息',
-	'thread_show_all'		=> 'Zobacz wszystko',//'看全部',
+	'thread_show_all'		=> 'Pokaż wszystko',//'看全部',
 	'thread_show_author'		=> 'Wyświetl profil',//'只看他',
 	'activity_mod'			=> 'Proszę skorzystać z wersji desktopowej, aby zarządzać aktywnościami.',//'请您使用非手机版管理活动',
 	'poll_msg_allwvote_user'	=> '<a href="member.php?mod=logging&action=login">Zaloguj</a> się, aby oddać głos w ankiecie.',//'您需要<a href="member.php?mod=logging&action=login">登录</a>之后方能进行投票',
