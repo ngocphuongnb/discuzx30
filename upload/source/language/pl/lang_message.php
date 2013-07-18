@@ -322,7 +322,7 @@ $lang = array (
 	'thread_poll_nopermission'	=> 'Sorry, you can not see the posts voters',//'抱歉，您无权查看本帖投票人',
 	'thread_rate_moderator_invalid'	=> 'Sorry, you can only rate in your managed forums.',//'对不起，作为版主您只能在自己的管辖范围内评分，请返回。',
 	'thread_rate_timelimit'		=> 'Przepraszamy, nie możesz oceniać tematów sprzed {karmaratelimit} godzin.',//'对不起，您不能对发表于 {karmaratelimit} 小时前的帖子进行评分，请返回。',
-	'thread_rate_member_invalid'	=> 'Przepraszamy, nie możesz oceniać własnych wypowiedzi.',//'对不起，您不能给自己发表的帖子评分，请返回。',
+	'thread_rate_member_invalid'	=> 'Przepraszamy, nie możesz oceniać własnych zawartości.',//'对不起，您不能给自己发表的帖子评分，请返回。',
 	'thread_rate_anonymous'		=> 'Sorry, you can rate posts posted as anonymous.',//'对不起，您不能对匿名帖评分，请返回。',
 	'thread_rate_banned'		=> 'Sorry, you can rate banned posts.',//'对不起，您不能对屏蔽帖评分，请返回。',
 	'thread_rate_duplicate'		=> 'Sorry, you can not rate a post twice.',//'对不起，您不能对同一个帖子重复评分，请返回。',
@@ -436,11 +436,11 @@ $lang = array (
 	'task_grouplimit'		=> 'Your user group does not allow for this task!',//'您所在的用户组不允许申请此任务！',
 	'task_duplicate'		=> 'You have already applied for this task, please do not repeat the application!',//'您已经申请过此任务，请不要重复申请！',
 	'task_nextperiod'		=> 'This issue you have already applied for this task, please come back for it next!',//'本期您已经申请过此任务，请下期再来申请吧！',
-	'task_applied'			=> 'Apply task successfully!',//'任务申请成功！',
-	'task_deleted'			=> 'This task is deleted. You can continue to perform other tasks or apply for new tasks',//'您已放弃该任务，您还可以继续完成其他任务或者申请新任务',
+	'task_applied'			=> 'Zadanie zostało przyjęte!',//'任务申请成功！',
+	'task_deleted'			=> 'Anulowałeś zadanie. Możesz spróbować raz jeszcze lub podjąć się innego zadania.',//'您已放弃该任务，您还可以继续完成其他任务或者申请新任务',
 	'task_up_to_limit'		=> 'Sorry, only {tasklimits} recipients enabled of awards, in accordance with the principle of first come first served, you can not receive rewards, please come again now!',//'对不起，该任务仅限 {tasklimits} 人领取奖励，按照先到先得的原则，您无法领取奖励，请下次再来吧！',
 	'task_failed'			=> 'Sorry, you did not complete the task in a specified time!',//'对不起，您没能在指定时间内完成任务！',
-	'task_completed'		=> 'Congratulations, you have completed the task, you will receive notification of award, please check pay attention to it!',//'恭喜您，任务已成功完成，您将收到奖励通知，请注意查收！',
+	'task_completed'		=> 'Gratulacje, ukończyłeś to zadanie! Za chwilę otrzymasz powiadomienie z informacją o nagrodze.',//'恭喜您，任务已成功完成，您将收到奖励通知，请注意查收！',
 	'task_giveup'			=> 'You have given up this task.',//'您已放弃此任务。',
 
 	'activate_succeed'		=> 'Hello {username}, your account has been actived successfully, now redirect you index page.',//'您好，{username}，您的帐号已被成功激活，现在将转入站点首页。',
@@ -695,7 +695,7 @@ $lang = array (
 	'click_error'			=> 'The normal operating position without',//'没有进行正常的表态操作',
 	'click_item_error'		=> 'To position the object does not exist',//'要表态的对象不存在',
 	'no_privilege_click'		=> 'Sorry, you currently do not have permission to rate, <a href="home.php?mod=spacecp&ac=usergroup">Click here to view permissions</a>',//'抱歉，您目前没有权限进行表态，<a href="home.php?mod=spacecp&ac=usergroup">点击这里查看权限</a>',
-	'click_no_self'			=> 'Nie możesz oceniać własnych wypowiedzi.',//'自己不能给自己表态',
+	'click_no_self'			=> 'Nie możesz oceniać własnych zawartości.',//'自己不能给自己表态',
 	'click_have'			=> 'Oddałeś już ocenę wcześniej',//'您已经表过态了',
 	'click_success'			=> 'Ocena została przyznana',//'参与表态完成了',
 
@@ -879,7 +879,7 @@ $lang = array (
 	'admin_merge_invalid'		=> 'Please select other thread to merge.',//'请选择其他主题进行合并。',
 
 	'recommend_group_invalid'	=> 'Sorry, your have selected a topic recommended to forum',//'抱歉，您选择的主题已被推荐版块',
-	'admin_nonexistence'		=> 'You do not select object.',//'您没有选择操作项目。',
+	'admin_nonexistence'		=> 'Nie wybrałeś żadnego obiektu.',//'您没有选择操作项目。',
 	'no_privilege_stickthread'	=> 'Sorry, you do not have permission to stick thread',//'抱歉，您没有权限设置主题置顶',
 	'no_privilege_highlightthread'	=> 'Sorry, you do not have permission to highlight thread',//'抱歉，您没有权限设置主题高亮',
 	'no_privilege_digestthread'	=> 'Sorry, you do not have permission to digest thread',//'抱歉，您没有权限设置主题精华',
@@ -1032,7 +1032,7 @@ $lang = array (
 	'task_doing_rt'			=> 'You have completed {csc}% of this task, still leaving time {t}!',//'您已完成该任务的 {csc}%，还有{t}时间，加油啊！',
 	'task_doing'			=> 'You have completed {csc}% of this task.',//'您已完成该任务的 {csc}%，加油啊！',
 	'task_waiting_rt'		=> 'You do not start task, still leaving time {t}, please hurry!',//'您还没有开始执行任务，还有{t}时间，赶快哦！',
-	'task_waiting'			=> 'You do not start task, please hurry!',//'您还没有开始执行任务，赶快哦！',
+	'task_waiting'			=> 'Nie ukończyłeś jeszcze tego zadania. Pośpiesz się!',//'您还没有开始执行任务，赶快哦！',
 
 	'board_closed'			=> 'Przepraszamy, forum zostało tymczasowo zamknięte. Skontaktuj się z <a href="mailto:'.$_G['setting']['adminemail'].'">administratorem</a> w celu uzyskania więcej szczegółów.',//'对不起，本站点暂时关闭，详情请 <a href="mailto:'.$_G['setting']['adminemail'].'">联系管理员</a>。',
 
@@ -1060,7 +1060,7 @@ $lang = array (
 	/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
 	/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
 	/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
-	/*!*/	'noreply_yourself_error'	=> 'Nie możesz oceniać własnych wypowiedzi.',//'您不能对自己的回帖进行投票',
+	/*!*/	'noreply_yourself_error'	=> 'Nie możesz oceniać własnych zawartości.',//'您不能对自己的回帖进行投票',
 	/*!*/	'noreply_voted_error'		=> 'Oddałeś już głos wcześniej.',//'您已经对此回帖投过票了',
 		
 

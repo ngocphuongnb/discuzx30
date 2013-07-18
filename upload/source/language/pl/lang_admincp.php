@@ -771,7 +771,7 @@ $lang = array
 	'setting_access_register_ctrl'				=> 'Limit czasowy dla rejestracji z tego samego adres IP (w godzinach)',//'同一 IP 注册间隔限制(小时)',
 	'setting_access_register_ctrl_comment'			=> 'Minimalny czas, który ogranicza zakładanie kont z tego samego adresu IP,<br/>0 znosi limit',//'同一 IP 在本时间间隔内将只能注册一个帐号，0 为不限制',
 	'setting_access_register_floodctrl'			=> 'Maksymalna liczba rejestracji z tego samego adresu IP w ciągu 24 godzin',//'同一 IP 在 24 小时允许注册的最大次数',
-	'setting_access_register_floodctrl_comment'		=> 'Ogranicza ilość prób rejestracji z tego samego adresu IP w ciągu 24 godzin. Zalecana wartość to przedział w zakresie 30 - 100. Wartość 0 znosi ograniczenia.',//'同一 IP 地址在 24 小时内尝试注册的次数限制，建议在 30 - 100 范围内取值，0 为不限制',
+	'setting_access_register_floodctrl_comment'		=> 'Ogranicza próby rejestracji z tego samego adresu IP w ciągu 24 godzin. Zalecana wartość to przedział w zakresie 30 - 100. Wartość 0 znosi ograniczenia.',//'同一 IP 地址在 24 小时内尝试注册的次数限制，建议在 30 - 100 范围内取值，0 为不限制',
 	'setting_access_register_welcomemsg'			=> 'Wyślij wiadomość powitalną dla nowo zarejestrowanego użytkownika',//'发送欢迎信息',
 	'setting_access_register_welcomemsg_comment'		=> 'Automatically send a welcome message to new registered user',//'可选择是否自动向新注册用户发送一条欢迎信息',
 	'setting_access_register_welcomemsg_nosend'		=> 'Do not send',//'不发送',
@@ -1409,7 +1409,7 @@ $lang = array
 	'misc_focus_position_search'		=> 'Search',//'搜索',
 	'misc_focus_position_userapp'		=> 'Applications',//'应用',
 
-	'setting_faq_title'			=> 'Zobacz więcej wskazówek',//'查看更多提示',
+	'setting_faq_title'			=> 'Pokaż więcej wskazówek',//'查看更多提示',
 
 	'setting_optimize'			=> 'Optymalizacja',//'性能优化',
 

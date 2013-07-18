@@ -14,7 +14,7 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 	'email_name'	=> 'Aktywacja adresu Email',//'验证邮箱任务',
-	'email_desc'	=> 'Aktywuj swój adres Email, a otrzymasz dodatkowe punkty.',//'验证邮箱获得相应的奖励。',
+	'email_desc'	=> 'Aktywuj swój adres Email.',//'验证邮箱获得相应的奖励。',
 	'email_view'	=> '<strong>Poniższe kroki pomogą Ci ukończyć to zadanie:</strong>
 		<ul>
 		<li><a href="home.php?mod=spacecp&ac=profile&op=password" target="_blank">Przejdź do ustawień profilu</a>;</li>

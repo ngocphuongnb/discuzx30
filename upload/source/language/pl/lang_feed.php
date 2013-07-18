@@ -40,10 +40,10 @@ $lang = array
 
 
 
-	'feed_click_blog'	=> '{actor} sent a &quot;{click}&quot; to {touser} blog {subject}',//'{actor} 送了一个“{click}”给 {touser} 的日志 {subject}',
-	'feed_click_thread'	=> '{actor} sent a &quot;{click}&quot; to {touser} thread {subject}',//'{actor} 送了一个“{click}”给 {touser} 的话题 {subject}',
-	'feed_click_pic'	=> '{actor} sent a &quot;{click}&quot; to {touser} image',//'{actor} 送了一个“{click}”给 {touser} 的图片',
-	'feed_click_article'	=> '{actor} sent a &quot;{click}&quot; to {touser} article {subject}',//'{actor} 送了一个“{click}”给 {touser} 的文章 {subject}',
+	'feed_click_blog'	=> '{actor} wysłał &quot;{click}&quot; użytkownikowi {touser} wpis {subject}',//'{actor} 送了一个“{click}”给 {touser} 的日志 {subject}',
+	'feed_click_thread'	=> '{actor} wysłał &quot;{click}&quot; użytkownikowi {touser} temat {subject}',//'{actor} 送了一个“{click}”给 {touser} 的话题 {subject}',
+	'feed_click_pic'	=> '{actor} wysłał &quot;{click}&quot; użytkownikowi {touser} obrazek',//'{actor} 送了一个“{click}”给 {touser} 的图片',
+	'feed_click_article'	=> '{actor} wysłał &quot;{click}&quot; użytkownikowi {touser} artykuł {subject}',//'{actor} 送了一个“{click}”给 {touser} 的文章 {subject}',
 
 
 	'feed_task'			=> '{actor} wykonał zadanie {task}',//'{actor} 完成了有奖任务 {task}',
@@ -90,7 +90,7 @@ $lang = array
 	'feed_reply_reward_message'	=> '',
 
 	'feed_thread_activity_title'	=> '{actor} utworzył nowe wydarzenie',//'{actor} 发起了新活动',
-	'feed_thread_activity_message'	=> '<b>{subject}</b><br />Start time: {starttimefrom}<br />Location: {activityplace}<br />{message}',//'<b>{subject}</b><br />开始时间：{starttimefrom}<br />活动地点：{activityplace}<br />{message}',
+	'feed_thread_activity_message'	=> '<b>{subject}</b><br />Rozpoczęcie: {starttimefrom}<br />Lokalizacja: {activityplace}<br />{message}',//'<b>{subject}</b><br />开始时间：{starttimefrom}<br />活动地点：{activityplace}<br />{message}',
 
 	'feed_reply_activity_title'	=> '{actor} enrolled in the activitiy: {subject}',//'{actor} 报名参加了 {subject} 的活动',
 	'feed_reply_activity_message'	=> '',
