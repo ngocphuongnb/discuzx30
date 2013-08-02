@@ -2527,7 +2527,7 @@ $lang = array
 	'unwind'				=> 'Expand',//'展开',
 
 	'setting_antitheft'		=> 'Anti-grab settings',//'防采集设置',
-	'setting_antitheft_tips'	=> '<li>Anti-grab function does not affect normal users to browse content.</li><li>It prevents the site thread, article or bloc content be illegally collected.</li><li><font style="color:red">If IP exists in both Black and White lists, the Whitelist have a larger priority.</font></li>',//'<li>防采集功能不影响正常用户浏览检验。</li><li>可防止本站主题、文章和日志被非法采集。</li><li><font style="color:red">当IP同时存在于黑/白名单时，白名单优先。</font></li>',
+/*0801*/	'setting_antitheft_tips'	=> '<li>Anti-grab function does not affect normal users to browse content.</li><li>It prevents the site thread, article or bloc content be illegally collected.</li><li><font style="color:red">If IP exists in both Black and White lists, the Whitelist have a larger priority.</font></li><li>After enabling the anti-capture function, the Posts Preview feature will not be available.</li>',//'<li>防采集功能不影响正常用户浏览检验。</li><li>可防止本站主题、文章和日志被非法采集。</li><li><font style="color:red">当IP同时存在于黑/白名单时，白名单优先。</font></li><li>开启防采集功能后帖子列表页面的帖子预览功能将不可使用。</li>',
 	'setting_antitheft_status'	=> 'Anti-grab global settings',//'防采集全局设置',
 	'setting_antitheft_allow'	=> 'Whether to open the anti-grab function',//'是否开启防采集',
 	'setting_antitheft_black'	=> 'Blacklist Anti-grab filtering IP',//'黑名单防采集过滤IP',
@@ -5072,7 +5072,7 @@ $lang = array
 	'misc_stamp_icon'		=> 'Associated icon',//'关联图标',
 
 	'misc_attachtype'		=> 'Attach Type Management',//'附件类型管理',
-	'misc_attachtype_add'		=> 'Add new attacht type',//'添加新附件类型',
+	'misc_attachtype_add'		=> 'Add new attach type',//'添加新附件类型',
 	'misc_attachtype_tips'		=> '<li>This feature may limit some attachment types to a particular maximum size. When it was set smaller than the maximum allowed size of the user group, this attachment type size limit will prevail.</li><li>You can set the maximum size to 0 for certain types of attachments for prohibit such attachments to be uploaded at all.</li>',//'<li>本功能可限定某特定类型附件的最大尺寸，当这里设定的尺寸小于用户组允许的最大尺寸时，指定类型的附件尺寸限制将按本设定为准。</li><li>您可以设置某类附件最大尺寸为 0 以整体禁止这类附件被上传。</li>',
 	'misc_attachtype_ext'		=> 'Attach Extension (lowercase)',//'扩展名(小写)',
 	'misc_attachtype_maxsize'	=> 'Maximum size (Kb)',//'最大尺寸(单位：KB)',
