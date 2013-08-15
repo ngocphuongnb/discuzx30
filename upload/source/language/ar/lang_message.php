@@ -219,7 +219,7 @@ $lang = array (
 	'login_succeed'			=> 'السلام عليكم يا  {username}. سيتم توجيهك للصفحة السابقة. {ucsynlogin} ',//'欢迎您回来，{username}。现在将转入登录前页面。 {ucsynlogin} ',
 	'login_strike'			=> 'أنت حاولت كثيرا, يرجى المحاول بعد 15 دقيقة لتسجيل الدخول',//'密码错误次数过多，请 15 分钟后重新登录',
 	'logout_succeed'		=> 'تم تسجيل خروجك بنجاح , سيتم توجيهك إلى الصفحة السابقة كزائر . <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ حذف الملفات المؤقتة ]</a> {ucsynlogout} ',//'您已退出站点，现在将以游客身份转入退出前页面。 <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a> {ucsynlogout} ',
-/*!*/	'location_logout_succeed_mobile'	=> 'Successfully logged out, now reloading the current page as a guest, wait please...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ Clean cookies ]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
+/*!*/	'location_logout_succeed_mobile'	=> 'تم تسجيل الخروج بسلام, سيتم تحويلك الى الصفحة كزائر, الرجاء الإنتظار...<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[  حذف الملفات المؤقتة]</a>',//'您已退出站点，现在将以游客身份转入退出前页面，请稍候…… <br /><a href="member.php?mod=clearcookies&formhash={formhash}">[ 清除痕迹 ]</a>',
 	'register_activation_invalid'	=> 'التنشيط فشل, حاول تسجيل الدخول مرة أخرى.',//'激活失败，请重新登录验证需要激活的用户。',
 	'profile_username_tooshort'	=> 'عذراً, إسم المستخدم أقل من 3 حروف, يرجى العودة.',//'对不起，您输入的用户名小于 3 个字符, 请返回输入一个较长的用户名。',
 	'profile_username_toolong'	=> 'عذراً, إسم المستخدم اطول من 15 حرف, يرجى العودة.',//'对不起，您的用户名超过 15 个字符，请返回输入一个较短的用户名。',
@@ -262,7 +262,7 @@ $lang = array (
 
 	'forum_passwd_incorrect'	=> 'كلمة المرور خاطئة , لا يمكنك دخول المنتدى.',//'您输入的密码不正确，不能访问这个版块。',
 	'forum_passwd_correct'		=> 'كلمة المرور صحيحة, سيتم تحويلك إلى قائمة المواضيع.',//'密码验证成功，现在将转入主题列表。',
-/*!*/	'forum_pay_incorrect'		=> 'Sorry, you have to pay {paycredits} {credits} to enter this forum. You have not enough {title}.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
+/*!*/	'forum_pay_incorrect'		=> 'عذراً, يجب عليك أن تدفع {paycredits} {credits} للدخول الى هذا المنتدى . لا تمتلك  {title} كافية.',//'抱歉，此版块需要支付 {paycredits} {credits}才能进入此版块，您的{title}不足',
 /*!*/	'forum_pay_correct'		=> 'Paid successfully, please continue to access this forum',//'支付成功，请继续可以访问此版块',
 
 	'group_rediret_now'		=> 'الآن , سوف يتم تحويلك إلى الصفحة الرئيسية للمجموعة',//'现在转入群组首页',
@@ -274,7 +274,7 @@ $lang = array (
 	'group_exit_founder'		=> 'رئيس المجموعة لا يمكنه الانسحاب منها, يرجى العودة.',//'群组创始人不能退出群组，请返回。',
 	'group_exit_succeed'		=> 'تم الانسحاب من المجموعة بنجاح',//'已经成功退出群组',
 	'group_create_usergroup_failed'	=> 'لا يمكنك إنشاء مجموعة اجتماعية',//'您所在的用户组不能建立群组',
-/*!*/	'group_create_usergroup_credits_failed'	=> 'Sorry, you have not enough credits. You need to have {buildgroupcredits} for create {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
+/*!*/	'group_create_usergroup_credits_failed'	=> 'عذراً, لا تمتلك نقاط كافية. يجب ان تملك {buildgroupcredits} لإنشاء {_G/setting/navs/3/navname}',//'抱歉，您的积分不足，创建{_G/setting/navs/3/navname}需要消耗 {buildgroupcredits}',
 	'group_create_max_failed'	=> 'لقد تجاوزت الحد الأقصى من إنشاء المجموعات, لا يمكنك إنشاء مجموعة جديدة',//'你的建立群组数量已经到达站长设置上限，不能建立新的群组',
 	'group_category_error'		=> 'إختيار قسم المجموعة خاطئ.',//'选择群组分类错误。',
 	'group_create_mod_succeed'	=> 'إنشاء تطبيق {_G/setting/navs/3/navname} تم تقديمه, سنحاول أن نقوم بمراجعته في أقرب وقت ممكن',//'创建{_G/setting/navs/3/navname}的申请已经提交，我们会尽快进行审核',
@@ -469,8 +469,8 @@ $lang = array (
 	'faq_content_empty'		=> 'التعليمات المطلوبة غير موجودة, يرجى العودة.',//'指定的帮助项目不存在，请返回。',
 	'faq_keywords_empty'		=> 'لم تدخل كلمات مفتاحية في البحث, يرجى العودة.',//'您没有指定要搜索的关键字，请返回重新填写。',
 
-/*!*/	'login_reward_succeed'		=> 'Logged in successfully!',//'签到成功!',
-/*!*/	'login_reward_error'		=> 'Sorry, you have been signed today already!',//'抱歉，您今天已经签过到了哦！',
+/*!*/	'login_reward_succeed'		=> 'تم تسجيل الدخول بنجاح !',//'签到成功!',
+/*!*/	'login_reward_error'		=> 'عذراً, لقد قمت بالتسجيل اليوم!',//'抱歉，您今天已经签过到了哦！',
 
 	'imagepreview_errorcode_0'	=> 'هذه الصورة لا تفي بشروط المعالجة , لذلك لا يمكن معالجتها',//'图片不符合处理条件，无法处理',
 	'imagepreview_errorcode_-1'	=> 'صورة غير صالحة, لا يمكن المعالجة',//'无效的图片，无法处理',
@@ -579,7 +579,7 @@ $lang = array (
 	'recommend_expiration_invalid'		=> 'صيغة الوقت خاطئة, الصيغة الصحيحة مثال"1995-29-1 س:د", يرجى العودة.',//'时间期限格式无效，正确格式为“yyyy-mm-dd hh:mm”，请返回。',
 
 	'members_edit_succeed'			=> 'تم تحديث معلومات العضو بنجاح, الرجاء الاستمرار',//'用户信息成功更新，请继续操作',
-/*!*/	'modcp_member_ban_illegal'		=> 'You can not ban the user directly',//'您不能直接禁止该用户',
+/*!*/	'modcp_member_ban_illegal'		=> 'لا يمكنك حظر العضو مباشرة',//'您不能直接禁止该用户',
 	'modcp_member_ban_succeed'		=> 'تم حظر العضو بنجاح',//'用户资料成功更新',
 
 	'modcp_noaction'			=> 'لم تختار أي إجراء',//'您没有选择执行任何操作',
@@ -667,7 +667,7 @@ $lang = array (
 	'reward_credits_lower'			=> 'عذراً, نقاط المكافأة يجب أن لا تكون أكبر من  {minrewardprice}, يرجى العودة.',//'对不起，悬赏积分必须大于 {minrewardprice}, 请返回修改。',
 	'threadtype_expiration_invalid'		=> 'يجب تحديد فترة صلاحية الموضوع, يرجى العودة.',//'此主题必须指定有效期，请返回修改。',
 	'replycredit_morethan_self'		=> 'عذراً, ليس لديك نقاط كافية للرد',
-	'post_newthread_set_cover'		=> 'Set the thread cover, &nbsp; ',//'正在设置主题封面, &nbsp; ',
+	'post_newthread_set_cover'		=> 'تعيين غلاف الموضوع, &nbsp; ',//'正在设置主题封面, &nbsp; ',
 
 	'search_threadtype_invalid'	=> 'أنت لم تدخل بنود تصنيف معلومات البحث, يرجى العودة.',//'您没有输入要搜索的分类信息项目，请返回重新填写。',
 
@@ -712,7 +712,7 @@ $lang = array (
 	'memcp_credits_card_msg_cleardateline_early'	=> 'عذراً, هذه الشيفرة منتهية الصلاحية',//'抱歉，此卡密已过期',
 	'memcp_credits_card_msg_succeed'	=> '<span class="xi1">{extcreditsval} {extcreditstitle}</span>, تم بنجاح ',
 	'memcp_credits_addfunds_msg_incorrect'	=> 'كنت لم أدخل المبلغ للصرف/التبديل',//'您没有输入需要充值的数量',
-/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'Sorry, you did not selected a payment method',//'抱歉，您尚未选择支付方式',
+/*!*/	'memcp_credits_addfunds_msg_notype'	=> 'عذراً, لم تحدد طريقة الدفع',//'抱歉，您尚未选择支付方式',
 	'credits_addfunds_amount_invalid'	=> 'سعر الشراء تجاوز عدد نقاط الحد الأقصى  {ec_maxcredits} أو الحد الادنى {ec_mincredits} .',//'您单次购买的积分数量超出最大值 {ec_maxcredits} 或最小值 {ec_mincredits} 的限制。',
 	'memcp_credits_transfer_msg_self_incorrect'	=> 'لا يمك التحويل لنفسك',//'您无需给自己转账',
 	'credits_transfer_balance_insufficient'	=> 'عذراً, بعد التحويل رصيدك   {title} أقل من الحد الأدنى {minbalance}, يرجى العودة.',//'对不起，转账后{title}不足 {minbalance}，请返回。',//'对不起，转账后{title}不足 {minbalance}，请返回。',//'对不起，转账后{title}不足 {minbalance}，请返回。',
@@ -1006,7 +1006,7 @@ $lang = array (
 	'location_login'		=> '',
 	'location_login_succeed_mobile'	=> 'مرحبا بعودتك يا, {username}. إضغط هنا للرجوع إلى ما كنت عليه سابقاً',//'欢迎您回来，{username}。点击进入登录前页面',
 	'location_login_succeed'	=> 'نرحب مرة أخرى يا ，{username} سيتم نقلك للصفحة المطلوبة , يرجى الإنتظار',
-	'location_activation'		=> 'Your account is inactive, Click to activate',//'您的帐号处于未激活状态，点击进行激活',
+	'location_activation'		=> 'حسابك غير مفعل, اضغط لتفعيله',//'您的帐号处于未激活状态，点击进行激活',
 	'login_succeed_inactive_member'	=> 'السلام عليكم يا  {username}. حسابك يحتاج إلى تفعيل, سيتم تحويلك إلى لوحة التحكم الخاصة بك. {ucsynlogin} ',//'欢迎您回来，{username}。您的帐号处于非激活状态，现在将转入控制面板。 {ucsynlogin} ',
 	'login_question_empty'		=> 'الرجاء إختيار سؤال الأمان واجابته',//'请填写安全提问以及正确的答案',
 	'login_question_invalid'	=> 'سؤال الأمان خاطئ, يرجى العودة',//'安全提问选择错误，请重新填写',
@@ -1059,13 +1059,13 @@ $lang = array (
 
 	'magics_thunder_message'	=> '{magicname} تم نشره بنجاح',//'已成功发布 {magicname}',
 
-/*!*/	'topicadmin_live_noset_error'	=> 'The thread is not set for live posts',//'该主题并没有设置为直播帖',
-/*!*/	'no_privilege_livethread'	=> 'Sorry, you have no permission to set live posts',//'抱歉，您没有权限设置直播帖',
-/*!*/	'portal_category_has_no_folder_name'	=> 'Sorry, the article category directory name is not set',//'抱歉，文章所属的频道没有设置目录名称',
-/*!*/	'noreply_replynum_error'	=> 'Sorry, you have reached the upper limit of the thread replies.',//'对不起，你已经达到本主题的回帖上限。',
-/*!*/	'author_not_uploadpic'		=> 'The user have no uploaded images',//'楼主暂时没有上传图片',
-/*!*/	'noreply_yourself_error'	=> 'You can not vote on your own posts',//'您不能对自己的回帖进行投票',
-/*!*/	'noreply_voted_error'		=> 'You have already voted this poll',//'您已经对此回帖投过票了',
+/*!*/	'topicadmin_live_noset_error'	=> 'الموضوع لم يتم اضافتة للبث الحي',//'该主题并没有设置为直播帖',
+/*!*/	'no_privilege_livethread'	=> 'عذراً, ليس لديك صلاحيات باضافة بث حي للموضوع',//'抱歉，您没有权限设置直播帖',
+/*!*/	'portal_category_has_no_folder_name'	=> 'عذراً, اسم مسار المقالة لم ليتم تحديده',//'抱歉，文章所属的频道没有设置目录名称',
+/*!*/	'noreply_replynum_error'	=> 'عذراً, لقد وصلت الحد الاقصى من الردود على هذا الموضوع.',//'对不起，你已经达到本主题的回帖上限。',
+/*!*/	'author_not_uploadpic'		=> 'هذا العضو لا يملك صور',//'楼主暂时没有上传图片',
+/*!*/	'noreply_yourself_error'	=> 'لا يمكنك التصويت على مشاركاتك',//'您不能对自己的回帖进行投票',
+/*!*/	'noreply_voted_error'		=> 'لقد قمت بالتصويت مسبقاً',//'您已经对此回帖投过票了',
 
 // Added by Valery Votintsev
 	'timeout_or_data_error'		=> 'العملية انتهت أو خطأ في مصدر البيانات',//'操作超时或者数据来源错误',

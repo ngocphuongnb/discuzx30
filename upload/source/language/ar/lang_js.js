@@ -6,7 +6,7 @@
 
 	$Id: lang_js.js by Valery Votintsev, codersclub.org
 
-	Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+	Arabic by Khalid El-Nahhal, http://www.ar-discuz.ORG
 
 */
 
@@ -18,7 +18,7 @@ var emaildomains = [
 		'aol.com',
 		'gmail.com',
 		'hotmail.com',
-		'msn.com',
+		'outlook.com',
 		'qq.com',
 		'yahoo.com'
 		];
@@ -118,14 +118,14 @@ var lng = {
 	'seconds'		: ' sec.',//' 秒',
 
 //---------------------------
-//static/image/admincp/cloud/qqgroup.js // NOT IMPPORTANT FOR ARABIC VER //BY KN
-	'select_topic_to_push'	: 'Select at least one topic for push to Articles',//'请至少推送一条头条主题和一条列表主题',
-	'select_item_to_push'	: 'Select at least one item for push to Articles',//'请至少推送一条信息到列表区域',
-	'loading'		: 'Loading...',//'加载中...',
-	'push5reached'		: 'Push Post number has reached five, in the right to cancel a number and try again.',//'推送帖子已达到5条，请在右侧取消一些再重试。',
-	'click_left'		: 'Click on the left',//'点击左侧',
-	'push_to_list'		: 'Will push the information to the list',//'将信息推送到列表',
-	'wait_image_upload'	: 'Upload image, please wait...',//'图片上传中，请稍后...',
+//static/image/admincp/cloud/qqgroup.js 
+	'select_topic_to_push'	: 'حدد على الاقل موضوع لنشرة الى المقالات',//'请至少推送一条头条主题和一条列表主题',
+	'select_item_to_push'	: 'حدد على الاقل عنصر لنشره الى المقالاتs',//'请至少推送一条信息到列表区域',
+	'loading'		: 'تحميل...',//'加载中...',
+	'push5reached'		: 'نشر المشاركة وصل للرقم 5, في اليمين الالغاء ثم المحاولة من جديد.',//'推送帖子已达到5条，请在右侧取消一些再重试。',
+	'click_left'		: 'اضغط على اليسار',//'点击左侧',
+	'push_to_list'		: 'سيتم نشر المعلومات في القائمة',//'将信息推送到列表',
+	'wait_image_upload'	: 'جاري رفع الصورة , الرجاء الإنتظار...',//'图片上传中，请稍后...',
 
 
 
@@ -133,7 +133,7 @@ var lng = {
 
 //---------------------------
 //upload/static/js/autoloadpage.js
-	'loading_content_wait'	: 'Loading content, wait please...',//'正在加载, 请稍后...',
+	'loading_content_wait'	: 'يتم تحميل المحتوى, الرجاء الإنتظار...',//'正在加载, 请稍后...',
 
 //---------------------------
 //upload/static/js/at.js
@@ -218,8 +218,8 @@ var lng = {
 	'error_message'		: 'رسالة خطأ',//'错误信息',
 	'ctrl_d_favorites'	: 'إضغط على زري  Ctrl + D للوضع بالمفضلة',//'请按 Ctrl+D 键添加到收藏夹',
 	'non_ie_manually'	: 'إذا كنت لا تستعمل متصفح IE قم بإدارج الصفحة يدوياً كرئيسية ',//'非 IE 浏览器请手动将本站设为首页',
-	'blind_enable'		: 'Enable blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
-	'blind_disable'		: 'Disable blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
+	'blind_enable'		: 'تفعيل blind experience',//'开启盲人体验',//tc:'開啟盲人體驗',
+	'blind_disable'		: 'تعطيل blind experience',//'关闭盲人体验',//tc:'關閉盲人體驗',
 
 //--------------------------------
 //static/js/common_diy.js
@@ -295,23 +295,23 @@ var lng = {
 	'show_tips'		: 'إظهار الملاحظات',//'友情提示',
 	'expire_days'		: 'صالح لمدة (أيام)',//'有效天数',
 	'expire_days_invalid'	: 'المسافة من تاريخ النشر أعلى من عدد الأيام عندما تنتهي الصلاحية',//'距离发帖日期大于这个天数时标签自动失效',
-	'download_remote'	: 'Downloading remote attachment, please wait ...',//'正在下载远程附件，请稍等……',
-	'create_post_directory'	: 'Create post directory',//'创建帖子目录',
-	'page_number'		: 'Page number',//'页码',
-	'jump_to_page'		: 'Jump to specified page',//'跳转到指定的页',
-	'jump_to_page_comment'	: 'Use [page] tag for add a page break',//'用 [page] 对当前帖子分页后的页码',
-	'jump_to_post'		: 'Jump to specified post',//'跳转到指定的帖子',
-	'jump_tip_pid'		: 'Post TID and PID',//'帖子的 TID 和 PID',
-	'add_indent'		: 'Add the first line indent',//'添加行首缩进',
-	'enter_post_password'	: 'Please enter the post password',//'请输入帖子密码',
-	'begin_flash_img'	: 'Enter the beginning Flash or image animation URL',//'请输入开头动画 Flash 或 图片 地址',
-	'begin_click_url'	: 'Click on the link URL',//'点击链接地址',
-	'begin_stay_seconds'	: 'Display seconds',//'停留秒数',
-	'begin_disappearance'	: 'Disappear effect after loading',//'载入、消失的效果',
-	'none'			: 'None',//'无',
-	'begin_fade'		: 'Fade',//'淡入淡出',
-	'begin_explosive'	: 'Explode',//'展开闭合',
-	'begin_info'		: 'Supported formats: swf flv jpg gif png<br/>Width range: 400~1024, Height range: 300~640<br/>Example: http://server/flash.swf',//'支持 swf flv jpg gif png 网址<br />宽高范围: 宽400~1024 高300~640<br />示例: http://server/flash.swf',
+	'download_remote'	: 'يتم تحميل الملفات عن بعد, الرجاء الانتظار ...',//'正在下载远程附件，请稍等……',
+	'create_post_directory'	: 'إنشاء دليل المشاركة',//'创建帖子目录',
+	'page_number'		: 'رقم الصفحة',//'页码',
+	'jump_to_page'		: 'الإنتقال الى صفحة محددة',//'跳转到指定的页',
+	'jump_to_page_comment'	: 'استخدم دلالة [page] لصفحة المشاركة الحالية',//'用 [page] 对当前帖子分页后的页码',
+	'jump_to_post'		: 'الانتقال للمشاركة المحددة',//'跳转到指定的帖子',
+	'jump_tip_pid'		: 'رقم TID و PID للمشاركة',//'帖子的 TID 和 PID',
+	'add_indent'		: 'إضافة مسافة بادئة للسطر الأول',//'添加行首缩进',
+	'enter_post_password'	: 'الرجاء إدخال كلمة مرور المشاركة',//'请输入帖子密码',
+	'begin_flash_img'	: 'ادخل رابط بداية فلاش او صورة متحركة',//'请输入开头动画 Flash 或 图片 地址',
+	'begin_click_url'	: 'اضغط على الوصلة',//'点击链接地址',
+	'begin_stay_seconds'	: 'ثواني العرض',//'停留秒数',
+	'begin_disappearance'	: 'تأثير الإخفاء بعد التحميل',//'载入、消失的效果',
+	'none'			: 'لا شئ',//'无',
+	'begin_fade'		: 'تلاشي',//'淡入淡出',
+	'begin_explosive'	: 'التوسيع مغلق',//'展开闭合',
+	'begin_info'		: 'الصيغ المدعومة: swf flv jpg gif png<br/>نطاق العرض: 400~1024, نطاق الارتفاع: 300~640<br/>مثال: http://server/flash.swf',//'支持 swf flv jpg gif png 网址<br />宽高范围: 宽400~1024 高300~640<br />示例: http://server/flash.swf',
 
 //--------------------------------
 //static/js/forum.js
@@ -389,14 +389,14 @@ var lng = {
 	'notify_on_reply'	: 'استقبال تنبيه الرد',//'接收回复通知',
 	'notify_on_reply_cancel'	: 'إلغاء استقبال التنبيه',//'取消回复通知',
 	'share_connection_failed'	: 'فشل الاتصال للمشاركة, حاول مرة أخرى لاحقاً',//'分享服务连接失败，请稍后再试',
-	'qq_bind'		: 'Please bind your QQ account',//'请先绑定QQ账号',
+	'qq_bind'		: 'الرجاء اتصال QQ',//'请先绑定QQ账号',
 	'quote_by'		: 'اقتُبِس بواسطة  .*? في .*? ',//'本帖最后由 .*? 于 .*? 编辑',
 	'copy_code'		: 'نسخ الكود',//'复制代码',
-	'download_pocket_forum'	: 'Download Pocket Forum',//'下载掌上论坛',
-	'pocket_forum_android'	: 'If Andriod version, Scan thw QR-code can be downloaded directly to the phone',//'Andriod版本，扫描二维码可以直接下载到手机',
-	'pocket_forum_android_alt'	: 'Suitable for Android-based smartphones like Samsung/HTC/etc',//'适用于装有安卓系统的三星/HTC/小米等手机',
-	'pocket_forum_ios'	: 'If iPhone used, Scan thw QR-code can be downloaded directly to the phone',//'iPhone版本，扫描二维码可以直接下载到手机',
-	'pocket_forum_ios_alt'	: 'Suitable for Apple mobile phone',//'适用于苹果手机',
+	'download_pocket_forum'	: 'تحميل المنتدى الجيبي',//'下载掌上论坛',
+	'pocket_forum_android'	: 'اذا كنت تستعمل اندرويد, فحص thw QR-code يمكن تحميله مباشرة الى الهاتف',//'Andriod版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_android_alt'	: 'من الهواتف التي تستخدم اندرويد هي Samsung/HTC/الخ',//'适用于装有安卓系统的三星/HTC/小米等手机',
+	'pocket_forum_ios'	: 'اذا كنت تستعمل iPhone , فحص thw QR-code يمكن توليده مباشرة الى الهاتف',//'iPhone版本，扫描二维码可以直接下载到手机',
+	'pocket_forum_ios_alt'	: 'مناسب لهواتف أبل',//'适用于苹果手机',
 
 //--------------------------------
 //static/js/handlers.js
@@ -407,7 +407,7 @@ var lng = {
 	'file_is_large'		: 'الملف كبير جداً.',//'文件太大.',
 	'file_is_empty'		: 'لا يمكن رفع ملف فارغ.',//'不能上传零字节文件.',
 	'file_type_disabled'	: 'رفع ملفات من هذا النوع غير مسموح به.',//'禁止上传该类型的文件.',
-	'unhandled_error'	: 'Unhandled Error',//'',
+	'unhandled_error'	: 'خطأ غير معالج',//'',
 	'upload_progress'	: 'جاري الرفع  ',//'正在上传',
 	'upload_cancelled'	: 'تم الإلغاء',//'取消上传',
 	'file_description'	: 'وصف الملف',//'图片描述',
@@ -483,32 +483,32 @@ var lng = {
 
 //---------------------------
 //static/js/makehtml.js
-	'generate'		: 'Generate ',//'生成',
-	'generate_ok'		: ' generated successfully',//'生成成功',
-	'generate_error'	: ' generation failed',//'生成失败',
-	'generate_start'	: 'Start generating of ',//'开始生成 ',
-	'generate_click_continue'	: 'If your browser does not respond, Click to continue...',//'如果您的浏览器没有反应，请点击继续...',
-	'generate_completed'	: ' generation is completed',//' 生成完成',
-	'generate_total'	: 'Total need to generate ',//'本次共需要生成 ',
-	'generate_files'	: ' files, Successfully generated ',//' 文件，成功生成 ',
-	'generate_first'	: 'generated first ',//'正在生成第 ',
-	'generate_percent'	: 'has been completed ',//'已经完成 ',
+	'generate'		: 'توليد ',//'生成',
+	'generate_ok'		: ' تم توليده بنجاح',//'生成成功',
+	'generate_error'	: ' فشل توليده',//'生成失败',
+	'generate_start'	: 'بدء التوليد في ',//'开始生成 ',
+	'generate_click_continue'	: 'اذا كان المتصفح لا يستجيب, اضغط هنا للإستمرار...',//'如果您的浏览器没有反应，请点击继续...',
+	'generate_completed'	: ' تم توليده بنجاح',//' 生成完成',
+	'generate_total'	: 'العدد الإجمالي الذي يحتاج الى توليد هو ',//'本次共需要生成 ',
+	'generate_files'	: ' ملف, تم التوليد بنجاح ',//' 文件，成功生成 ',
+	'generate_first'	: 'تم توليده أولاً ',//'正在生成第 ',
+	'generate_percent'	: 'تم إكتماله ',//'已经完成 ',
 
 //---------------------------
 //static/js/mobile/common.js
-	'first'		: 'First ',//'第 ',
-	'page'		: 'Page',//'页',
-	'pages'		: ' pages',//'页',
-	'prev_page'	: 'Prev',//'上一页',
-	'next_page'	: 'Next',//'下一页',
+	'first'		: 'الاولى ',//'第 ',
+	'page'		: 'صفحة ',//'页',
+	'pages'		: ' صفحة/ات',//'页',
+	'prev_page'	: 'السابق',//'上一页',
+	'next_page'	: 'التالي',//'下一页',
 	
-	'click_to_reload'	: 'Click to reload',//'点击重新加载',
-	'loading_now'		: 'Loading...',//'正在加载...',
+	'click_to_reload'	: 'إضغط لإعادة التحميل',//'点击重新加载',
+	'loading_now'		: 'جاري التحميل...',//'正在加载...',
 
-	'geo_timeout'		: 'Get location timeout, please try again',//'获取位置超时，请重试',
-	'geo_error'		: 'Unable to detect your current location',//'无法检测到您的当前位置',
-	'geo_permission'	: 'Please allow normal access to your current location',//'请允许能够正常访问您的当前位置',
-	'unknown_error'		: 'Unknown error occurred',//'发生未知错误',
+	'geo_timeout'		: 'خطأ في جلب الموقع, حاول مرة أخرى',//'获取位置超时，请重试',
+	'geo_error'		: 'غير قادر على تحديد موقعك الحالي',//'无法检测到您的当前位置',
+	'geo_permission'	: 'الرجاء السماح بالوصول لموقعك الحالي',//'请允许能够正常访问您的当前位置',
+	'unknown_error'		: 'خطأ غير معروف',//'发生未知错误',
 	'touch_down_refresh'	: 'Touch down to refresh',//'下拉可以刷新',
 	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
 
@@ -614,7 +614,7 @@ var lng = {
 	'tab_label'		: 'علامة التبويب',//'tab标签',
 	'temp_action'		: 'إضغط على "استمرار" لجلب المعلومات الحالية للاستايل الحالي,<br />إضغط على زر  "حذف" لحذف البيانات المؤقتة.',//'按继续按钮将打开暂存数据并DIY，<br />按删除按钮将删除暂存数据。',
 	'continue'		: 'مواصلة',//'继续',
-	'block_no_rights'	: 'Sorry, you have no permission to add or edit block',//'抱歉，您没有权限添加或编辑模块',
+	'block_no_rights'	: 'عذراً, لا تمتلك صلاحيات لإضافة او تعديل بلوك',//'抱歉，您没有权限添加或编辑模块',
 
 //--------------------------------
 //static/js/portal_diy_data.js
@@ -638,9 +638,9 @@ var lng = {
 	'email_fill'		: 'الرجاء ادخل البريد',//'请输入邮箱地址',
 	'length_min'		: ', الحد الأدنى من الطول',//', 最小长度为 '
 	'chars'			: ' حروف',//' 个字符',
-	'password_strength'	: 'Password strength: ',//'密码强度:',
+	'password_strength'	: 'قوة كلمة المرور: ',//'密码强度:',
 	'pw_weak'		: 'ضعيفة',//'弱',
-	'pw_middle'		: 'مستويطة',//'中',
+	'pw_middle'		: 'متوسطة',//'中',
 	'pw_strong'		: 'قوية',//'强',
 	'pass_short'		: 'كلمة المرور قصيرة جداً, يجب ألا تكون أقل من ',//'密码太短，不得少于 ',
 	'digital'		: 'أرقام',//'数字',
@@ -648,7 +648,7 @@ var lng = {
 	'capitals'		: 'حروف كبيرة',//'大写字母',
 	'specials'		: 'رموز خاصة',//'特殊符号',
 	'pw_weak_info'		: 'كلمة المرور ضعيفة, يجب أن تحتوي على ',//'密码太弱，密码中必须包含 ',
-	'leave_blank_old_pass'	: 'Leave blank if you do not need to change the password',//'如不需要更改密码，此处请留空',
+	'leave_blank_old_pass'	: 'أتركه فارغ اذا كنت لا تريد أن تغير كلمة المرور',//'如不需要更改密码，此处请留空',
 
 //--------------------------------
 //static/js/seditor.js
@@ -686,7 +686,7 @@ var lng = {
 //static/js/upload.js
 
 	'file_not_supported'	: 'عذراً, نوع الملف غير صالح',//'对不起，不支持上传此类文件',
-	'wait_upload'		: 'Wait for upload...',//'等待上传...',
+	'wait_upload'		: 'الانتظار للرفع...',//'等待上传...',
 
 //-------------------------------------
 //source/function/function_admincp.php
