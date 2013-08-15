@@ -101,8 +101,8 @@ $lang = array
 
 	'reason_quickclear'	=> '{cleartype} الخاص بك  تم مسحه بواسطة  {actor} والسبب <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-/*!*/	'reason_live_update'	=> '{actor} added a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
-/*!*/	'reason_live_cancle'	=> '{actor} removed a live broadcast to your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
+/*!*/	'reason_live_update'	=> '{actor} اضاف بث حي على موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
+/*!*/	'reason_live_cancle'	=> '{actor} قام بإزالة البث الحي على موضوعك <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>, <div class="quote"><blockquote>{reason}</blockquote></div>',//'您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'modthreads_delete'	=> 'موضوعك {threadsubject} لم يتم الموافقة عليه, تم حذفه! <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的主题 {threadsubject} 没有通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -163,7 +163,7 @@ $lang = array
 
 	'comment_add'		=> '{actor} علق على موضوعك  <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a>. &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">عرض &rsaquo;</a>',
 
-	'reppost_noticeauthor'	=> '{actor} رد على موضوعك <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">عرض</a>',
+	'reppost_noticeauthor'	=> '{actor} رد على مشاركاتك في الموضوع <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a class="lit" href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">عرض</a>',
 
 	'task_reward_credit'	=> 'تهانينا! لقد اكملت مهمتك: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>, وحصلت على  {creditbonus} نقطة . &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">إضغط هنا لعرض نقاطي &rsaquo;</a></p>',//'恭喜你完成任务：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>，获得积分 {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">查看我的积分 &rsaquo;</a></p>',
 

@@ -9,15 +9,15 @@
  *	Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
  */
 
-define('UC_VERNAME', 'النسخة العربية');
+define('UC_VERNAME', 'ML version');
 
 $lang = array(
 	'SC_GBK'		=> 'Simplified Chinese GBK encoding',//'简体中文版',
 	'TC_BIG5'		=> 'Traditional Chinese BIG5 encoding',//'繁体中文版',
 	'SC_UTF8'		=> 'Simplified Chinese UTF8 encoding',//'简体中文 UTF8 版',
 	'TC_UTF8'		=> 'Traditional Chinese UTF8 encoding',//'繁体中文 UTF8 版',
-	'EN_ISO'		=> 'عربي ISO8859',
-	'EN_UTF8'		=> 'عربي UTF-8',
+	'EN_ISO'		=> 'ML ISO8859',
+	'EN_UTF8'		=> 'ML UTF-8',
 
 	'title_install'		=> SOFT_NAME.' الاعداد والتثبيت',//SOFT_NAME.' 安装向导',
 	'agreement_yes'		=> 'موافق',//'我同意',

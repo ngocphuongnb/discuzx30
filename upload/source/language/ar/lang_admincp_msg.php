@@ -225,7 +225,7 @@ $lang = array (
 
 	'setting_domain_repeat_error'		=> 'هناك أسماء مكررة في تكوين إعدادات النطاق, الرجاء الرجوع للتعديل.',//'配置中存在重复的域名，请返回修改。',
 	'setting_domain_need_default_error'	=> 'الرجاء حدد النطاق الافتراضي',
-/*!*/  'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain name can contain only English letters and digits!',//'抱歉，您设置的二级域名只能含有英文和数字',
+/*!*/  'only_two_names_from_english_composition_and_figures'	=> 'Sub-domain يجب ان يتكون من ارقام وحروف انجليزية فقط!',//'抱歉，您设置的二级域名只能含有英文和数字',
 
 	'alipay_not_contract'		=> 'Please enter Alipay signed user information.',//'请输入支付宝签约用户信息。',
 	'alipay_succeed'		=> 'Alipay function successfully set.',//'支付宝功能成功设定。',
@@ -269,8 +269,8 @@ $lang = array (
 	'founder_perm_gperm_update_succeed'	=> 'تمت العملية بنجاح.',//'管理团队权限资料已成功更新。',
 	'founder_perm_notifyusers_succeed'	=> 'تعيين مستلمي التنبيهات تم بنجاح',//'管理通知接收者设置成功 ',
 
-/*!*/  'founder_optimizer_setting_succeed'	=> 'Optimizer setting saved successfully',//'设置项优化成功 ',
-/*!*/  'founder_optimizer_setting_error'	=> 'Optimizer setting failed',//'优化中出现问题 ',
+/*!*/  'founder_optimizer_setting_succeed'	=> 'تم حفظ إعدادات المحسن بنجاح',//'设置项优化成功 ',
+/*!*/  'founder_optimizer_setting_error'	=> 'فشل حفظ اعدادات المحسن',//'优化中出现问题 ',
 
 	'group_status_off'			=> 'الرجاء قم بتشغيل المجموعة أولاً, ثم اذهب إلى صفحة إعدادات المجموعة.',//'请先开启群组功能，现在转到群组设置页。',
 	'group_update_succeed'			=> 'تمت العملية بنجاح.',//'群组分类设置成功更新。',
@@ -310,7 +310,7 @@ $lang = array (
 	'medals_invalidate_succeed'		=> 'برنامج الأوسمة تم رفضه.',//'勋章申请已被否决。',
 	'medals_validate_succeed'		=> 'تم التحقق من نظام الأوسمة بنجاح',//'勋章申请审核通过。',
 
-	'members_edit_continue'			=> 'Whether to continue the last not transmitted operation?',//'是否继续上次未发送完成的操作？',
+	'members_edit_continue'			=> 'مواصلة العملية السابقة ?',//'是否继续上次未发送完成的操作？',
 	'members_grouppm_delete_confirm'	=> 'هل أنت متأكد من انك تريد حذف رسائل هذه المجموعة?',//'您确认要删除此群消息吗？',
 	'members_edit_magics_nonexistence'	=> 'لا يوجد دعامات متوفرة. الرجاء الذهاب إلى  "مركز الدعامات" لتفعيل الدعامات ثم إكمال العملية',//'目前没有可用的道具，请到“道具中心”启用道具后再进行此操作',
 	'members_add_invalid'			=> 'أنت لم تقم بكتابة جميع معلومات العضو, الرجاء الرجوع للتعديل.',//'您没有填写完整用户资料，请返回修改。',
@@ -401,8 +401,8 @@ $lang = array (
 	'plugins_import_version_invalid'	=> 'إصدار هذا الهاك ({set_version}) واصدار DISCUZ الحالي هو  {cur_version} غير متوافقان, الرجاء الرجوع.',//'本插件适用于 Discuz! {cur_version} 与当前版本({set_version})不一致，请返回。',
 	'plugins_import_succeed'		=> 'تم استيراد بيانات الهاك بنجاح!<br />لكي تتمكن من إستخدام هذا الهاك بشكل صحيح، فإنك قد تحتاج أيضا إلى تحميل أو تعديل الملف المناسب أو القالب، الرجاء راجع تعليمات التثبيت لهذا الهاك',//'插件数据成功导入！<br />为了正常使用此插件，您可能还需要上传或修改相应的文件或模板，详情请查看本插件的安装说明',
 	'plugins_config_upgrade_confirm'	=> 'هل أنت متأكد من أنك تريد ترقيه هذا الهاك {pluginname} من الإصدار  {version} إلى  {toversion} ?',//'你确定要把 {pluginname} {version} 插件升级到 {toversion} 吗？',
-/*!*/	'plugins_config_upgrade_missed'		=> 'This plug-in have been updated to the latest version.</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">Click here to go to the application center</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
-/*!*/	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Temporarily upgrade</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
+/*!*/	'plugins_config_upgrade_missed'		=> 'تم ترقية هذا الهاك الى اخر اصدار .</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">اضغط للذهاب الى مركز اتطبيقات</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
+/*!*/	'plugins_config_upgrade_new'		=> 'تم ترقية هذا الهاك الى اخر اصدار .<br />ولكن يوجد اصدار اعلى وهو  {newver} في مركز التطبيقات, هل تريد الترقية له?</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">ترقية الهاك</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">ترقية مؤقتاً</ a> <h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
 	'plugins_upgrade_var_invalid'		=> 'إسم الهاك غير صالح, لا يمكن الترقية.',//'插件的钩子名称不合法，无法升级。',
 	'plugins_setting_succeed'		=> 'تم تحديث اعدادت الهاك بنجاح.',//'插件参数设置成功更新。',
 	'plugins_setting_module_nonexistence'	=> 'ملف الموديل للهاك المحدد  ({modfile}) غير موجود أو يوجد به خطأ, الرجاء فحص الهاك من جميع ملفاته رفعت.',//'指定的插件管理模块文件({modfile})不存在或存在语法错误，请检查是否已将插件完整上传。',
@@ -461,7 +461,7 @@ $lang = array (
 	'setting_seccode_ttf_lost'		=> 'ملف الخط غير موجود, قم برفع الخط إلى المسار التالي  {path} .',//'验证码缺少显示所需的字库文件，请上传字库文件至 {path} 目录。',
 	'forum_name_duplicate'			=> 'هذا المنتدى موجود بالفعل, يرجى الرجوع',//'表单名称设置不能重复，请重新设置',
 	'alipay_ratio_invalid'			=> 'القيمة أقل من 0, الرجاء العودة للتعديل.',//'您输入的现金/积分兑换比率小于 0，请返回修改。',
-/*!*/	'setting_threadprofile_name_empty'	=> 'The scheme name can not be empty',//'方案名称不能为空',
+/*!*/	'setting_threadprofile_name_empty'	=> 'لا يمكن ان يترك الاسم فارغاً',//'方案名称不能为空',
 	'ftp_password_short'			=> 'يجب أن لا تكون كلمة السر ftp أقصر من 3 حروف, الرجاء العودة للتعديل.',//'FTP 密码不得少于 3 位，请返回修改。',
 	'cachethread_dir_noexists'		=> 'عذرا, الدليل {cachethreaddir} غير موجود! الرجاء اعطاء صلاحيات  777 للمجلدات.',//'对不起，您所指定的目录 {cachethreaddir} 不存在或者不可写！请返回并尝试通过 FTP 将其属性改为 777。',
 	'ranklistcache_update'			=> 'تمت العملية بنجاح.',//'排行榜缓存文件已更新。',
@@ -561,7 +561,7 @@ $lang = array (
 	'upgrade_download_upgradelist_error'	=> 'فشل إيجاد قائمة الملفات التي سوف تحدث, إعادة العملية? {upgradeurl}',//'获取待更新文件列表失败，是否重新获取？ {upgradeurl}',
 	'upgrade_download_complete_to_compare'	=> 'الملفات التي سوف تحدث تم تحميلها, سيتم المقارنة مع الملفات المحلية الآن',//'待更新文件下载完成，即将进行本地文件比较',
 	'upgrade_redownload'			=> 'تحديث الملف  {file} فشل هل تريد إعادة المحاولة {upgradeurl}',
-/*!*/	'upgrade_downloading_file'		=> 'يتم الان تحميل ملفات النسخة الجديدة من الموقع الرسمي  {file}<br>Finished: {percent}, {upgradeurl}',
+/*!*/	'upgrade_downloading_file'		=> 'يتم الان تحميل ملفات النسخة الجديدة من الموقع الرسمي  {file}<br>الذس انتهى: {percent}, {upgradeurl}',
 	'upgrade_cannot_access_file'		=> 'ليس لديك صلاحيات لتعديل المجلدات والملفات. الرجاء إدخال معلومات حساب FTP , او قم تعديل صلاحيات الكتابة والقراءة , والمحاولة مرة أخرى',//'发现您的目录及文件无修改权限，请您填写 ftp 账号，或者修改文件权限为可读可写后重试',
 	'upgrade_backuping'			=> 'يتم نسخ نسخة احتياطية من الملفات... {upgradeurl}',
 	'upgrade_backup_error'			=> 'فشل نسخ نسخة احتياطية للملفات الاصلية {upgradeurl}',
@@ -588,7 +588,7 @@ $lang = array (
 	'usergroups_copy_target_invalid'	=> 'أنت لم تحدد مجموعة الأعضاء المقصودة للنسخ, الرجاء العودة للتعديل.',//'你没有选择要复制的目标用户组，请返回修改。',
 	'usergroups_copy_options_invalid'	=> 'أنت لم تحدد عنصر لنسخه, الرجاء الرجوع.',//'你没有选择要复制的项目，请返回修改。',
 	'usergroups_copy_succeed'		=> 'تم تكرار إعدادات مجموعة الأعضاء بنجاح.',//'用户组设置成功复制。',
-/*!*/	'usergroups_merge_succeed'		=> 'User groups merged successfully ',//'用户组合并成功 ',
+/*!*/	'usergroups_merge_succeed'		=> 'تم دمج مجموعات الاعضاء بنجاح ',//'用户组合并成功 ',
 
 	'usertag_delete_succeed'		=> 'تم حذف الكلمات الدلالية بنجاح',
 	'usertag_merge_succeed'			=> 'تم الدمج بنجاح',
@@ -633,8 +633,8 @@ $lang = array (
 /*!*/	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
 	'cloudaddons_genuine_message'		=> 'عذراً ，أنت تستخدم تطبيقات غير اصلية , برنامج التثبيت لا يمكنه المواصلة <br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">اضغط هنا لتثبيت الاصدار الأصلي</a>',
 
-/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_error'	=> 'عذراً, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
 /*!*/	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
-/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
+/*!*/	'admincp_makehtml_cleanhtml_choose_item'	=> 'عذراً, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
 );
 

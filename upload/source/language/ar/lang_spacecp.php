@@ -250,9 +250,9 @@ $lang = array(
 	'logs_credit_update_BME'	=> 'شراء وسام',//'购买勋章',
 	'logs_credit_update_RPR'	=> 'Background points rewards and punishments',//'后台积分奖惩',
 	'logs_credit_update_RPZ'	=> 'Background points rewards and punishments clean',//'后台积分奖惩清零',
-/*!*/	'logs_credit_update_FCP'	=> 'Pay the forum',//'付费版块',
-/*!*/	'logs_credit_update_BGR'	=> 'Build Group',//'创建群组',
-/*!*/	'buildgroup'			=> 'View already built groups',//'查看已创建的群组',
+/*!*/	'logs_credit_update_FCP'	=> 'شراء منتدى',//'付费版块',
+/*!*/	'logs_credit_update_BGR'	=> 'انشاء مجموعة',//'创建群组',
+/*!*/	'buildgroup'			=> 'عرض المجموعات المنشأة سابقاً',//'查看已创建的群组',
 	'logs_credit_update_reward_clean'	=> 'مسح',//'清零',
 	'logs_select_operation'		=> 'الرجلاء قم بتحديد عملية',
 	'task_credit'			=> 'نقاط مكافأة مهمة',
@@ -335,8 +335,8 @@ $lang = array(
 						<span class="xi1">البريد الإلكتروني الجديد({newemail})في انتظار التحقق...</span><br />
 						قام النظام بإرسال رسالة إلكترونية إلى البريد الإلكتروني المراد التحقق منه، يرجى مراجعة البريد الإلكتروني ، للتحقق من التنشيط.<br>
 						إذا كنت لا تتلقى البريد الإلكتروني المراد، يمكنك إستبدال عنوان بريد ، أو<a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">تلقي البريد الإلكتروني المراد مرة أخرى</a>',
-/*!*/	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
-/*!*/	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
+/*!*/	'qq_set_status'		=> 'تعيين حالتي على QQ',//'设置我的QQ在线状态',
+/*!*/	'qq_dialog'		=> 'بدء دردشة QQ',//'发起QQ聊天',
 
 );
 
