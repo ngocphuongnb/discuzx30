@@ -6,7 +6,7 @@
  *
  *      $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
- *	Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *	Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 $lang = array (

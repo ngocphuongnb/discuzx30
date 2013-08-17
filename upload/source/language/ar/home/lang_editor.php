@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_editor.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -80,6 +80,6 @@ $lang = array(
 	'editor_prompt_video_media'	=> 'فيديو كليب',//'Media视频',
 	'editor_prompt_video_real'	=> 'فيديو حقيقي',//'Real视频',
 	'editor_prompt_mp3'		=> 'موسيقى mp3',
-	'editor_full_screen'		=> 'Full Screen',
+	'editor_full_screen'		=> 'شاشة كاملة',
 );
 

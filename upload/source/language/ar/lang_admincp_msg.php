@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_admincp_msg.php by Valery Votintsev, codersclub.org
- *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  *
  *      This file is automatically generate
  */

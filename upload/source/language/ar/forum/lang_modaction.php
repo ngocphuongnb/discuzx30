@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_modaction.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -88,8 +88,8 @@ $lang = array
 
 	'REB'	=> 'نشر',
 
-/*!*/	'LIV'	=> 'Live',//'直播',
-/*!*/	'LIC'	=> 'Cancel Live',//'取消直播',
+/*!*/	'LIV'	=> 'بث حي',//'直播',
+/*!*/	'LIC'	=> 'الغاء البث الحي',//'取消直播',
 
 );
 

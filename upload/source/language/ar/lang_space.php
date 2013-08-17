@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_space.php by Valery Votintsev at sources.ru
- *      Translated to Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *      Translated to Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 if(!defined('IN_DISCUZ')) {
