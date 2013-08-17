@@ -5,7 +5,7 @@
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_misc.php by Valery Votintsev at sources.ru
- *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -299,9 +299,9 @@ $lang = array
 	'crime_reason'		=> '{reason}',
 
 	'connectguest_message_search'	=> array('لم يتم تسجيل الدخول', 'تم تسجيل الدخول'),
-	'connectguest_message_replace'	=> array('Not yet <a href="member.php?mod=connect">Improve current account</a> or <a href="member.php?mod=connect&ac=bind">Bind existing account</a>', 'You need to <a href="member.php?mod=connect">Improve account information</a> or <a href="member.php?mod=connect&ac=bind">Bind existing account</a> '),//array('尚未 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> ', '您需要先 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> '),
+	'connectguest_message_replace'	=> array('ليس الان <a href="member.php?mod=connect">تحسين الحساب الحالي</a> or <a href="member.php?mod=connect&ac=bind">اتصال بعضوية موجودة</a>', 'انت تحتاج الى  <a href="member.php?mod=connect">تحسين معلومات الحساب الحالي</a> or <a href="member.php?mod=connect&ac=bind">اتصال بعضويةموجودة</a> '),//array('尚未 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> ', '您需要先 <a href="member.php?mod=connect">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind">绑定已有帐号</a> '),
 	'connectguest_message_mobile_search'	=> array('لم يتم تسجيل الدخول', 'تم تسجيل الدخول'),
-	'connectguest_message_mobile_replace'	=> 'Provide your account information or Bind existing account, ',//'在电脑版完善资料或绑定已有帐号，',
+	'connectguest_message_mobile_replace'	=> 'تزويد معلومات حساب الحالي او الاتصال بعضوية موجودة, ',//'在电脑版完善资料或绑定已有帐号，',
 
 	'avatar'		=> 'الصورة الرمزية',
 	'signature'		=> 'التوقيع',
@@ -327,8 +327,8 @@ $lang = array
 	'plugin_link'		=> 'تحديث الآن',
 
 // Added by Valery Votintsev, codersclub.org
-	'poll_reply_no_perms'	=> 'You can not reply the poll',//'您不能对自己的回帖进行投票',
-	'poll_replyed_already'	=> 'You have already replied this poll',//'您已经对此回帖投过票了',
-	'poll_voted_ok'		=> 'You have voted successfully',//'投票成功',
+	'poll_reply_no_perms'	=> 'لا يمكنك الرد على التصويت',//'您不能对自己的回帖进行投票',
+	'poll_replyed_already'	=> 'لقد قمت بالرد مسبقاً',//'您已经对此回帖投过票了',
+	'poll_voted_ok'		=> 'لقد قمت بالتصويت بنجاح',//'投票成功',
 );
 

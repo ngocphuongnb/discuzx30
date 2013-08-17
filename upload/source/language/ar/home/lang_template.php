@@ -6,7 +6,7 @@
  *
  *      $Id: lang_template.php by Valery Votintsev, codersclub.org
  *
- *	Arabic translation by Khalid Nahhal, http://www.ar-discuz.com
+ *	Arabic translation by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 $lang = array (
@@ -61,9 +61,9 @@ $lang = array (
 	'follow_user_special_following'	=> 'تتبع خاص الى الأعضاء',//'特别收听的人',
 	'follow_view_space'		=> 'عرض الملف الشخصب',//'查看空间',
 	'follow_who_data'		=> '\'s )بياناته)',//'的资料',
-	'follow_who_follower'		=> '\'s followers',//'的听众',
-	'follow_you_follower_none1'	=> 'لا يوجد أي عضو يتتبعك, but there are more than ',//'还没有人收听您，多',
-	'follow_you_follower_none2'	=> ' interaction, and they will listen to you :)',//'多互动，别人才会收听您 :)',
+	'follow_who_follower'		=> '\'s متتبعيه',//'的听众',
+	'follow_you_follower_none1'	=> 'لا يوجد أي عضو يتتبعك, ولكن يوجد أكثر من  ',//'还没有人收听您，多',
+	'follow_you_follower_none2'	=> ' تفاعل, وايضا سوف يستمعون لك :)',//'多互动，别人才会收听您 :)',
 	'follow_you_following_none'	=> 'أنت لا تتتبع أي شخص, يمكنك الذهاب إلى ',//'您还没有收听任何人，您可以先到',
 	'follow_sync_forum'		=> 'مزامنة مع المنتدى',//'同步到论坛',
 	'homepage'		=> 'الرئيسية',//'首页',
@@ -184,7 +184,7 @@ $lang = array (
 	'filter_splash'		=> 'بقع',//'喷溅',
 	'filter_watercolor'	=> 'ألوان مائية',//'水彩',
 	'no_camera_message'	=> 'الكاميرا غير موجودة أو غير معرفة تأكد منها',//'在你的机器上没有检测到摄象头或者你的摄象头设备正在使用中',
-	'no_draw_message'	=> 'لا يوجد graffiti , لا يمكن الحفظ',//'没有任何涂鸦动作，无法保存',
+	'no_draw_message'	=> 'لا يوجد الكتابةعلى الصورة , لا يمكن الحفظ',//'没有任何涂鸦动作，无法保存',
 	'pagedown'		=> 'التالي',//'下一页',
 	'pageup'		=> 'السابق',//'上一页',
 	'redraw'		=> 'رسم',//'重画',
@@ -430,7 +430,7 @@ $lang = array (
 	'expansion_friend_message'	=> 'يمكنك شراء دعائم  "{$_G[setting][magics][friendnum]}" لتوسيع قائمة اصدقائك, لذلك يمكنك إضافة أعضاء أكثر.',//'你可以购买道具“{$_G[setting][magics][friendnum]}”来扩容，让自己可以添加更多的好友。',
 	'friend_editnote'	=> 'ملاحظة',//'备注',
 	'friend_list'		=> 'قائمة الأصدقاء',//'好友列表',
-	'friend_manyou_message'	=> 'Synchronize friends with Manyou Open Platform',//'将好友关系同步至Manyou平台，以便在应用里看到他们',
+	'friend_manyou_message'	=> 'تزامن أصدقاء مع سحابة Manyou المفتوحة',//'将好友关系同步至Manyou平台，以便在应用里看到他们',
 	'friend_message'	=> 'وفقا لـ<a href="javascript:;" class="xw1" onmouseover="showTip(this)" tip="نظام التفاعل بين أعضاء المنتدى وزيادة النشاط يجب أن تكونا أصدقاء">أصدقاء</a>ترتتيب',
 	'friends'		=> 'الأصدقاء',//'好友',
 	'ignore_group_feed'	=> 'تجاهل أخبار مجموعة العضو',//'屏蔽用户组动态',
@@ -1537,8 +1537,8 @@ $lang = array (
 	'video_certification_audit'	=> 'مراجعة بيانات التحقق بواسطة الفيديو',//'视频认证审核',
 	'connect_fill_profile_to_view'		=> '<a href="member.php?mod=connect" target="_blank">Provide account information</a> <a href="member.php?mod=connect&ac=bind" target="_blank">Bind existing account</a>',//'<a href="member.php?mod=connect" target="_blank">完善帐号信息</a> <a href="member.php?mod=connect&ac=bind" target="_blank">绑定已有帐号</a>',
 	'connect_fill_profile_to_comment'	=> 'أنت تحتاج إلى	<a href="member.php?mod=connect" class="xi2">تزويدنا بمعلومات الحساب</a> أو <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> قبل المواصلة',//'您需要<a href="member.php?mod=connect" class="xi2">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2">绑定已有帐号</a> 后才可以留言',
-/*!*/	'save_to_album'				=> 'Save to album',//'保存到相册',
-/*!*/	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
+	'save_to_album'				=> 'حفظ في ألبوم',//'保存到相册',
+	'usergroup_expired'			=> 'مجموعة الأعضاء الخاصة بك إنتهت, الرجاء التجديد أو الإنتقال إلى مجموعة أخرى',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
 
 //---------------------------------------------------------------
 // Added by Valery Votintsev

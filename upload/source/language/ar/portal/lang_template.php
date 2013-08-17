@@ -6,7 +6,7 @@
  *
  *      $Id: lang_template.php by Valery Votintsev at sources.ru
  *
- *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *      Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 $lang = array (
@@ -66,7 +66,7 @@ $lang = array (
 	'article_validate_category'	=> 'الرجاء تحديد قسم المقالة',//'请选择系统分类',
 	'article_validate_has_added'	=> 'تم إضافة المقالة',//'该文章已经添加过了',
 	'article_validate_noexist'	=> 'لا يمكن إيجاد المقالة المحددة',//'没有找到指定的文章',
-/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
+	'article_html_existed'		=> 'اسم ملف html موجود مسبقاً',//'HTML静态文件名重名',
 	'article_validate_title'	=> 'طول العنوان (1 إلى 80 حرف) لا يتوافق مع المتطلبات',//'标题长度(1~80字符)不符合要求',
 	'grab'				=> 'سحب',//'获取',
 	'ignore'			=> 'تجاهل',//'忽略',
@@ -311,10 +311,10 @@ $lang = array (
 	'view_publisher'		=> 'الناشر',//'发布者',
 	'view_related'			=> 'مشاهدات ذات صلة',//'相关阅读',
 	'view_views'			=> 'مشاهدات',//'查看数',
-/*!*/	'pre_article'			=> 'Prev.:',//'上一篇：',
-/*!*/	'next_article'			=> 'Next:',//'下一篇：',
-/*!*/	'display_order'			=> 'Display order',//'显示位置',
-/*!*/	'filename'			=> 'File name',//'文件名',
+	'pre_article'			=> 'السابق:',//'上一篇：',
+	'next_article'			=> 'التالي:',//'下一篇：',
+	'display_order'			=> 'ترتيب العرض',//'显示位置',
+	'filename'			=> 'إسم الملف',//'文件名',
 
 // Added by Valery Votintsev
 	'select_all'	=> 'تحديد الكل',//'全选',

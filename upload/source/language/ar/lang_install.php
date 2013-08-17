@@ -6,7 +6,7 @@
  *
  *      $Id: lang_install.php by Valery Votintsev at sources.ru
  *
- *	Arabic by Khalid El-Nahhal, http://www.ar-discuz.com
+ *	Arabic by Khalid El-Nahhal, http://www.ar-discuz.org
  */
 
 define('UC_VERNAME', 'ML version');

@@ -3,7 +3,7 @@ for Discuz! X3 (c) 2001-2099 Comsenz Inc.
 
 MultiLingual version by Valery Votintsev, codersclub.org
 
-by Khalid Nahhal, http://www.ar-discuz.org
+by Khalid El-Nahhal, http://www.ar-discuz.org
 
 Code		= 'ar';
 English title	= 'Arabic';

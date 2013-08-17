@@ -13,12 +13,12 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array (
 	  'forum_archive' => 'الأرشيف',//'存档',
-/*!*/	  'source' => 'Source',//'来源',
+	  'source' => 'المصدر',//'来源',
 
-/*!*/	  't_question' => '?',
-/*!*/	  't_comma' => ',',
-/*!*/	  't_exclamatory' => '!',
-/*!*/	  't_period' => '.',
-/*!*/	  't_suspension' => '...',
+	  't_question' => ' ?',
+	  't_comma' => ' ,',
+	  't_exclamatory' => ' !',
+	  't_period' => ' .',
+	  't_suspension' => ' ...',
 
 );
