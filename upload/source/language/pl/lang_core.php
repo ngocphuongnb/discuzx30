@@ -4,7 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_core.php by Valery Votintsev at sources.ru
+ *      $Id: lang_core.php by Valery Votintsev at 
+ *      polish language pack by kaaleth ( kaaleth-duscizpl@windowslive.com )
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -198,7 +199,7 @@ $lang = array
 	'title_stats_team'		=> 'Statystyki ekipy',//'管理团队',
 	'title_stats_modworks'		=> 'Statystyki moderatorów',//'管理统计',
 	'title_stats_memberlist'	=> 'Lista użytkowników',//'会员列表',
-	'title_stats_trend'		=> 'Statistics Trends',//'趋势统计',
+	'title_stats_trend'		=> 'Statystyki',//'趋势统计',
 
 	'title_memcp_pm'		=> 'Wiadomość',//'发送短消息',
 	'title_memcp_domain'		=> 'My space domain',//'我的空间域名',
