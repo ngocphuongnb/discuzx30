@@ -4,7 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_message.php by Valery Votintsev at sources.ru
+ *      $Id: lang_message.php by Valery Votintsev at 
+ *      polish language pack by kaaleth ( kaaleth-duscizpl@windowslive.com )
  *
  *      This file is automatically generate
  */
@@ -38,15 +39,15 @@ $lang = array (
 	'thread_poll_succeed'		=> 'Głos został oddany. Zostaniesz przekierowany do tematu.',//'您的投票成功提交，现在将转入主题页。',
 	'thread_rate_range_invalid'	=> 'You did not enter a rating or it exceeds the limit for each rating',//'您未输入分值或超过每次评分范围限制，请返回修改。',
 	'rate_post_error'		=> 'Ten post nie istnieje lub nie może zostać poddany ocenie.',//'帖子不存在或不能被推送',
-	'thread_rate_log_nonexistence'	=> 'Sorry, specified post was not rated in recent year.',//'对不起，指定帖子在近一年内没有评分记录，请返回。',
-	'targetpost_donotbelongto_thisthread'	=> 'Target post does not belong to this thread',//'目标帖子不属于本主题',
+	'thread_rate_log_nonexistence'	=> 'Przepraszamy, ten post nie otrzymał żadnej oceny w tym roku.',//'对不起，指定帖子在近一年内没有评分记录，请返回。',
+	'targetpost_donotbelongto_thisthread'	=> 'Ten post nie należy do wybranego tematu.',//'目标帖子不属于本主题',
 	'credits_transaction_disabled'	=> 'Sorry, points transaction is not enabled, you can not use this feature, please return or contact administrator.',//'对不起，交易积分没有被启用，无法使用此功能，请返回或与管理员联系。',
-	'credits_balance_insufficient'	=> 'Sorry, your {title} is not enough (less than {minbalance})',//'对不起，您的账户余额不足(少于 {minbalance})，请返回。',
-	'not_loggedin'			=> 'Sorry, you have to login to do this operation.',//'对不起，您还未登录，无法进行此操作。',
-	'activity_is_not_manager'	=> 'Sorry, you are not a manager of this event, you do not have permission to do this',//'抱歉，您不是此活动的管理者，没有权限进行此操作',
-	'activity_is_not_exists'	=> 'Sorry, the specified event does not exist',//'抱歉，指定的活动不存在',
-	'thread_poll_closed'		=> 'This thread has been closed, you can not vote',//'本主题已关闭，无法继续投票，请返回。',
-	'debate_nofound'		=> 'Sorry, this debate thread does not exist.',//'对不起，该辩论主题不存在。',
+	'credits_balance_insufficient'	=> 'Przepraszamy, tytuł {title} jest za krótki (minimum {minbalance})',//'对不起，您的账户余额不足(少于 {minbalance})，请返回。',
+	'not_loggedin'			=> 'Przepraszamy, operacja dostępna po zalogowaniu.',//'对不起，您还未登录，无法进行此操作。',
+	'activity_is_not_manager'	=> 'Przepraszamy, nie jesteś organizatorem tego wydarzenia. Nie masz uprawnień do tego.',//'抱歉，您不是此活动的管理者，没有权限进行此操作',
+	'activity_is_not_exists'	=> 'Przepraszamy, wybrane wydarzenie nie istnieje.',//'抱歉，指定的活动不存在',
+	'thread_poll_closed'		=> 'Wybrany temat został zamknięty. Nie możesz głosować.',//'本主题已关闭，无法继续投票，请返回。',
+	'debate_nofound'		=> 'Przepraszamy, wybrana debata nie istnieje.',//'对不起，该辩论主题不存在。',
 	'debate_poll_voted'		=> 'Oddałeś już swój głos wcześniej.',//'您已经投过票。',
 	'debate_poll_end'		=> 'Głosowanie dobiegło końca. Nie możesz oddawać głosów.',//'投票已经结束，不能再投票。',
 	'debate_poll_succeed'		=> 'Głos został oddany. Dziękujemy.',//'投票成功。',

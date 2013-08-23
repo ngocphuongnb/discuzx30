@@ -10,9 +10,9 @@
  */
 
 $lang = array (
-	'no_simplemobiletype'		=> 'Uproszczona mobile',//'标准版',
+	'no_simplemobiletype'		=> 'Mobile',//'标准版',
 	'nomobiletype'			=> 'Desktop',//'电脑版',
-	'simplemobiletype'		=> 'Mobile',//'精简版',
+	'simplemobiletype'		=> 'Lekka mobile',//'精简版',
 	/*!*/	'extremelysimplemobiletype'	=> 'Mini',//'极简版',
 	'favorite'			=> 'Ulubione',//'收藏',
 	'my_posts'			=> 'Moje posty',//'我的帖子',
@@ -33,7 +33,7 @@ $lang = array (
 	'index_members'			=> 'Użytkowników ',//'会员',
 	'index_today'			=> 'Dziś ',//'今日',
 	'my_favorites_forums'		=> 'Ulubione fora',//'我收藏的版块',
-	'online'			=> 'Online',//'在线',
+	'online'			=> 'Online ',//'在线',
 	'sourceimagesize'		=> 'Oryginalny rozmiar',//'原图尺寸',
 	'forum_posts'			=> 'Odpowiedzi',//'回',
 	'group'				=> 'Grupa',//'群',
@@ -47,7 +47,7 @@ $lang = array (
 	'threadsort'			=> 'Kategoria tematu',//'分类信息',
 	'threadtype'			=> 'Typ tematu',//'主题分类',
 	'viewnewthread'			=> 'Nowy temat',//'新帖排序',
-	'admin_threadtopicadmin_error'	=> 'Mobilna wersja strony nie wspiera wszystkich możliwych operacji.',//'手机版不支持复杂管理操作',
+	'admin_threadtopicadmin_error'	=> 'Mobilna wersja strony nie wspiera wszystkich możliwych funkcji.',//'手机版不支持复杂管理操作',
 	'expiry'			=> 'Time <span class="xg2">(0 for permanent / 1 is 1 day)</span>',//'期限<span class="xg2">(0为永久/1为1天)</span>',
 	'mod_message_goto_admincp'	=> 'Skorzystaj z przeglądarki typu desktop, aby móc wpełni wykorzystać dostępne funkcje.',//'需要您使用电脑浏览器进入后台进行高级功能操作',
 	'result'			=> 'Wyniki wyszukiwarki',//'查找结果',

@@ -4,7 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_template.php by Valery Votintsev at sources.ru
+ *      $Id: lang_template.php by Valery Votintsev at 
+ *      polish language pack by kaaleth ( kaaleth-duscizpl@windowslive.com )
  *
  *      This file is automatically generate
  */
@@ -76,8 +77,8 @@ $lang = array (
 	'login_switch_invisible_mode'	=> 'Przełącz na tryb widoczny',//'切换在线状态',
 	'logout'			=> 'Wyloguj',//'退出',
 	'my_nav'			=> 'Narzędzia',//'我的中心',
-	'my_nav_login'			=> '<a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>Zaloguj</strong></a> się, aby móc skorzystać z nawigacji. <br />Nie masz konta? <a href="member.php?mod={$_G[setting][regname]}" class="xi2 xw1">Zarejestruj</a> się!',//'请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br />没有帐号？<a href="member.php?mod={$_G[setting][regname]}" class="xi2 xw1">注册</a>',
-	'open_diy'			=> 'Layout Panel',//'打开 DIY 面板',
+	'my_nav_login'			=> '<a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>Zaloguj się</strong></a>, aby móc skorzystać z narzędzi. <br />Nie masz konta? <a href="member.php?mod={$_G[setting][regname]}" class="xi2 xw1">Zarejestruj się</a>!',//'请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br />没有帐号？<a href="member.php?mod={$_G[setting][regname]}" class="xi2 xw1">注册</a>',
+	'open_diy'			=> 'Układ',//'打开 DIY 面板',
 	'pm_center'			=> 'Wiadomości',//'短消息',
 	'portal_block_manage'		=> 'Bloki portalu',//'模块管理',
 	'portal_manage'			=> 'Portal',//'门户管理',
