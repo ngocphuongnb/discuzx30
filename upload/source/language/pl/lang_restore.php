@@ -1,7 +1,8 @@
 <?php
 
 /**
- *      $Id: lang_restore.php by Valery Votintsev at sources.ru
+ *      $Id: lang_restore.php by Valery Votintsev at 
+ *      polish language pack by kaaleth ( kaaleth-duscizpl@windowslive.com )
  */
 
 $lang = array(

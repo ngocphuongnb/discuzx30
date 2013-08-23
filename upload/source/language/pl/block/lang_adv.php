@@ -4,7 +4,8 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_adv.php by Valery Votintsev at sources.ru
+ *      $Id: lang_adv.php by Valery Votintsev at 
+ *      polish language pack by kaaleth ( kaaleth-duscizpl@windowslive.com )
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -13,6 +14,6 @@ if(!defined('IN_DISCUZ')) {
 
 $lang = array
 (
-	'adv_title'	=> 'Enter adv title',//'或者输入名称',
-	'adv_adv'	=> 'Select adv',//'选择广告',
+	'adv_title'	=> 'Tytuł reklamy',//'或者输入名称',
+	'adv_adv'	=> 'Wybierz reklamę',//'选择广告',
 );
