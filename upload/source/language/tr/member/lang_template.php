@@ -11,7 +11,7 @@
 
 $lang = array (
 	'getpassword'		=> 'Şifremi unuttum?',
-	'login_guest'		=> 'Hesabınız yok mu? {$_G[setting][reglinkname]} olunuz',
+	'login_guest'		=> 'Hesabınız yok mu? Kayıt Ol',
 	'new_password'		=> 'Yeni şifre',
 	'new_password_confirm'	=> 'Onayla',
 	'password_weak'			=> 'Password too weak, it must contain ',//'密码太弱，密码中必须包含',
@@ -37,7 +37,7 @@ $lang = array (
 	'disagree'		=> 'Red',
 	'index_activation'	=> 'Hesabınızın etkin olması gerekir',
 	'invite_code'		=> 'Davet kodu',
-	'login_inactive'	=> 'Pasif hesap,simdi etkinleştir <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+	'login_inactive'	=> 'Pasif hesap,simdi etkinleştir <a href="member.php?mod={$_G[setting][regname]}">Kayıt Ol</a>',
 	'login_now'		=> 'Üye iseniz, lütfen giriş yapınız',
 	'password_confirm'	=> 'Onayla',
 	'register_buyinvitecode'	=> 'Davet kodunuz yok mu? Tıklayınız!',

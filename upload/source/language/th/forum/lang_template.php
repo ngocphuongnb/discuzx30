@@ -1186,7 +1186,7 @@ $lang = array (
   'warn_get' => 'ได้รับการเตือน',
   'admin_message_banned' => 'หมายเหตุ: <em>ผู้โพสต์ถูกแบนหรือถูกลบ กระทู้นี้ถูกล็อคโดยอัตโนมัติ สามารถมองเห็นเฉพาะผู้ดูแลระบบเท่านั้น</em>',
   'admin_message_single_banned' => 'หมายเหตุ: <em>กระทู้นี้ถูกแบนห้ามไม่ให้เผยแพร่ต่อสาธารณะ สามารถมองเห็นเฉพาะผู้ดูแลระบบเท่านั้น</em>',
-  'attach_nopermission_login' => 'คุณจำเป็นต้อง <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">ลงชื่อเข้าใช้</a> เพื่อดาวน์โหลดหรือดูไฟล์แนบนี้ คุณยังไม่มีบัญชีใช่ไหม? <a href="member.php?mod={$_G[setting][regname]}" title="ลงทะเบียน">{$_G[setting][reglinkname]}</a>',
+  'attach_nopermission_login' => 'คุณจำเป็นต้อง <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">ลงชื่อเข้าใช้</a> เพื่อดาวน์โหลดหรือดูไฟล์แนบนี้ คุณยังไม่มีบัญชีใช่ไหม? <a href="member.php?mod={$_G[setting][regname]}" title="ลงทะเบียน">ลงทะเบียน</a>',
   'guesttipsinthread_text' => 'ลงทะเบียนตอนนี้ เพื่อเพิ่มเพื่อนได้หลากหลายขึ้น พร้อมทั้งสนุกไปกับคุณสมบัติใหม่อันหลากหลายของเรา ช้าอยู่ใย เริ่มเลย',
   'attach_nopermission_connect_fill_profile' => 'คุณจำเป็นต้อง <a href="member.php?mod=connect" class="xi2">เชื่อมต่อบัญชีผู้ใช้ของคุณ</a> หรือ <a href="member.php?mod=connect&ac=bind" class="xi2">ผูกบัญชีการใช้งานของคุณ</a> ก่อนที่จะดาวน์โหลดหรือซื้อไฟล์แนบนี้',
   'attach_nopermission_notice' => 'ขออภัย! โพสต์นี้มีไฟล์แนบหรือรูปภาพที่ไม่ได้รับอนุญาตให้คุณเข้าถึง',

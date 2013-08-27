@@ -11,7 +11,7 @@
 
 $lang = array (
 	'getpassword'		=> '비밀번호찾기',
-	'login_guest'		=> '계정없으면?{$_G[setting][reglinkname]}',
+	'login_guest'		=> '계정없으면?회원가입',
 	'new_password'		=> '새비밀번호',
 	'new_password_confirm'	=> '확인',
 	'password_weak'		=> '비밀번호가 약합니다. ',//'密码太弱，密码中必须包含',
@@ -37,7 +37,7 @@ $lang = array (
 	'disagree'		=> '동의안함',
 	'index_activation'	=> '아이디 활성화가 필요합니다.',
 	'invite_code'		=> '초대장코드',
-	'login_inactive'	=> '활성화 포기<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+	'login_inactive'	=> '활성화 포기<a href="member.php?mod={$_G[setting][regname]}">회원가입</a>',
 	'login_now'		=> '로그인하기',
 	'password_confirm'	=> '비밀번호 확인',
 	'register_buyinvitecode'	=> '초청장코드가 없으면 이곳을 클릭하여 구매하세요.',

@@ -11,7 +11,7 @@
 
 $lang = array (
   'getpassword'		=> 'Mot de passe oubli&#233;?',   //  Forget password?
-  'login_guest'		=> 'Pas encore de compte? {$_G[setting][reglinkname]}',   // No account yet? {$_G[setting][reglinkname]} 
+  'login_guest'		=> 'Pas encore de compte? Enregistrer',   // No account yet? Register 
   'new_password'	=> 'Nouveau mot de passe',   // New password 
   'new_password_confirm'	=> 'Confirmer',   // Confirm 
 	'password_weak'			=> 'Mot de passe trop faible, il doit contenir ',//'密码太弱，密码中必须包含', // 'Password too weak, it must contain ',
@@ -37,7 +37,7 @@ $lang = array (
   'disagree'		=> 'Refuser',   //  Decline
   'index_activation'	=> 'Votre compte a besoin d\'&#234;tre activ&#233;',   //  Your account need to be activated
   'invite_code'		=> 'Code d\'invitation',   //  Invitation code
-  'login_inactive'	=> 'Afin d\'abandonner jusqu\'&#224; cette activation, et maintenant <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',   // To give up active, and now <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a> 
+  'login_inactive'	=> 'Afin d\'abandonner jusqu\'&#224; cette activation, et maintenant <a href="member.php?mod={$_G[setting][regname]}">Enregistrer</a>',   // To give up active, and now <a href="member.php?mod={$_G[setting][regname]}">Register</a> 
   'login_now'		=> 'Avez-vous un compte? Se connecter maintenant',   //  Have an account? Login now
   'password_confirm'	=> 'Confirmer',   // Confirm 
   'register_buyinvitecode'	=> 'Aucun code d\'invitation? Cliquez ici!',   // No invitation code? Click here! 

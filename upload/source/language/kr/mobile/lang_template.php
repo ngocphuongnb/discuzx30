@@ -64,7 +64,7 @@ $lang = array (
 	'admin_banpost_confirm'	=> '차단하기',
 	'admin_delpost_confirm'	=> '리필을 삭제하겠습니까?',
 	'admin_warn_confirm'	=> '경고하기',
-	'attach_nopermission_login'	=> '<a href="member.php?mod=logging&action=login">로그인</a>후 첨부파일을 볼수 있습니다.<a href="member.php?mod={$_G[setting][regname]}" title="회원가입">{$_G[setting][reglinkname]}</a>',
+	'attach_nopermission_login'	=> '<a href="member.php?mod=logging&action=login">로그인</a>후 첨부파일을 볼수 있습니다.<a href="member.php?mod={$_G[setting][regname]}" title="회원가입">회원가입</a>',
 	'attachlist'		=> '첨부파일목록',
 	'ban_member'		=> '금지',
 	'digest'		=> '<span class="xi1">강추</span>',
