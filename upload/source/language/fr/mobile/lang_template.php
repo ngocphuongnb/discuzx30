@@ -64,7 +64,7 @@ $lang = array (
   'admin_banpost_confirm'	=> 'Vous voulez pr&#233;venir',   //  Bạn có muốn cảnh cáo
   'admin_delpost_confirm'	=> 'Vous voulez supprimer cette r&#233;ponse?',   // Bạn có muốn xóa trả lời này? 
   'admin_warn_confirm'		=> 'Rapports au Gestionnaire',   //  Báo cáo với Quản lý
-  'attach_nopermission_login'	=> 'vous avez besoin pour <a href="member.php?mod=logging&action=login">connexion</a> pour afficher ou t&#233;l&#233;charger des pi&#232;ces jointes. Ne pas disposer d\'un compte? <a href="member.php?mod={$_G[setting][regname]}" title="Vous inscrire maintenant">{$_G[setting][reglinkname]}</a>',   // Bạn cần <a href="member.php?mod=logging&action=login">đăng nhập</a> để xem hoặc tải về đính kèm. Bạn chưa có tài khoản? <a href="member.php?mod={$_G[setting][regname]}" title="Đăng ký ngay">{$_G[setting][reglinkname]}</a> 
+  'attach_nopermission_login'	=> 'vous avez besoin pour <a href="member.php?mod=logging&action=login">connexion</a> pour afficher ou t&#233;l&#233;charger des pi&#232;ces jointes. Ne pas disposer d\'un compte? <a href="member.php?mod={$_G[setting][regname]}" title="Vous inscrire maintenant">Enregistrer</a>',   // Bạn cần <a href="member.php?mod=logging&action=login">đăng nhập</a> để xem hoặc tải về đính kèm. Bạn chưa có tài khoản? <a href="member.php?mod={$_G[setting][regname]}" title="Đăng ký ngay">Register</a> 
   'attachlist'			=> 'Liste des pi&#232;ces jointes',   //  Danh sách đính kèm
   'ban_member'			=> 'Interdiction Ban',   //  Cấm
   'digest'			=> '<span class="xi1">Essentiellement</span>',   // <span class="xi1">Tinh hoa</span> 

@@ -11,7 +11,7 @@
 
 $lang = array (
   'getpassword' => 'ลืมรหัสผ่าน',
-  'login_guest' => 'ยังไม่ได้เป็นสมาชิก? <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+  'login_guest' => 'ยังไม่ได้เป็นสมาชิก? <a href="member.php?mod={$_G[setting][regname]}">ลงทะเบียน</a>',
   'new_password' => 'รหัสผ่านใหม่',
   'new_password_confirm' => 'รหัสผ่านอีกครั้ง',
   'password_weak' => 'ระดับความปลอดภัยของรหัสผ่านต่ำมาก อย่างน้อยควรจะมี',
@@ -37,7 +37,7 @@ $lang = array (
   'disagree' => 'ไม่ยอมรับ',
   'index_activation' => 'ต้องเปิดใช้งานบัญชีสมาชิกของคุณ',
   'invite_code' => 'โค้ดเชิญชวน',
-  'login_inactive' => 'คุณยังไม่ได้ยืนยันการใช้งาน <a href="member.php?mod={$_G[setting][regname]}">คลิกที่นี่เพื่อ{$_G[setting][reglinkname]}</a>',
+  'login_inactive' => 'คุณยังไม่ได้ยืนยันการใช้งาน <a href="member.php?mod={$_G[setting][regname]}">คลิกที่นี่เพื่อ ลงทะเบียน</a>',
   'login_now' => 'หากคุณมีบัญชีสมาชิกอยู่แล้ว? กรุณาลงชื่อเข้าใช้',
   'password_confirm' => 'รหัสอีกครั้ง',
   'register_buyinvitecode' => 'หากคุณไม่มีโค้ดเชิญ? กรุณาคลิกที่นี่',

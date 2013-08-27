@@ -11,7 +11,7 @@
 
 $lang = array (
 	'getpassword'			=> 'Zapomniałem hasła',//'找回密码',
-	'login_guest'			=> 'Nie masz konta? <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',//'没有帐号？<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+	'login_guest'			=> 'Nie masz konta? <a href="member.php?mod={$_G[setting][regname]}">Zarejestrować</a>',//'没有帐号？<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
 	'new_password'			=> 'Nowe hasło',//'新密码',
 	'new_password_confirm'		=> 'Potwierdź hasło',//'确认密码',
 	'password_weak'			=> 'Hasło jest za słabe. Musi zawierać ',//'密码太弱，密码中必须包含',
@@ -37,7 +37,7 @@ $lang = array (
 	'disagree'			=> 'Nie zgadzam się',//'不同意',
 	'index_activation'		=> 'Twoje konto zostało aktywowane',//'您的帐号需要激活',
 	'invite_code'			=> 'Kod zaproszenia',//'邀请码',
-	'login_inactive'		=> 'Wyślij zaproszenie, <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+	'login_inactive'		=> 'Wyślij zaproszenie, <a href="member.php?mod={$_G[setting][regname]}">Zarejestrować</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
 	'login_now'			=> 'Masz już konto?<br> Zaloguj się!',//'已有帐号？现在登录',
 	'password_confirm'		=> 'Potwierdź hasło',//'确认密码',
 	'register_buyinvitecode'	=> 'No invitation code? Click here for',//'还没有邀请码？点击此处获取',

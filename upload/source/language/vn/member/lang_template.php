@@ -11,7 +11,7 @@
 
 $lang = array (
   'getpassword' => 'Quên mật khẩu',
-  'login_guest' => 'Chưa có tài khoản? <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+  'login_guest' => 'Chưa có tài khoản? <a href="member.php?mod={$_G[setting][regname]}">đăng ký tại đây</a>',
   'new_password' => 'Đổi mật khẩu',
   'new_password_confirm' => 'Xác nhận',
 	'password_weak'			=> 'Password too weak, it must contain ',//'密码太弱，密码中必须包含',
@@ -37,7 +37,7 @@ $lang = array (
   'disagree' => 'Không đồng ý',
   'index_activation' => 'Tài khoản của bạn cần kích hoạt',
   'invite_code' => 'Mã kích hoạt',
-  'login_inactive' => 'Kích hoạt, <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+  'login_inactive' => 'Kích hoạt, <a href="member.php?mod={$_G[setting][regname]}">đăng ký tại đây</a>',
   'login_now' => 'Đã có tài khoản, đăng nhập ngay',
   'password_confirm' => 'Nhập lại',
   'register_buyinvitecode' => 'Không có mã mời, bấm vào đây để lấy',

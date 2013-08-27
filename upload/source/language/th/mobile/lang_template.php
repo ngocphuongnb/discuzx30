@@ -64,7 +64,7 @@ $lang = array (
   'admin_banpost_confirm' => 'คุณต้องการป้องกันการดำเนินการ',
   'admin_delpost_confirm' => 'คุณแน่ใจหรือไม่ว่าต้องการลบข้อความตอบกลับนี้?',
   'admin_warn_confirm' => 'คุณต้องการดำเนินการแจ้งเตือน',
-  'attach_nopermission_login' => 'คุณจำเป็นต้อง<a href="member.php?mod=logging&action=login">ลงชื่อเข้าใช้</a>ก่อนจึงจะสามารถดูและดาวน์โหลดไฟล์แนบได้ หากยังไม่มีบัญชีหรือยังไม่ได้เป็นสมาชิก กรุณา<a href="member.php?mod={$_G[setting][regname]}" title="ลงทะเบียนใหม่">{$_G[setting][reglinkname]}</a>',
+  'attach_nopermission_login' => 'คุณจำเป็นต้อง<a href="member.php?mod=logging&action=login">ลงชื่อเข้าใช้</a>ก่อนจึงจะสามารถดูและดาวน์โหลดไฟล์แนบได้ หากยังไม่มีบัญชีหรือยังไม่ได้เป็นสมาชิก กรุณา<a href="member.php?mod={$_G[setting][regname]}" title="ลงทะเบียนใหม่">ทะเบียน</a>',
   'attachlist' => 'รายการไฟล์แนบ',
   'ban_member' => 'แบน',
   'digest' => '<span class="xi1">สำคัญ</span>',

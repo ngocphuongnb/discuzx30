@@ -1186,7 +1186,7 @@ $lang = array (
 	'warn_get'			=> 'محذر',//'受到警告',
 	'admin_message_banned'		=> 'ملاحظة: <em>هذا العضو قد تم حذفه أو حظره ，هذه الصلاحية غير متوفرة إلا للمدير</em>',
 	'admin_message_single_banned'	=> 'ملاحظة: <blink><em>هذه المقالة تم حظرها من قبل المدير , هذه الصلاحية غير متوفرة الا للمدراء</em></blink>',
-	'attach_nopermission_login'	=> 'تحتاج إلى <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">تسجيل الدخول</a> لا تمتلك حساب ？<a href="member.php?mod={$_G[setting][regname]}" title="التسجيل">{$_G[setting][reglinkname]}</a>',
+	'attach_nopermission_login'	=> 'تحتاج إلى <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">تسجيل الدخول</a> لا تمتلك حساب ？<a href="member.php?mod={$_G[setting][regname]}" title="التسجيل">ثبت نام نمایید</a>',
 	'guesttipsinthread_text'	=> 'سجل الآن, اصنع أصدقاء جدد, تمتع مع مزايا جديدة, شارك أجمل اللحظات مع الآخرين.',//'马上注册，结交更多好友，享用更多功能，让你轻松玩转社区。',
 	'attach_nopermission_connect_fill_profile'	=> 'تحتاج إلى <a href="member.php?mod=connect" class="xi2">ملء معلومات الحساب</a> أو <a href="member.php?mod=connect&ac=bind" class="xi2">الخاص بك</a> ليمكنك إستخدامها بشكل أفضل',
 	'attach_nopermission_notice'	=> 'هذه المشاركة تحتوي على معلومات أكثر',

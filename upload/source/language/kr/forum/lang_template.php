@@ -1186,7 +1186,7 @@ $lang = array (
 	'warn_get'			=> '경고받음',
 	'admin_message_banned'		=> '통지서: <em>등록자가 차단되거나 삭제된 이유로 내용이 차단되였습니다.</em>',
 	'admin_message_single_banned'	=> '통지서: <em>이글은 운영자혹은 관리자에 의해 차단되였습니다.</em>',
-	'attach_nopermission_login'	=> '<a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">로그인</a>하셔야 첨부파일을 볼수 있습니다.아이디가 없으면 <a href="member.php?mod={$_G[setting][regname]}" title="회원가입">{$_G[setting][reglinkname]}</a>',
+	'attach_nopermission_login'	=> '<a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">로그인</a>하셔야 첨부파일을 볼수 있습니다.아이디가 없으면 <a href="member.php?mod={$_G[setting][regname]}" title="회원가입">회원가입</a>',
 /*!*/	'guesttipsinthread_text'	=> 'Sign up now, Make more friends, Enjoy with more features, Let you easily Fun Community.',//'马上注册，结交更多好友，享用更多功能，让你轻松玩转社区。',
 	'attach_nopermission_connect_fill_profile'	=> ' <a href="member.php?mod=connect" class="xi2">계정정보 보충완성</a> 혹은 <a href="member.php?mod=connect&ac=bind" class="xi2">기존계좌 바인딩</a> 하신후 다운혹은보기가 가능합니다.',//'您需要 <a href="member.php?mod=connect" class="xi2">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2">绑定已有帐号</a> 后才可以下载或查看',
 	'attach_nopermission_notice'	=> '본 글 내용에는 더많은 자원이 포함되여 있음.',//'本帖子中包含更多资源',

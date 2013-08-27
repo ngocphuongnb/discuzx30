@@ -1186,7 +1186,7 @@ $lang = array (
 	'warn_get'	=> 'Được cảnh báo',
 	'admin_message_banned'	=> 'Chú ý: <blink><em>Tác giả đã bị cấm hoặc bị xóa, nội dung bài viết tự động bị ẩn chỉ có Admin mới có thể xem</em></blink>',
 	'admin_message_single_banned'	=> 'Chú ý: <blink><em>Bài viết này đã bị ẩn bởi Admin hoặc Mod, chỉ có người quản trị mới được xem</em></blink>',
-	'attach_nopermission_login'	=> 'Bạn phải <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">đăng nhập</a> để xem được nội dung, nếu bạn chưa có tài khoản? hãy <a href="member.php?mod={$_G[setting][regname]}" onclick="hideWindow(\'login\');showWindow(\'register\', this.href);return false;" title="đăng ký tại đây">{$_G[setting][reglinkname]}</a>',
+	'attach_nopermission_login'	=> 'Bạn phải <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href);return false;">đăng nhập</a> để xem được nội dung, nếu bạn chưa có tài khoản? hãy <a href="member.php?mod={$_G[setting][regname]}" onclick="hideWindow(\'login\');showWindow(\'register\', this.href);return false;" title="đăng ký tại đây">đăng ký tại đây</a>',
 /*!*/	'guesttipsinthread_text'	=> 'Sign up now, Make more friends, Enjoy with more features, Let you easily Fun Community.',//'马上注册，结交更多好友，享用更多功能，让你轻松玩转社区。',
 	'attach_nopermission_connect_fill_profile'	=> 'Bạn cần <a href="member.php?mod=connect" class="xi2"> điền đúng thông tin tài khoản </a> <a href="member.php?mod=connect&ac=bind" class="xi2"> của bạn </a> để có thể được sử dụng tốt nhất',
 	'attach_nopermission_notice'	=> 'Bài viết chứa quá nhiều dữ liệu cho phép.',
