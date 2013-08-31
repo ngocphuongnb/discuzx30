@@ -3315,7 +3315,7 @@ $lang = array
 	'members_delete_pic'			=> 'الصور',
 	'members_delete_doing'			=> 'الأفعال',
 	'members_delete_share'			=> 'المنشورات',
-	'members_delete_feed'			=> 'Feed',//'广播',
+	'members_delete_feed'			=> 'الاخبار',//'广播',
 	'members_delete_comment'		=> 'التعليقات',
 	'members_delete_allitem'		=> 'كل العناصر',
 	'members_delete_user_processing_next'	=> 'معالجة الاعضاء من {deletestart} الى {nextdeletestart} ，مواصلة...',
@@ -3357,7 +3357,7 @@ $lang = array
 	'members_edit_uinblack'			=> 'حظر حساب qq',
 	'members_edit_uinblack_comment'		=> 'لن يتم وصولك إلى المنتدى بواسطة qq',
 	'members_edit_uinblack_notice'		=> '<br /><font color="red">Warning: If the current user did not set individual password, he can not login to the site after being banned.</font>',//'<br /><font color="red">警告: 当前用户未设置独立密码，被封禁后将无法登录本站</font>',
-	'members_edit_unbind'			=> 'Unbind the QQ account',//'解除QQ帐号绑定状态',
+	'members_edit_unbind'			=> 'الغاء اتصال QQ ',//'解除QQ帐号绑定状态',
 	'members_edit_unbind_comment'		=> 'If QQ account of the current user is lost or stolen, you can remove the binded QQ account.',//'如当前用户的QQ帐号丢失或者被盗，可以在这里解除QQ帐号的绑定',
 
 	'members_edit_info'		=> 'معلومات العضو',//'用户资料',
@@ -3564,7 +3564,7 @@ $lang = array
 	'members_newsletter_processing'	=> '<input type="hidden" name="conditions" value=\'{search_condition}\' /> يتم معالجتها من {current} إلى {next}',
 	'members_newsletter_system'	=> 'حالة نظام الإرسال',
 	'members_newsletter_system_comment'	=> 'ضع نعم إذا كان النظام /الخادم  قادرا على إستقبال رسائل من المستخدمين',
-	'members_newsletter_empty'		=> 'You have not sent a group message. You can send a short message directly as "Send Notice" and "Reward points" in "Send points change notification". After sending you can see the short message recepients here.',//'您还没群发送过短消息，您可直接通过“发送通知”和“积分奖惩”中的“发送积分变更通知”发送短消息，发送后在这里可查看短消息的接收情况',
+	'members_newsletter_empty'		=> 'أنت لم تقم بإرسالة رسالة مجموعة. يمكنك ارسال رسالة قصيرة مباشرة عبر "ارسال ملاحظة" و "نقاط المكافأة" في "ارسال  تنبيه تغير النقاط". بعد ذلك سوف ترى مسلمي الرسائل هنا .',//'您还没群发送过短消息，您可直接通过“发送通知”和“积分奖惩”中的“发送积分变更通知”发送短消息，发送后在这里可查看短消息的接收情况',
 	'members_newsletter_posttype'		=> 'نوع المحتوى',
 	'members_newsletter_posttype_text'	=> 'وضع نص',
 	'members_newsletter_posttype_html'	=> 'وضع html',
@@ -3635,8 +3635,8 @@ $lang = array
 	'members_profile_edit'				=> 'تعديل حقول الأعضاء',//'编辑用户栏目',
 	'members_profile_list'				=> 'قائمة المواضيع',
 	'members_profile_group'				=> 'المجموعات',
-	'members_profile_numbercard'			=> 'Business Card Attributes',//'属性名片',
-	'members_profile_numbercard_tips'		=> '<li>Number of data columns displayed under the user avatar</li>',//'<li>可以设置用户头像下数字栏显示的用户资料项</li>',
+	'members_profile_numbercard'			=> 'خصائص بطاقة العضو',//'属性名片',
+	'members_profile_numbercard_tips'		=> '<li>عدد أعمدة بيانات العضو التي تظهر أسفل الرمزية</li>',//'<li>可以设置用户头像下数字栏显示的用户资料项</li>',
 	'members_profile_tips'				=> '<li>إظهار/إخفاء تفاصيل العضو</li><li>كما يمكن توسيع معلومات تفاصيل الأعضاء</li>',//'<li>增加或隐藏用户扩展资料</li><li>设置结果可以扩充现有的用户资料。</li>',
 	'members_profile_edit_name'			=> 'إسم القسم',//'栏目名称',
 	'members_profile_edit_field'			=> 'إسم الحقل',//'字段名',
@@ -3965,14 +3965,14 @@ $lang = array
 	'usergroups_copy_options'		=> 'تحديد الخيار',//'项目选择',
 	'usergroups_copy_options_comment'	=> 'حدد خيارات النسخ التي تريد نسخها من المجموعة المصدر إلى الهدف',//'选择要将源用户组的哪些设置复制到目标用户组，可按住 CTRL 多选',
 
-	'usergroups_merge'			=> 'Merge User Groups',//'用户组合并',
-	'usergroups_merge_link'			=> 'Merge',//'合并',
+	'usergroups_merge'			=> 'دمج المجموعات',//'用户组合并',
+	'usergroups_merge_link'			=> 'دمج',//'合并',
 	'usergroups_merge_comment'		=> 'This function will move the group members to another user group, and then remove the source group.',//'将本用户组的会员移动到其他用户组，并删除本用户组。',
 	'usergroups_merge_tips'			=> '<li>All the members of merged source user group will be moved to a selected user group, and you can choose to delete the source group.</li><li>User merge can not be applied to administrative group.</li><li>User merge operation applied immediately after submit, and can not be restored. Please select the target user group and settings carefully!</li>',//'<li>用户组合并可将源用户组的用户合并进入所选的新用户组，并且可以选择删除源用户组。</li><li>用户组合并不可以操作管理组。</li><li>用户组合并一旦提交立即生效，并无法恢复，请仔细选择目标用户组和设置项目。</li>',
-	'usergroups_merge_source'		=> 'Source user group',//'源用户组',
-	'usergroups_merge_target'		=> 'Target user group',//'目标用户组',
+	'usergroups_merge_source'		=> 'المجموعة الأصلية',//'源用户组',
+	'usergroups_merge_target'		=> 'المجموعة الهدف',//'目标用户组',
 	'usergroups_merge_target_comment'	=> 'Select the resulting user group where to move users fro the source group',//'选择要将源用户组合并到哪个用户组',
-	'usergroups_merge_delete_source'	=> 'Remove the source user group after merging',//'同时删除源用户组',
+	'usergroups_merge_delete_source'	=> 'قم بحذف المجموعة الاصلية بعد الدمج',//'同时删除源用户组',
 
 	'usergroups_edit'			=> 'تعديل مجموعات الأعضاء',//'编辑用户组',
 
@@ -4028,8 +4028,8 @@ $lang = array
 	'usergroups_edit_basic_seccode_comment'			=> 'Enabling this anti-spam mechanism can prevent spam-bots activity, but will increase the operation difficulty for normal users. This setting is effective when Change Password too, if the system enable verification code or verification questions and answers.',//'开启防灌水验证机制可以防止灌水机等，但会增加用户操作易用度。修改密码不受此限制，开启防灌水验证码或验证问答后，该设置有效',
 	'usergroups_edit_basic_disable_postctrl'		=> 'قيود المشاركة',//'发表不受限制',
 	'usergroups_edit_basic_disable_postctrl_comment'	=> 'السماح بتطبيق قيود المشاركة مثل عدد الاحرف المدخلة بالموضوع',//'设置发表是否不受灌水预防和最大字数等',
-	'usergroups_edit_basic_forcesecques'			=> 'Mandatory set the security questions',//'强制设置安全提问',
-	'usergroups_edit_basic_forcesecques_comment'		=> 'If selected "Yes", then users of this user group must set the security question before the login to management panel, config for global switch.',//'选择“是”则此用户组的用户在登录后台前必须设置安全提问后才可登陆后台, config中为全局开关',
+	'usergroups_edit_basic_forcesecques'			=> 'وجوب سؤال الأمان',//'强制设置安全提问',
+	'usergroups_edit_basic_forcesecques_comment'		=> 'اذا قمت بتفعيلها و سوف يلتزم اعضاء هذه المجموعة بتعيين سؤال الامان.',//'选择“是”则此用户组的用户在登录后台前必须设置安全提问后才可登陆后台, config中为全局开关',
 	'usergroups_edit_basic_ignore_censor'			=> 'تجاهل مراجعة الرقابة',//'忽略需要审核的关键字',
 	'usergroups_edit_basic_ignore_censor_comment'		=> 'إذا قمت بتحديد &quot;نعم&quot;, then the users in the group will not trigger the need to review their content',//'选择“是”则此用户组的用户在发表时不会触发需要审核的关键字',
 	'usergroups_edit_basic_allow_stat'			=> 'عرض الإحصائيات',//'允许查看趋势统计',
@@ -4042,8 +4042,8 @@ $lang = array
 	'usergroups_edit_basic_allowcreatecollection_comment'	=> 'ضع 0 لعدم السماح له بإنشاء أي ألبوم مشاركات',
 	'usergroups_edit_basic_allowfollowcollection'	=> 'الحد الاقصى من ألبومات المشاركة التي من الممكن تتبعها',
 	'usergroups_edit_basic_allowfollowcollection_comment'	=> 'حدد الحد الاقصى من ألبومات المشاركة التي يمكن تتبعها من خلال العضو',
-	'usergroups_edit_basic_close_ad'			=> 'Disable advertising',//'是否关闭广告展示',
-	'usergroups_edit_basic_close_ad_comment'		=> 'If selected "Yes", then this user group members will not see the site ads',//'选择“是”则此用户组的用户在站点中看不到任何广告',
+	'usergroups_edit_basic_close_ad'			=> 'تعطيل الإعلانات',//'是否关闭广告展示',
+	'usergroups_edit_basic_close_ad_comment'		=> 'اذا اخترت "نعم", سيتم إخفاء جميع إعلانات المنتدى عن اعضاء هذه المجموعة',//'选择“是”则此用户组的用户在站点中看不到任何广告',
 
 
 	'usergroups_edit_system'			=> 'مجموعات أعضاء النظام',//'用户组体制',
@@ -4090,7 +4090,7 @@ $lang = array
 	'usergroups_edit_special_debate'		=> 'السماح بإنشاء تحدي',//'允许发起辩论',
 	'usergroups_edit_special_debate_comment'	=> 'حدد "نعم" للمساح بإنشاء تحديات جديدة',//'选择“是”允许在论坛发布辩论主题',
 	'usergroups_edit_special_allowthreadplugin'		=> 'السماح بإدخال الهاكات في المواضيع الخاصة',//'允许发布扩展特殊主题',
-	'usergroups_edit_special_allowthreadplugin_comment'	=> 'Set whether to allow use plugins in special thread',//'设置是否允许发表扩展的特殊主题',
+	'usergroups_edit_special_allowthreadplugin_comment'	=> '',//'设置是否允许发表扩展的特殊主题',
 	'usergroups_edit_special_rushreply'			=> 'السماح بالاقتباس بمواضيع المنتجات/التجارة',//'允许发表抢楼帖',
 	'usergroups_edit_special_rushreply_comment'		=> 'غير مسموح للأعضاء بحذف الردود المقتبسة',//'抢楼帖不允许用户删除回帖',
 
@@ -4268,8 +4268,8 @@ $lang = array
 	'usergroups_edit_group'				=> 'إعدادات المجموعات',//'群组相关',
 	'usergroups_edit_group_build'			=> 'الحد الاقصى من عدد المجموعات الاجتماعية المسموحة لإنشائها',//'允许建立群组的数量',
 	'usergroups_edit_group_build_comment'		=> 'النطاق 1-255, ضع 0 لتعطيل خاصية إنشاء المجموعات الاجتماعية',//'范围1-255，0为不允许建立群组',
-	'usergroups_edit_group_buildcredits'		=> 'Need credits for Create group',//'创建群组消耗积分',
-	'usergroups_edit_group_buildcredits_comment'	=> 'How many credits required for Creating a group. Set to 0 for do not require credits',//'创建群组需要消耗和积分数量，0为不需要积分',
+	'usergroups_edit_group_buildcredits'		=> 'يحتاج الى نقاط لإنشاء مجموعة جديدة',//'创建群组消耗积分',
+	'usergroups_edit_group_buildcredits_comment'	=> 'كم عدد النقاط التي تلزم لإنشاء مجموعة جديدة. ضع 0 لعدم المطالبة بنقاط',//'创建群组需要消耗和积分数量，0为不需要积分',
 
 	'usergroups_edit_portal'			=> 'إعدادات المجلة',//'门户相关',
 	'usergroups_edit_portal_allow_post_article'	=> 'نشر مقالة',//'发布文章',
@@ -5097,11 +5097,11 @@ $lang = array
 
 	'plugins'			=> 'تكوين الهاكات',//'插件配置',
 	'plugins_home'			=> 'مقدمة',//'介绍',
-	'plugins_visit'			=> 'Rate it',//'评分',
+	'plugins_visit'			=> 'قيّمه',//'评分',
 	'plugins_editlink'		=> 'التكوين',//'设计',
 	'plugins_validator'		=> 'تفحص تحديثات',
 	'plugins_list'			=> 'قائمة الهاكات',//'插件列表',
-	'plugins_system'		=> 'System plug-ins',//'系统插件',
+	'plugins_system'		=> 'هاكات النظام',//'系统插件',
 	'plugins_install'		=> 'تثبيت هاك جديد',//'安装新插件',
 	'plugins_newcomment'		=> 'الهاكات ستظهر في هذه القائمة, ارفع مجلد الهاك إلى المسار التالي source/plugin/',//'这里将会列出上传到插件目录 source/plugin/ 下的插件',
 	'plugins_menu'			=> 'الهاكات',//'插件',
@@ -5826,7 +5826,7 @@ $lang = array
 	'hookcheck_start'	=> 'بدء',
 	'hookcheck_verifying'	=> 'تم الفحص الآن , يرجى الإنتظار......',
 	'hookcheck_tips_step1'	=> 'فحص Hooks الخاصة بملفات  Discuz! الرسمية, إضغط على الزر أدناه لفحص الHooks الخاصة بـ {template}',
-	'hookcheck_tips'		=> '<li>"<font color="red">Hook</font>" is used as a code "&lt;!--{hook/xxx}--&gt;" in template files. If a template file lost the hook code, this will cause the cloud services (Such as QQ groups, Tencent analysis) plug-ins can not be used normally.</li><li>If "<font color="red">Hook</font>" is missing, the template file need to use a comparison tool for compare the original file on the server with the corresponding template file, and the missing Hook code must be added</li>',//'<li>“<font color="red">嵌入点</font>”是模板文件中的“&lt;!--{hook/xxx}--&gt;”代码,模板文件丢失嵌入点代码会造成云服务（如QQ群、腾讯分析等）等插件无法正常使用</li><li>缺失“<font color="red">嵌入点</font>”的模板文件需要使用对比工具,对比原始文件和服务器上对应的模板文件进行对比,将丢失的嵌入点代码补充好</li>',
+	'hookcheck_tips'		=> '<li>"<font color="red">Hook</font>" يسخدم ككود "&lt;!--{hook/xxx}--&gt;" في ملفات القوالب. اذا القالب فقد احد هذه الاكواد, هذا سيتسبب في عمل بعض الخدمات مثل QQ .</li><li>لو "<font color="red">Hook</font>" مفقود, يجب مقارنته مع الملف الأصلي, واضافته من جديد</li>',//'<li>“<font color="red">嵌入点</font>”是模板文件中的“&lt;!--{hook/xxx}--&gt;”代码,模板文件丢失嵌入点代码会造成云服务（如QQ群、腾讯分析等）等插件无法正常使用</li><li>缺失“<font color="red">嵌入点</font>”的模板文件需要使用对比工具,对比原始文件和服务器上对应的模板文件进行对比,将丢失的嵌入点代码补充好</li>',
 	'hookcheck_completed'	=> 'تم الفحص بنجاح',
 	'hookcheck_delete'	=> 'هناك بعض النقاط/الخطاطيف غير موجودة',
 	'hookcheck_discuzhook'	=> 'خطاطيف Discuz ',
@@ -5877,7 +5877,7 @@ $lang = array
 	'counter_album_picnum'		=> 'إعادة فرز صور الألبومات',//'重建相册图片数',
 	'counter_thread_cover'		=> 'إعادة بناء الموضوع',
 	'counter_thread_cover_settime'	=> 'نطاق وقت النشر ',
-	'counter_thread_heat'		=> 'Recount Hot Threads',//'重建热点主题',
+	'counter_thread_heat'		=> 'إعادة بناء المواضيع النشطة',//'重建热点主题',
 	'counter_forumid'		=> 'رقم المنتدى',
 	'counter_have_cover'		=> 'تشمل المواضيع بما في ذلك الحالية',
 	'counter_tips'			=> '<li>هذه البيانات غير عادية, يمكنك استعمال هذه الخاصية لتصحيحها. الرجاء استعمالها في وقت يكون الاعضاء فيه عدد قليل</li>
@@ -5939,7 +5939,7 @@ $lang = array
 
 	'db_optimize_tables'		=> 'قائمة الجداول التي يمكن تحسينها',//'待优化数据表列表',
 	'db_optimize_tips'		=> '<li>هذه الخاصية لتحسين الجداول ,بذلك يزيد من سرعة المنتدى وقلة الاخطاء</li>',//'<li>数据表优化可以去除数据文件中的碎片，使记录排列紧密，提高读写速度。</li>',
-	'db_optimize_opt'		=> 'تحسين?',//'优化?',
+	'db_optimize_opt'		=> 'تحسين ؟',//'优化?',
 	'db_optimize_table_name'	=> 'جداول البيانات',//'数据表',
 	'db_optimize_data'		=> 'البيانات',//'数据',
 	'db_optimize_rows'		=> 'رقم السجل',//'记录数',
@@ -6327,7 +6327,7 @@ $lang = array
 	'cplog_plugins_import'		=> 'ارستيراد هاك',//'插件导入',
 	'cplog_plugins_config'		=> 'إدارة الهاك',//'插件管理',
 	'cplog_plugins_edit'		=> 'تعديل الهاك',//'设计插件',
-	'cplog_plugins_hooks'		=> 'الهاك hooks',//'插件钩子管理',
+	'cplog_plugins_hooks'		=> 'الهاك Hooks',//'插件钩子管理',
 	'cplog_plugins_vars'		=> 'قيم الهاك',//'插件变量管理',
 	'cplog_medals'			=> 'إدارة الأوسمة',//'勋章管理',
 	'cplog_magics_config'		=> 'تكوين الدعائم',//'道具配置',
@@ -6591,7 +6591,7 @@ $lang = array
 	'blockstyle_add_template'	=> 'إضافة قالب إستايل',//'样式模板',
 	'blockstyle_add_addstyle'	=> 'إضافة موديل إستايل',//'添加模块样式',
 	'blockstyle_add_editstyle'	=> 'تعديل ستايل الكتلة',//'编辑模块样式',
-	'blockstyle_add_index'		=> 'Specify the special data to display',//'特殊指定数据显示内容',
+	'blockstyle_add_index'		=> 'تحديد بيانات معينة للعرض',//'特殊指定数据显示内容',
 	'blockstyle_add_loop'		=> 'دورة المحتوى الإفتراضي',//'默认循环内容',
 	'blockstyle_add_order'		=> 'ترتيب المحتوى المحدد',//'指定位置内容',
 	'blockstyle_add_urltitle'	=> ' مع رابط العنوان ',//'带链接的标题',
@@ -6972,13 +6972,13 @@ RepeatLimit 32
 
 //source/function/function_admincp.php
 	'upload_selectfile'		=> 'تصفح',//'浏览',
-	'version_uptodate'		=> 'You are currently using up-to-date Discuz! program. To update, please refer to the prompts of following line',//'&#x60A8;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684; Discuz! &#x7A0B;&#x5E8F;&#x7248;&#x672C;&#x6709;&#x91CD;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x8BF7;&#x53C2;&#x7167;&#x4EE5;&#x4E0B;&#x63D0;&#x793A;&#x8FDB;&#x884C;&#x53CA;&#x65F6;&#x5347;&#x7EA7;',
+	'version_uptodate'		=> 'أنت تستخدم الإصدار الأحدث من نظام Discuz!. للتحديث, الرججاء الاشارة الى السطر التالي',//'&#x60A8;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684; Discuz! &#x7A0B;&#x5E8F;&#x7248;&#x672C;&#x6709;&#x91CD;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x8BF7;&#x53C2;&#x7167;&#x4EE5;&#x4E0B;&#x63D0;&#x793A;&#x8FDB;&#x884C;&#x53CA;&#x65F6;&#x5347;&#x7EA7;',
 
 //source/admincp/admincp_index.php - javascript function shownews()
 	'subscribe'		=> 'إشتراك',//'订阅',
 
 //source/admincp/admincp_plugins.php
-	'disable'		=> 'Disable',//'禁用',
+	'disable'		=> 'تعطيل',//'禁用',
 
 //---------------------------
 //Change Language
